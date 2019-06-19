@@ -6,21 +6,21 @@
 - [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
 
 - [YYKit](https://github.com/ibireme/YYKit) - 组庞大、功能丰富的 iOS 组件。
-1. [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。
-2. [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
-3. [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。
-4. [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。
-5. [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。
-6. [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。
-7. [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
-8. [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
-9. [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+   [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。
+   [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
+   [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。
+   [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。
+   [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。
+   [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。
+   [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
+   [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
+   [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
 - [ABigFishTV](https://github.com/clyhs/ABigFishTV) - 大鱼电视直播 基于ijkplayer的播放器 700多个电视台 包括央视，各地方台，卫视，熊猫直播，社会化分享，登陆，仿微博等 (支持iphonex)。
-- ![](https://github.com/clyhs/ABigFishTV/blob/master/images/ABigFishTV.gif)
+![](https://github.com/clyhs/ABigFishTV/blob/master/images/ABigFishTV.gif)
 
 - [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。
-- ![](https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif)
+![](https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif)
 
 - [MLMenu](https://github.com/MrDML/MLMenu) - 仿微信QQ右上角菜单功能
 - ![](https://github.com/MrDML/MLMenu/blob/master/MLMenuGif.gif)
