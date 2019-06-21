@@ -20,37 +20,38 @@
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. <br />
 ![](https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67)
 
-**NSURLSession (网络通信模块)**
+**NSURLSession (网络通信模块) :**
 - `AFURLSessionManager `
 - `AFHTTPSessionManager`
 
-**Reachability (网络状态监听模块)**
+**Reachability (网络状态监听模块) :**
 - `AFNetworkReachabilityManager`
 
 **Security (网络通信安全模块)**
 - `AFSecurityPolicy`
 
-**Serialization (网络通信序列化模块)**
-* `<AFURLRequestSerialization>`
-- `AFHTTPRequestSerializer`
-- `AFJSONRequestSerializer`
--  `AFPropertyListRequestSerializer`
-* `<AFURLResponseSerialization>`
-- `AFHTTPResponseSerializer`
-- `AFJSONResponseSerializer`
-- `AFXMLParserResponseSerializer`
-- `AFXMLDocumentResponseSerializer (macOS)`
-- `AFPropertyListResponseSerializer`
-- `AFImageResponseSerializer`
-- `AFCompoundResponseSerializer`
+**Serialization (网络通信序列化模块) :**
+*  `<AFURLRequestSerialization>`
+    - `AFHTTPRequestSerializer`
+    - `AFJSONRequestSerializer`
+    -  `AFPropertyListRequestSerializer`
+*  `<AFURLResponseSerialization>`
+    - `AFHTTPResponseSerializer`
+    - `AFJSONResponseSerializer`
+    - `AFXMLParserResponseSerializer`
+    - `AFXMLDocumentResponseSerializer (macOS)`
+    - `AFPropertyListResponseSerializer`
+    - `AFImageResponseSerializer`
+    - `AFCompoundResponseSerializer`
 
-**UIKit (对UIKit框架扩展部分)**
+**UIKit (对UIKit框架扩展部分) :**
 - 以Catagory形式添加特性
+
 
 - [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.<br />
 ![](https://raw.githubusercontent.com/Alamofire/Alamofire/master/alamofire.png)
 
-**Core文件夹下各个文件的功能简述**
+**Core文件夹下各个文件的功能简述:**
 - Alamofire.swift -- 该文件中主要是给用户提供一些便利的调用方法，用户可以直接调用该文件中的便利方法来使用Alamofire相关功能。
 - Manager.swift -- Manager中定义了Session对象，Session相关的Delegate，以及Delegate执行的队列等相关信息，在Manager中创建Request对象发起请求。Manager管理的就是各种请求，Manager对象是以单例的形式对外开放的。
 - Request.swift -- 该文件如其名，就是负责创建Session的各种task的，并执行相关的SessionTask，并调用相关书籍解析的功能模块对数据进行解析并通过回调返回给用户。
@@ -60,7 +61,7 @@
 - Notifications.swift -- 其中是一个Notification结构体，该结构体中定义了一些字符串，这些字符串就是所需通知的Key，当网络请求DidResume、DidSuspend、DidCancel、DidComplete都会发出通知。
 - Error.swift -- 其中是一个Error的结构体，其中封装的是各种错误状态。
 
-**Features文件夹下各个文件的功能简述**
+**Features文件夹下各个文件的功能简述:**
 - Download.swift -- 对Manager和Request类进行扩展，使其支持Down Task，其中封装了NSURLSessionDownloadDelegate相关代理方法。
 - Upload.swift -- 在该文件中也是对Manager和Request类进行的扩展，使其支持Upload Task，其中封装了NSURLSessionDataDelegate中获取上传数据进度的代理方法，也就是taskDidSendBodyData代理方法。
 - MultipartFormData.swift -- 该文件从名字就可以看出是为了组织多表单数据上传的数据的，在Upload Task中就使用到了MultipartFormData。
@@ -93,6 +94,7 @@
 - libwebp-Xcode - A wrapper for libwebp + an Xcode project.
 - libheif-Xcode - A wrapper for libheif + an Xcode project.
 - and more third-party C/C++ image codec libraries with CocoaPods/Carthage support.
+
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive Programming in Swift ([RxExample](https://github.com/ReactiveX/RxSwift/tree/master/RxExample)). <br />
 RxSwift comprises five separate components depending on eachother in the following way:
