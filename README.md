@@ -5,7 +5,7 @@
 
 - [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
 
-### VVV
+### 👍👍👍
 - [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
   [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
   [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
@@ -19,71 +19,62 @@
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. <br />
 ![](https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67)
-```
-// 网络通信模块
-NSURLSession: 
-- AFURLSessionManager  
-- AFHTTPSessionManager
 
-// 网络状态监听模块
-Reachability: 
-- AFNetworkReachabilityManager
+**NSURLSession (网络通信模块)**
+- `AFURLSessionManager `
+- `AFHTTPSessionManager`
 
-// 网络通信安全模块
-Security: 
-- AFSecurityPolicy
+**Reachability (网络状态监听模块)**
+- `AFNetworkReachabilityManager`
 
-// 网络通信序列化模块
-Serialization:
-- <AFURLRequestSerialization>
--- AFHTTPRequestSerializer
--- AFJSONRequestSerializer
--- AFPropertyListRequestSerializer
-- <AFURLResponseSerialization>
-- AFHTTPResponseSerializer
-- AFJSONResponseSerializer
-- AFXMLParserResponseSerializer
-- AFXMLDocumentResponseSerializer (macOS)
-- AFPropertyListResponseSerializer
-- AFImageResponseSerializer
-- AFCompoundResponseSerializer
+**Security (网络通信安全模块)**
+- `AFSecurityPolicy`
 
-// 对UIKit框架扩展部分
-UIKit:
+**Serialization (网络通信序列化模块)**
+* `<AFURLRequestSerialization>`
+- `AFHTTPRequestSerializer`
+- `AFJSONRequestSerializer`
+-  `AFPropertyListRequestSerializer`
+* `<AFURLResponseSerialization>`
+- `AFHTTPResponseSerializer`
+- `AFJSONResponseSerializer`
+- `AFXMLParserResponseSerializer`
+- `AFXMLDocumentResponseSerializer (macOS)`
+- `AFPropertyListResponseSerializer`
+- `AFImageResponseSerializer`
+- `AFCompoundResponseSerializer`
+
+**UIKit (对UIKit框架扩展部分)**
 - 以Catagory形式添加特性
-```
 
 - [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.<br />
 ![](https://raw.githubusercontent.com/Alamofire/Alamofire/master/alamofire.png)
-```
-Core文件夹下各个文件的功能简述：
-- Alamofire.swift ---- 该文件中主要是给用户提供一些便利的调用方法，用户可以直接调用该文件中的便利方法来使用Alamofire相关功能。
-- Manager.swift ---- Manager中定义了Session对象，Session相关的Delegate，以及Delegate执行的队列等相关信息，在Manager中创建Request对象发起请求。Manager管理的就是各种请求，Manager对象是以单例的形式对外开放的。
-- Request.swift ---- 该文件如其名，就是负责创建Session的各种task的，并执行相关的SessionTask，并调用相关书籍解析的功能模块对数据进行解析并通过回调返回给用户。
-- ParameterEncoding.swift ---- 负责请求参数的各种编码（URL、URLEncodedInURL、JSON、PropertyList等编码），并将编码后的数据与URLRequest结合后的结果进行返回。
-- Result.swift ---- 对解析后的数据封装成Result对象。
-- Response.swift ---- 负责将服务器相应的数据进行封装生成Response对象，该对象中就包括上述的Result对象，用户最终会通过闭包回调的形式获取到该Response的对象。
-- Notifications.swift ---- 其中是一个Notification结构体，该结构体中定义了一些字符串，这些字符串就是所需通知的Key，当网络请求DidResume、DidSuspend、DidCancel、DidComplete都会发出通知。
-- Error.swift ---- 其中是一个Error的结构体，其中封装的是各种错误状态。
 
-Features文件夹下各个文件的功能简述：
-- Download.swift ----- 对Manager和Request类进行扩展，使其支持Down Task，其中封装了NSURLSessionDownloadDelegate相关代理方法。
-- Upload.swift ---- 在该文件中也是对Manager和Request类进行的扩展，使其支持Upload Task，其中封装了NSURLSessionDataDelegate中获取上传数据进度的代理方法，也就是taskDidSendBodyData代理方法。
-- MultipartFormData.swift ---- 该文件从名字就可以看出是为了组织多表单数据上传的数据的，在Upload Task中就使用到了MultipartFormData。
-- Stream.swift ---- 和Download和Upload文件相似，该文件中也是对Manager和Rquest做延展，主要使其支持数据流的传输，其中主要封装和实现了NSURLSessionStreamDelegate相关的代理方法。
-- ResponseSerialization.swift ---- 该文件中主要是对Request类进行数据解析的延展的。其中封装了各种对响应数据的解析方式，其中包括Data、String、JSON、PropertyList等解析方式。
-- NetworkReachabilityManager.swift ---- 该文件主要是对SystemConfiguration.framework中的SCNetworkReachability相关的东西进行封装的，主要用来管理和监听网络状态的变化。
-- ServerTrustPolicy.swift ---- 这个文件主要是对NSURLSession做的延展，其中定义了各种网络请求的认证策略，主要证书认证相关东西。
-- Timeline.swift ---- 该文件是为了方便调试而生的，其中记录了相关操作的时间点，并且对其进行记录，便于在Debug时使用到。
-- Validation.swift ---- 主要是用来验证请求是否成功，如果出错了就做相应的处理。
-上面
-```
+**Core文件夹下各个文件的功能简述**
+- Alamofire.swift -- 该文件中主要是给用户提供一些便利的调用方法，用户可以直接调用该文件中的便利方法来使用Alamofire相关功能。
+- Manager.swift -- Manager中定义了Session对象，Session相关的Delegate，以及Delegate执行的队列等相关信息，在Manager中创建Request对象发起请求。Manager管理的就是各种请求，Manager对象是以单例的形式对外开放的。
+- Request.swift -- 该文件如其名，就是负责创建Session的各种task的，并执行相关的SessionTask，并调用相关书籍解析的功能模块对数据进行解析并通过回调返回给用户。
+- ParameterEncoding.swift -- 负责请求参数的各种编码（URL、URLEncodedInURL、JSON、PropertyList等编码），并将编码后的数据与URLRequest结合后的结果进行返回。
+- Result.swift -- 对解析后的数据封装成Result对象。
+- Response.swift -- 负责将服务器相应的数据进行封装生成Response对象，该对象中就包括上述的Result对象，用户最终会通过闭包回调的形式获取到该Response的对象。
+- Notifications.swift -- 其中是一个Notification结构体，该结构体中定义了一些字符串，这些字符串就是所需通知的Key，当网络请求DidResume、DidSuspend、DidCancel、DidComplete都会发出通知。
+- Error.swift -- 其中是一个Error的结构体，其中封装的是各种错误状态。
+
+**Features文件夹下各个文件的功能简述**
+- Download.swift -- 对Manager和Request类进行扩展，使其支持Down Task，其中封装了NSURLSessionDownloadDelegate相关代理方法。
+- Upload.swift -- 在该文件中也是对Manager和Request类进行的扩展，使其支持Upload Task，其中封装了NSURLSessionDataDelegate中获取上传数据进度的代理方法，也就是taskDidSendBodyData代理方法。
+- MultipartFormData.swift -- 该文件从名字就可以看出是为了组织多表单数据上传的数据的，在Upload Task中就使用到了MultipartFormData。
+- Stream.swift -- 和Download和Upload文件相似，该文件中也是对Manager和Rquest做延展，主要使其支持数据流的传输，其中主要封装和实现了NSURLSessionStreamDelegate相关的代理方法。
+- ResponseSerialization.swift -- 该文件中主要是对Request类进行数据解析的延展的。其中封装了各种对响应数据的解析方式，其中包括Data、String、JSON、PropertyList等解析方式。
+- NetworkReachabilityManager.swift -- 该文件主要是对SystemConfiguration.framework中的SCNetworkReachability相关的东西进行封装的，主要用来管理和监听网络状态的变化。
+- ServerTrustPolicy.swift -- 这个文件主要是对NSURLSession做的延展，其中定义了各种网络请求的认证策略，主要证书认证相关东西。
+- Timeline.swift -- 该文件是为了方便调试而生的，其中记录了相关操作的时间点，并且对其进行记录，便于在Debug时使用到。
+- Validation.swift -- 主要是用来验证请求是否成功，如果出错了就做相应的处理。
 
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage) - This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like UIImageView, UIButton, MKAnnotationView ([Examples](https://github.com/SDWebImage/SDWebImage/tree/master/Examples)). <br />
 ![](https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/SDWebImage_logo.png)
-```
-**Coders for additional image formats**
 
+**Coders for additional image formats**
 - SDWebImageWebPCoder - coder for WebP image format. Based on libwebp
 - SDWebImageHEIFCoder - coder to support HEIF image without Apple's Image/IO framework, iOS 8+/macOS 10.10+ support.
 - SDWebImageBPGCoder - coder for BPG format
@@ -91,21 +82,17 @@ Features文件夹下各个文件的功能简述：
 - and more from community!
 
 **Loaders**
-
 - SDWebImagePhotosPlugin - plugin to support loading images from Photos (using Photos.framework)
 
 **Integration with 3rd party libraries**
-
 - SDWebImageFLPlugin - plugin to support FLAnimatedImage as the engine for animated GIFs
 - SDWebImageYYPlugin - plugin to integrate YYImage & YYCache for image rendering & caching
 - SDWebImageProgressiveJPEGDemo - demo project for using SDWebImage + Concorde library for Progressive JPEG decoding
 
 **Make our lives easier**
-
 - libwebp-Xcode - A wrapper for libwebp + an Xcode project.
 - libheif-Xcode - A wrapper for libheif + an Xcode project.
 - and more third-party C/C++ image codec libraries with CocoaPods/Carthage support.
-```
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive Programming in Swift ([RxExample](https://github.com/ReactiveX/RxSwift/tree/master/RxExample)). <br />
 RxSwift comprises five separate components depending on eachother in the following way:
