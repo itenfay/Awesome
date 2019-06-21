@@ -5,7 +5,7 @@
 
 - [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
 
-### 强大的组件
+### VVV
 - [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
   [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
   [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
@@ -16,6 +16,42 @@
   [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。<br />
   [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
   [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. <br />
+![](https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67)
+```
+// 网络通信模块
+NSURLSession: 
+- AFURLSessionManager  
+- AFHTTPSessionManager
+
+// 网络状态监听模块
+Reachability: 
+- AFNetworkReachabilityManager
+
+// 网络通信安全模块
+Security: 
+- AFSecurityPolicy
+
+// 网络通信序列化模块
+Serialization:
+- <AFURLRequestSerialization>
+-- AFHTTPRequestSerializer
+-- AFJSONRequestSerializer
+-- AFPropertyListRequestSerializer
+- <AFURLResponseSerialization>
+- AFHTTPResponseSerializer
+- AFJSONResponseSerializer
+- AFXMLParserResponseSerializer
+- AFXMLDocumentResponseSerializer (macOS)
+- AFPropertyListResponseSerializer
+- AFImageResponseSerializer
+- AFCompoundResponseSerializer
+
+// 对UIKit框架扩展部分
+UIKit:
+- 以Catagory形式添加特性
+```
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive Programming in Swift ([RxExample](https://github.com/ReactiveX/RxSwift/tree/master/RxExample)). <br />
 RxSwift comprises five separate components depending on eachother in the following way:
@@ -42,7 +78,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ### 导航条 & 状态栏
 
-- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）。
+- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等（[Swift版](https://github.com/wangrui460/WRNavigationBar_swift)）。
 ![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif)  ![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif)  ![](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 
   
 - [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。<br />
@@ -101,7 +137,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 ![](https://github.com/scalessec/Toast-Swift/blob/master/toast_swift_screenshot.jpg)
 
 - [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐丝指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。<br />
-![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_text.gif) ![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_loding.gif)
+![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_text.gif)  ![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_loding.gif)
 
 - [RSSliderView](https://github.com/rsimenok/RSSliderView) - Custom slider based on UIView for iOS. <br />
 ![](https://camo.githubusercontent.com/7a7a899104ae97a30b0aae97bb2ce7d80a8a0f25/687474703a2f2f692e70696363792e696e666f2f69392f61666463643862353032396531663238623862643333663762643338323263312f313432343131383133392f31323632322f3738303432352f3132332e706e67)
@@ -111,7 +147,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [LCSlideMenu](https://github.com/ChinaHackers/LCSlideMenu) - A powerful and easy to use slider menu. <br />
 ![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/LCSlideMenu.png) <br />
-![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif) ![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif)
+![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif)  ![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif) 
 
 - [JMColumnMenu](https://github.com/JunAILiang/JMColumnMenu) - 仿腾讯新闻、今日头条栏目管理。
 
@@ -122,13 +158,13 @@ RxSwift comprises five separate components depending on eachother in the followi
 ![](https://raw.githubusercontent.com/JunAILiang/JMDropMenu/master/JMDropMenu/JMDropMenu.gif)
 
 - [XYMenu](https://github.com/HeathHsia/XYMenu) -  简易集成的弹出菜单。<br />
-![](https://github.com/dgynfi/XYMenu/blob/master/img/demo.gif)
+![](https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif)
 
 - [SHESelectTable](https://github.com/shelly8219/SHESelectTableDemo) - 下拉选择的列表。<br />
 ![](https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg)
 
 - [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App.（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）<br />
-![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif) ![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif)
+![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif)  ![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif) 
 
 - [LDNetDiagnoService_IOS](https://github.com/Lede-Inc/LDNetDiagnoService_IOS) - iOS平台利用ping和traceroute的原理，对指定域名（通常为后台API的提供域名）进行网络诊断，并收集诊断日志。<br />
 ![](https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg)
