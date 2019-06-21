@@ -6,7 +6,7 @@
 - [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
 
 ### 强大的组件
-- [YYKit](https://github.com/ibireme/YYKit) - 组庞大、功能丰富的 iOS 组件。<br />
+- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
   [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
   [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
   [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。<br />
@@ -14,7 +14,7 @@
   [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。<br />
   [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。<br />
   [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。<br />
-  [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />t
+  [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
   [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive Programming in Swift ([RxExample](https://github.com/ReactiveX/RxSwift/tree/master/RxExample)). <br />
@@ -36,20 +36,17 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. <br />
 ![](https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png)
 
-
 ### 网络
 
 - [BANetManager](https://github.com/boai/BANetManager) - 基于AFNetworking 3.0、3.1最新版本的封装，集成了 get / post / put / delete 方法请求数据，单图/多图上传，视频上传/下载，网络监测 等多种网络请求方式。<br />
 
-
 ### 导航条 & 状态栏
 
-- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）
-![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif) ![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif) ![](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 
+- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）。
+![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif)  ![](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif)  ![](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 
   
-- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。
-![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif) ![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif)
-
+- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。<br />
+![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif)  ![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif)
 
 ### 播放器
 
@@ -63,12 +60,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [ijkplayer](https://github.com/bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support ([FFmpeg](http://ffmpeg.org)).
 
-
 ### 逆向开发
 
 - [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。<br />
 ![](https://github.com/luckysine/WeChatRedEnvelopesHelper/blob/master/screenshots/step.png)
-
 
 ### 蓝牙
 
@@ -86,15 +81,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [BluetoothKit](https://github.com/rhummelmose/BluetoothKit) - Easily communicate between iOS/OSX devices using BLE.
 
-
 ### 扫码器
 
-- [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。
+- [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。<br />
 ![](https://github.com/MinMao-Hub/MMScan/blob/master/gifs/mmscan.gif)
 
 - [QRCode](https://github.com/kingcong/QRCode-master) - 仿微信二维码扫描。
 
-### x
+### Others
 
 - [XHPayKit](https://github.com/CoderZhuXH/XHPayKit) - 不用官方SDK实现微信支付、支付宝支付。
 
@@ -142,8 +136,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。<br />
 ![](https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif)
 
-
-
 - [iOS-getClientInfo](https://github.com/PengfeiWang666/iOS-getClientInfo) - 📲iOS中获取各种设备信息。
 
 - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - CryptoSwift是在Swift中实现的越来越多的标准和安全密码算法的集合。 
@@ -161,14 +153,32 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
 
 
-## 比特币 & 以太坊 & 区块链
+## Flutter
+
+### Flutter && Dart
+
+- [Flutter中文网](https://flutterchina.club) 
+- [Flutter SDK Archive](https://flutter.io/sdk-archive/#macos) 
+- [Dart Packages](https://pub.flutter-io.cn)
+- [Dart2 中文文档](https://www.kancloud.cn/marswill/dark2_document/709087) 
+
+### Flutter Project
+
+- [dart_crypto](https://github.com/dgynfi/dart_crypto) - 🔥集成Base64, MD5, AES, RSA等算法。
+
+- [grab_ethtoken_info](https://github.com/dgynfi/grab_ethtoken_info) - 🔥爬取etherscan的一个钱包地址的所有token信息( address, name, balance, symbol, value)，并编写界面进行展示。
+
+- [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学 <br />
+![](https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png)
+
+
+## 比特币 & 以太坊（区块链）
 
 - [go-ethereum](https://github.com/ethereum/go-ethereum)  - 以太坊协议的官方的Go语言实现。<br />
    [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
 
-- [web3swift](https://github.com/BANKEX/web3swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network. <br />
+- [web3swift](https://github.com/BANKEX/web3swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). <br />
 ![](https://user-images.githubusercontent.com/3356474/34412791-5b58962c-ebf0-11e7-8460-5592b12e6e9d.png)
-- [web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift. 
 
 - [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. <br />
 ![](https://raw.githubusercontent.com/web3j/web3j/master/docs/source/images/web3j_network.png)  
@@ -191,33 +201,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [qipai_algorithm](https://github.com/yuanfengyun/qipai_algorithm) - 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua 、c++ 、c# 、golang 、js 、java 、python 版本。
 
+
 ## cocos2d
 
-- [cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org
+- [cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org.<br />
   ![](https://github.com/cocos2d/cocos2d-x/blob/v3/docs/framework_architecture.jpg)
+
 
 ## C++
 
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
-
-## Flutter
-
-**Flutter && Dart** 
-
-- [Flutter中文网](https://flutterchina.club) 
-- [Flutter SDK Archive](https://flutter.io/sdk-archive/#macos) 
-- [Dart Packages](https://pub.flutter-io.cn)
-- [Dart2 中文文档](https://www.kancloud.cn/marswill/dark2_document/709087) 
-
-
-**Flutter Project**
-
-- [dart_crypto](https://github.com/dgynfi/dart_crypto) - 🔥集成Base64, MD5, AES, RSA等算法。
-
-- [grab_ethtoken_info](https://github.com/dgynfi/grab_ethtoken_info) - 🔥爬取etherscan的一个钱包地址的所有token信息( address, name, balance, symbol, value)，并编写界面进行展示。
-
-- [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学 <br>
-  ![](https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png)
-  
-  
 
