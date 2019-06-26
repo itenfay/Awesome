@@ -18,7 +18,8 @@
   [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. <br />
-<div align=center><img src="https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" />
+<div align=center>
+<img src="https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" />
 </div>
 
 **NSURLSession:**
@@ -117,6 +118,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 └──────────────┘    └──────────────┘
 ````
 
+---
+
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. <br />
 ![](https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png)
 
@@ -168,8 +171,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ABigFishTV](https://github.com/clyhs/ABigFishTV) - 大鱼电视直播 基于ijkplayer的播放器 700多个电视台 包括央视，各地方台，卫视，熊猫直播，社会化分享，登陆，仿微博等 (支持iphonex)。<br />
 ![](https://github.com/clyhs/ABigFishTV/blob/master/images/ABigFishTV.gif)
 
-- [CLPlayer](https://github.com/JmoVxia/CLPlayer) - 自定义支持全屏的播放器。<br />
-![](https://github.com/JmoVxia/CLPlayer/blob/master/效果图.gif)
+- [CLPlayer](https://github.com/JmoVxia/CLPlayer) - 自定义支持全屏的播放器。
+<div align=left>
+<img src= "https://github.com/JmoVxia/CLPlayer/blob/master/效果图.gif" width="50%" />
+</div>
 
 - [StreamingKit](https://github.com/tumtumtum/StreamingKit) - A fast and extensible gapless AudioPlayer/AudioStreamer for OSX and iOS (iPhone, iPad).
 
@@ -188,11 +193,16 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [fishhook](https://github.com/facebook/fishhook) - A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS. <br />
 ![](https://camo.githubusercontent.com/18243516844d12b1bd158ce3687635d6e48d2e2e/687474703a2f2f692e696d6775722e636f6d2f4856587148437a2e706e67)
 
-- [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。<br />
-![](https://github.com/luckysine/WeChatRedEnvelopesHelper/blob/master/screenshots/step.png)
+- [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。
+<div align=left>
+<img src="https://github.com/luckysine/WeChatRedEnvelopesHelper/blob/master/screenshots/step.png" width="50%" />
+</div>
 
 - [FishChat](https://github.com/yulingtianxia/FishChat) - Hook WeChat.app on non-jailbroken devices. [blog](http://yulingtianxia.com/blog/2017/02/28/Make-WeChat-Great-Again/) <br />
-![](https://github.com/yulingtianxia/FishChat/blob/master/Images/weichat_ignore_chatroom.PNG) ![](https://github.com/yulingtianxia/FishChat/blob/master/Images/wechat_setting_keyboard.PNG)
+<div align=left>
+<img src="https://github.com/yulingtianxia/FishChat/blob/master/Images/weichat_ignore_chatroom.PNG" width="50%" />
+<img src="https://github.com/yulingtianxia/FishChat/blob/master/Images/wechat_setting_keyboard.PNG" width="50%" />
+</div>
 
 ### IM
 
@@ -202,9 +212,11 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [BAWeChat](https://github.com/BAHome/BAWeChat) - 博爱微信，使用原生 frame + MVVM + MVC + QMUIKit + BAKit 开源的微信。<br />
 ![](https://github.com/boai/BAWeChat/blob/master/Images/通讯录.png) ![](https://github.com/boai/BAWeChat/blob/master/Images/评论.png)
 
-- [TGTV](https://github.com/targetcloud/TGTV) - TGTV直播APP用Swift3.1编写，采用MVVM架构，本demo运用protobuf实现即时聊天（弹幕）、礼物动画等。<br />
-![](https://github.com/targetcloud/TGTV/blob/master/1.gif) 
-<img src="https://github.com/targetcloud/TGTV/blob/master/屏幕快照%202017-04-13%20下午5.22.09.png" width=300 align=left>
+- [TGTV](https://github.com/targetcloud/TGTV) - TGTV直播APP用Swift3.1编写，采用MVVM架构，本demo运用protobuf实现即时聊天（弹幕）、礼物动画等。
+<div>
+<img src="https://github.com/targetcloud/TGTV/blob/master/1.gif" width=300 align=left />
+<img src="https://github.com/targetcloud/TGTV/blob/master/屏幕快照%202017-04-13%20下午5.22.09.png" width=300 align=left />
+</div>
 
 - [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
 
@@ -215,8 +227,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 ![](https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_3.png) ![](https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_4.png) 
 
 - [WHBLEDemo](https://github.com/remember17/WHBLEDemo) - 📱CoreBluetooth central and peripheral demo with OC/Swift (iOS蓝牙中心设备和外设开发,包含OC/Swift版本) <br />
-![](https://camo.githubusercontent.com/3ba378f9a697f5e30d6937f64ba8a97498bb3513/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d613731636537393634653834613263652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430) <br />
-![](https://camo.githubusercontent.com/47b0012be03c0f3f6c59c7169fa4563ff6380d7c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d353334626433303463346537393765362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970)
+<div>
+<img src="https://camo.githubusercontent.com/3ba378f9a697f5e30d6937f64ba8a97498bb3513/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d613731636537393634653834613263652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="50%"  align=left />
+src="https://camo.githubusercontent.com/47b0012be03c0f3f6c59c7169fa4563ff6380d7c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d353334626433303463346537393765362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width="50%"  align=left />
+</div>
 
 - [BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth) - 简单易用的蓝牙库，基于CoreBluetooth的封装，并兼容ios和mac osx。<br />
 ![](https://github.com/coolnameismy/BabyBluetooth/blob/master/logo.png)
@@ -238,11 +252,16 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [swiftScan](https://github.com/dgynfi/swiftScan) - A barcode and qr code scanner( 二维码 各种码识别，生成，界面效果)。<br />
 ![](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page1.jpg) ![](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page4.jpg)
 
-- [SGQRCode](https://github.com/kingsic/SGQRCode) - The easy to use QRCode scan library for iOS【iOS 原生二维码生成与扫描 -> 高仿微信】。<br />
-![](https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle1.png) ![](https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle4.png)
+- [SGQRCode](https://github.com/kingsic/SGQRCode) - The easy to use QRCode scan library for iOS【iOS 原生二维码生成与扫描 -> 高仿微信】。
+<div align=left>
+<img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle1.png" width="50%" />
+<img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle4.png" width="50%" />
+</div>
 
 - [EFQRCode](https://github.com/EFPrefix/EFQRCode) - A better way to operate QR Code in Swift, support iOS, macOS, watchOS and tvOS. <br />
-![](https://raw.githubusercontent.com/EFPrefix/EFQRCode/assets/QRCodeGIF6.gif)
+<div align=left>
+<img src="https://raw.githubusercontent.com/EFPrefix/EFQRCode/assets/QRCodeGIF6.gif" width="50%" />
+</div>
 
 ### 安全密码算法
 
@@ -264,8 +283,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [IAPHelper](https://github.com/saturngod/IAPHelper) - IAP helper for Apple in app purchases. It uses ARC and blocks for ease of use. Ready to use with newsstand subscriptions. No more maintenance for this repo. Please use the [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 
-- [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit) - SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+. <br />
-![](https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg)
+- [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit) - SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+. 
+<div>
+<img src="https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg" width="50%" / align=left>
+</div>
 
 - [XHPayKit](https://github.com/CoderZhuXH/XHPayKit) - 不用官方SDK实现微信支付、支付宝支付。
 
@@ -289,8 +310,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [SensorDemo](https://github.com/wsl2ls/SensorDemo) - 指纹识别、运动传感器、加速计、环境光感、距离传感器、指南针、陀螺仪等传感器示例集锦。<br />
 ![](https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970)
 
-- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！<br />
-![](https://github.com/BAHome/BAPrivacyManager/blob/master/Images/BAPrivacyManager1.png)
+- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！
+<div>
+<img src="https://github.com/BAHome/BAPrivacyManager/blob/master/Images/BAPrivacyManager1.png" width="50%" align=left />
+</div>
 
 - [RSSliderView](https://github.com/rsimenok/RSSliderView) - Custom slider based on UIView for iOS. <br />
 ![](https://camo.githubusercontent.com/7a7a899104ae97a30b0aae97bb2ce7d80a8a0f25/687474703a2f2f692e70696363792e696e666f2f69392f61666463643862353032396531663238623862643333663762643338323263312f313432343131383133392f31323632322f3738303432352f3132332e706e67)
@@ -301,23 +324,32 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。<br />
 ![](https://github.com/zhouXiaoR/ZZHotKeysMenu/blob/master/运行效果.gif)
 
-- [LCSlideMenu](https://github.com/ChinaHackers/LCSlideMenu) - A powerful and easy to use slider menu. <br />
-![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/LCSlideMenu.png) <br />
-![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif)  ![](https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif) 
+- [LCSlideMenu](https://github.com/ChinaHackers/LCSlideMenu) - A powerful and easy to use slider menu. 
+<div align=left>
+<img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/LCSlideMenu.png" width="50%" />
+<img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif" width="50%" />
+<img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif" width="50%" />
+</div>
 
 - [JMColumnMenu](https://github.com/JunAILiang/JMColumnMenu) - 仿腾讯新闻、今日头条栏目管理。
 
-- [MLMenu](https://github.com/MrDML/MLMenu) - 仿微信QQ右上角菜单功能。<br />
-![](https://github.com/MrDML/MLMenu/blob/master/MLMenuGif.gif)
+- [MLMenu](https://github.com/MrDML/MLMenu) - 仿微信QQ右上角菜单功能。
+<div>
+<img src="https://github.com/MrDML/MLMenu/blob/master/MLMenuGif.gif" width="50%" align=left />
+</div>
 
-- [JMDropMenu](https://github.com/JunAILiang/JMDropMenu) - 仿QQ、微信下拉菜单封装，支持自定义样式。<br />
-![](https://raw.githubusercontent.com/JunAILiang/JMDropMenu/master/JMDropMenu/JMDropMenu.gif)
+- [JMDropMenu](https://github.com/JunAILiang/JMDropMenu) - 仿QQ、微信下拉菜单封装，支持自定义样式。
+<div>
+<img src="https://raw.githubusercontent.com/JunAILiang/JMDropMenu/master/JMDropMenu/JMDropMenu.gif" width="50%" align=left />
+</div>
 
 - [XYMenu](https://github.com/HeathHsia/XYMenu) -  简易集成的弹出菜单。<br />
 ![](https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif)
 
-- [SHESelectTable](https://github.com/shelly8219/SHESelectTableDemo) - 下拉选择的列表。<br />
-![](https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg)
+- [SHESelectTable](https://github.com/shelly8219/SHESelectTableDemo) - 下拉选择的列表。
+<div>
+<img src="https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg" width="50%" align=left />
+</div>
 
 - [MMPopupView](https://github.com/adad184/MMPopupView) - A basic Pop-Up Kit allows you to easily create Pop-Up view. You can focus on the only view you want to show.Besides, it comes with 2 common Pop-Up view, MMAlertView & MMSheetView. You can easily use & customize it. <br />
 ![](https://github.com/adad184/MMPopupView/blob/master/Images/0.jpg) 
@@ -419,7 +451,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ## Script
 
-### python
+### Python
 
 - [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from Microsoft Excel (tm) spreadsheet files. [python-excel](http://www.python-excel.org)
 
