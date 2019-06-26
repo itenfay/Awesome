@@ -20,17 +20,17 @@
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. <br />
 ![](https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67)
 
-**NSURLSession (网络通信模块) :**
+**NSURLSession:**
 - `AFURLSessionManager `
 - `AFHTTPSessionManager`
 
-**Reachability (网络状态监听模块) :**
+**Reachability:**
 - `AFNetworkReachabilityManager`
 
-**Security (网络通信安全模块)**
+**Security:**
 - `AFSecurityPolicy`
 
-**Serialization (网络通信序列化模块) :**
+**Serialization:**
 * `<AFURLRequestSerialization>`
     - `AFHTTPRequestSerializer`
     - `AFJSONRequestSerializer`
@@ -44,7 +44,7 @@
     - `AFImageResponseSerializer`
     - `AFCompoundResponseSerializer`
 
-**UIKit (对UIKit框架扩展部分) :**
+**UIKit:**
 - 以Catagory形式添加特性
 
 ---
@@ -52,7 +52,7 @@
 - [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.<br />
 ![](https://raw.githubusercontent.com/Alamofire/Alamofire/master/alamofire.png)
 
-**Core文件夹下各个文件的功能简述:**
+**Core目录下各个文件的功能简述:**
 - Alamofire.swift -- 该文件中主要是给用户提供一些便利的调用方法，用户可以直接调用该文件中的便利方法来使用Alamofire相关功能。
 - Manager.swift -- Manager中定义了Session对象，Session相关的Delegate，以及Delegate执行的队列等相关信息，在Manager中创建Request对象发起请求。Manager管理的就是各种请求，Manager对象是以单例的形式对外开放的。
 - Request.swift -- 该文件如其名，就是负责创建Session的各种task的，并执行相关的SessionTask，并调用相关书籍解析的功能模块对数据进行解析并通过回调返回给用户。
@@ -62,7 +62,7 @@
 - Notifications.swift -- 其中是一个Notification结构体，该结构体中定义了一些字符串，这些字符串就是所需通知的Key，当网络请求DidResume、DidSuspend、DidCancel、DidComplete都会发出通知。
 - Error.swift -- 其中是一个Error的结构体，其中封装的是各种错误状态。
 
-**Features文件夹下各个文件的功能简述:**
+**Features目录下各个文件的功能简述:**
 - Download.swift -- 对Manager和Request类进行扩展，使其支持Down Task，其中封装了NSURLSessionDownloadDelegate相关代理方法。
 - Upload.swift -- 在该文件中也是对Manager和Request类进行的扩展，使其支持Upload Task，其中封装了NSURLSessionDataDelegate中获取上传数据进度的代理方法，也就是taskDidSendBodyData代理方法。
 - MultipartFormData.swift -- 该文件从名字就可以看出是为了组织多表单数据上传的数据的，在Upload Task中就使用到了MultipartFormData。
@@ -119,9 +119,26 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. <br />
 ![](https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png)
 
-### 网络
+- [Weex](https://github.com/apache/incubator-weex) - A framework for building Mobile cross-platform UI. <br  />
+| platform | status |
+| -------- | ------ |
+| Android | [![Download](https://api.bintray.com/packages/alibabaweex/maven/weex_sdk/images/download.svg)](https://bintray.com/alibabaweex/maven/weex_sdk/_latestVersion) |
+| iOS | [![Pod version](https://badge.fury.io/co/WeexSDK.svg)](https://cocoapods.org/pods/WeexSDK) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) |
+| [Mobile Web](https://github.com/weexteam/weex-vue-render) | [![npm version](https://badge.fury.io/js/weex-html5.svg)](https://www.npmjs.com/package/weex-vue-render) |
+
+**Weex Community**
+* [Mailing List](https://weex-project.io/contributing.html#join-in-discussions) Weex Mailing List, where most discussion happens.
+* [StackOverflow](http://stackoverflow.com/questions/tagged/weex): Ask questions about Weex.
+* [SegmentFault (cn)](https://segmentfault.com/t/weex): 中文交流与讨论
+* [FAQ](https://weex.apache.org/faq.html)
+* [Articles (cn)](https://github.com/weexteam/article/issues): Weex 相关文章集合
+* [Telegram Russian Community Group](https://telegram.me/weex_ru)
+
+### 网络封装
 
 - [BANetManager](https://github.com/boai/BANetManager) - 基于AFNetworking 3.0、3.1最新版本的封装，集成了 get / post / put / delete 方法请求数据，单图/多图上传，视频上传/下载，网络监测 等多种网络请求方式。<br />
+
+- [HYBNetworking](https://github.com/CoderJackyHuang/HYBNetworking) - 基于AFNetworking3.0以上版本封装的网络层。提供常用的GET/POST接口、上传下载图片、文件接口、支持缓存等。
 
 ### 导航条 & 状态栏
 
@@ -130,6 +147,15 @@ RxSwift comprises five separate components depending on eachother in the followi
   
 - [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。<br />
 ![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif)  ![](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif)
+
+- [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController) - Implicitly make every view controller has its own navigation bar. <br />
+![](https://user-images.githubusercontent.com/1250207/30429339-abb20914-9989-11e7-9058-c967839315f4.gif)
+
+- [GKNavigationController](https://github.com/QuintGao/GKNavigationController) - iOS自定义导航栏-导航条联动（仿网易新闻、网易云音乐等导航栏滑动效果）。<br />
+![](https://github.com/QuintGao/GKNavigationController/blob/master/GKNavigationControllerDemo/001.png)
+
+- [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) - An UINavigationController's category to enable fullscreen pop gesture in an iOS7+ system style with AOP. <br />
+![](https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif)
 
 ### 播放器
 
@@ -143,10 +169,35 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [ijkplayer](https://github.com/bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support ([FFmpeg](http://ffmpeg.org)).
 
+- [ffmpeg-avplayer-for-ios-tvos](https://github.com/imoreapps/ffmpeg-avplayer-for-ios-tvos) - A tiny but powerful iOS and Apple TV OS av player framework that's based on the FFmpeg library. <br />
+
+- [LyricsAnalysis](https://github.com/wsl2ls/LyricsAnalysis) - iOS音乐播放器之锁屏效果（仿网易云音乐和QQ音乐）+ 歌词解析 ：锁屏歌曲信息、控制台远程控制音乐播放：暂停/播放、上一首/下一首、快进/快退、列表菜单弹框和拖拽控制台的进度条调节进度（结合了QQ音乐和网易云音乐在锁屏状态下的效果）、歌词解析并随音乐滚动显示。<br />
+![](https://camo.githubusercontent.com/a7f8d7a5c4d556835a74a48e47287699879ce9c0/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d613833663765343062303165346635302e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 
+![](https://camo.githubusercontent.com/3fc34b6daa5822c88ddec99295f2dc33b376b67b/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373265306262333661633033353330302e504e473f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430)
+
 ### 逆向开发
+
+- [fishhook](https://github.com/facebook/fishhook) - A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS. <br />
+![](https://camo.githubusercontent.com/18243516844d12b1bd158ce3687635d6e48d2e2e/687474703a2f2f692e696d6775722e636f6d2f4856587148437a2e706e67)
 
 - [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。<br />
 ![](https://github.com/luckysine/WeChatRedEnvelopesHelper/blob/master/screenshots/step.png)
+
+- [FishChat](https://github.com/yulingtianxia/FishChat) - Hook WeChat.app on non-jailbroken devices. [blog](http://yulingtianxia.com/blog/2017/02/28/Make-WeChat-Great-Again/) <br />
+![](https://github.com/yulingtianxia/FishChat/blob/master/Images/weichat_ignore_chatroom.PNG) ![](https://github.com/yulingtianxia/FishChat/blob/master/Images/wechat_setting_keyboard.PNG)
+
+### IM
+
+- [AtChat](https://github.com/boyssimple/AtChat) - IOS聊天项目、基于XMPP框架开发，实现了登陆注册(注册以手机号码注册、短信验证) 、发送消息、接收消息、接收好友请求、发起好友请求 、图片消息、语音消息、视频语音、聊天历史记录、最近联系人、二维码添加好友、用户头像上传、朋友圈、发朋友圈、异地登录退出等功能。<br />
+![](https://github.com/boyssimple/AtChat/blob/master/images/020.png) ![](https://github.com/boyssimple/AtChat/blob/master/images/014.png)
+
+- [BAWeChat](https://github.com/BAHome/BAWeChat) - 博爱微信，使用原生 frame + MVVM + MVC + QMUIKit + BAKit 开源的微信。<br />
+![](https://github.com/boai/BAWeChat/blob/master/Images/通讯录.png) ![](https://github.com/boai/BAWeChat/blob/master/Images/评论.png)
+
+- [TGTV](https://github.com/targetcloud/TGTV) - TGTV直播APP用Swift3.1编写，采用MVVM架构，本demo运用protobuf实现即时聊天（弹幕）、礼物动画等。<br />
+![](https://github.com/targetcloud/TGTV/blob/master/1.gif) ![](https://github.com/targetcloud/TGTV/blob/master/屏幕快照%202017-04-13%20下午5.22.09.png)
+
+- [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
 
 ### 蓝牙
 
@@ -163,6 +214,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [BluetoothKit](https://github.com/rhummelmose/BluetoothKit) - Easily communicate between iOS/OSX devices using BLE.
 
+- [MultipeerConnectivity](https://github.com/xiangzuhua0209/MultipeerConnectivity) - 蓝牙MultipeerConnectivity。
+
 ### 扫码器
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。<br />
@@ -170,7 +223,40 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [QRCode](https://github.com/kingcong/QRCode-master) - 仿微信二维码扫描。
 
+- [LBXScan](https://github.com/MxABC/LBXScan) - A barcode and qr code scanner (二维码、扫码、扫一扫、ZXing、ZBar、iOS系统AVFoundation扫码封装，扫码界面效果封装)。<br>
+![](https://github.com/MxABC/Resource/blob/master/scan12.gif)
+
+- [swiftScan](https://github.com/dgynfi/swiftScan) - A barcode and qr code scanner( 二维码 各种码识别，生成，界面效果)。<br />
+![](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page1.jpg) ![](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page4.jpg)
+
+- [SGQRCode](https://github.com/kingsic/SGQRCode) - The easy to use QRCode scan library for iOS【iOS 原生二维码生成与扫描 -> 高仿微信】。<br />
+![](https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle1.png) ![](https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle4.png)
+
+- [EFQRCode](https://github.com/EFPrefix/EFQRCode) - A better way to operate QR Code in Swift, support iOS, macOS, watchOS and tvOS. <br />
+![](https://raw.githubusercontent.com/EFPrefix/EFQRCode/assets/QRCodeGIF6.gif)
+
+### 安全密码算法
+
+- [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 一行代码实现 iOS Base64, MD5, DES, AES, RSA算法。
+
+- [AESCipher-iOS](https://github.com/WelkinXie/AESCipher-iOS) - AES encryption working between Objective-C and Java.
+
+- [RSADemo](https://github.com/DullDevil/RSADemo) - RSA加解密相关方方法，以及密钥格式的生成与转换。
+
+- [Encryptions](https://github.com/iamlay/Encryptions) - this project is for many kinds odf encryption. <br />
+![](https://github.com/iamlay/Encryptions/blob/master/Encryption/encryption.gif)
+
+- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - CryptoSwift是在Swift中实现的越来越多的标准和安全密码算法的集合。 
+
 ### Others
+
+- [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App.（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）<br />
+![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif)  ![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif) 
+
+- [IAPHelper](https://github.com/saturngod/IAPHelper) - IAP helper for Apple in app purchases. It uses ARC and blocks for ease of use. Ready to use with newsstand subscriptions. No more maintenance for this repo. Please use the [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
+
+- [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit) - SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+. <br />
+![](https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg)
 
 - [XHPayKit](https://github.com/CoderZhuXH/XHPayKit) - 不用官方SDK实现微信支付、支付宝支付。
 
@@ -185,8 +271,23 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐丝指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。<br />
 ![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_text.gif)  ![](https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_loding.gif)
 
+- [SDPhotoBrowser](https://github.com/gsdios/SDPhotoBrowser) - A image browser which is easy for using. 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。<br />
+![](https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966)
+
+- [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。<br />
+![](https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif) 
+
+- [SensorDemo](https://github.com/wsl2ls/SensorDemo) - 指纹识别、运动传感器、加速计、环境光感、距离传感器、指南针、陀螺仪等传感器示例集锦。<br />
+![](https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970)
+
+- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！<br />
+![](https://github.com/BAHome/BAPrivacyManager/blob/master/Images/BAPrivacyManager1.png)
+
 - [RSSliderView](https://github.com/rsimenok/RSSliderView) - Custom slider based on UIView for iOS. <br />
 ![](https://camo.githubusercontent.com/7a7a899104ae97a30b0aae97bb2ce7d80a8a0f25/687474703a2f2f692e70696363792e696e666f2f69392f61666463643862353032396531663238623862643333663762643338323263312f313432343131383133392f31323632322f3738303432352f3132332e706e67)
+
+- [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。<br />
+![](https://github.com/ZLFighting/ZLSecurityCode/blob/master/ZLSecurityCode/验证码图.gif)
 
 - [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。<br />
 ![](https://github.com/zhouXiaoR/ZZHotKeysMenu/blob/master/运行效果.gif)
@@ -209,8 +310,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [SHESelectTable](https://github.com/shelly8219/SHESelectTableDemo) - 下拉选择的列表。<br />
 ![](https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg)
 
-- [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App.（[Swift版](https://github.com/dgynfi/WRNavigationBar_swift)）<br />
-![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif)  ![](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif) 
+- [MMPopupView](https://github.com/adad184/MMPopupView) - A basic Pop-Up Kit allows you to easily create Pop-Up view. You can focus on the only view you want to show.Besides, it comes with 2 common Pop-Up view, MMAlertView & MMSheetView. You can easily use & customize it. <br />
+![](https://github.com/adad184/MMPopupView/blob/master/Images/0.jpg) 
 
 - [LDNetDiagnoService_IOS](https://github.com/Lede-Inc/LDNetDiagnoService_IOS) - iOS平台利用ping和traceroute的原理，对指定域名（通常为后台API的提供域名）进行网络诊断，并收集诊断日志。<br />
 ![](https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg)
@@ -218,11 +319,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。<br />
 ![](https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif)
 
+- [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
+
 - [iOS-getClientInfo](https://github.com/PengfeiWang666/iOS-getClientInfo) - 📲iOS中获取各种设备信息。
 
-- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - CryptoSwift是在Swift中实现的越来越多的标准和安全密码算法的集合。 
-
 - [TOSMBClient](https://github.com/TimOliver/TOSMBClient) -  A small library that serves as a simple SMB (Server Message Block ) client for iOS apps. The library allows connecting to SMB devices, downloading file metadata, and subsequently allows asynchronous downloading of files from an SMB device straight to an iOS device. It is an Objective-C wrapper around Defective SMb, or libDSM, a low level SMB client library built in C built by some of VideoLabs' developers. A copy of libDSM has been specially cross-compiled for iOS device architectures and embedded in this library, so this project has no external dependencies.
+
+- [dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze. <br />
+![](https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67)
 
 - [iOSAnimation](https://github.com/BranPeng/iOSAnimation) - 好玩的iOS动画。
 
@@ -232,7 +336,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [iOS-Project](https://github.com/BranPeng/iOS-Project) - 收集的一些比较好的iOS打样工程。
 
+- [iOS_Demo](https://github.com/darren90/iOS_Demo) - iOS开发中一些实用的Demo。
+
 - [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
+
+
+## H5
+
+- [canvas](https://github.com/airingursb/canvas) - 《Canvas：Draw on the Web》，[本书GitBook]( https://airingursb.gitbooks.io/canvas/)
 
 
 ## Flutter
@@ -283,6 +394,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [qipai_algorithm](https://github.com/yuanfengyun/qipai_algorithm) - 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua 、c++ 、c# 、golang 、js 、java 、python 版本。
 
+- [HuPaiMJ](https://github.com/pinorr/HuPaiMJ) - C++麻将胡牌算法 优点：1.速度快，900万次多赖子胡牌用时500ms左右。2.支持多个赖子。3.查错方便，直接查表就可知道。
+
 
 ## cocos2d
 
@@ -294,3 +407,13 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
 
+
+## Script
+
+### python
+
+- [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from Microsoft Excel (tm) spreadsheet files. [python-excel](http://www.python-excel.org)
+
+- [xlwt](https://github.com/python-excel/xlwt) - Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform. [python-excel](http://www.python-excel.org)
+
+- [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - [A Python module for creating Excel XLSX files. ](https://xlsxwriter.readthedocs.io)
