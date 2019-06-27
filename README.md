@@ -1,19 +1,15 @@
+## [如果觉得对你有帮助的话，就请给一个star (If you think it's helpful to you, give it a star)。](https://github.com/dgynfi/OpenSource)
+
 ## OpenSource
 🔥🔥🔥 汇总实用的开源项目 🔥🔥🔥
-
----
-
-## [If you find it helpful, click a star. (如果你觉得对你有帮助的话，就点个star。)](https://github.com/dgynfi/OpenSource)
-
----
 
 ## 目录
 
 - [iOS](https://github.com/dgynfi/OpenSource#1)
-   - [🔥🔥🔥👍👍👍](https://github.com/dgynfi/OpenSource#1.1)
-      - [YYKit](https://github.com/dgynfi/OpenSource#1.1.1)
-      - [AFNetworking](https://github.com/dgynfi/OpenSource#1.1.2)
-      - [Alamofire](https://github.com/dgynfi/OpenSource#1.1.3)
+   - [🔥🔥🔥👍👍👍](https://github.com/dgynfi/OpenSource##1.1)
+     - [YYKit](https://github.com/dgynfi/OpenSource###1.1.1)
+     - [AFNetworking](https://github.com/dgynfi/OpenSource###1.1.2)
+     - [Alamofire](https://github.com/dgynfi/OpenSource###1.1.3)
 
 - [Mac](https://github.com/dgynfi/OpenSource)
 
