@@ -1,25 +1,42 @@
 ## OpenSource
 🔥🔥🔥 汇总实用的开源项目 🔥🔥🔥
 
-## iOS Project
+---
+
+## [If you find it helpful, click a star. (如果你觉得对你有帮助的话，就点个star。)](https://github.com/dgynfi/OpenSource)
 
 ---
 
-### 🔥🔥🔥👍👍👍
-- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
-  [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
-  [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
-  [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。<br />
-  [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。<br />
-  [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。<br />
-  [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。<br />
-  [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。<br />
-  [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
-  [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+## 目录
+
+- [iOS](https://github.com/dgynfi/OpenSource#1)
+   - [🔥🔥🔥👍👍👍](https://github.com/dgynfi/OpenSource#1.1)
+      - [YYKit](https://github.com/dgynfi/OpenSource#1.1.1)
+      - [AFNetworking](https://github.com/dgynfi/OpenSource#1.1.2)
+      - [Alamofire](https://github.com/dgynfi/OpenSource#1.1.3)
+
+- [Mac](https://github.com/dgynfi/OpenSource)
+
+
+## 1. iOS
 
 ---
 
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
+### 1.1 🔥🔥🔥👍👍👍
+- 1.1.1 [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
+  - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
+  - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
+  - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。<br />
+  - [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。<br />
+  - [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。<br />
+  - [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。<br />
+  - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。<br />
+  - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
+  - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+
+---
+
+- 1.1.2 [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
     <img src="https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" width="50%" />
     </div>
@@ -53,7 +70,7 @@
 
 ---
 
-- [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.
+- 1.1.3 [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.
     <div align=center>
     <img src="https://raw.githubusercontent.com/Alamofire/Alamofire/master/alamofire.png"  width="50%" />
     </div>
@@ -126,8 +143,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ---
 
-- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. <br />
-![](https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png)
+- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
+    <div align=center>
+    <img src="https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png" width="90%" />
+    </div>
 
 ---
 
@@ -201,7 +220,7 @@ class MyViewController: UIViewController {
 
 - [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。([Swift版](https://github.com/wangrui460/WRNavigationBar_swift))
     <div align=center>
-    <img src="https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif" width=300 /> <img src="https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif" width=300 /> <img src="https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif" width=200 /> <img src="https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif" width=200 /> <img src="https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif" width=200 />
     </div>
   
 - [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。
@@ -422,16 +441,22 @@ class MyViewController: UIViewController {
 
 ### 扫码器
 
-- [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。<br />
-![](https://github.com/MinMao-Hub/MMScan/blob/master/gifs/mmscan.gif)
+- [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。
+    <div align=center>
+    <img src="https://github.com/MinMao-Hub/MMScan/blob/master/gifs/mmscan.gif" width="90%" />
+    </div>
 
 - [QRCode](https://github.com/kingcong/QRCode-master) - 仿微信二维码扫描。
 
-- [LBXScan](https://github.com/MxABC/LBXScan) - A barcode and qr code scanner (二维码、扫码、扫一扫、ZXing、ZBar、iOS系统AVFoundation扫码封装，扫码界面效果封装)。<br>
-  ![](https://github.com/MxABC/Resource/blob/master/scan12.gif)
-
-- [swiftScan](https://github.com/MxABC/swiftScan) - A barcode and qr code scanner( 二维码 各种码识别，生成，界面效果)。<br />
-  ![](https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page1.jpg) ![](https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page2.jpg)
+- [LBXScan](https://github.com/MxABC/LBXScan) - A barcode and qr code scanner (二维码、扫码、扫一扫、ZXing、ZBar、iOS系统AVFoundation扫码封装，扫码界面效果封装)。
+    <div align=center>
+    <img src="https://github.com/MxABC/Resource/blob/master/scan12.gif" width="90%" />
+    </div>
+  
+- [swiftScan](https://github.com/MxABC/swiftScan) - A barcode and qr code scanner( 二维码 各种码识别，生成，界面效果)。
+    <div align=center>
+    <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page1.jpg" width="90%" /> <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page2.jpg" width="90%" />
+    </div>
 
 - [SGQRCode](https://github.com/kingsic/SGQRCode) - The easy to use QRCode scan library for iOS【iOS 原生二维码生成与扫描 -> 高仿微信】。
     <div align=center>
@@ -453,8 +478,10 @@ class MyViewController: UIViewController {
 
 - [RSADemo](https://github.com/DullDevil/RSADemo) - RSA加解密相关方方法，以及密钥格式的生成与转换。
 
-- [Encryptions](https://github.com/iamlay/Encryptions) - this project is for many kinds odf encryption. <br />
-  ![](https://github.com/iamlay/Encryptions/blob/master/Encryption/encryption.gif)
+- [Encryptions](https://github.com/iamlay/Encryptions) - this project is for many kinds odf encryption. 
+  <div align=center>
+  <img src="https://github.com/iamlay/Encryptions/blob/master/Encryption/encryption.gif" width="90%" />
+  </div>
 
 - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - CryptoSwift是在Swift中实现的越来越多的标准和安全密码算法的集合。 
 
@@ -513,16 +540,20 @@ class MyViewController: UIViewController {
     <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif" width=300 /> <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif" width=300 />
     </div>
 
-- [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。<br />
-  ![](https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif)
+- [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。
+    <div align=center>
+    <img src="https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif" width="80%" />
+    </div>
 
 - [SDPhotoBrowser](https://github.com/gsdios/SDPhotoBrowser) - A image browser which is easy for using. 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。
     <div align=center>
     <img src="https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966" width="90%" />
     </div>
 
-- [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。<br />
-  ![](https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif) 
+- [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。
+    <div align=center>
+    <img src="https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif" width="80%" />
+    </div>
 
 - [PYSearch](https://github.com/ko1o/PYSearch) - 🔍 An elegant search controller which replaces the UISearchController for iOS (iPhone & iPad) .
     <div align=center>
@@ -566,7 +597,9 @@ class MyViewController: UIViewController {
     </div>
 
 - [XYMenu](https://github.com/HeathHsia/XYMenu) -  简易集成的弹出菜单。<br />
-  ![](https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif)
+  <div align=center>
+  <img src="https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif" width="80%" />
+  </div>
 
 - [REMenu](https://github.com/romaonthego/) - Dropdown menu inspired by Vine.
     <div align=center>
@@ -583,8 +616,10 @@ class MyViewController: UIViewController {
     <img src="https://github.com/adad184/MMPopupView/blob/master/Images/0.jpg" width="60%" />
     </div>
 
-- [LDNetDiagnoService_IOS](https://github.com/Lede-Inc/LDNetDiagnoService_IOS) - iOS平台利用ping和traceroute的原理，对指定域名（通常为后台API的提供域名）进行网络诊断，并收集诊断日志。<br />
-  ![](https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg)
+- [LDNetDiagnoService_IOS](https://github.com/Lede-Inc/LDNetDiagnoService_IOS) - iOS平台利用ping和traceroute的原理，对指定域名（通常为后台API的提供域名）进行网络诊断，并收集诊断日志。
+    <div align=center>
+    <img src="https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg"  width="60%" />
+    </div>
 
 - [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。<br />
     <div align=center>
@@ -601,11 +636,16 @@ class MyViewController: UIViewController {
     <img src="https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" />
     </div>
 
-- [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。<br />
-  ![](https://github.com/zhouXiaoR/ZZHotKeysMenu/blob/master/运行效果.gif)
+- [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。
+  <div align=center>
+  <img src="https://github.com/zhouXiaoR/ZZHotKeysMenu/raw/master/运行效果.gif" width="90%" />
+  </div>
 
-- [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。<br />
-  ![](https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif)
+- [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。
+  <div align=center>
+  <img src="https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif" width="90%" />
+  </div>
+
 
 - [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
 
@@ -653,7 +693,7 @@ class MyViewController: UIViewController {
 
 - [dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze. <br />
     <div align=center>
-    <img src="https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67" width="50%" />
+    <img src="https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67" width="60%" />
     </div>
 
 - [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) - This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device. ([Instructions](https://dantheman827.github.io/ios-app-signer/))
@@ -664,7 +704,7 @@ class MyViewController: UIViewController {
 
 - [FinderGo](https://github.com/onmyway133/FinderGo) - 🐢 Open terminal quickly from Finder. ([blog](https://onmyway133.github.io/))
     <div align=center>
-    <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/Icon.png" width="50%" />
+    <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/Icon.png" width="30%" />
     <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/go1.gif" width="50%" />
     </div>
 
@@ -697,7 +737,7 @@ class MyViewController: UIViewController {
 
 - [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学。
     <div align=center>
-    <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="50%" />
+    <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="60%" />
     </div>
 
 
@@ -746,8 +786,10 @@ class MyViewController: UIViewController {
 
 ## cocos2d
 
-- [cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org.<br />
-  ![](https://github.com/cocos2d/cocos2d-x/blob/v3/docs/framework_architecture.jpg)
+- [cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org.
+<div align=center>
+<img src="https://github.com/cocos2d/cocos2d-x/blob/v3/docs/framework_architecture.jpg" width="50%" />
+</div>
 
 
 ## C++
@@ -766,3 +808,5 @@ class MyViewController: UIViewController {
 - [xlwt](https://github.com/python-excel/xlwt) - Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform. [python-excel](http://www.python-excel.org)
 
 - [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - [A Python module for creating Excel XLSX files. ](https://xlsxwriter.readthedocs.io)
+
+---
