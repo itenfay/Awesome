@@ -1,25 +1,41 @@
-## [如果觉得对你有帮助，就给一颗星星 (If you think it's helpful to you, give it a star)](https://github.com/dgynfi/OpenSource)
+[如果觉得对你有帮助，就给一颗星星 (If you think it's helpful to you, give it a star)](https://github.com/dgynfi/OpenSource)
+
+---
 
 ## OpenSource
 🔥🔥🔥 汇总实用的开源项目 🔥🔥🔥
 
 ## 目录
 
-- [iOS](#1)
-   - [🔥🔥🔥👍👍👍](#1.1)
-     - [YYKit](#1.1.1)
-     - [AFNetworking](#1.1.2)
-     - [Alamofire](#1.1.3)
+- [iOS](#iOS)
+   - [第三方库（🔥🔥🔥👍👍👍）](#第三方库)
+   - [网络相关](#网络相关)
+   - [导航条 & 状态栏](#导航条)
+   - [Side Menu](#Side)
+   - [支付](#支付)
+   - [播放器](#播放器)
+   - [IM & 直播](#IM)
+   - [Data persistence: FMDB & Keychain & NSUserDefaults](#Data)
+   - [逆向开发](#逆向开发)
+   - [蓝牙](#蓝牙)
+   - [指示器 & Toast](#指示器)
+   - [数据安全相关](#数据安全相关)
+   - [下拉刷新 & 上拉加载](#下拉刷新)
+   - [Others](#Others)
+   - [高仿项目 & 项目Demo](#高仿项目)
+- [Mac](#Mac)
+- [Flutter](#Flutter)
+- [比特币 & 以太坊（区块链）](#比特币)
+- [H5](#H5)
+- [cocos2d](#cocos2d)
+- [C++](#c++)
+- [棋牌](#棋牌)
+- [Script](#Script)
 
-- [Mac](https://github.com/dgynfi/OpenSource)
+## iOS
 
-
-## 1. iOS
-
----
-
-### 1.1 🔥🔥🔥👍👍👍
-- 1.1.1 [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
+### 第三方库（🔥🔥🔥👍👍👍）
+- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
   - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
   - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
   - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。<br />
@@ -30,9 +46,7 @@
   - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
   - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
----
-
-- 1.1.2 [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
     <img src="https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" width="50%" />
     </div>
@@ -66,7 +80,7 @@
 
 ---
 
-- 1.1.3 [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.
+- [Alamofire](https://github.com/Alamofire/Alamofire) - Alamofire is an HTTP networking library written in Swift.
     <div align=center>
     <img src="https://raw.githubusercontent.com/Alamofire/Alamofire/master/alamofire.png"  width="50%" />
     </div>
@@ -137,14 +151,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 └──────────────┘    └──────────────┘
 ````
 
----
-
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
     <div align=center>
     <img src="https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png" width="90%" />
     </div>
-
----
 
 - [Weex](https://github.com/apache/incubator-weex) - A framework for building Mobile cross-platform UI. <br  />
 
@@ -194,15 +204,11 @@ class MyViewController: UIViewController {
 }
 ```
 
----
-
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects (http://awesomeios.com)
 
 - [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
 
---- 
-
-### 网络封装 & 监听工具
+### 网络相关
 
 - [BANetManager](https://github.com/boai/BANetManager) - 基于AFNetworking 3.0、3.1最新版本的封装，集成了 get / post / put / delete 方法请求数据，单图/多图上传，视频上传/下载，网络监测 等多种网络请求方式。<br />
 
@@ -464,7 +470,7 @@ class MyViewController: UIViewController {
     <img src="https://raw.githubusercontent.com/EFPrefix/EFQRCode/assets/QRCodeGIF6.gif" width="20%" />
     </div>
 
-### 安全密码算法
+### 数据安全相关
 
 - [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, MD5, DES, AES, RSA算法，操作简单好用。
 
@@ -642,7 +648,6 @@ class MyViewController: UIViewController {
   <img src="https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif" width="90%" />
   </div>
 
-
 - [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
 
 - [TOSMBClient](https://github.com/TimOliver/TOSMBClient) -  A small library that serves as a simple SMB (Server Message Block ) client for iOS apps. The library allows connecting to SMB devices, downloading file metadata, and subsequently allows asynchronous downloading of files from an SMB device straight to an iOS device. It is an Objective-C wrapper around Defective SMb, or libDSM, a low level SMB client library built in C built by some of VideoLabs' developers. A copy of libDSM has been specially cross-compiled for iOS device architectures and embedded in this library, so this project has no external dependencies.
@@ -710,12 +715,6 @@ class MyViewController: UIViewController {
 
 - [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) - Xcode plug-in that provides autocomplete for imageNamed: calls.
 
-
-## H5
-
-- [canvas](https://github.com/airingursb/canvas) - 《Canvas：Draw on the Web》，[本书GitBook]( https://airingursb.gitbooks.io/canvas/)
-
-
 ## Flutter
 
 ### Flutter && Dart
@@ -771,6 +770,11 @@ class MyViewController: UIViewController {
 - [ethers.io](https://github.com/ethers-io/ethers.io) - The frontend website HTML, JavaScript and CSS for ethers.io. 
 
 - [ethers.objc](https://github.com/ethers-io/ethers.objc) - Fast, simple and complete library for Ethereum in Objective-C.
+
+
+## H5
+
+- [canvas](https://github.com/airingursb/canvas) - 《Canvas：Draw on the Web》，[本书GitBook]( https://airingursb.gitbooks.io/canvas/)
 
 
 ## 棋牌
