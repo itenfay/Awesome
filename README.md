@@ -1,4 +1,4 @@
-[如果你觉得能帮助到你，请给一颗小星星，谢谢！(If you think it can help you, please give it a star, thanks!)](https://github.com/dgynfi/OpenSource)
+[如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
 
 ## OpenSource
 
@@ -23,7 +23,7 @@
 - [iOS](#iOS)
    - [第三方库🔥🔥🔥👍👍👍](#第三方库🔥🔥🔥👍👍👍)
      - [YYKit](#YYKit)
-     - [Network: AFNetworking Alamofire](#Network:-AFNetworking-Alamofire))
+     - [Network: AFNetworking Alamofire](#Network:-AFNetworking-Alamofire)
      - [SDWebImage](#SDWebImage)
      - [响应式编程: ReactiveCocoa RxSwift](#响应式编程:-ReactiveCocoa-RxSwift)
      - [AutoLayout: Masonry SnapKit](#AutoLayout:-Masonry-SnapKit)
