@@ -5,7 +5,7 @@
 🔥🔥🔥
 
 汇总好用的开源项目，涵盖了iOS，Mac，区块链，Flutter，Weex，H5，Cocos2d，C++，棋牌，Script等各个方面的内容，其中，iOS包涵以下几个方面：
-1. 常用第三库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit；
+1. 常用第三方库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit；
 2. 导航栏与状态栏；
 3. 侧边菜单(Side Menu)；
 4. 支付: 内购(IAP)与第三方支付；
@@ -18,15 +18,16 @@
 
 🔥🔥🔥
 
+
 ## 目录
 
 - [iOS](#iOS)
-   - [第三方库🔥🔥🔥👍👍👍](#第三方库🔥🔥🔥👍👍👍)
+   - [常用第三方库](#常用第三方库)
      - [YYKit](#YYKit)
-     - [Network: AFNetworking Alamofire](#Network:-AFNetworking-Alamofire)
+     - [AFNetworking与Alamofire](#AFNetworking与Alamofire)
      - [SDWebImage](#SDWebImage)
-     - [响应式编程: ReactiveCocoa RxSwift](#响应式编程:-ReactiveCocoa-RxSwift)
-     - [AutoLayout: Masonry SnapKit](#AutoLayout:-Masonry-SnapKit)
+     - [ReactiveCocoa与RxSwift](#ReactiveCocoa与RxSwift)
+     - [Masonry与SnapKit](#Masonry与SnapKit)
    - [网络相关](#网络相关)
    - [导航栏与状态栏](#导航栏与状态栏)
    - [Side Menu](#Side-Menu)
@@ -75,9 +76,12 @@
 - [棋牌](#棋牌)
 - [Script](#Script)
 
+
 ## iOS
 
-### 第三方库🔥🔥🔥👍👍👍
+### 常用第三方库
+
+*🔥🔥🔥👍👍👍*
 
 #### YYKit
 
@@ -92,7 +96,7 @@
   - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
   - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
-#### Network: AFNetworking Alamofire
+#### AFNetworking与Alamofire
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
@@ -181,11 +185,13 @@
 - libheif-Xcode - A wrapper for libheif + an Xcode project.
 - and more third-party C/C++ image codec libraries with CocoaPods/Carthage support.
 
-#### 响应式编程: ReactiveCocoa RxSwift
+#### ReactiveCocoa与RxSwift
+
+*响应式编程*
 
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
     <div align=center>
-    <img src="https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png" width="90%" />
+    <img src="https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png" width="50%" />
     </div>
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive Programming in Swift ([RxExample](https://github.com/ReactiveX/RxSwift/tree/master/RxExample)). <br />
@@ -204,9 +210,9 @@ RxSwift comprises five separate components depending on eachother in the followi
 └──────────────┘    └──────────────┘
 ````
 
-#### AutoLayout: Masonry SnapKit
+#### Masonry与SnapKit
 
-*链式编程*
+*链式编程，AutoLayout*
 
 - [Masonry](https://github.com/SnapKit/Masonry) - Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout.
 ```ObjC
@@ -257,30 +263,30 @@ class MyViewController: UIViewController {
   
 - [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。
     <div align=center>
-    <img src="https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif" width=300 /> <img src="https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif" width=260 /> <img src="https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif" width=260 />
     </div>
 
 - [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController) - Implicitly make every view controller has its own navigation bar. 
     <div align=center>
-    <img src="https://user-images.githubusercontent.com/1250207/30429339-abb20914-9989-11e7-9058-c967839315f4.gif" width=300 />
+    <img src="https://user-images.githubusercontent.com/1250207/30429339-abb20914-9989-11e7-9058-c967839315f4.gif" width=260 />
     </div>
 
 - [GKNavigationController](https://github.com/QuintGao/GKNavigationController) - iOS自定义导航栏-导航条联动（仿网易新闻、网易云音乐等导航栏滑动效果）。
     <div align=center>
-    <img src="https://github.com/QuintGao/GKNavigationController/blob/master/GKNavigationControllerDemo/001.png" width=300 />
+    <img src="https://github.com/QuintGao/GKNavigationController/blob/master/GKNavigationControllerDemo/001.png" width=260 />
     </div>
 
 - [EasyNavigation](https://github.com/chenliangloveyou/EasyNavigation) - 一款超级简单的导航条管理工具。完全自定义导航条。没有UINavigationBar 和 UINavigationItem 这两个类。完全是对UIView的操作。 所有操作都能一行代码，操作之间完全独立，互不影响。
     <div align=center>
-    <img src="https://github.com/chenliangloveyou/EasyNavigation/raw/master/logo/horizontal-color.png" width=300 />
+    <img src="https://github.com/chenliangloveyou/EasyNavigation/raw/master/logo/horizontal-color.png" width=260 />
     </div> <br />
 
 - [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) - An UINavigationController's category to enable fullscreen pop gesture in an iOS7+ system style with AOP. 
     <div align=center>
-    <img src="https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif" width=260 />
     </div>
 
-### 侧边菜单(Side Menu)
+### Side Menu
 
 - [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) - A lightweight, easy to use, Side Drawer Navigation Controller.
     <div align=center>
@@ -289,12 +295,12 @@ class MyViewController: UIViewController {
 
 - [RESideMenu](https://github.com/romaonthego/RESideMenu) - iOS 7/8 style side menu with parallax effect.
     <div align=center>
-    <img src="https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2" width=300 />
+    <img src="https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2" width=260 />
     </div>
 
 ### 支付
 
-#### 内购(IAP)
+#### 内购IAP
 
 - [IAPHelper](https://github.com/saturngod/IAPHelper) - IAP helper for Apple in app purchases. It uses ARC and blocks for ease of use. Ready to use with newsstand subscriptions. No more maintenance for this repo. Please use the [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 
@@ -313,45 +319,45 @@ class MyViewController: UIViewController {
 
 - [CLPlayer](https://github.com/JmoVxia/CLPlayer) - 自定义支持全屏的播放器。
     <div align=center>
-    <img src="https://github.com/JmoVxia/CLPlayer/blob/master/效果图.gif" width="50%" />
+    <img src="https://github.com/JmoVxia/CLPlayer/blob/master/效果图.gif" width="40%" />
     </div>
 
 - [ijkplayer](https://github.com/bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support ([FFmpeg](http://ffmpeg.org)).
 
-- [ZFPlayer](https://github.com/renzifeng/ZFPlayer) - Support customization of any player SDK and control layer(支持定制任何播放器SDK和控制层)。
+- [ZFPlayer](https://github.com/renzifeng/ZFPlayer) - Support customization of any player SDK and control layer (支持定制任何播放器SDK和控制层)。
     <div align=center>
     <img src="https://camo.githubusercontent.com/48200df0498350786ba386f31336f7e6c8f07552/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3633353934322d303932343237653537313735363330392e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="50%" />
-    <img src="https://camo.githubusercontent.com/dbee14e8706d7d044c9951be77097aeb2115f5e9/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3633353934322d653939643736343938636230316166622e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="50%" />
-    <img src="https://camo.githubusercontent.com/af4de47d93b0b02197464c9118b0081ea51cf59c/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3633353934322d316230653233623766356561626439652e6a70673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="40%" />
+    <img src="https://camo.githubusercontent.com/dbee14e8706d7d044c9951be77097aeb2115f5e9/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3633353934322d653939643736343938636230316166622e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="50%" /> <br />
+    <img src="https://camo.githubusercontent.com/af4de47d93b0b02197464c9118b0081ea51cf59c/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3633353934322d316230653233623766356561626439652e6a70673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="50%" />
     </div>
 
 - [BMPlayer](https://github.com/BrikerMan/BMPlayer) - A video player for iOS, based on AVPlayer, support the horizontal, vertical screen. support adjust volume, brightness and seek by slide, support subtitles.
     <div align=center>
-    <img src="https://github.com/BrikerMan/resources/raw/master/BMPlayer/demo.gif" width="60%" />
+    <img src="https://github.com/BrikerMan/resources/raw/master/BMPlayer/demo.gif" width="50%" />
     </div>
 
 - [SJVideoPlayer](https://github.com/changsanjiang/SJVideoPlayer) - Video Player. Support cocoapods & Generate GIF & Export & Localization & Play in View(UIView || TableHeader || TableCell || CollectionCell) & Keyboard Orientation & StatusBar(Style&Hide).
     <div align=center>
-    <img src="https://user-images.githubusercontent.com/37614260/43947531-922a0712-9cb2-11e8-8f8d-4823a21308d3.png" width="40%" />
+    <img src="https://user-images.githubusercontent.com/37614260/43947531-922a0712-9cb2-11e8-8f8d-4823a21308d3.png" width="50%" />
     </div>
 
 - [kxmovie](https://github.com/kolyvan/kxmovie) - movie player for iOS using ffmpeg.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/ce6bc94079ae115bf2f9959020e427511f689742/68747470733a2f2f7261772e6769746875622e636f6d2f6174656c69657264756d6f62696c652f46466d706567506c617965722d694f532f6d61737465722f726561646d652d6d656469612f73637265656e73686f742d6d6f7669652d6c616e6473636170652e706e67" width="40%" />
+    <img src="https://camo.githubusercontent.com/ce6bc94079ae115bf2f9959020e427511f689742/68747470733a2f2f7261772e6769746875622e636f6d2f6174656c69657264756d6f62696c652f46466d706567506c617965722d694f532f6d61737465722f726561646d652d6d656469612f73637265656e73686f742d6d6f7669652d6c616e6473636170652e706e67" width="50%" />
     </div>
 
 - [ffmpeg-avplayer-for-ios-tvos](https://github.com/imoreapps/ffmpeg-avplayer-for-ios-tvos) - A tiny but powerful iOS and Apple TV OS av player framework that's based on the FFmpeg library. 
 
 - [SBPlayer](https://github.com/henusjj/SBPlayer) - 基于AVPlayer封装的轻量级播放器，可以播放本地网络视频，易于定制，可以横屏竖屏，支持M3u8、mp4等格式视频本地播放或者网络播放，通过masonry约束，适配各种尺寸iPhone。
     <div align=center>
-    <img src="https://github.com/henusjj/SBPlayer/raw/master/Images/2.gif" width=300 />
+    <img src="https://github.com/henusjj/SBPlayer/raw/master/Images/2.gif" width=260 />
     </div>
 
 - [VKVideoPlayer](https://github.com/viki-org/VKVideoPlayer) - he same battle tested video player used in our [Viki iOS App](https://itunes.apple.com/app/id445553058?mt=8) enjoyed by millions of users all around the world.
 
 - [KRVideoPlayer](https://github.com/36Kr-Mobile/KRVideoPlayer) - 类似Weico的播放器，支持竖屏模式下全屏播放。
     <div align=center>
-    <img src="https://github.com/36Kr-Mobile/KRVideoPlayer/blob/master/kr_player.gif" width=300 />
+    <img src="https://github.com/36Kr-Mobile/KRVideoPlayer/blob/master/kr_player.gif" width=260 />
     </div>
 
 - [PBJVideoPlayer](https://github.com/piemonte/PBJVideoPlayer) - ▶️ video player, simple way to play and stream media on iOS/tvOS.
@@ -364,20 +370,20 @@ class MyViewController: UIViewController {
 
 - [LyricsAnalysis](https://github.com/wsl2ls/LyricsAnalysis) - iOS音乐播放器之锁屏效果（仿网易云音乐和QQ音乐）+ 歌词解析 ：锁屏歌曲信息、控制台远程控制音乐播放：暂停/播放、上一首/下一首、快进/快退、列表菜单弹框和拖拽控制台的进度条调节进度（结合了QQ音乐和网易云音乐在锁屏状态下的效果）、歌词解析并随音乐滚动显示。
     <div align=center>
-    <img src="https://camo.githubusercontent.com/a7f8d7a5c4d556835a74a48e47287699879ce9c0/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d613833663765343062303165346635302e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width=300 /> <img src="https://camo.githubusercontent.com/3fc34b6daa5822c88ddec99295f2dc33b376b67b/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373265306262333661633033353330302e504e473f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=300 />
+    <img src="https://camo.githubusercontent.com/a7f8d7a5c4d556835a74a48e47287699879ce9c0/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d613833663765343062303165346635302e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width=260 /> <img src="https://camo.githubusercontent.com/3fc34b6daa5822c88ddec99295f2dc33b376b67b/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373265306262333661633033353330302e504e473f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=260 />
     </div>
 
 ### IM与直播
 
 - [AtChat](https://github.com/boyssimple/AtChat) - IOS聊天项目、基于XMPP框架开发，实现了登陆注册(注册以手机号码注册、短信验证) 、发送消息、接收消息、接收好友请求、发起好友请求 、图片消息、语音消息、视频语音、聊天历史记录、最近联系人、二维码添加好友、用户头像上传、朋友圈、发朋友圈、异地登录退出等功能。
     <div align=center >
-    <img src="https://github.com/boyssimple/AtChat/blob/master/images/020.png" width=300/> <img src="https://github.com/boyssimple/AtChat/blob/master/images/014.png" width=300 />
-    </div> <br />
+    <img src="https://github.com/boyssimple/AtChat/blob/master/images/020.png" width=260 /> <img src="https://github.com/boyssimple/AtChat/blob/master/images/014.png" width=260 />
+    </div> 
 
 - [BAWeChat](https://github.com/BAHome/BAWeChat) - 博爱微信，使用原生 frame + MVVM + MVC + QMUIKit + BAKit 开源的微信。
     <div align=center >
-    <img src="https://github.com/boai/BAWeChat/blob/master/Images/通讯录.png" width=300/> <img src="https://github.com/boai/BAWeChat/blob/master/Images/评论.png" width=300 />
-    </div> <br />
+    <img src="https://github.com/boai/BAWeChat/blob/master/Images/通讯录.png" width=260 /> <img src="https://github.com/boai/BAWeChat/blob/master/Images/评论.png" width=260 />
+    </div> 
 
 - [ABigFishTV](https://github.com/clyhs/ABigFishTV) - 大鱼电视直播 基于ijkplayer的播放器 700多个电视台 包括央视，各地方台，卫视，熊猫直播，社会化分享，登陆，仿微博等 (支持iphonex)。
     <div align=center>
@@ -386,18 +392,18 @@ class MyViewController: UIViewController {
 
 - [TGTV](https://github.com/targetcloud/TGTV) - TGTV直播APP用Swift3.1编写，采用MVVM架构，本demo运用protobuf实现即时聊天（弹幕）、礼物动画等。
     <div align=center >
-    <img src="https://github.com/targetcloud/TGTV/blob/master/1.gif" width=300/> <img src="https://github.com/targetcloud/TGTV/blob/master/屏幕快照%202017-04-13%20下午5.22.09.png" width=300 />
-    </div>  <br />
+    <img src="https://github.com/targetcloud/TGTV/blob/master/1.gif" width=260 /> <img src="https://github.com/targetcloud/TGTV/blob/master/屏幕快照%202017-04-13%20下午5.22.09.png" width=260 />
+    </div>
 
 - [MGMiaoBo](https://github.com/LYM-mg/MGMiaoBo) - 首创房间内多视频直播模式，移动直播新体验，多人秀场更好玩。随时随地与主播聊天互动亲密接触，清纯美女、校花嫩模、吃货萌妹、通通都有…… 1.项目引导页业使用ijkPlayer播放视频；2.首页使用父子控制器进行界面之间的切换；3.自定义MJRefresh刷新控件，替换头部刷新gif图片；4.使用分类理由贝塞尔曲线为UIImageView添加圆角；5.服务器交互使用的是https，用json格式，面向模型开发;其他：全局网络请求封装，页面数据缓存处理，通知，动画，基础控制器封装，使用xib的AutoLayout和Masonry第三方库等。
     <div align=center >
-    <img src="https://camo.githubusercontent.com/75db51c6486a07e0817d8a1b498740620ecb0f1f/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d396361383335623732613562303533612e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=300 /> <img src="https://camo.githubusercontent.com/1807bcb191968c41603e13ccc9639adbdf6f1f27/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d393064646435626566333361313539352e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=300/>
-    </div> <br />
+    <img src="https://camo.githubusercontent.com/75db51c6486a07e0817d8a1b498740620ecb0f1f/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d396361383335623732613562303533612e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=260 /> <img src="https://camo.githubusercontent.com/1807bcb191968c41603e13ccc9639adbdf6f1f27/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d393064646435626566333361313539352e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=260 />
+    </div> 
 
 - [MGDYZB](https://github.com/LYM-mg/MGDYZB) - Xcode8以上版本，已升级为Swift3.x语法。斗鱼-每个人的直播平台提供高清、快捷、流畅的视频直播和游戏赛事直播服务，包含英雄联盟lol直播、穿越火线cf直播、dota2直播、美女直播等各类热门游戏赛事直播等。
     <div align=center >
-    <img src="https://camo.githubusercontent.com/0b93ec631006cb13a26ae52771763f5ffb869534/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d666262356535623431326334343363662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=300 /> <img src="https://camo.githubusercontent.com/a7e7ead1a95fd7fc9c3f6445f49ecb08ef26ed1f/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d366437326262323634303831353932642e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=300/>
-    </div> <br />
+    <img src="https://camo.githubusercontent.com/0b93ec631006cb13a26ae52771763f5ffb869534/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d666262356535623431326334343363662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=260 /> <img src="https://camo.githubusercontent.com/a7e7ead1a95fd7fc9c3f6445f49ecb08ef26ed1f/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d366437326262323634303831353932642e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width=260 />
+    </div> 
 
 - [PLPlayerKit](https://github.com/pili-engineering/PLPlayerKit) - PLPlayerKit 是七牛推出的一款免费的适用于 iOS 平台的播放器SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。([ios-playback-end-the-sdk](https://developer.qiniu.com/pili/sdk/1211/ios-playback-end-the-sdk))
 
@@ -421,7 +427,7 @@ class MyViewController: UIViewController {
 #### 逆向辅助工具
 
 - [iOSOpenDev](http://iosopendev.com)
-- [theos](http://iphonedevwiki.net/index.php/Theos/Setup) - 一个越狱开发工具包 [Github](https://github.com/theos/theos).
+- [theos](http://iphonedevwiki.net/index.php/Theos/Setup) - 一个越狱开发工具包 ([Github](https://github.com/theos/theos).)
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
 - [optool](https://github.com/alexzielenski/optool) - Command Line Tool for interacting with MachO binaries on OSX/iOS.
@@ -434,7 +440,7 @@ class MyViewController: UIViewController {
   - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide/)
   - [免越狱版 iOS 抢红包插件](http://www.swiftyper.com/2016/12/26/wechat-redenvelop-tweak-for-non-jailbroken-iphone/)
   <div align=center>
-  <img src="https://github.com/buginux/WeChatRedEnvelop/blob/master/ScreenShots/Setting.jpeg" width=300 /> <img src="https://github.com/buginux/WeChatRedEnvelop/blob/master/ScreenShots/AssistantSetting.jpeg" width=300 />
+  <img src="https://github.com/buginux/WeChatRedEnvelop/blob/master/ScreenShots/Setting.jpeg" width=260 /> <img src="https://github.com/buginux/WeChatRedEnvelop/blob/master/ScreenShots/AssistantSetting.jpeg" width=260 />
   </div>
 
 - [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。
@@ -447,7 +453,7 @@ class MyViewController: UIViewController {
 - [FakeWeChatLoc](https://github.com/jackrex/FakeWeChatLoc) - iOS伪装微信位置。
     - [iOS逆向论坛](http://bbs.iosre.com) 
     <div align=center>
-    <img src="https://raw.githubusercontent.com/jackrex/FakeWeChatLoc/master/pic/1464391571144.png" width=300 /> <img src="https://raw.githubusercontent.com/jackrex/FakeWeChatLoc/master/pic/1464391684987.png" width=300 />
+    <img src="https://raw.githubusercontent.com/jackrex/FakeWeChatLoc/master/pic/1464391571144.png" width=260 /> <img src="https://raw.githubusercontent.com/jackrex/FakeWeChatLoc/master/pic/1464391684987.png" width=260 />
     </div>
 
 - [FakeWeChatLocation](https://github.com/PandaraWen/FakeWeChatLocation) - A tweak that can fake location info in WeChat.
@@ -469,7 +475,7 @@ class MyViewController: UIViewController {
 
 - [Encryptions](https://github.com/iamlay/Encryptions) - this project is for many kinds odf encryption. 
     <div align=center>
-    <img src="https://github.com/iamlay/Encryptions/blob/master/Encryption/encryption.gif" width="90%" />
+    <img src="https://github.com/iamlay/Encryptions/blob/master/Encryption/encryption.gif" width="40%" />
     </div>
 
 - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - CryptoSwift是在Swift中实现的越来越多的标准和安全密码算法的集合。 
@@ -482,20 +488,20 @@ class MyViewController: UIViewController {
 
 - [EasyBluetooth]( https://github.com/chenliangloveyou/EasyBluetooth) - 一款iOS BLE蓝牙调试工具，非常简单容易，也可以作为一个蓝牙库，快速集成和开发。 可以两步搞定蓝牙开发操作。第一步连接设备，第二步特征读写数据。<br />
     <div align=center >
-    <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_1.gif" width=300/> <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_2.gif" width=300 />
-    <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_3.png" width=300/> <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_4.png" width=300 />
+    <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_1.gif" width=260 /> <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_2.gif" width=260 />
+    <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_3.png" width=260 /> <img src="https://github.com/chenliangloveyou/EasyBluetooth/blob/master/EasyBlueTooth/EasyBlueTooth/preview/preview_4.png" width=260 />
     </div> <br />
 
 - [WHBLEDemo](https://github.com/remember17/WHBLEDemo) - 📱CoreBluetooth central and peripheral demo with OC/Swift (iOS蓝牙中心设备和外设开发,包含OC/Swift版本) 。
     <div  align=center >
     <img src="https://camo.githubusercontent.com/3ba378f9a697f5e30d6937f64ba8a97498bb3513/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d613731636537393634653834613263652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430" width="70%" />
     <img src="https://camo.githubusercontent.com/47b0012be03c0f3f6c59c7169fa4563ff6380d7c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333837333030342d353334626433303463346537393765362e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width="60%" />
-    </div> <br />
+    </div> 
 
 - [BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth) - 简单易用的蓝牙库，基于CoreBluetooth的封装，并兼容ios和mac osx。
     <div align=center >
     <img src="https://github.com/coolnameismy/BabyBluetooth/blob/master/logo.png" width="50%" /> 
-    </div> <br />
+    </div> 
 
 - [BluetoothKit](https://github.com/rhummelmose/BluetoothKit) - Easily communicate between iOS/OSX devices using BLE.
 
@@ -513,24 +519,24 @@ class MyViewController: UIViewController {
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。
     <div align=center>
-    <img src="https://github.com/MinMao-Hub/MMScan/blob/master/gifs/mmscan.gif" width="90%" />
+    <img src="https://github.com/MinMao-Hub/MMScan/blob/master/gifs/mmscan.gif" width="40%" />
     </div>
 
 - [QRCode](https://github.com/kingcong/QRCode-master) - 仿微信二维码扫描。
 
 - [LBXScan](https://github.com/MxABC/LBXScan) - A barcode and qr code scanner (二维码、扫码、扫一扫、ZXing、ZBar、iOS系统AVFoundation扫码封装，扫码界面效果封装)。
     <div align=center>
-    <img src="https://github.com/MxABC/Resource/blob/master/scan12.gif" width="90%" />
+    <img src="https://github.com/MxABC/Resource/blob/master/scan12.gif" width="30%" />
     </div>
   
 - [swiftScan](https://github.com/MxABC/swiftScan) - A barcode and qr code scanner( 二维码 各种码识别，生成，界面效果)。
     <div align=center>
-    <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page1.jpg" width="90%" /> <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page2.jpg" width="90%" />
+    <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page1.jpg" width="30%" /> <img src="https://github.com/MxABC/swiftScan/raw/master/ScreenShots/page2.jpg" width="30%" />
     </div>
 
 - [SGQRCode](https://github.com/kingsic/SGQRCode) - The easy to use QRCode scan library for iOS【iOS 原生二维码生成与扫描 -> 高仿微信】。
     <div align=center>
-    <img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle1.png" width="40%" /> <img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle4.png" width="40%" />
+    <img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle1.png" width="30%" /> <img src="https://raw.githubusercontent.com/kingsic/SGQRCode/master/Picture/sorgle4.png" width="30%" />
     </div>
 
 - [EFQRCode](https://github.com/EFPrefix/EFQRCode) - A better way to operate QR Code in Swift, support iOS, macOS, watchOS and tvOS. 
@@ -542,26 +548,26 @@ class MyViewController: UIViewController {
 
 - [MJRefresh](https://github.com/CoderMJLee/MJRefresh) - An easy way to use pull-to-refresh.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/15577b87be4403d9e2ede4d5cd5b9fccbd1d03ae/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343334333438363135312e676966" width=300 /> <img src="https://camo.githubusercontent.com/911191d46157ea3961728b16696aea4440ffeb92/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343430323233383338392e676966" width=300 />
+    <img src="https://camo.githubusercontent.com/15577b87be4403d9e2ede4d5cd5b9fccbd1d03ae/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343334333438363135312e676966" width=260 /> <img src="https://camo.githubusercontent.com/911191d46157ea3961728b16696aea4440ffeb92/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343430323233383338392e676966" width=260 />
     </div>
 
 ### 指示器
 
 - [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐司指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。
     <div align=center>
-    <img src="https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_text.gif" width=300 /> <img src="https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_loding.gif" width=300 />
+    <img src="https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_text.gif" width=260 /> <img src="https://github.com/chenliangloveyou/EasyShowView/blob/master/show_preview/preview_loding.gif" width=260 />
     </div>
 
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - MBProgressHUD + Customizations. [http://www.bukovinski.com/](http://www.bukovinski.com/)
 
 - [MBProgressHUD-JDragon](https://github.com/lyc59621/MBProgressHUD-JDragon) - MBProgressHUD 封装。
     <div align=center>
-    <img src="https://github.com/lyc59621/MBProgressHUD-JDragon/raw/master/MBProgressHUD-JDragon.gif" width=300 />
+    <img src="https://github.com/lyc59621/MBProgressHUD-JDragon/raw/master/MBProgressHUD-JDragon.gif" width=260 />
     </div>
 
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD) - An elegant and simple progress HUD for iOS and tvOS, compatible with Swift and ObjC.
     <div align=center>
-    <img src="https://github.com/JonasGessner/JGProgressHUD/blob/master/Examples/Screenshots/Presentation.png" width="30%" />
+    <img src="https://github.com/JonasGessner/JGProgressHUD/blob/master/Examples/Screenshots/Presentation.png" width="50%" />
     </div>
 
 - [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) - A clean and lightweight progress HUD for your iOS and tvOS app. 
@@ -570,12 +576,12 @@ class MyViewController: UIViewController {
 
 - [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast))
     <div align=center>
-    <img src="https://github.com/scalessec/Toast-Swift/blob/master/toast_swift_screenshot.jpg" width=300 />
+    <img src="https://github.com/scalessec/Toast-Swift/blob/master/toast_swift_screenshot.jpg" width=260 />
     </div>
 
 - [XHToast](https://github.com/CoderZhuXH/XHToast) - 简洁轻便提示工具,一行代码既可完成提示信息显示 - 支持自定义显示位置及停留时间。
     <div align=center>
-    <img src="https://camo.githubusercontent.com/5e94289a5930fe4de9e844f94a308b6d3919e59b/687474703a2f2f682e686970686f746f732e62616964752e636f6d2f696d6167652f7069632f6974656d2f303233623562623563396561313563653239373365343339626530303361663333613837623236342e6a7067" width=300 />
+    <img src="https://camo.githubusercontent.com/5e94289a5930fe4de9e844f94a308b6d3919e59b/687474703a2f2f682e686970686f746f732e62616964752e636f6d2f696d6167652f7069632f6974656d2f303233623562623563396561313563653239373365343339626530303361663333613837623236342e6a7067" width=260 />
     </div>
 
 - [toast-notifications-ios](https://github.com/ecstasy2/toast-notifications-ios) - We at Guru software really love toast notifications available on android OS, so we've built a similar feature for the IOS enabled devices.
@@ -586,15 +592,15 @@ class MyViewController: UIViewController {
 
 - [LCSlideMenu](https://github.com/ChinaHackers/LCSlideMenu) - A powerful and easy to use slider menu. 
     <div align=center>
-    <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/LCSlideMenu.png" width="70%" />
-    <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif" width=300 /> <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/LCSlideMenu.png" width="60%" />
+    <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast01.gif" width=260 /> <img src="https://raw.githubusercontent.com/ChinaHackers/LCSlideMenu/master/Screencast/Screencast03.gif" width=260 />
     </div>
 
 - [JMColumnMenu](https://github.com/JunAILiang/JMColumnMenu) - 仿腾讯新闻、今日头条栏目管理。
 
 - [MLMenu](https://github.com/MrDML/MLMenu) - 仿微信QQ右上角菜单功能。
     <div align=center>
-    <img src="https://github.com/MrDML/MLMenu/blob/master/MLMenuGif.gif" width=300 />
+    <img src="https://github.com/MrDML/MLMenu/blob/master/MLMenuGif.gif" width=260 />
     </div>
 
 - [JMDropMenu](https://github.com/JunAILiang/JMDropMenu) - 仿QQ、微信下拉菜单封装，支持自定义样式。
@@ -604,29 +610,29 @@ class MyViewController: UIViewController {
 
 - [XYMenu](https://github.com/HeathHsia/XYMenu) -  简易集成的弹出菜单。
     <div align=center>
-    <img src="https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif" width="80%" />
+    <img src="https://github.com/HeathHsia/XYMenu/blob/master/img/demo.gif" width="40%" />
     </div>
 
 - [REMenu](https://github.com/romaonthego/) - Dropdown menu inspired by Vine.
     <div align=center>
-    <img src="https://raw.githubusercontent.com/romaonthego/REMenu/master/Demo.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/romaonthego/REMenu/master/Demo.gif" width=260 />
     </div>
 
 - [SHESelectTable](https://github.com/shelly8219/SHESelectTableDemo) - 下拉选择的列表。
     <div align=center>
-    <img src="https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg" width=300 />
+    <img src="https://github.com/shelly8219/SHESelectTableDemo/blob/master/source/screenclip.jpg" width=260 />
     </div>
 
 ### 图片浏览器
 
 - [SDPhotoBrowser](https://github.com/gsdios/SDPhotoBrowser) - A image browser which is easy for using. 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。
     <div align=center>
-    <img src="https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966" width="90%" />
+    <img src="https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966" width="40%" />
     </div>
 
 - [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。
     <div align=center>
-    <img src="https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif" width="80%" />
+    <img src="https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif" width="60%" />
     </div>
 
 ### 进度条
@@ -646,7 +652,7 @@ class MyViewController: UIViewController {
     <img src="https://github.com/iphone5solo/learngit/raw/master/imagesForPYSearch/logo.png" width="40%" /> 
     </div>
     <div align=center>
-    <img src="https://raw.githubusercontent.com/ko1o/learngit/master/imagesForPYSearch/hotSearchStyle01.png" width=300 /> <img src="https://github.com/ko1o/learngit/raw/master/imagesForPYSearch/hotSearchStyle02.png" width=300 />
+    <img src="https://raw.githubusercontent.com/ko1o/learngit/master/imagesForPYSearch/hotSearchStyle01.png" width=260 /> <img src="https://github.com/ko1o/learngit/raw/master/imagesForPYSearch/hotSearchStyle02.png" width=260 />
     </div>
 
 ### 分享
@@ -654,19 +660,19 @@ class MyViewController: UIViewController {
 
 ### 图片验证码
 
-- [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。<br />
+- [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。
     <div align=center>
-    <img src="https://github.com/ZLFighting/ZLSecurityCode/blob/master/ZLSecurityCode/验证码图.gif" width="50%" />
+    <img src="https://github.com/ZLFighting/ZLSecurityCode/blob/master/ZLSecurityCode/验证码图.gif" width="40%" />
     </div>
 
 - [MQVerCodeView](https://github.com/meiqi1992/MQVerCodeView) - 类似图片验证码，点击可刷新。
     <div align=center>
-    <img src="https://github.com/meiqi1992/MQVerCodeView/blob/master/verCodeView.gif" />
+    <img src="https://github.com/meiqi1992/MQVerCodeView/blob/master/verCodeView.gif" width=260 />
     </div>
 
 - [YanZhengCode](https://github.com/wsl2ls/YanZhengCode) - 图片验证码和滑块验证码。
     <div align=center>
-    <img src="https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" />
+    <img src="https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width=260 />
     </div>
 
 ### 获取设备相关信息
@@ -679,14 +685,14 @@ class MyViewController: UIViewController {
 
 - [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。
     <div align=center>
-    <img src="https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif" width="90%" />
+    <img src="https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif" width="40%" />
     </div>
 
 ### 高仿项目与项目Demo
 
 - [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App. ([Swift版](https://github.com/NJHu/iOSProject))
     <div align=center>
-    <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif" width=300 /> <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif" width=300 />
+    <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images//home.gif" width=260 /> <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif" width=260 />
     </div>
 
 - [ZFZhiHuDaily](https://github.com/renzifeng/ZFZhiHuDaily) - 知乎日报swift版(精仿)。
@@ -719,21 +725,21 @@ class MyViewController: UIViewController {
 
 - [SensorDemo](https://github.com/wsl2ls/SensorDemo) - 指纹识别、运动传感器、加速计、环境光感、距离传感器、指南针、陀螺仪等传感器示例集锦。<br />
     <div align=center>
-    <img src="https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width="90%" />
+    <img src="https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width="30%" />
     </div> 
 
 #### Privacy
 
 - [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！
     <div align=center >
-    <img src="https://github.com/BAHome/BAPrivacyManager/blob/master/Images/BAPrivacyManager1.png" width="40%" />
+    <img src="https://github.com/BAHome/BAPrivacyManager/blob/master/Images/BAPrivacyManager1.png" width="30%" />
     </div>
 
 #### 未归类
 
 - [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。
     <div align=center>
-    <img src="https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif" width="80%" />
+    <img src="https://github.com/Boris-Em/BEMCheckBox/blob/master/.assets/BEMCheckBox.gif" width="30%" />
     </div>
 
 - [NNMacros](https://github.com/amisare/NNMacros) - NNMacros通过宏的方式来简化iOS开发中OC的语法和Api的操作。
@@ -744,31 +750,31 @@ class MyViewController: UIViewController {
 
 - [MMPopupView](https://github.com/adad184/MMPopupView) - A basic Pop-Up Kit allows you to easily create Pop-Up view. You can focus on the only view you want to show.Besides, it comes with 2 common Pop-Up view, MMAlertView & MMSheetView. You can easily use & customize it. 
     <div align=center>
-    <img src="https://github.com/adad184/MMPopupView/blob/master/Images/0.jpg" width="60%" />
+    <img src="https://github.com/adad184/MMPopupView/blob/master/Images/0.jpg" width="50%" />
     </div>
 
 - [RSSliderView](https://github.com/rsimenok/RSSliderView) - Custom slider based on UIView for iOS.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/7a7a899104ae97a30b0aae97bb2ce7d80a8a0f25/687474703a2f2f692e70696363792e696e666f2f69392f61666463643862353032396531663238623862643333663762643338323263312f313432343131383133392f31323632322f3738303432352f3132332e706e67" width="90%" />
+    <img src="https://camo.githubusercontent.com/7a7a899104ae97a30b0aae97bb2ce7d80a8a0f25/687474703a2f2f692e70696363792e696e666f2f69392f61666463643862353032396531663238623862643333663762643338323263312f313432343131383133392f31323632322f3738303432352f3132332e706e67" width="40%" />
     </div> 
 
 - [LDNetDiagnoService_IOS](https://github.com/Lede-Inc/LDNetDiagnoService_IOS) - iOS平台利用ping和traceroute的原理，对指定域名（通常为后台API的提供域名）进行网络诊断，并收集诊断日志。
     <div align=center>
-    <img src="https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg"  width="60%" />
+    <img src="https://github.com/Lede-Inc/LDNetDiagnoService_IOS/blob/master/LDNetDiagnoServiceDemoTests/netdiagnosis_ios.jpg"  width="40%" />
     </div>
 
 - [TOSMBClient](https://github.com/TimOliver/TOSMBClient) -  A small library that serves as a simple SMB (Server Message Block ) client for iOS apps. The library allows connecting to SMB devices, downloading file metadata, and subsequently allows asynchronous downloading of files from an SMB device straight to an iOS device. It is an Objective-C wrapper around Defective SMb, or libDSM, a low level SMB client library built in C built by some of VideoLabs' developers. A copy of libDSM has been specially cross-compiled for iOS device architectures and embedded in this library, so this project has no external dependencies.
 
 - [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。
     <div align=center>
-    <img src="https://github.com/zhouXiaoR/ZZHotKeysMenu/raw/master/运行效果.gif" width="90%" />
+    <img src="https://github.com/zhouXiaoR/ZZHotKeysMenu/raw/master/运行效果.gif" width="40%" />
     </div>
 
 #### 分享其他分类汇总
 
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 
-- [史上最全的iOS开源项目分类汇总](http://blog.csdn.net/arodung/article/details/50846546)
+- [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总.
 
 
 ## Mac
@@ -786,7 +792,7 @@ class MyViewController: UIViewController {
 
 - [FinderGo](https://github.com/onmyway133/FinderGo) - 🐢 Open terminal quickly from Finder. ([blog](https://onmyway133.github.io/))
     <div align=center>
-    <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/Icon.png" width="30%" />
+    <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/Icon.png" width="10%" /> <br />
     <img src="https://github.com/onmyway133/FinderGo/blob/master/Images/go1.gif" width="50%" />
     </div>
 
@@ -811,7 +817,7 @@ class MyViewController: UIViewController {
 
 - [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. <br />
   <div align=center>
-  <img src="https://raw.githubusercontent.com/web3j/web3j/master/docs/source/images/web3j_network.png" width="50%" />
+  <img src="https://raw.githubusercontent.com/web3j/web3j/master/docs/source/images/web3j_network.png" width="60%" />
   </div>
 
 - [py-geth](https://github.com/ethereum/py-geth) - Python wrapping for running Go-Ethereum as a subprocess.
@@ -891,7 +897,7 @@ class MyViewController: UIViewController {
 
 - [Cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org.
     <div align=center>
-    <img src="https://github.com/cocos2d/cocos2d-x/blob/v3/docs/framework_architecture.jpg" width="50%" />
+    <img src="https://github.com/cocos2d/cocos2d-x/blob/v3/docs/framework_architecture.jpg" width="60%" />
     </div>
 
 
