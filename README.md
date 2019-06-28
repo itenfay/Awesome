@@ -1,10 +1,11 @@
-[如果觉得对你有帮助，请给一颗小星星，谢谢！(If you think it's helpful to you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
+[如果你觉得能帮助到你，请给一颗小星星，谢谢！(If you think it can help you, please give it a star, thanks!)](https://github.com/dgynfi/OpenSource)
 
 ## OpenSource
+
 🔥🔥🔥
 
-汇总实用的开源项目，涵盖了iOS，Mac，区块链，Flutter，Weex，H5，Cocos2d，C++，棋牌，Script等各个方面的内容，其中，iOS包括以下几个方面：
-1. 常用第三库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit.
+汇总好用的开源项目，涵盖了iOS，Mac，区块链，Flutter，Weex，H5，Cocos2d，C++，棋牌，Script等各个方面的内容，其中，iOS包涵以下几个方面：
+1. 常用第三库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit；
 2. 导航栏与状态栏；
 3. 侧边菜单(Side Menu)；
 4. 支付: 内购(IAP)与第三方支付；
@@ -20,17 +21,17 @@
 ## 目录
 
 - [iOS](#iOS)
-   - [第三方库（🔥🔥🔥👍👍👍）](#第三方库（🔥🔥🔥👍👍👍）)
+   - [第三方库🔥🔥🔥👍👍👍](#第三方库🔥🔥🔥👍👍👍)
      - [YYKit](#YYKit)
-     - [网络(AFNetworking&Alamofire)](#网络(AFNetworking&Alamofire))
+     - [Network: AFNetworking Alamofire](#Network:-AFNetworking-Alamofire))
      - [SDWebImage](#SDWebImage)
-     - [响应式编程(ReactiveCocoa&RxSwift)](#响应式编程(ReactiveCocoa&RxSwift))
-     - [AutoLayout(Masonry&SnapKit)](#AutoLayout(Masonry&SnapKit))
+     - [响应式编程: ReactiveCocoa RxSwift](#响应式编程:-ReactiveCocoa-RxSwift)
+     - [AutoLayout: Masonry SnapKit](#AutoLayout:-Masonry-SnapKit)
    - [网络相关](#网络相关)
    - [导航栏与状态栏](#导航栏与状态栏)
-   - [侧边菜单(Side Menu)](#侧边菜单(Side-Menu))
+   - [Side Menu](#Side-Menu)
    - [支付](#支付)
-     - [内购(IAP)](#内购(IAP))
+     - [内购IAP](#内购IAP)
      - [第三方支付](#第三方支付)
    - [播放器](#播放器)
      - [视频播放器](#视频播放器) 
@@ -76,22 +77,22 @@
 
 ## iOS
 
-### 第三方库（🔥🔥🔥👍👍👍）
+### 第三方库🔥🔥🔥👍👍👍
 
 #### YYKit
 
-- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。<br />
-  - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。<br />
-  - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。<br />
-  - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。<br />
-  - [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。<br />
-  - [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。<br />
-  - [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。<br />
-  - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。<br />
-  - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。<br />
+- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。
+  - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。
+  - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
+  - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。
+  - [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。
+  - [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。
+  - [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。
+  - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
+  - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
   - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
-#### 网络(AFNetworking&Alamofire)
+#### Network: AFNetworking Alamofire
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
@@ -180,7 +181,7 @@
 - libheif-Xcode - A wrapper for libheif + an Xcode project.
 - and more third-party C/C++ image codec libraries with CocoaPods/Carthage support.
 
-#### 响应式编程(ReactiveCocoa&RxSwift)
+#### 响应式编程: ReactiveCocoa RxSwift
 
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
     <div align=center>
@@ -203,7 +204,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 └──────────────┘    └──────────────┘
 ````
 
-#### AutoLayout(Masonry&SnapKit)
+#### AutoLayout: Masonry SnapKit
 
 *链式编程*
 
