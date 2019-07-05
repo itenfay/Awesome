@@ -7,17 +7,18 @@
 汇总好用的开源项目，涵盖了iOS，Mac，区块链，Flutter，Weex，H5，Cocos2d，C++，棋牌，Script等各个方面的内容，其中，iOS包涵以下几个方面：
 1. 常用第三方库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit；
 2. 导航栏和状态栏；
-3. 侧边菜单(Side Menu)；
-4. 支付: 内购(IAP)和第三方支付；
+3. 侧边菜单 (Side Menu) ；
+4. 支付: 内购 (IAP) 和第三方支付；
 5. 播放器: 视频播放器，音乐播放器；
 6. IM和直播；
-7. 数据持久(Data Persistence)；
+7. 数据持久 (Data Persistence) ；
 8. 逆向开发；
 9. 数据安全相关；
 10. 蓝牙, 扫码器, 下拉刷新和上拉加载, 指示器, Toast, Menu, 图片浏览器, 进度条, 动画, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo。
 
 🔥🔥🔥
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
 ## 目录
 
@@ -47,6 +48,9 @@
    - [蓝牙](#蓝牙)
    - [手势指纹面容ID密码解锁](#手势指纹面容ID密码解锁)
    - [图像绘制](#图像绘制)
+      - [OpenGLES](#OpenGLES)
+      - [Metal](#Metal)
+      - [GPUImage](#GPUImage)
       - [CoreGraphics](#CoreGraphics)
    - [扫码器](#扫码器)
    - [下拉刷新和上拉加载](#下拉刷新和上拉加载)
@@ -331,9 +335,9 @@ class MyViewController: UIViewController {
 
 #### 内购IAP
 
-- [StoreKitSuite](https://github.com/abaca100/StoreKitSuite) - StoreKitSuite.
+- [RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases.
 
-- [iOS-Swift-InAppPurchase](https://github.com/marchere/iOS-Swift-InAppPurchase) - rewrite of storekitsuite in swift.
+- [MKStoreKit](https://github.com/MugunthKumar/MKStoreKit) - The "Goto" In App Purchases Framework for iOS 8+.
 
 - [IAPHelper](https://github.com/saturngod/IAPHelper) - IAP helper for Apple in app purchases. It uses ARC and blocks for ease of use. Ready to use with newsstand subscriptions. No more maintenance for this repo. Please use the [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 
@@ -341,6 +345,8 @@ class MyViewController: UIViewController {
     <div align=center>
     <img src="https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg" width="30%" />
     </div>
+
+- [Receipt Validation Programming Guide](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Introduction.html#//apple_ref/doc/uid/TP40010573-CH105-SW1)
 
 - [VerifyStoreReceiptiOS](https://github.com/rmaddy/VerifyStoreReceiptiOS) - A helper class for verifying App Store receipts under iOS.
 
@@ -471,11 +477,15 @@ class MyViewController: UIViewController {
 
 ### Data Persistence
 
-*FMDB & Keychain & NSUserDefaults*
+*DB, Keychain, NSUserDefaults, Write*
 
 - [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
 
 - [GenericKeychain](https://developer.apple.com/library/archive/samplecode/GenericKeychain/Introduction/Intro.html) - This sample shows how to add, query for, remove, and update a keychain item of generic class type. It also demonstrates the use of shared keychain items.
+
+- [fmdb](https://github.com/ccgus/fmdb) - A Cocoa / Objective-C wrapper around SQLite.
+
+- [JQFMDB](https://github.com/gaojunquan/JQFMDB) - FMDB的封装，操作简单，线程安全，扩展性强，直接操作model或dictionary。
 
 ### 逆向开发
 
@@ -533,7 +543,23 @@ class MyViewController: UIViewController {
 
 - [WXAccountSwitcher](https://github.com/iosre/WXAccountSwitcher) - Fast switch WeiXin account.
 
-### 数据安全相关
+### 安全攻防和应用加固
+
+- [iOS安全攻防（四）：阻止GDB依附](https://blog.csdn.net/yiyaaixuexi/article/details/18222339) 
+- [iOS安全攻防（九）：使用Keychain-Dumper导出keychain数据](https://blog.csdn.net/yiyaaixuexi/article/details/18404343)
+- [iOS安全攻防（十三）：数据擦除](https://blog.csdn.net/yiyaaixuexi/article/details/18669201)
+- [iOS安全攻防（十七）：Fishhook](https://blog.csdn.net/yiyaaixuexi/article/details/19094765)
+- [iOS安全攻防（十九）：基于脚本实现动态库注入](https://blog.csdn.net/yiyaaixuexi/article/details/19642621)
+- [iOS安全攻防（二十）：越狱检测的攻与防](https://blog.csdn.net/yiyaaixuexi/article/details/20286929)
+- [iOS安全攻防（二十二）：static和被裁的符号表](https://blog.csdn.net/yiyaaixuexi/article/details/21469769)
+- [iOS安全攻防（二十三）：Objective-C代码混淆](https://blog.csdn.net/yiyaaixuexi/article/details/29201699)
+- [iOS安全攻防（二十四）：敏感逻辑的保护方案（1）](https://blog.csdn.net/yiyaaixuexi/article/details/29210413)
+
+- [iOS app 进行安全加固](https://danleechina.github.io/ios-app-security-reinforce/) 
+
+- [mixplaintext](https://github.com/danleechina/mixplaintext) - 对 Xcode 项目工程所有的 objective-c 文件内包含的明文进行加密混淆，提高逆向分析难度。
+
+### 数据安全和算法
 
 - [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, MD5, DES, AES, RSA算法，操作简单好用。
 
@@ -610,7 +636,43 @@ class MyViewController: UIViewController {
     <img src="https://github.com/XiaoYulong/YLSwipeLockView/raw/master/example.gif" width="40%" />
     </div>
 
+### 布局
+
+- [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
+    <div align=center>
+    <img src="https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif" width="40%" />
+    </div>
+
 ### 图像绘制
+
+#### OpenGLES
+
+- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
+
+- [kesalin - OpenGLES](https://github.com/kesalin/OpenGLES)
+
+- [uwuneng - OpenGLES](https://github.com/uwuneng/OpenGLES)
+
+- [XanderXu - OpenGLESExamples](https://github.com/XanderXu/OpenGLESExamples)
+
+- [goosers - OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
+
+#### Metal
+
+- [Apple Metal](https://developer.apple.com/metal/) 
+
+- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
+
+#### GPUImage
+
+- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67" width="40%" />
+    </div>
+
+- [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
+
+- [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
 
 #### CoreGraphics
 
@@ -640,6 +702,28 @@ class MyViewController: UIViewController {
 - [iOS-blur](https://github.com/JagCesar/iOS-blur) - Blur a UIView.
     <div align=center>
     <img src="https://camo.githubusercontent.com/1a3847644269c1e9706c31c6ea9525bd5fc385b4/68747470733a2f2f7261772e6769746875622e636f6d2f4a616743657361722f694f532d626c75722f6d61737465722f73637265656e73686f742e706e67" width="40%" />
+    </div>
+
+### 图片浏览器
+
+- [SDPhotoBrowser](https://github.com/gsdios/SDPhotoBrowser) - A image browser which is easy for using. 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966" width="40%" />
+    </div>
+
+- [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。
+    <div align=center>
+    <img src="https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif" width="50%" />
+    </div>
+
+- [HZPhotoBrowser](https://github.com/chennyhuang/HZPhotoBrowser) - 图片浏览器，photoBrowser ，新浪微博，picture, pictureBrowser, sina, weibo.
+    <div align=center>
+    <img src="https://github.com/chennyhuang/HZPhotoBrowser/raw/master/1.gif" width="50%" />
+    </div>
+
+- [KSPhotoBrowser](https://github.com/skx926/KSPhotoBrowser) - A beautiful photo browser with interactive dismissal animation. 一个小而美的图片浏览器。 
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/cfdefe604fd779c1c3ea62c8a2aed91a3e1ab44b/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f426c75722e676966" width="40%" /> <img src="https://camo.githubusercontent.com/1bb75bf6ede320b6824dc799b0afba8e3c5e4ff4/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f436f726e65722e676966" width="40%" />
     </div>
 
 ### 扫码器
@@ -673,7 +757,7 @@ class MyViewController: UIViewController {
     <img src="https://raw.githubusercontent.com/EFPrefix/EFQRCode/assets/QRCodeGIF6.gif" width="20%" />
     </div>
     
-- [JB_ZBarSDK_Demo](https://github.com/jaybinhe/JB_ZBarSDK_Demo) - 通过ZBar SDK，实现IOS扫描、生成二维码的功能。
+- [JB_ZBarSDK_Demo](https://github.com/jaybinhe/JB_ZBarSDK_Demo) - 通过[ZBar SDK](https://github.com/bmorton/ZBarSDK)，实现IOS扫描、生成二维码的功能。
     <div align=center>
     <img src="https://github.com/jaybinhe/JB_ZBarSDK_Demo/raw/master/JB_ZBarSDK_Demo/screenshots/customScan.gif" width="30%" /> <img src="https://github.com/jaybinhe/JB_ZBarSDK_Demo/raw/master/JB_ZBarSDK_Demo/screenshots/create.gif" width="30%" />
     </div>
@@ -721,6 +805,11 @@ class MyViewController: UIViewController {
     <img src="https://camo.githubusercontent.com/baff2b55b9c0b3f488e1d109e5f970962bfff6d1/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d646f776e6c6f61642669643d3042794c436b554f39306c746f4e47646a63324d79636a426b563155" width="30%" /> <img src="https://camo.githubusercontent.com/6d0c318bc2c952b9ee358d04f97bde4a8ebb5647/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d646f776e6c6f61642669643d3042794c436b554f39306c746f535446615831497a4e33524465466b" width="30%" />
     </div>
 
+- [MDFlickrActivityIndicatorView](https://github.com/kirsis/MDFlickrActivityIndicatorView) - Flickr-like activity indicator view for iOS.
+    <div align=center>
+    <img src="https://github.com/kirsis/MDFlickrActivityIndicatorView/raw/master/images/MDFlickrActivityIndicatorView_Preview.png" width="30%" />
+    </div>
+
 ### Toast
 
 - [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast))
@@ -739,7 +828,7 @@ class MyViewController: UIViewController {
 
 - [JFMinimalNotifications](https://github.com/atljeremy/JFMinimalNotifications) - An iOS UIView for presenting a minimalistic notification that doesn't block the UI and is highly configurable.
 
-### Menu
+### Menu和弹出视图
 
 - [kxmenu](https://github.com/kolyvan/kxmenu) - KxMenu is a vertical popup menu for using in iOS applications.
     <div align=center>
@@ -816,12 +905,15 @@ class MyViewController: UIViewController {
     <img src="https://camo.githubusercontent.com/30c25cfaecb29ebfb9a59a5fe93a6751342d163a/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3330373936332d353837313561313431633063653630302e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970" width="40%" />
     </div>
 
-### 弹出视图
-
 - [CustomPopoverView](https://github.com/maltsugar/CustomPopoverView) - 一款小巧灵活的自定义弹出视图, 可以做自定义AlertView、弹出窗口等等。A tiny and sweet custom popView (pop popup).
     <div align=center>
     <img src="https://camo.githubusercontent.com/d3fb0b4d5ef8712421cd7da8228ec33ceaf703f7/687474703a2f2f7777332e73696e61696d672e636e2f6d773639302f373261626137656667773166336368303077777778673230616c306a336771702e676966" width="40%" />
     <img src="https://camo.githubusercontent.com/548226495b29d0db044add98a61f6f0c18a2d4ac/687474703a2f2f7777322e73696e61696d672e636e2f6d773639302f3732616261376566677731663364636b6e6c667068673230616d306a33646d362e676966" width="40%" />
+    </div>
+
+- [MMPopupView](https://github.com/adad184/MMPopupView) - A basic Pop-Up Kit allows you to easily create Pop-Up view. You can focus on the only view you want to show.Besides, it comes with 2 common Pop-Up view, MMAlertView & MMSheetView. You can easily use & customize it. 
+    <div align=center>
+    <img src="https://github.com/adad184/MMPopupView/raw/master/Images/0.jpg" width="50%" />
     </div>
 
 - [JianShuPopViewDemo](https://github.com/linsyorozuya/JianShuPopViewDemo) - 简书、淘宝弹出效果动画demo。
@@ -831,26 +923,10 @@ class MyViewController: UIViewController {
 
 - [UIAlertView-Blocks](https://github.com/jivadevoe/UIAlertView-Blocks) - A category for UIAlertView which allows you to use blocks to handle the pressed button events rather than implementing a delegate.
 
-### 图片浏览器
-
-- [SDPhotoBrowser](https://github.com/gsdios/SDPhotoBrowser) - A image browser which is easy for using. 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。
+- [BAAlertController](https://github.com/BAHome/BAAlertController) - UIAlertController 的分类，一个block 搞定系统 alert 和 actionSheet 的 iPhone 和 iPad 版本适配！
     <div align=center>
-    <img src="https://camo.githubusercontent.com/a2e87ee4bd1c7b97913e2f9de8b416302032157c/687474703a2f2f63646e2e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3633313963353063333465643633632e676966" width="40%" />
-    </div>
-
-- [YHPhotoBrowser](https://github.com/hackxhj/YHPhotoBrowser) - 轻量级网络图片浏览器 优化性能 Gif播放性能 类新浪微博打开关闭动画 类微信图片浏览下拉图片消失。
-    <div align=center>
-    <img src="https://raw.githubusercontent.com/hackxhj/YHPhotoBrowser/master/png/yh.gif" width="50%" />
-    </div>
-
-- [HZPhotoBrowser](https://github.com/chennyhuang/HZPhotoBrowser) - 图片浏览器，photoBrowser ，新浪微博，picture, pictureBrowser, sina, weibo.
-    <div align=center>
-    <img src="https://github.com/chennyhuang/HZPhotoBrowser/raw/master/1.gif" width="50%" />
-    </div>
-    
-- [KSPhotoBrowser](https://github.com/skx926/KSPhotoBrowser) - A beautiful photo browser with interactive dismissal animation.一个小而美的图片浏览器。 
-    <div align=center>
-    <img src="https://camo.githubusercontent.com/cfdefe604fd779c1c3ea62c8a2aed91a3e1ab44b/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f426c75722e676966" width="40%" /> <img src="https://camo.githubusercontent.com/1bb75bf6ede320b6824dc799b0afba8e3c5e4ff4/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f436f726e65722e676966" width="40%" />
+    <img src="https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController4.png" width="40%" />
+    <img src="https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController7.png" width="40%" />
     </div>
 
 ### WebView和进度条
@@ -877,6 +953,8 @@ class MyViewController: UIViewController {
     <img src="https://github.com/chausson/CHWebView/raw/master/Resource/WebView.gif" width="50%" /> <br />
     <img src="https://github.com/chausson/CHWebView/raw/master/Resource/CHWebView.png" width="40%" />
     </div>
+
+- [WKWebViewDemo](https://github.com/SSiming/WKWebViewDemo) - WKWebView实际使用中遇到的注意点，以及WKWebView和JavaScript交互。具体介绍请戳[WKWebView使用及注意点(keng)](http://www.jianshu.com/p/9513d101e582)。
 
 - [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
 
@@ -1093,6 +1171,11 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     <img src="https://github.com/ninjinkun/NJKScrollFullScreen/raw/master/Screenshots/screencast.gif" width="40%" /> 
     </div>
 
+- [ScrollShowHeaderDemo](https://github.com/Cloudox/ScrollShowHeaderDemo) - 上下滑动列表时展现和隐藏顶部视图的demo。
+    <div align=center>
+    <img src="https://github.com/Cloudox/ScrollShowHeaderDemo/raw/master/demo.gifdth="60%" />
+    </div>
+
 - [HYBSnapkitAutoCellHeight](https://github.com/CoderJackyHuang/HYBSnapkitAutoCellHeight) - 基于[SnapKit](#Masonry与SnapKit)写的自动计算cell的高度的扩展。
     <div align=center>
     <img src="https://github.com/CoderJackyHuang/HYBSnapkitAutoCellHeight/raw/master/snapkitcellheight.gif" width="40%" /> 
@@ -1128,22 +1211,16 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     <img src="https://github.com/dataxpress/UICountingLabel/raw/master/demo.gif" width="50%" />
     </div>
 
+- [TKPhoneformat](https://github.com/kangtian/TKPhoneformat) - 一款输入手机号码格式的控件。
+    <div align=center>
+    <img src="https://github.com/kangtian/TKPhoneformat/raw/master/TKPhoneformat/TKPhoneformat/4.gif" width="50%" />
+    </div>
+
 - [CopyLabel](https://github.com/TUTUDeveloper/CopyLabel) - iOS拥有复制功能的Label。
 
 - [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
 
 - [iOS-Swift-UI](https://github.com/BranPeng/iOS-Swift-UI) - iOS-Swift-UI.
-
-- [BAAlertController](https://github.com/BAHome/BAAlertController) - UIAlertController 的分类，一个block 搞定系统 alert 和 actionSheet 的 iPhone 和 iPad 版本适配！
-    <div align=center>
-    <img src="https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController4.png" width="40%" />
-    <img src="https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController7.png" width="40%" />
-    </div>
-
-- [MMPopupView](https://github.com/adad184/MMPopupView) - A basic Pop-Up Kit allows you to easily create Pop-Up view. You can focus on the only view you want to show.Besides, it comes with 2 common Pop-Up view, MMAlertView & MMSheetView. You can easily use & customize it. 
-    <div align=center>
-    <img src="https://github.com/adad184/MMPopupView/raw/master/Images/0.jpg" width="50%" />
-    </div>
 
 - [jiaModuleDemo](https://github.com/wujunyang/jiaModuleDemo) - 一个针对iOS模块化开发的解决方案。
     <div align=center>
@@ -1161,13 +1238,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     </div> 
 
 - [JMMarkSlider](https://github.com/joamafer/JMMarkSlider) - Fully customizable slider that allows you to set marks on it. You can set the color of the bar, marks and handler, the width of the marks and even an image for the handler.
-
-- [ScrollShowHeaderDemo](https://github.com/Cloudox/ScrollShowHeaderDemo) - 上下滑动列表时展现和隐藏顶部视图的demo。
-    <div align=center>
-    <img src="https://github.com/Cloudox/ScrollShowHeaderDemo/raw/master/demo.gifdth="60%" />
-    </div>
-
-- [WKWebViewDemo](https://github.com/SSiming/WKWebViewDemo) - WKWebView实际使用中遇到的注意点，以及WKWebView和JavaScript交互。具体介绍请戳[WKWebView使用及注意点(keng)](http://www.jianshu.com/p/9513d101e582)。
 
 - [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。
     <div align=center>
@@ -1189,12 +1259,35 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [iOSTips](https://github.com/DarielChen/iOSTips) - 记录iOS开发中的一些知识点、小技巧。
 
-#### 分享其他分类汇总
+- [EGOImageLoading](https://github.com/enormego/EGOImageLoading) - What if images on the iPhone were as easy as HTML? 
+
+- [EGOCache](https://github.com/enormego/EGOCache) - Fast Caching for Objective-C (iPhone & Mac Compatible).
+
+- [UncaughtExceptionHandler](https://github.com/minibear0523/UncaughtExceptionHandler) - 一个iOS崩溃异常的捕捉处理源代码，帮助更好的调试程序。
+
+- [SPUncaughtExceptionHandler](https://github.com/kshipeng/SPUncaughtExceptionHandler) - APP闪退时，由用户决定是否继续。
+
+#### 其他分类汇总
 
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 
 - [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总。
 
+### 类目
+
+- [JKCategories](https://github.com/shaojiankui/JKCategories) - JKCategories(iOS-Categories,Category), a collection of useful Objective-C Categories extending iOS Frameworks such as Foundation,UIKit,CoreData,QuartzCore,CoreLocation,MapKit Etc.
+
+- [UIButtonEdgeInsets](https://github.com/CenterY/UIButtonEdgeInsets) - 通过类别和继承方式实现按钮的图片和标题布局，调整 UIButton的imageEdgeInsets 和 titleEdgeInsets属性。
+    <div align=center>
+    <img src="https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_left.png" width="50%" /> 
+    <img src="https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_right.png" width="50%" />
+    </div>
+
+- [nsstring-extensions](https://github.com/ToshMeston/nsstring-extensions) - This is a category for NSString that adds commonly used methods such as trim, urlEncode, urlDecode, parseIntWithDefaultValue.
+
+### 越狱检测
+
+- [iOS Jailbreak Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
 
 ## Mac
 
@@ -1248,6 +1341,10 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     <img src="https://camo.githubusercontent.com/f61bfc31e144ad6a9d7ca26fa19547a3af5da8c6/687474703a2f2f7166692e73682f58416c69676e2f696d616765732f646566696e652e676966" width="40%" /> 
     </div>
 
+- [FirTools](https://github.com/sdaduanbilei/FirTools) - 一个 swift 写的 OS X 的Menu Bar 程序。
+    <div align=center>
+    <img src="https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png" width="40%" /> 
+    </div>
 
 ## 区块链
 
@@ -1329,7 +1426,17 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ## H5
 
+- [HTML5中文教程-极客学院Wiki](http://wiki.jikexueyuan.com/project/html5/)
+
+- [W3school - HTML5](http://www.w3school.com.cn/html5/index.asp)
+
+- [HTML5 教程 | 菜鸟教程](http://www.runoob.com/html/html5-intro.html)
+
 - [canvas](https://github.com/airingursb/canvas) - 《Canvas：Draw on the Web》，[本书GitBook]( https://airingursb.gitbooks.io/canvas/)
+
+- [JavaScript教程](http://www.w3school.com.cn/b.asp)
+
+- [JavaScript 参考手册](http://www.w3school.com.cn/jsref/index.asp)
 
 
 ## 游戏
@@ -1377,4 +1484,3 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - [A Python module for creating Excel XLSX files. ](https://xlsxwriter.readthedocs.io)
 
 - [jdcal](https://github.com/phn/jdcal) - Julian dates, stored as two numbers, from proleptic Gregorian and Julian calendars.
-
