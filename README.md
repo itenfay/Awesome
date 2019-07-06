@@ -1,7 +1,5 @@
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
-
 ## OpenSource
 
 🔥🔥🔥
@@ -20,9 +18,11 @@
 
 🔥🔥🔥
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+
 ## 无图浏览
 
-- [『无图浏览：No Image Preview』](RMNoImagePreview.md)
+- [『无图浏览：No Image Preview』](NoImagePreview.md)
 
 ## 目录
 
