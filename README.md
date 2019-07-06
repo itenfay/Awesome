@@ -20,9 +20,7 @@
 
 🔥🔥🔥
 
-
-- [『高性能无图浏览：High Performance Image-Free Preview』](HighPerformanceImage-FreePreview.md)
-
+[『高性能无图浏览：High Performance Image-Free Preview』](HighPerformanceImage-FreePreview.md)
 
 ## 目录
 
