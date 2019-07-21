@@ -1,38 +1,38 @@
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+
 ## OpenSource
 
 🔥🔥🔥
 
-汇总好用的开源项目，涵盖了iOS，Mac，区块链，Flutter，Weex，H5，Cocos2d，C++，棋牌，Script等各个方面的内容，其中，iOS包涵以下几个方面：
-1. 常用第三方库：YYKit, AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit；
+汇总好用的开源项目，涵盖了iOS, Mac, Blockchain, Flutter, Weex, H5, Games, C++, Script等各个方面的内容，其中，iOS包涵以下几个方面：
+1. 常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
 2. 导航栏和状态栏；
 3. 侧边菜单 (Side Menu) ；
-4. 支付: 内购 (IAP) 和 第三方支付；
-5. 播放器: 视频播放器，音乐播放器；
+4. 支付: 内购 (IAP), ApplePay和第三方支付；
+5. 播放器: 视频播放器和音乐播放器；
 6. IM和直播；
 7. 数据持久 (Data Persistence) ；
 8. 逆向开发；
-9. 数据安全相关；
-10. 蓝牙, 扫码器, 下拉刷新和上拉加载, 指示器, Toast, Menu, 图片浏览器, 进度条, 动画, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo。
+9. 安全攻防和应用加固, 数据安全和算法；
+10. 蓝牙, 手势指纹面容ID密码解锁, 图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics), 图片浏览器, 扫码器, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo。
 
 🔥🔥🔥
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+## 无图查看
 
-## 无图浏览
-
-- [『无图浏览：No Image Preview』](NoImagePreview.md)
+- [无图像自述文件：Image-free Readme](Image-free_README.md)
 
 ## 目录
 
 - [iOS](#iOS)
    - [常用第三方库](#常用第三方库)
-      - [YYKit](#YYKit)
       - [AFNetworking和Alamofire](#AFNetworking和Alamofire)
       - [SDWebImage](#SDWebImage)
       - [ReactiveCocoa和RxSwift](#ReactiveCocoa和RxSwift)
       - [Masonry和SnapKit](#Masonry和SnapKit)
+      - [YYKit](#YYKit)
    - [网络相关](#网络相关)
    - [导航栏和状态栏](#导航栏和状态栏)
    - [Side Menu](#Side-Menu)
@@ -54,7 +54,7 @@
    - [蓝牙](#蓝牙)
    - [手势指纹面容ID密码解锁](#手势指纹面容ID密码解锁)
    - [布局](#布局)
-   - [图像绘制](#图像绘制)
+   - [图像渲染和绘制](#图像渲染和绘制)
       - [OpenGLES](#OpenGLES)
       - [Metal](#Metal)
       - [GPUImage](#GPUImage)
@@ -103,20 +103,11 @@
 
 ### 常用第三方库
 
-*🔥🔥🔥👍👍👍*
-
-#### YYKit
-
-- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。
-  - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。
-  - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
-  - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。
-  - [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。
-  - [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。
-  - [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。
-  - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
-  - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
-  - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+┌──────────────────────────────────┐
+│                    🔥🔥🔥                                                      👍👍👍                    │
+└───────▼──────────────────▼───────┘
+                             │                                                                 │        
+                             ▼                                                                 ▼
 
 #### AFNetworking和Alamofire
 
@@ -265,6 +256,19 @@ class MyViewController: UIViewController {
     }
 }
 ```
+
+#### YYKit
+
+- [YYKit](https://github.com/ibireme/YYKit) - 一组庞大、功能丰富的 iOS 组件。
+    - [YYModel](https://github.com/ibireme/YYModel) - 高性能的 iOS JSON 模型框架。
+    - [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
+    - [YYImage](https://github.com/ibireme/YYImage)  - 功能强大的 iOS 图像框架。
+    - [YYWebImage](https://github.com/ibireme/YYWebImage) - 高性能的 iOS 异步图像加载框架。
+    - [YYText](https://github.com/ibireme/YYText) - 功能强大的 iOS 富文本框架。
+    - [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) - iOS 键盘监听管理工具。
+    - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
+    - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
+    - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
 ### 网络相关
 
@@ -520,7 +524,7 @@ class MyViewController: UIViewController {
 
 #### 逆向辅助工具
 
-- [iOSOpenDev](http://iosopendev.com)
+- [iOSOpenDev](http://iosopendev.com) - [Github](https://github.com/kokoabim/iOSOpenDev)
 - [theos](http://iphonedevwiki.net/index.php/Theos/Setup) - 一个越狱开发工具包 ([Github](https://github.com/theos/theos).)
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
@@ -671,7 +675,7 @@ class MyViewController: UIViewController {
     <img src="https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif" width="40%" />
     </div>
 
-### 图像绘制
+### 图像渲染和绘制
 
 #### OpenGLES
 
