@@ -4,7 +4,7 @@
 
 ## OpenSource
 
-🔥🔥🔥
+🔥🔥🔥 👍👍👍
 
 汇总好用的开源项目，涵盖了iOS, Mac, Blockchain, Flutter, Weex, H5, Games, C++, Script等各个方面的内容，其中，iOS包涵以下几个方面：
 1. 常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
@@ -18,8 +18,7 @@
 9. 安全攻防和应用加固, 数据安全和算法；
 10. 蓝牙, 手势指纹面容ID密码解锁, 图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics), 图片浏览器, 扫码器, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo。
 
-🔥🔥🔥
-
+🔥🔥🔥 👍👍👍
 
 ## 目录
 
@@ -99,12 +98,6 @@
 ## iOS
 
 ### 常用第三方库
-
-┌──────────────────────────────────┐
-│                    🔥🔥🔥                                                      👍👍👍                    │
-└───────▼──────────────────▼───────┘
-                             │                                                                 │        
-                             ▼                                                                 ▼
 
 #### AFNetworking和Alamofire
 
