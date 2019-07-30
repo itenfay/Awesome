@@ -20,9 +20,9 @@
 
 🔥🔥🔥 👍👍👍
 
-## 无图查看
+## 查看无图自述文件
 
-- [无图像自述文件：Image-free Readme](Image-free_README.md)
+- [无图自述文件：Image-free Readme](Image-free_README.md)
 
 ## 目录
 
@@ -523,24 +523,20 @@ class MyViewController: UIViewController {
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
 - [optool](https://github.com/alexzielenski/optool) - Command Line Tool for interacting with MachO binaries on OSX/iOS.
+- [Hook-Tools](https://github.com/dgynfi/WeChat_tweak/tree/master/Hook-Tools)
 - [HackAppTool](https://github.com/jackrex/FakeWeChatLoc/tree/master/HackAppTool) 
 - [Tools](https://github.com/east520/AutoGetRedEnv/tree/master/Tools)
 
 #### 逆向案例
 
+- [WeChat_tweak](https://github.com/dgynfi/WeChat_tweak) - iOS 版功能较全的微信插件，具备抢红包，修改微信运动步数，伪定位（朋友圈和附近的人），屏蔽消息和群消息，过滤群，防撤回消息和信息内容页的背景透明等功能。
+
 - [WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop) - iOS版微信抢红包Tweak。
-  - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide/)
-  - [免越狱版 iOS 抢红包插件](http://www.swiftyper.com/2016/12/26/wechat-redenvelop-tweak-for-non-jailbroken-iphone/)
-  <div align=center>
-  <img src="https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/Setting.jpeg" width=260 /> <img src="https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/AssistantSetting.jpeg" width=260 />
-  </div>
-
-- [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。
+    - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide)
+    - [免越狱版 iOS 抢红包插件](http://www.swiftyper.com/2016/12/26/wechat-redenvelop-tweak-for-non-jailbroken-iphone)
     <div align=center>
-    <img src="https://github.com/luckysine/WeChatRedEnvelopesHelper/raw/master/screenshots/step.png" width="50%" />
+    <img src="https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/Setting.jpeg" width=260 /> <img src="https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/AssistantSetting.jpeg" width=260 />
     </div>
-
-- [AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv) - 微信自动抢红包。
 
 - [FakeWeChatLoc](https://github.com/jackrex/FakeWeChatLoc) - iOS伪装微信位置。
     - [iOS逆向论坛](http://bbs.iosre.com) 
@@ -549,6 +545,15 @@ class MyViewController: UIViewController {
     </div>
 
 - [FakeWeChatLocation](https://github.com/PandaraWen/FakeWeChatLocation) - A tweak that can fake location info in WeChat.
+
+- [WeChatRedEnvelopesHelper](https://github.com/luckysine/WeChatRedEnvelopesHelper) - iOS版微信抢红包插件，支持后台抢红包，tweak源文件。
+    <div align=center>
+    <img src="https://github.com/luckysine/WeChatRedEnvelopesHelper/raw/master/screenshots/step.png" width="50%" />
+    </div>
+
+- [AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv) - 微信自动抢红包。
+
+- [WXAccountSwitcher](https://github.com/iosre/WXAccountSwitcher) - Fast switch WeiXin account.
 
 - [FishChat](https://github.com/yulingtianxia/FishChat) - Hook WeChat.app on non-jailbroken devices. ([blog](http://yulingtianxia.com/blog/2017/02/28/Make-WeChat-Great-Again/)) 
     <div align=center>
@@ -560,8 +565,6 @@ class MyViewController: UIViewController {
     <div align=center>
     <img src="https://github.com/PandaraWen/WeTranslateparentChat/raw/master/images/IMG_0018.PNG" width="40%" />
     </div>
-
-- [WXAccountSwitcher](https://github.com/iosre/WXAccountSwitcher) - Fast switch WeiXin account.
 
 ### 安全攻防和应用加固
 
@@ -581,7 +584,10 @@ class MyViewController: UIViewController {
 
 ### 数据安全和算法
 
-- [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, MD5, DES, AES, RSA算法，操作简单好用。
+- [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)
+    <div align=center>
+    <img src="https://github.com/dgynfi/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif" width="40%" />
+    </div>
 
 - [AESCipher-iOS](https://github.com/WelkinXie/AESCipher-iOS) - AES encryption working between Objective-C and Java. ([AESCipher-Java](https://github.com/WelkinXie/AESCipher-Java))
 
@@ -642,6 +648,11 @@ class MyViewController: UIViewController {
 - [MPBluetoothKit](https://github.com/MacPu/MPBluetoothKit) - This is a block-based framework for building Bluetooth iOS apps using the CoreBluetooth Framework.Its a very powerful and useful,and very easy to use it.
 
 ### 手势指纹面容ID密码解锁
+
+- [DYFAuthIDAndGestureLock](https://github.com/dgynfi/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁，高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)
+    <div align=center>
+    <img src="https://github.com/dgynfi/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif" width="40%" />
+    </div>
 
 - [XGTouchDemo](https://github.com/XGPASS/XGTouchDemo) - 手势密码解锁和指纹TouchID解锁的demo。
     <div align=center>
@@ -755,6 +766,11 @@ class MyViewController: UIViewController {
 ### 扫码器
 
 *二维码，条形码相关内容*
+
+- [DYFCodeScanner](https://github.com/dgynfi/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁，高效。(A QR code and Barcode scanner for iOS. concise code and efficient.)
+    <div align=center>
+    <img src="https://github.com/dgynfi/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif" width="40%" />
+    </div>
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。
     <div align=center>
@@ -1054,6 +1070,10 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ### 分享
 
+- [ShareSDK-for-iOS](https://github.com/MobClub/ShareSDK-for-iOS) - ShareSDK是一个完全免费的社会化分享组件，为移动端的iOS App提供社会化功能。([MobTech](http://www.mob.com))
+
+- [U-Share SDK](https://www.umeng.com/social) - 帮助应用或游戏快速具备国内外多平台分享、第三方登录功能，SDK包小，集成成本低，平台覆盖全，并基于友盟+大数据，提供权威、实时的用户画像、分享回流等数据分析，助力产品开发与推广。([友盟](https://www.umeng.com))
+
 - [TTOpenInAppActivity](https://github.com/honkmaster/TTOpenInAppActivity) - TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController. TTOpenInAppActivity uses an UIDocumentInteractionController to present all Apps that can handle the document specified with by the activity items.
     <div align=center>
     <img src="https://github.com/honkmaster/TTOpenInAppActivity/raw/master/Screenshot.png" width="50%" />
@@ -1322,6 +1342,11 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     <img src="https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67" width="50%" />
     </div>
 
+- [IPAPkgTool](https://github.com/dgynfi/IPAPkgTool) - 一款自动化打包ipa的MacOS应用。(A MacOS application that packs ipa automatically.)
+    <div align=center>
+    <img src="https://github.com/dgynfi/IPAPkgTool/raw/master/Images/login_page.png" width="60%" />
+    </div>
+
 - [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) - This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device. ([Instructions](https://dantheman827.github.io/ios-app-signer/))
 
 - [iReSign](https://github.com/maciekish/iReSign) - ReSign allows iDevice app bundles (.ipa) files to be signed or resigned with a digital certificate from Apple for disibution. This tool is aimed at enterprises users, for enterprise deployment, when the person signing the app is different than the person(s) developing it.
@@ -1495,6 +1520,10 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 
 ## Script
+
+### Full
+
+- [Script](https://github.com/dgynfi/Script) - 编写了iOS自动化打包脚本，编写和收集Shell, Python, Ruby等其它的实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
 
 ### Shell
 
