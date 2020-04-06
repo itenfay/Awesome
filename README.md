@@ -26,8 +26,8 @@
 
 |  ID                |  QRCode                                              | Description                    |
 | :------------: | :------------------------------------------: | :-------------------------: |
-|  614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg) | iOS & Mac Group |
-| 155353383  | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | Other  Group |
+|  614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg) | iOS & Mac Technical Communication Group |
+| 155353383  | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | Other Technical Communication Group |
 
 
 ## 目录
@@ -297,9 +297,14 @@ class MyViewController: UIViewController {
 
 ### 导航栏和状态栏
 
-- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。([Swift版](https://github.com/wangrui460/WRNavigationBar_swift))
-  
-- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。
+- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。([Swift版](https://github.com/wangrui460/WRNavigationBar_swift))  | 
+[Priview 1](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif) | 
+[Priview 2](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif) |
+[Priview 3](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) |
+
+- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。 | 
+[Priview 1](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif) | 
+[Priview 2](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif) |
 
 - [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController) - Implicitly make every view controller has its own navigation bar. 
 
