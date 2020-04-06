@@ -1,5 +1,4 @@
-[If you think it can help you, please give it a star. Thanks!](https://github.com/dgynfi/OpenSource)
-
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
 
 ## OpenSource
 

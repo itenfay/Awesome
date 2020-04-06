@@ -1,4 +1,4 @@
-[If you think it can help you, please give it a star. Thanks!](https://github.com/dgynfi/OpenSource)
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
 
 
 ## OpenSource
@@ -20,6 +20,14 @@
 🔥🔥🔥 
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+
+
+## Group
+
+|  ID                |  QRCode                                              | Description                    |
+| :------------: | :------------------------------------------: | :-------------------------: |
+|  614799921 | <img src="https://github.com/dgynfi/DYFStore/raw/master/images/g614799921.jpg" width="20%" /> | iOS & Mac Group |
+| 155353383  | <img src="https://github.com/dgynfi/DYFStore/raw/master/images/qq155353383.jpg" width="20%" /> | Other  Group |
 
 
 ## 目录
