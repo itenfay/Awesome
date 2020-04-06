@@ -24,10 +24,10 @@
 
 ## Group
 
-|  ID                |  QRCode                                              | Description                    |
-| :------------: | :------------------------------------------: | :-------------------------: |
-|  614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg) | iOS & Mac Technical Communication Group |
-| 155353383  | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | Other Technical Communication Group |
+|  ID                 |  QRCode                                         | Description                                    |
+| :-------------: | :--------------------------------------: | :-------------------------------------: |
+|  614799921  | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg) | For iOS & Mac technical communication |
+|  155353383  | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | For other categories technical communication |
 
 
 ## 目录
