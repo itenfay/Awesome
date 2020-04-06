@@ -695,10 +695,8 @@ class MyViewController: UIViewController {
 
 #### GPUImage
 
-- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)
-    <div align=center>
-    <img src="https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67" width="40%" />
-    </div>
+- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework) 
+| [Priview 1](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) |
 
 - [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
 
@@ -814,10 +812,8 @@ class MyViewController: UIViewController {
 
 - [DYFToast](https://github.com/dgynfi/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
 
-- [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast))
-    <div align=center>
-    <img src="https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg" width=260 />
-    </div>
+- [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast)) 
+| [Priview 1](https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg) |
 
 - [XHToast](https://github.com/CoderZhuXH/XHToast) - 简洁轻便提示工具,一行代码既可完成提示信息显示 - 支持自定义显示位置及停留时间。
 | [Priview 1](https://camo.githubusercontent.com/5e94289a5930fe4de9e844f94a308b6d3919e59b/687474703a2f2f682e686970686f746f732e62616964752e636f6d2f696d6167652f7069632f6974656d2f303233623562623563396561313563653239373365343339626530303361663333613837623236342e6a7067) |
@@ -1200,27 +1196,21 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [web3swift](https://github.com/BANKEX/web3swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
    <div align=center>
-   <img src="https://user-images.githubusercontent.com/3356474/34412791-5b58962c-ebf0-11e7-8460-5592b12e6e9d.png" width="50%" />
+   <img src="https://user-images.githubusercontent.com/3356474/34412791-5b58962c-ebf0-11e7-8460-5592b12e6e9d.png" width="60%" />
    </div>
 
 - [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. 
-  <div align=center>
-  <img src="https://raw.githubusercontent.com/web3j/web3j/master/docs/source/images/web3j_network.png" width="50%" />
-  </div>
+| [Priview 1](https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png) |
 
 - [py-geth](https://github.com/ethereum/py-geth) - Python wrapping for running Go-Ethereum as a subprocess.
 
 - [EthersWallet-ios](https://github.com/ethers-io/EthersWallet-ios) - Ethereum Wallet and Dapp Browser for iOS.
 
 - [breadwallet-ios](https://github.com/voisine/breadwallet-ios) - Bread is the best way to get started with bitcoin. 
-    <div align=center>
-    <img src="https://github.com/voisine/breadwallet-ios/raw/2.0/images/screenshots.jpg" width="50%" />
-    </div>
+| [Priview 1](https://github.com/voisine/breadwallet-ios/raw/2.0/images/screenshots.jpg) |
 
 - [dashwallet](https://github.com/QuantumExplorer/dashwallet) - Dashwallet (breadwallet fork) is a real standalone Dash client. 
-  <div align=center>
-  <img src="https://github.com/QuantumExplorer/dashwallet/raw/master/images/screenshot2.jpg" width="50%" />
-  </div>
+| [Priview 1](https://github.com/QuantumExplorer/dashwallet/raw/master/images/screenshot2.jpg) |
 
 - [imToken](https://github.com/ywzqhl/imToken) - ETHWallet.
 
@@ -1246,7 +1236,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学。
     <div align=center>
-    <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="50%" />
+    <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="70%" />
     </div>
 
 
@@ -1290,7 +1280,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [Cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. http://www.cocos2d-x.org.
     <div align=center>
-    <img src="https://github.com/cocos2d/cocos2d-x/raw/v3/docs/framework_architecture.jpg" width="50%" />
+    <img src="https://github.com/cocos2d/cocos2d-x/raw/v3/docs/framework_architecture.jpg" width="70%" />
     </div>
 
 
@@ -1304,9 +1294,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 ### 游戏示例
 
 - [Hardest](https://github.com/ZhongTaoTian/Hardest) - 史上最困难的游戏-By Objective-C。
-    <div align=center>
-    <img src="https://camo.githubusercontent.com/3b9be0d8b67e009fb492411881a173004f41bdfd/687474703a2f2f7777342e73696e61696d672e636e2f6d773639302f30303638755275316a773166347778393263636a396a3330616a3069706771382e6a7067" width="50%" />
-    </div>
+| [Priview 1](https://camo.githubusercontent.com/3b9be0d8b67e009fb492411881a173004f41bdfd/687474703a2f2f7777342e73696e61696d672e636e2f6d773639302f30303638755275316a773166347778393263636a396a3330616a3069706771382e6a7067) |
 
 
 ## C-plus-plus
