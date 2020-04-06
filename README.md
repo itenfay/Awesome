@@ -26,8 +26,8 @@
 
 |  ID                |  QRCode                                              | Description                    |
 | :------------: | :------------------------------------------: | :-------------------------: |
-|  614799921 | <img src="https://github.com/dgynfi/DYFStore/raw/master/images/g614799921.jpg" width="20%" /> | iOS & Mac Group |
-| 155353383  | <img src="https://github.com/dgynfi/DYFStore/raw/master/images/qq155353383.jpg" width="20%" /> | Other  Group |
+|  614799921 | ![614799921](https://github.com/dgynfi/DYFStore/raw/master/images/g614799921.jpg) | iOS & Mac Group |
+| 155353383  | ![155353383](https://github.com/dgynfi/DYFStore/raw/master/images/qq155353383.jpg) | Other  Group |
 
 
 ## 目录
