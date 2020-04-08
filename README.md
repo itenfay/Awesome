@@ -1324,7 +1324,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [iOS代码库 - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
 
-- [iOS及Mac开源项目和学习资料【超级全面】](https://www.kancloud.cn/digest/ios-mac-study/84557)
+- [ios-mac-study](https://www.kancloud.cn/digest/ios-mac-study/84557) - iOS及Mac开源项目和学习资料【超级全面】 · 看云。
 
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 
