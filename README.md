@@ -1314,13 +1314,19 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 | [Priview 1](https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png) |
 
 
-#### 其他汇总
+## 其他汇总
+
+- [iOS代码库 - Code4App](http://www.code4app.com/code.php) - Code4App是一个移动平台的代码库，是iOS开发好帮手。
+
+- [iOS代码库 - cocoachina](http://code.cocoachina.com/) - 国内最热门的iOS社区的代码库。
+
+- [iOS代码库 - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
+
+- [iOS及Mac开源项目和学习资料【超级全面】] (https://www.kancloud.cn/digest/ios-mac-study/84557)
 
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 
 - [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总。
-
-- [iOS及Mac开源项目和学习资料【超级全面】] (https://www.kancloud.cn/digest/ios-mac-study/84557)
 
 - [awesome-objc-frameworks](https://github.com/follyxing/awesome-objc-frameworks) - 【OC框架排名列表 】A curated list of awesome Objective-C frameworks.
 
@@ -1466,6 +1472,15 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [C++中调用Lua函数实例](http://www.jb51.net/article/55097.htm)
 
+- [cocos2d-x 3.3连接Xcode9编译时报错：call to unavailable function system not available on ios](https://blog.csdn.net/fzhlee/article/details/73296612)
+- [unavailable function system: not available on iOS](https://blog.csdn.net/holdsky/article/details/78109886)
+
+- [remove "system" usage by minggo · Pull Request #17921 · cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x/pull/17921/files)
+
+- [解决Call to unavailable function system: not available on iOS](https://blog.csdn.net/linyang24/article/details/78053626)
+
+- [cocos2dx 可继承的单例模板类](https://blog.csdn.net/u012801153/article/details/45915149)
+
 ### Unity
 
 - [下载Unity](https://unity.cn/releases)
@@ -1475,6 +1490,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [游戏蛮牛Unity用户手册](http://docs.manew.com/Components/1.html)
 
 - [雨松MOMO | Unity3D游戏开发](https://www.xuanyusong.com/archives/category/unity)
+
+- [Unity2D研究院之自动生成动画、AnimationController、Prefab（一）](https://www.xuanyusong.com/archives/3243)
 
 - [{Unity} 平台预定义](https://blog.csdn.net/n5/article/details/50482569)
 
@@ -1494,15 +1511,27 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [年华2008 | Unity3D](https://blog.csdn.net/nianhua2008)
 
-
 ### 棋牌
 
 - [qipai_algorithm](https://github.com/yuanfengyun/qipai_algorithm) - 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua c++ c# golang js  java  python版本。
 
 - [HuPaiMJ](https://github.com/pinorr/HuPaiMJ) - C++麻将胡牌算法。优点：1.速度快，900万次多赖子胡牌用时500ms左右；2.支持多个赖子；3.查错方便，直接查表就可知道。
 
+- [麻将算法（上）](https://blog.csdn.net/xiu2016/article/details/76281062)
+
+- [麻将胡牌算法n*AAA+m*ABC+DD实现时间复杂度O(n*2)](https://blog.csdn.net/q623702748/article/details/52936621)
+
+- [C++数据结构与算法——麻将胡牌算法（二：完全胡牌算法）](https://blog.csdn.net/weixin_36381867/article/details/72579554)
+
+- [麻将游戏算法深入解析](https://blog.csdn.net/honghaier/article/details/8604955)
+
+- [成都麻将胡牌规则](https://blog.csdn.net/stone_flower_rain/article/details/47442577)
 
 ### 游戏示例
+
+- [游戏(Gaming) - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/391/ios-gaming)
+
+- [游戏源码(Game Source Code) - 代码库 - CocoaChina](http://code.cocoachina.com/list/28)
 
 - [Hardest](https://github.com/ZhongTaoTian/Hardest) - 史上最困难的游戏-By Objective-C。
 | [Priview 1](https://camo.githubusercontent.com/3b9be0d8b67e009fb492411881a173004f41bdfd/687474703a2f2f7777342e73696e61696d672e636e2f6d773639302f30303638755275316a773166347778393263636a396a3330616a3069706771382e6a7067) |
