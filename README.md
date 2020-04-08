@@ -51,6 +51,7 @@
       - [视频播放器](#视频播放器) 
       - [音乐播放器](#音乐播放器)
    - [IM和直播](#IM和直播)
+   - [Runtime](#Runtime)
    - [Data Persistence](#Data-Persistence)
    - [逆向开发](#逆向开发)
       - [fishhook](#fishhook)
@@ -82,14 +83,14 @@
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
    - [高仿项目和项目Demo](#高仿项目和项目Demo)
+   - [类目](#类目)
+   - [越狱检测](#越狱检测) 
    - [Others](#Others)
       - [Sensor](#Sensor)
       - [Privacy](#Privacy)
       - [未归类](#未归类)
-      - [其他汇总](#其他汇总)
-   - [类目](#类目)
-   - [越狱检测](#越狱检测)
 - [Mac](#Mac)
+- [其他汇总](#其他汇总)
 - [区块链](#区块链)
 - [Flutter](#Flutter)
     - [Flutter和Dart](#Flutter和Dart)
@@ -103,6 +104,7 @@
    - [游戏示例](#游戏示例)
 - [C-plus-plus](#C-plus-plus)
 - [Script](#Script)
+   - [Mix](#Mix)
    - [Shell](#Shell)
    - [Python](#Python)
 - [Database](#Database)
@@ -118,6 +120,8 @@
 - [Beta Software - Download - Apple Developer](https://developer.apple.com/download/)
 
 - [More Software Downloads - Apple Developer](https://developer.apple.com/download/more/)
+
+- [Apple Open Source - Releases](https://opensource.apple.com) - [https://opensource.apple.com/source/](https://opensource.apple.com/source/)
 
 - [Documentation Archive](https://developer.apple.com/library/archive/navigation/) - This library is no longer being updated. Browse the developer documentation including API reference, articles, and sample code.
 
@@ -531,6 +535,39 @@ class MyViewController: UIViewController {
 
 - [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
 
+### Runtime
+
+- [ObjC runtime opensource](https://opensource.apple.com/source/objc4/) - Source code comes from Apple opensource.
+
+- [SwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+- [RuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+- [Runtime Exploration](https://github.com/dgynfi/Runtime-exploration) - Runtime是iOS系统中重要的组成部分，面试也是必问的问题，所以Runtime是一个iOS工程师必须掌握的知识点。
+
+- [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
+- [探秘Runtime - 剖析 Runtime 结构体](https://www.jianshu.com/p/5b7e7c8075ef)
+- [探秘 Runtime - Runtime 源码分析](https://www.jianshu.com/p/3019605a4fc9)
+- [探秘 Runtime - Runtime 加载过程](https://www.jianshu.com/p/4fb2d7014e9e)
+- [探秘 Runtime - Runtime 消息发送机制](https://www.jianshu.com/p/014af0de67cd)
+- [探秘 Runtime - 深入剖析 Category](https://www.jianshu.com/p/0dc2513e117b)
+- [探秘 Runtime - Runtime Message Forward](https://www.jianshu.com/p/f313e8e32946)
+- [iOS 黑魔法 - Runtime Method Swizzling](https://www.jianshu.com/p/ff19c04b34d0)
+- [探秘 Runtime - Runtime 的应用](https://www.jianshu.com/p/4a22a39b69c5)
+
+- [Objc -- Runtime 简单入门 (代码实例) ](https://blog.csdn.net/demon_jiao/article/details/50961687)
+
+- [iOS源码解析：runtime<一> isa，class底层结构窥探](https://www.jianshu.com/p/bbc33b55d4b7)
+- [iOS源码解析：runtime<二> objc_msgSend()消息机制的完整过程](https://www.jianshu.com/p/0653af5d02ae)
+
+- [笔记-runtime源码解析之让你彻底了解底层源码](https://www.jianshu.com/p/52782535d38e)
+
+- [从 ObjC Runtime 源码分析一个对象创建的过程](https://www.jianshu.com/p/8e4887a43bd7)
+
+- [探秘Runtime - Runtime源码分析](https://www.jianshu.com/p/3019605a4fc9)
+
+- [objc_msgSend arm64 崩溃问题](https://blog.csdn.net/chenyong05314/article/details/42121001)
+
 
 ### Data Persistence
 
@@ -776,7 +813,7 @@ class MyViewController: UIViewController {
 
 *二维码，条形码相关内容*
 
-- [DYFCodeScanner](https://github.com/dgynfi/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁，高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 
+- [DYFCodeScanner](https://github.com/dgynfi/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 
 | [Priview 1](https://github.com/dgynfi/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif) |
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。
@@ -1107,6 +1144,22 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [DBFMDemo](https://github.com/LYM-mg/DBFMDemo) - 豆瓣电台，一个豆瓣电台demo，可以选择播放顺序，可以通过选择频道获取歌曲数据，进行歌曲播放。
 
 
+### 类目
+
+- [JKCategories](https://github.com/shaojiankui/JKCategories) - JKCategories(iOS-Categories,Category), a collection of useful Objective-C Categories extending iOS Frameworks such as Foundation,UIKit,CoreData,QuartzCore,CoreLocation,MapKit Etc.
+
+- [UIButtonEdgeInsets](https://github.com/CenterY/UIButtonEdgeInsets) - 通过类别和继承方式实现按钮的图片和标题布局，调整 UIButton的imageEdgeInsets 和 titleEdgeInsets属性。
+| [Priview 1](https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_left.png) 
+| [Priview 2](https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_right.png) |
+
+- [nsstring-extensions](https://github.com/ToshMeston/nsstring-extensions) - This is a category for NSString that adds commonly used methods such as trim, urlEncode, urlDecode, parseIntWithDefaultValue.
+
+
+### 越狱检测
+
+- [iOS Jailbreak Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
+
+
 ### Others
 
 #### Sensor
@@ -1211,29 +1264,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [SPUncaughtExceptionHandler](https://github.com/kshipeng/SPUncaughtExceptionHandler) - APP闪退时，由用户决定是否继续。
 
 
-#### 其他汇总
-
-- [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
-
-- [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总。
-
-
-### 类目
-
-- [JKCategories](https://github.com/shaojiankui/JKCategories) - JKCategories(iOS-Categories,Category), a collection of useful Objective-C Categories extending iOS Frameworks such as Foundation,UIKit,CoreData,QuartzCore,CoreLocation,MapKit Etc.
-
-- [UIButtonEdgeInsets](https://github.com/CenterY/UIButtonEdgeInsets) - 通过类别和继承方式实现按钮的图片和标题布局，调整 UIButton的imageEdgeInsets 和 titleEdgeInsets属性。
-| [Priview 1](https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_left.png) 
-| [Priview 2](https://github.com/CenterY/UIButtonEdgeInsets/raw/master/images/image_right.png) |
-
-- [nsstring-extensions](https://github.com/ToshMeston/nsstring-extensions) - This is a category for NSString that adds commonly used methods such as trim, urlEncode, urlDecode, parseIntWithDefaultValue.
-
-
-### 越狱检测
-
-- [iOS Jailbreak Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
-
-
 ## Mac
 
 - [dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze. 
@@ -1281,6 +1311,21 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [FirTools](https://github.com/sdaduanbilei/FirTools) - 一个 swift 写的 OS X 的Menu Bar 程序。
 | [Priview 1](https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png) |
+
+
+#### 其他汇总
+
+- [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
+
+- [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总。
+
+- [iOS及Mac开源项目和学习资料【超级全面】] (https://www.kancloud.cn/digest/ios-mac-study/84557)
+
+- [awesome-objc-frameworks](https://github.com/follyxing/awesome-objc-frameworks) - 【OC框架排名列表 】A curated list of awesome Objective-C frameworks.
+
+- [trip-to-iOS](https://github.com/Aufree/trip-to-iOS) - A curated list of delightful iOS resources.
+
+- [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) - 主要对当前 GitHub 排名前 100 的项目做一个简单的简介, 方便初学者快速了解到当前 Objective-C 在 GitHub 的情况。
 
 
 ## 区块链
@@ -1375,9 +1420,16 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [Foundation5 教程](https://www.runoob.com/foundation/foundation-tutorial.html) - Foundation 用于开发响应式的 HTML, CSS and JavaScript 框架。Foundation 是一个易用、强大而且灵活的框架,用于构建基于任何设备上的 Web 应用。Foundation 是一个以移动优先的流行框架。
 
-- [JavaScript教程](http://www.w3school.com.cn/b.asp)
+- [浏览器脚本教程](http://www.w3school.com.cn/b.asp) - [JavaScript 参考手册](http://www.w3school.com.cn/jsref/index.asp)
 
-- [JavaScript 参考手册](http://www.w3school.com.cn/jsref/index.asp)
+- [JavaScript 教程 | 菜鸟教程](https://www.runoob.com/js/js-tutorial.html) - JavaScript 是 Web 的编程语言。所有现代的 HTML 页面都使用 JavaScript。
+
+- [jQuery 教程 | 菜鸟教程](https://www.runoob.com/jquery/jquery-tutorial.html) - jQuery 是一个 JavaScript 库。jQuery 极大地简化了 JavaScript 编程。
+
+- [Vue.js 教程 | 菜鸟教程](https://www.runoob.com/vue2/vue-tutorial.html) - Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。Vue 只关注视图层， 采用自底向上增量开发的设计。Vue 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。Vue 学习起来非常简单，本教程基于 Vue 2.1.8 版本测试。
+
+- [React 教程 | 菜鸟教程](https://www.runoob.com/react/react-tutorial.html) - React 是一个用于构建用户界面的 JAVASCRIPT 库。React 主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。
+
 
 ## 小程序
 
@@ -1494,7 +1546,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ## Script
 
-### Full
+### Mix
 
 - [Script](https://github.com/dgynfi/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等其它的实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
 
@@ -1528,8 +1580,14 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [jdcal](https://github.com/phn/jdcal) - Julian dates, stored as two numbers, from proleptic Gregorian and Julian calendars.
 
+### Ruby
 
-### Database
+- [Ruby 教程 | 菜鸟教程](https://www.runoob.com/ruby/ruby-tutorial.html) - Ruby 是一种开源的面向对象程序设计的服务器端脚本语言，在 20 世纪 90 年代中期由日本的松本行弘（まつもとゆきひろ/Yukihiro Matsumoto）设计并开发。在 Ruby 社区，松本也被称为马茨（Matz）。Ruby 可运行于多种平台，如 Windows、MAC OS 和 UNIX 的各种版本。
+
+- [RubyDoc.info: Documenting RubyGems, Stdlib, and GitHub Projects](https://www.rubydoc.info/github)
+
+
+## Database
 
 - [SQLite 教程](https://www.runoob.com/sqlite/sqlite-intro.html) - SQLite 是一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。SQLite 是在世界上最广泛部署的 SQL 数据库引擎。SQLite 源代码不受版权限制。
 
