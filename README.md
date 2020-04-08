@@ -5,17 +5,18 @@
 
 🔥🔥🔥
 
-汇总好用的开源项目，涵盖了iOS, Mac, Blockchain, Flutter, Weex, H5, Games, C++, Script等各个方面的内容，其中，iOS包涵以下几个方面：
+一份精心策划的开源项目清单，涵盖了 iOS, Mac, Blockchain, Flutter, Weex, H5, Games, C++, Script 等各个方面的内容，其中，iOS包涵以下几个方面：
+
 1. 常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
-2. 导航栏和状态栏；
-3. 侧边菜单 (Side Menu) ；
-4. 支付: 内购 (IAP), ApplePay和第三方支付；
-5. 播放器: 视频播放器和音乐播放器；
-6. IM和直播；
-7. 数据持久 (Data Persistence) ；
-8. 逆向开发；
-9. 安全攻防和应用加固, 数据安全和算法；
-10. 图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo。
+2. 支付: 内购 (IAP) , ApplePay 和 第三方支付；
+3. 播放器: 视频播放器和音乐播放器；
+4. IM和直播；
+5. 图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics) ；
+6. 逆向开发；
+7. 安全攻防和应用加固, 数据安全和算法；
+8. 导航栏和状态栏；
+9. 数据持久 (Data Persistence) ；
+10. 侧边菜单 (Side Menu), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo等等。
 
 🔥🔥🔥 
 
