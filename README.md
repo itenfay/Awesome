@@ -16,7 +16,7 @@
 7. 安全攻防和应用加固, 数据安全和算法；
 8. 导航栏和状态栏；
 9. 数据持久 (Data Persistence) ；
-10. 侧边菜单 (Side Menu), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目和项目Demo等等。
+10. 侧边菜单 (Side Menu), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及Demo等等。
 
 🔥🔥🔥 
 
@@ -33,6 +33,8 @@
 
 ## 目录
 
+- [OpenSource](#OpenSource)
+- [Group](#Group)
 - [iOS](#iOS)
    - [Apple Developer](#Apple-Developer)
    - [常用第三方库](#常用第三方库)
@@ -83,7 +85,7 @@
    - [图片验证码](#图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
-   - [高仿项目和项目Demo](#高仿项目和项目Demo)
+   - [高仿项目及Demo](#高仿项目及Demo)
    - [类目](#类目)
    - [越狱检测](#越狱检测) 
    - [Others](#Others)
@@ -1092,7 +1094,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [ADScrollView](https://github.com/Thomaszhouwu/ADScrollView) - 下载一张网页图片，无线滑动图片展示各种广告图片，点击某个广告图片做出相应的操作。
 
 
-### 高仿项目和项目Demo
+### 高仿项目及Demo
 
 - [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App. ([Swift版](https://github.com/NJHu/swiftProject)) 
 | [Priview 1](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/home.gif) 
@@ -1322,7 +1324,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [iOS代码库 - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
 
-- [iOS及Mac开源项目和学习资料【超级全面】] (https://www.kancloud.cn/digest/ios-mac-study/84557)
+- [iOS及Mac开源项目和学习资料【超级全面】](https://www.kancloud.cn/digest/ios-mac-study/84557)
 
 - [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 
