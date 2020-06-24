@@ -1,22 +1,22 @@
-[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/OpenSource)
+如果此指南能帮助到你，就请你给[一颗星](https://github.com/dgynfi/OpenSource)。谢谢！(If this guide can help you, please give it [a star](https://github.com/dgynfi/OpenSource). Thanks!)
 
 
 ## OpenSource
 
 🔥🔥🔥
 
-一份精心策划的开源项目清单，涵盖了 iOS, Mac, Blockchain, Flutter, Weex, H5, Games, C++, Script 等各个方面的内容，其中，iOS包涵以下几个方面：
+在这里我汇总了许多 Github 优秀开源项目和主流开发使用的网站、解决问题方案收集以及学习网站或资料以分享给大家，此开源项目指南涵盖了 iOS, Mac OSX, Blockchain, Flutter, Weex, H5, Games, C++, Script 等多个方面的内容，其中，iOS大致包涵以下内容：
 
-1. 常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
-2. 支付: 内购 (IAP) , ApplePay 和 第三方支付；
-3. 播放器: 视频播放器和音乐播放器；
-4. IM和直播；
-5. 图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics) ；
-6. 逆向开发；
-7. 安全攻防和应用加固, 数据安全和算法；
-8. 导航栏和状态栏；
-9. 数据持久 (Data Persistence) ；
-10. 侧边菜单 (Side Menu), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu和弹出视图, WebView和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及Demo等等。
+- 1、常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
+- 2、支付: 内购 (IAP) , ApplePay 和 第三方支付；
+- 3、播放器: 视频播放器和音乐播放器；
+- 4、IM和直播；
+- 5、图像渲染和绘制 (OpenGLES, Metal, GPUImage, CoreGraphics) ；
+- 6、逆向开发；
+- 7、安全攻防和应用加固, 数据安全和算法；
+- 8、导航栏和状态栏；
+- 9、数据持久 (Data Persistence) ；
+- 10、侧边菜单 (Side Menu), 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及 Demo 等等。
 
 🔥🔥🔥 
 
@@ -138,8 +138,7 @@
 
 - [App Store 加急](https://developer.apple.com/contact/app-store/?topic=expedite)
 
-- [iOS 加急审核](https://www.jianshu.com/p/5a11f59a264c) https://docs-assets.developer.apple.com/published/cc0d0e0844/OfferingCompletingAndRestoringInAppPurchases.zip
-
+- [iOS 加急审核](https://www.jianshu.com/p/5a11f59a264c) 
 
 ### 常用第三方库
 
@@ -356,9 +355,7 @@ class MyViewController: UIViewController {
 
 #### 内购IAP
 
-- [InAppPurchase-for-iOS](https://github.com/dgynfi/InAppPurchase-for-iOS) - iOS StoreKit wrapper for In-App purchases and demo. 
-
-- [DYFStore-Swift](https://github.com/dgynfi/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [Objective-C](https://github.com/dgynfi/DYFStoreKit) )
+- [DYFStore-Swift](https://github.com/dgynfi/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/dgynfi/DYFStoreKit) (Objective-C) )
 
 - [RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases.
 
@@ -368,7 +365,13 @@ class MyViewController: UIViewController {
 
 - [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit) - SwiftyStoreKit is a lightweight In App Purchases framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+. 【 [Priview 1](https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg) 】
 
+- [OfferingCompletingAndRestoringInAppPurchases.zip](https://docs-assets.developer.apple.com/published/cc0d0e0844/OfferingCompletingAndRestoringInAppPurchases.zip) - Offering completing and restoring In-App Purchases.
+
 - [Receipt Validation Programming Guide](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Introduction.html#//apple_ref/doc/uid/TP40010573-CH105-SW1)
+
+- [DYFStoreReceiptVerifier_Swift](https://github.com/dgynfi/DYFStoreReceiptVerifier_Swift) - This class is developed in Swift language, which is used to verify App Store receipts.
+
+- [DYFStoreReceiptVerifier](https://github.com/dgynfi/DYFStoreReceiptVerifier_Swift) - This class is developed in Objective-C language, which is used to verify App Store receipts.
 
 - [VerifyStoreReceiptiOS](https://github.com/rmaddy/VerifyStoreReceiptiOS) - A helper class for verifying App Store receipts under iOS.
 
@@ -497,9 +500,9 @@ class MyViewController: UIViewController {
 
 - [ObjC runtime opensource](https://opensource.apple.com/source/objc4/) - Source code comes from Apple opensource.
 
-- [SwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFSwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
-- [RuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFRuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
 - [Runtime Exploration](https://github.com/dgynfi/Runtime-exploration) - Runtime是iOS系统中重要的组成部分，面试也是必问的问题，所以Runtime是一个iOS工程师必须掌握的知识点。
 
@@ -531,7 +534,7 @@ class MyViewController: UIViewController {
 
 *DB, Keychain, NSUserDefaults, Write*
 
-- [DYFSwiftKeychain](https://github.com/dgynfi/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [Objective-C](https://github.com/dgynfi/DYFKeychain) )
+- [DYFSwiftKeychain](https://github.com/dgynfi/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/dgynfi/DYFKeychain) (Objective-C) )
 
 - [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
 
@@ -554,7 +557,7 @@ class MyViewController: UIViewController {
 #### 逆向辅助工具
 
 - [iOSOpenDev](http://iosopendev.com) - [Github](https://github.com/kokoabim/iOSOpenDev)
-- [theos](http://iphonedevwiki.net/index.php/Theos/Setup) - 一个越狱开发工具包 ([Github](https://github.com/theos/theos).)
+- [theos](http://iphonedevwiki.net/index.php/Theos/Setup) - 一个越狱开发工具包 ([Github](https://github.com/theos/theos))
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
 - [optool](https://github.com/alexzielenski/optool) - Command Line Tool for interacting with MachO binaries on OSX/iOS.
@@ -1174,15 +1177,34 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 ### Flutter和Dart
 
 - [Flutter中文网](https://flutterchina.club) 
-- [Flutter SDK Archive](https://flutter.io/sdk-archive/#macos) 
-- [Dart Packages](https://pub.flutter-io.cn)
-- [Dart2 中文文档](https://www.kancloud.cn/marswill/dark2_document/709087) 
+  - [Flutter文档](https://flutterchina.club/docs/)
+  - [Flutter中文网开源项目](https://flutterchina.club/opensource.html)
+  - [Flutter实战](https://book.flutterchina.club)
+
+- [Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases#macos) - The Stable channel contains the most stable Flutter builds. See [Flutter’s channels](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels) for details.
+
+- [Flutter Samples](https://github.com/flutter/samples) - A collection of Flutter examples and demos.
+
+- [Flutter Documentation](https://flutter.dev/docs)
+
+- [FlutterHub](https://www.flutterhub.cn)
+
+- [Dart packages](https://pub.flutter-io.cn) - Find and use packages to build [Dart↗](https://dart.cn/) and [Flutter↗](https://flutter.cn/) apps.
+
+- [Dart API docs](https://api.flutter.dev) - The API reference herein covers all libraries that are exported by the Flutter SDK.
+
+- [Dart 编程语言中文网](https://www.dartcn.com)
+
+- [简单Dart示例 · Dart2 中文文档 · 看云](https://www.kancloud.cn/marswill/dark2_document/709087) - Dart2 语法、特性的讲解以及一些简单 Dart 示例参考。
+  - *[A tour of the Dart language](https://www.dartlang.org/guides/language/language-tour) - 英文原版参考。*
+
+- [DartPad](https://dartpad.dartlang.org/) - 使用 DartPad 来体验 Dart 语言的更多特性。
 
 ### Flutter Project
 
-- [dart_crypto](https://github.com/dgynfi/dart_crypto) - 🔥集成Base64, MD5, AES, RSA等算法。
+- [dart_crypto](https://github.com/dgynfi/dart_crypto) - 🔥`DYFCryptoProvider`类封装了Base64, 32/16 Bits MD5, AES, RSA等算法，并提供了示例代码。
 
-- [grab_ethtoken_info](https://github.com/dgynfi/grab_ethtoken_info) - 🔥爬取etherscan的一个钱包地址的所有token信息( address, name, balance, symbol, value)，并编写界面进行展示。
+- [grab_ethtoken_info](https://github.com/dgynfi/grab_ethtoken_info) - 🔥 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
 
 - [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学。
     <div align=center>
@@ -1195,7 +1217,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [Weex](https://github.com/apache/incubator-weex) - A framework for building Mobile cross-platform UI. 
 
 | platform | status |
-| -------- | ------ |
+| :--------: | :------: |
 | Android | [![Download](https://api.bintray.com/packages/alibabaweex/maven/weex_sdk/images/download.svg)](https://bintray.com/alibabaweex/maven/weex_sdk/_latestVersion) |
 | iOS | [![Pod version](https://badge.fury.io/co/WeexSDK.svg)](https://cocoapods.org/pods/WeexSDK) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) |
 | [Mobile Web](https://github.com/weexteam/weex-vue-render) | [![npm version](https://badge.fury.io/js/weex-html5.svg)](https://www.npmjs.com/package/weex-vue-render) |
@@ -1379,7 +1401,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ### Mix
 
-- [Script](https://github.com/dgynfi/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等其它的实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
+- [Script](https://github.com/dgynfi/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等一些实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
 
 ### Shell
 
