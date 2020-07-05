@@ -16,9 +16,10 @@
 - 7、安全攻防和应用加固, 数据安全和算法；
 - 8、导航栏和状态栏；
 - 9、数据持久（Data Persistence）；
-- 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及 Demo 等等。
+- 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及Demo等。
 
 🔥🔥🔥 
+
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
