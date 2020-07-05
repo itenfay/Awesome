@@ -27,8 +27,8 @@
 
 |  ID             |  QRCode                                  | Description                             |
 | :-------------: | :--------------------------------------: | :-------------------------------------: |
-| 614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg)  | For iOS & macOS X |
-| 155353383 | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | For Other Dev Language |
+| 614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS X |
+| 155353383 | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | Technology communication group for other development language |
 
 
 ## 目录
