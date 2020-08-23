@@ -1,9 +1,4 @@
-如果此指南能帮助到你，就请你给[一颗星](https://github.com/dgynfi/OpenSource)。谢谢！(If this guide can help you, please give it [a star](https://github.com/dgynfi/OpenSource). Thanks!)
-
-
 ## OpenSource
-
-🔥🔥🔥
 
 在这里我汇总了许多 Github 优秀开源项目和主流开发使用的网站、解决问题方案收集以及学习网站或资料以分享给大家，此开源项目指南涵盖了 iOS, macOS X, Blockchain, Flutter, Weex, H5, Games, C++, Script 等多个方面的内容，其中，iOS大致包涵以下内容：
 
@@ -17,9 +12,6 @@
 - 8、导航栏和状态栏；
 - 9、数据持久（Data Persistence）；
 - 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及Demo等。
-
-🔥🔥🔥 
-
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -568,7 +560,7 @@ class MyViewController: UIViewController {
 
 #### 逆向案例
 
-- [WeChat_tweak](https://github.com/dgynfi/WeChat_tweak) - iOS 版功能较全的微信插件，具备抢红包，修改微信运动步数，伪定位（朋友圈和附近的人），屏蔽消息和群消息，过滤群，防撤回消息和信息内容页的背景透明等功能。【 [Priview 1](https://github.com/dgynfi/WeChat_tweak/raw/master/images/WCPlugin_settings.gif) | [Priview 2](https://github.com/dgynfi/WeChat_tweak/raw/master/images/WCPlugin_applying_01.gif) | [Priview 3](https://github.com/dgynfi/WeChat_tweak/raw/master/images/WCPlugin_applying_02.gif) | [Priview 4](https://github.com/dgynfi/WeChat_tweak/raw/master/images/Fake_location_applying.gif) | [Priview 5](https://github.com/dgynfi/WeChat_tweak/raw/master/images/Prevent_msg_revocation.png) 】
+- [WeChat_tweak](https://github.com/dgynfi/WeChat_tweak) -iOS版功能最全的微信插件，支持最新版微信，具备自动抢红包，屏蔽消息和群消息，过滤特定的群聊，防止撤回消息，伪定位 (朋友圈和附近的人)，修改微信运动步数和实时取景做聊天页的背景等功能。【 [Priview 1](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_settings.png) | [Priview 2](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_xwtx1.png) | [Priview 3](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_xwtx2.png) | [Priview 4](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_pbqxx.png) | [Priview 5](https://github.com/dgynfi/WeChat_tweak/raw/master/images/fake_location.png)  | [Priview 6](https://github.com/dgynfi/WeChat_tweak/raw/master/images/prevent_msg_revoc.png) 】
 
 - [WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop) - iOS版微信抢红包Tweak。【 [Priview 1](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/Setting.jpeg) | [Priview 2](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/AssistantSetting.jpeg) 】
     - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide)
