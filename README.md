@@ -11,7 +11,7 @@
 - 7、安全攻防和应用加固, 数据安全和算法；
 - 8、导航栏和状态栏；
 - 9、数据持久（Data Persistence）；
-- 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目及Demo等。
+- 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目与Demo等。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -20,8 +20,8 @@
 
 |  ID             |  QRCode                                  | Description                             |
 | :-------------: | :--------------------------------------: | :-------------------------------------: |
-| 614799921 | ![614799921](https://github.com/dgynfi/OpenSource/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS X |
-| 155353383 | ![155353383](https://github.com/dgynfi/OpenSource/raw/master/images/qq155353383.jpg) | Technology communication group for other development language |
+| 614799921 | ![614799921](https://github.com/chenxing640/OpenSource/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS X |
+| 155353383 | ![155353383](https://github.com/chenxing640/OpenSource/raw/master/images/qq155353383.jpg) | Technology communication group for other development language |
 
 
 ## 目录
@@ -29,16 +29,12 @@
 - [OpenSource](#OpenSource)
 - [Group](#Group)
 - [iOS](#iOS)
-   - [Apple Developer](#Apple-Developer)
    - [常用第三方库](#常用第三方库)
       - [AFNetworking和Alamofire](#AFNetworking和Alamofire)
       - [SDWebImage](#SDWebImage)
       - [ReactiveCocoa和RxSwift](#ReactiveCocoa和RxSwift)
       - [Masonry和SnapKit](#Masonry和SnapKit)
       - [YYKit](#YYKit)
-   - [网络相关](#网络相关)
-   - [导航栏和状态栏](#导航栏和状态栏)
-   - [Side Menu](#Side-Menu)
    - [支付](#支付)
       - [内购IAP](#内购IAP)
       - [ApplePay](#ApplePay)
@@ -47,22 +43,26 @@
       - [视频播放器](#视频播放器) 
       - [音乐播放器](#音乐播放器)
    - [IM和直播](#IM和直播)
-   - [Runtime](#Runtime)
-   - [Data Persistence](#Data-Persistence)
+   - [图像处理和绘制](#图像处理和绘制)
+      - [OpenGL和OpenGLES](#OpenGL和OpenGLES)
+      - [Metal](#Metal)
+      - [GPUImage](#GPUImage)
+      - [CoreGraphics](#CoreGraphics)
    - [逆向开发](#逆向开发)
       - [fishhook](#fishhook)
       - [逆向辅助工具](#逆向辅助工具)
       - [逆向案例](#逆向案例)
    - [安全攻防和应用加固](#安全攻防和应用加固)
    - [数据安全和算法](#数据安全和算法)
+   - [区块链](#区块链)
+   - [网络相关](#网络相关)
+   - [导航栏和状态栏](#导航栏和状态栏)
+   - [Runtime](#Runtime)
+   - [Data Persistence](#Data-Persistence)
+   - [Side Menu](#Side-Menu)
    - [蓝牙](#蓝牙)
    - [手势指纹面容ID密码解锁](#手势指纹面容ID密码解锁)
    - [布局](#布局)
-   - [图像处理和绘制](#图像处理和绘制)
-      - [OpenGL和OpenGLES](#OpenGL和OpenGLES)
-      - [Metal](#Metal)
-      - [GPUImage](#GPUImage)
-      - [CoreGraphics](#CoreGraphics)
    - [图像模糊化](#图像模糊化)
    - [图片浏览器](#图片浏览器)
    - [扫码](#扫码)
@@ -78,16 +78,16 @@
    - [图片验证码](#图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
-   - [高仿项目及Demo](#高仿项目及Demo)
    - [类目](#类目)
    - [越狱检测](#越狱检测) 
    - [Others](#Others)
       - [Sensor](#Sensor)
       - [Privacy](#Privacy)
-      - [未归类](#未归类)
+      - [Uncategorized](#Uncategorized)
+   - [高仿项目与Demo](#高仿项目与Demo)
 - [Mac](#Mac)
 - [其他汇总](#其他汇总)
-- [区块链](#区块链)
+- [Apple Developer](#Apple-Developer)
 - [Flutter](#Flutter)
     - [Flutter和Dart](#Flutter和Dart)
     - [Flutter Project](#Flutter-Project)
@@ -106,32 +106,6 @@
 - [Database](#Database)
 
 ## iOS
-
-### Apple Developer
-
-- [登录 - Apple](https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2F&rv=1)
-
-- [iTunes Connect](https://itunesconnect.apple.com/login)
-
-- [Beta Software - Download - Apple Developer](https://developer.apple.com/download/)
-
-- [More Software Downloads - Apple Developer](https://developer.apple.com/download/more/)
-
-- [Apple Open Source - Releases](https://opensource.apple.com) - [https://opensource.apple.com/source/](https://opensource.apple.com/source/)
-
-- [Documentation Archive](https://developer.apple.com/library/archive/navigation/) - This library is no longer being updated. Browse the developer documentation including API reference, articles, and sample code.
-
-- [Apple Developer Documentation](https://developer.apple.com/documentation) - Browse the latest developer documentation including API reference, articles, and sample code.
-
-- [Sample Code - Search - Apple Developer](https://developer.apple.com/search/?q=metal&type=Sample%20Code)
-
-- [Themes - iOS - Human Interface Guidelines - Apple Developer](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/) 
-
-- [App Store 审核指南 - Apple Developer](https://developer.apple.com/cn/app-store/review/guidelines/)
-
-- [App Store 加急](https://developer.apple.com/contact/app-store/?topic=expedite)
-
-- [iOS 加急审核](https://www.jianshu.com/p/5a11f59a264c) 
 
 ### 常用第三方库
 
@@ -296,59 +270,12 @@ class MyViewController: UIViewController {
     - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
     - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
-### 网络相关
-
-*网络相关内容：AFNetworking的封装，NSURLSession的封装, Reachability, CocoaHTTPServer, GCDWebServer.*
-
-- [SwiftHTTP](https://github.com/daltoniam/SwiftHTTP) - Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.
-
-- [BANetManager](https://github.com/boai/BANetManager) - 基于[AFNetworking](#AFNetworking和Alamofire) 3.0、3.1最新版本的封装，集成了 get / post / put / delete 方法请求数据，单图/多图上传，视频上传/下载，网络监测 等多种网络请求方式。
-
-- [HYBNetworking](https://github.com/CoderJackyHuang/HYBNetworking) - 基于AFNetworking3.0以上版本封装的网络层。提供常用的GET/POST接口、上传下载图片、文件接口、支持缓存等。
-
-- [HLNetworking](https://github.com/wangshiyu13/HLNetworking) - 基于[AFNetworking](#AFNetworking和Alamofire)的高阶网络请求管理器。
-
-- [CCPAFNNetworking](https://github.com/iccpeng/CCPAFNNetworking) -  [AFN](#AFNetworking和Alamofire)与MBProgressHUD的组合使用。
-
-- [Reachability](https://github.com/tonymillion/Reachability) - ARC and GCD Compatible Reachability Class for iOS and MacOS. Drop in replacement for Apple Reachability.
-
-- [CocoaWebResource](https://github.com/robin/cocoa-web-resource) - A file transfer solution for iPhone and iPod Touch. Support uploading, download and delete files via browser.
-
-- [GCDWebServer](https://github.com/swisspol/GCDWebServer) - A modern and lightweight GCD based HTTP 1.1 server designed to be embedded in iOS, macOS & tvOS apps. 
-
-- [CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) - A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.
-
-### 导航栏和状态栏
-
-- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。【 [Swift版](https://github.com/wangrui460/WRNavigationBar_swift) | [Priview 1](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif) | [Priview 2](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif) | [Priview 3](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 】
-
-- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。【 [Priview 1](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif) | [Priview 2](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif) 】
-
-- [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController) - Implicitly make every view controller has its own navigation bar. 【 [Priview 1](https://user-images.githubusercontent.com/1250207/30429339-abb20914-9989-11e7-9058-c967839315f4.gif) 】
-
-- [GKNavigationController](https://github.com/QuintGao/GKNavigationController) - iOS自定义导航栏-导航条联动（仿网易新闻、网易云音乐等导航栏滑动效果）。【 [Priview 1](https://github.com/QuintGao/GKNavigationController/raw/master/GKNavigationControllerDemo/001.png) 】
-
-- [EasyNavigation](https://github.com/chenliangloveyou/EasyNavigation) - 一款超级简单的导航条管理工具。完全自定义导航条。没有UINavigationBar 和 UINavigationItem 这两个类。完全是对UIView的操作。 所有操作都能一行代码，操作之间完全独立，互不影响。【 [Priview 1](https://github.com/chenliangloveyou/EasyNavigation/raw/master/logo/horizontal-color.png) 】
-
-- [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) - An UINavigationController's category to enable fullscreen pop gesture in an iOS7+ system style with AOP. 【 [Priview 1](https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif) 】
-
-- [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension) - JZNavigationExtension integrates some convenient features for UINavigationController and easy to use. 【 [Priview 1](https://raw.githubusercontent.com/JazysYu/JZNavigationExtension/master/Snapshots/JZNavigationExtensionDemo.gif) 】
-
-- [BBGestureBack](https://github.com/Bonway/BBGestureBack) - OC and Swift full screen return gesture（纯OC 和 纯Swift编写，类淘宝、京东等全屏滑动返回效果）。【[Priview 1](https://camo.githubusercontent.com/de8758c8283c6aa4745044e2a677410880335726/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f31303939313737302d656465636265633933643164376538622e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-
-### Side Menu
-
-- [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) - A lightweight, easy to use, Side Drawer Navigation Controller. 【 [Priview 1](https://camo.githubusercontent.com/5c4050ef64d7b9836b6a56b89b458ed5c8fdfb7f/687474703a2f2f6d757475616c6d6f62696c652e6769746875622e696f2f4d4d447261776572436f6e74726f6c6c65722f4578616d706c65496d616765732f6578616d706c65322e706e67) 】
-
-- [RESideMenu](https://github.com/romaonthego/RESideMenu) - iOS 7/8 style side menu with parallax effect. 【 [Priview 1](https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2) 】
-
 
 ### 支付
 
 #### 内购IAP
 
-- [DYFStore-Swift](https://github.com/dgynfi/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/dgynfi/DYFStoreKit) (Objective-C) )
+- [DYFStore-Swift](https://github.com/chenxing640/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/chenxing640/DYFStoreKit) (Objective-C) )
 
 - [RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases.
 
@@ -362,9 +289,9 @@ class MyViewController: UIViewController {
 
 - [Receipt Validation Programming Guide](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Introduction.html#//apple_ref/doc/uid/TP40010573-CH105-SW1)
 
-- [DYFStoreReceiptVerifier_Swift](https://github.com/dgynfi/DYFStoreReceiptVerifier_Swift) - This class is developed in Swift language, which is used to verify App Store receipts.
+- [DYFStoreReceiptVerifier_Swift](https://github.com/chenxing640/DYFStoreReceiptVerifier_Swift) - This class is developed in Swift language, which is used to verify App Store receipts.
 
-- [DYFStoreReceiptVerifier](https://github.com/dgynfi/DYFStoreReceiptVerifier_Swift) - This class is developed in Objective-C language, which is used to verify App Store receipts.
+- [DYFStoreReceiptVerifier](https://github.com/chenxing640/DYFStoreReceiptVerifier_Swift) - This class is developed in Objective-C language, which is used to verify App Store receipts.
 
 - [VerifyStoreReceiptiOS](https://github.com/rmaddy/VerifyStoreReceiptiOS) - A helper class for verifying App Store receipts under iOS.
 
@@ -399,7 +326,7 @@ class MyViewController: UIViewController {
 
 - [CLPlayer](https://github.com/JmoVxia/CLPlayer) - 自定义支持全屏的播放器。【 [Priview 1](https://github.com/JmoVxia/CLPlayer/raw/master/效果图.gif) 】
 
-- [QPlayer](https://github.com/dgynfi/QPlayer) - A powerful video player that you can't miss, supports m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, rm, rmvb, mp3 format. Enter any HTTP, RTSP, RTMP, HLS address play network streaming or live. QPlayer use ffmpeg，you can transfer files via wifi. It aggregates several live, video and short video platforms, and you can watch live, video and short video online. 【 [Priview 1](https://github.com/dgynfi/QPlayer/raw/master/images/web_video.png) | [Priview 2](https://github.com/dgynfi/QPlayer/raw/master/images/mainstream_live.png) | [Priview 3](https://github.com/dgynfi/QPlayer/raw/master/images/tv_radio.png) | [Priview 4](https://github.com/dgynfi/QPlayer/raw/master/images/local_video.png) 】
+- [QPlayer](https://github.com/chenxing640/QPlayer) - A powerful video player that you can't miss, supports m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, rm, rmvb, mp3 format. Enter any HTTP, RTSP, RTMP, HLS address play network streaming or live. QPlayer use ffmpeg，you can transfer files via wifi. It aggregates several live, video and short video platforms, and you can watch live, video and short video online. 【 [Priview 1](https://github.com/chenxing640/QPlayer/raw/master/images/web_video.png) | [Priview 2](https://github.com/chenxing640/QPlayer/raw/master/images/mainstream_live.png) | [Priview 3](https://github.com/chenxing640/QPlayer/raw/master/images/tv_radio.png) | [Priview 4](https://github.com/chenxing640/QPlayer/raw/master/images/local_video.png) 】
 
 - [BMPlayer](https://github.com/BrikerMan/BMPlayer) - A video player for iOS, based on AVPlayer, support the horizontal, vertical screen. support adjust volume, brightness and seek by slide, support subtitles. 【 [Priview 1](https://github.com/BrikerMan/resources/raw/master/BMPlayer/demo.gif) 】
 
@@ -489,53 +416,39 @@ class MyViewController: UIViewController {
 - [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
 
 
-### Runtime
+### 图像处理和绘制
 
-- [ObjC runtime opensource](https://opensource.apple.com/source/objc4/) - Source code comes from Apple opensource.
+#### OpenGL和OpenGLES
 
-- [DYFSwiftRuntimeProvider](https://github.com/dgynfi/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
 
-- [DYFRuntimeProvider](https://github.com/dgynfi/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
 
-- [Runtime Exploration](https://github.com/dgynfi/Runtime-exploration) - Runtime是iOS系统中重要的组成部分，面试也是必问的问题，所以Runtime是一个iOS工程师必须掌握的知识点。
+- [kesalin·OpenGLES](https://github.com/kesalin/OpenGLES)
 
-- [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
-- [探秘Runtime - 剖析 Runtime 结构体](https://www.jianshu.com/p/5b7e7c8075ef)
-- [探秘 Runtime - Runtime 源码分析](https://www.jianshu.com/p/3019605a4fc9)
-- [探秘 Runtime - Runtime 加载过程](https://www.jianshu.com/p/4fb2d7014e9e)
-- [探秘 Runtime - Runtime 消息发送机制](https://www.jianshu.com/p/014af0de67cd)
-- [探秘 Runtime - 深入剖析 Category](https://www.jianshu.com/p/0dc2513e117b)
-- [探秘 Runtime - Runtime Message Forward](https://www.jianshu.com/p/f313e8e32946)
-- [iOS 黑魔法 - Runtime Method Swizzling](https://www.jianshu.com/p/ff19c04b34d0)
-- [探秘 Runtime - Runtime 的应用](https://www.jianshu.com/p/4a22a39b69c5)
+- [uwuneng·OpenGLES](https://github.com/uwuneng/OpenGLES)
 
-- [Objc -- Runtime 简单入门 (代码实例) ](https://blog.csdn.net/demon_jiao/article/details/50961687)
+- [XanderXu·OpenGLESExamples](https://github.com/XanderXu/OpenGLESExamples)
 
-- [iOS源码解析：runtime<一> isa，class底层结构窥探](https://www.jianshu.com/p/bbc33b55d4b7)
-- [iOS源码解析：runtime<二> objc_msgSend()消息机制的完整过程](https://www.jianshu.com/p/0653af5d02ae)
+#### Metal
 
-- [笔记-runtime源码解析之让你彻底了解底层源码](https://www.jianshu.com/p/52782535d38e)
+- [Apple Metal](https://developer.apple.com/metal/) 
 
-- [从 ObjC Runtime 源码分析一个对象创建的过程](https://www.jianshu.com/p/8e4887a43bd7)
+- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
 
-- [探秘Runtime - Runtime源码分析](https://www.jianshu.com/p/3019605a4fc9)
+#### GPUImage
 
-- [objc_msgSend arm64 崩溃问题](https://blog.csdn.net/chenyong05314/article/details/42121001)
+- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)【 [Priview 1](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) 】
 
+- [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
 
-### Data Persistence
+- [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
 
-*DB, Keychain, NSUserDefaults, Write*
+#### CoreGraphics
 
-- [DYFSwiftKeychain](https://github.com/dgynfi/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/dgynfi/DYFKeychain) (Objective-C) )
+- [Graphs](https://github.com/candy7/Graphs) - 通过bezierPath，画出曲线图，并且加入动画。【 [Priview 1](https://camo.githubusercontent.com/955dab2a5598a7dcb509b3c448b12a37a1760570/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323035353836362d333233653639333130323262353461662e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
-- [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
-
-- [GenericKeychain](https://developer.apple.com/library/archive/samplecode/GenericKeychain/Introduction/Intro.html) - This sample shows how to add, query for, remove, and update a keychain item of generic class type. It also demonstrates the use of shared keychain items.
-
-- [fmdb](https://github.com/ccgus/fmdb) - A Cocoa / Objective-C wrapper around SQLite.
-
-- [JQFMDB](https://github.com/gaojunquan/JQFMDB) - FMDB的封装，操作简单，线程安全，扩展性强，直接操作model或dictionary。
+- [LXBezierPath](https://github.com/LXManMan/LXBezierPath) - 进度条绘制。【 [Priview 1](https://github.com/liuxinixn/LXBezierPath/raw/master/gif.gif) 】
 
 
 ### 逆向开发
@@ -554,13 +467,13 @@ class MyViewController: UIViewController {
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
 - [optool](https://github.com/alexzielenski/optool) - Command Line Tool for interacting with MachO binaries on OSX/iOS.
-- [Hook-Tools](https://github.com/dgynfi/WeChat_tweak/tree/master/Hook-Tools)
+- [Hook-Tools](https://github.com/chenxing640/WeChat_tweak/tree/master/Hook-Tools)
 - [HackAppTool](https://github.com/jackrex/FakeWeChatLoc/tree/master/HackAppTool) 
 - [Tools](https://github.com/east520/AutoGetRedEnv/tree/master/Tools)
 
 #### 逆向案例
 
-- [WeChat_tweak](https://github.com/dgynfi/WeChat_tweak) -iOS版功能最全的微信插件，支持最新版微信，具备自动抢红包，屏蔽消息和群消息，过滤特定的群聊，防止撤回消息，伪定位 (朋友圈和附近的人)，修改微信运动步数和实时取景做聊天页的背景等功能。【 [Priview 1](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_settings.png) | [Priview 2](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_xwtx1.png) | [Priview 3](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_xwtx2.png) | [Priview 4](https://github.com/dgynfi/WeChat_tweak/raw/master/images/wcplugin_pbqxx.png) | [Priview 5](https://github.com/dgynfi/WeChat_tweak/raw/master/images/fake_location.png)  | [Priview 6](https://github.com/dgynfi/WeChat_tweak/raw/master/images/prevent_msg_revoc.png) 】
+- [WeChat_tweak](https://github.com/chenxing640/WeChat_tweak) -iOS版功能最全的微信插件，支持最新版微信，具备自动抢红包，屏蔽消息和群消息，过滤特定的群聊，防止撤回消息，伪定位 (朋友圈和附近的人)，修改微信运动步数和实时取景做聊天页的背景等功能。【 [Priview 1](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_settings.png) | [Priview 2](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_xwtx1.png) | [Priview 3](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_xwtx2.png) | [Priview 4](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_pbqxx.png) | [Priview 5](https://github.com/chenxing640/WeChat_tweak/raw/master/images/fake_location.png)  | [Priview 6](https://github.com/chenxing640/WeChat_tweak/raw/master/images/prevent_msg_revoc.png) 】
 
 - [WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop) - iOS版微信抢红包Tweak。【 [Priview 1](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/Setting.jpeg) | [Priview 2](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/AssistantSetting.jpeg) 】
     - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide)
@@ -601,7 +514,7 @@ class MyViewController: UIViewController {
 
 ### 数据安全和算法
 
-- [DYFCryptoUtils](https://github.com/dgynfi/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)【 [Priview 1](https://github.com/dgynfi/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif) 】
+- [DYFCryptoUtils](https://github.com/chenxing640/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)【 [Priview 1](https://github.com/chenxing640/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif) 】
 
 - [AESCipher-iOS](https://github.com/WelkinXie/AESCipher-iOS) - AES encryption working between Objective-C and Java. ([AESCipher-Java](https://github.com/WelkinXie/AESCipher-Java))
 
@@ -628,6 +541,135 @@ class MyViewController: UIViewController {
 - [CryptoCompatibility](https://developer.apple.com/library/mac/samplecode/CryptoCompatibility/Introduction/Intro.html) - CryptoCompatibility shows how to do common cryptographic operations using Apple APIs such that the results match other common cryptographic APIs, most notably OpenSSL.
 
 
+### 区块链
+
+*比特币、以太坊、区块链相关内容*
+
+- [go-ethereum](https://github.com/ethereum/go-ethereum)  - 以太坊协议的官方的Go语言实现。
+  - [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
+
+- [web3swift](https://github.com/zeriontech/Web3Swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
+   <div align=center>
+   <img src="https://user-images.githubusercontent.com/3356474/34412791-5b58962c-ebf0-11e7-8460-5592b12e6e9d.png" width="50%" />
+   </div>
+
+- [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. 【 [Priview 1](https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png) 】
+
+- [py-geth](https://github.com/ethereum/py-geth) - Python wrapping for running Go-Ethereum as a subprocess.
+
+- [EthersWallet-ios](https://github.com/ethers-io/EthersWallet-ios) - Ethereum Wallet and Dapp Browser for iOS.
+
+- [breadwallet-ios](https://github.com/voisine/breadwallet-ios) - Bread is the best way to get started with bitcoin. 【 [Priview 1](https://github.com/voisine/breadwallet-ios/raw/2.0/images/screenshots.jpg) 】
+
+- [dashwallet](https://github.com/QuantumExplorer/dashwallet) - Dashwallet (breadwallet fork) is a real standalone Dash client. 【 [Priview 1](https://github.com/QuantumExplorer/dashwallet/raw/master/images/screenshot2.jpg) 】
+
+- [imToken](https://github.com/ywzqhl/imToken) - ETHWallet.
+
+- [ethers.io](https://github.com/ethers-io/ethers.io) - The frontend website HTML, JavaScript and CSS for ethers.io. 
+
+- [ethers.objc](https://github.com/ethers-io/ethers.objc) - Fast, simple and complete library for Ethereum in Objective-C.
+
+
+### 网络相关
+
+*网络相关内容：AFNetworking的封装，NSURLSession的封装, Reachability, CocoaHTTPServer, GCDWebServer.*
+
+- [SwiftHTTP](https://github.com/daltoniam/SwiftHTTP) - Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.
+
+- [BANetManager](https://github.com/boai/BANetManager) - 基于[AFNetworking](#AFNetworking和Alamofire) 3.0、3.1最新版本的封装，集成了 get / post / put / delete 方法请求数据，单图/多图上传，视频上传/下载，网络监测 等多种网络请求方式。
+
+- [HYBNetworking](https://github.com/CoderJackyHuang/HYBNetworking) - 基于AFNetworking3.0以上版本封装的网络层。提供常用的GET/POST接口、上传下载图片、文件接口、支持缓存等。
+
+- [HLNetworking](https://github.com/wangshiyu13/HLNetworking) - 基于[AFNetworking](#AFNetworking和Alamofire)的高阶网络请求管理器。
+
+- [CCPAFNNetworking](https://github.com/iccpeng/CCPAFNNetworking) -  [AFN](#AFNetworking和Alamofire)与MBProgressHUD的组合使用。
+
+- [Reachability](https://github.com/tonymillion/Reachability) - ARC and GCD Compatible Reachability Class for iOS and MacOS. Drop in replacement for Apple Reachability.
+
+- [CocoaWebResource](https://github.com/robin/cocoa-web-resource) - A file transfer solution for iPhone and iPod Touch. Support uploading, download and delete files via browser.
+
+- [GCDWebServer](https://github.com/swisspol/GCDWebServer) - A modern and lightweight GCD based HTTP 1.1 server designed to be embedded in iOS, macOS & tvOS apps. 
+
+- [CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) - A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.
+
+
+### 导航栏和状态栏
+
+- [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。【 [Swift版](https://github.com/wangrui460/WRNavigationBar_swift) | [Priview 1](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif) | [Priview 2](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif) | [Priview 3](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 】
+
+- [NNNavigationBar](https://github.com/amisare/NNNavigationBar) - 实现导航条背景渐变过渡动画的轻量级框架。【 [Priview 1](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_00.gif) | [Priview 2](https://raw.githubusercontent.com/amisare/Screenshots/master/NNNavigationBar/Screenshots_01.gif) 】
+
+- [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController) - Implicitly make every view controller has its own navigation bar. 【 [Priview 1](https://user-images.githubusercontent.com/1250207/30429339-abb20914-9989-11e7-9058-c967839315f4.gif) 】
+
+- [GKNavigationController](https://github.com/QuintGao/GKNavigationController) - iOS自定义导航栏-导航条联动（仿网易新闻、网易云音乐等导航栏滑动效果）。【 [Priview 1](https://github.com/QuintGao/GKNavigationController/raw/master/GKNavigationControllerDemo/001.png) 】
+
+- [EasyNavigation](https://github.com/chenliangloveyou/EasyNavigation) - 一款超级简单的导航条管理工具。完全自定义导航条。没有UINavigationBar 和 UINavigationItem 这两个类。完全是对UIView的操作。 所有操作都能一行代码，操作之间完全独立，互不影响。【 [Priview 1](https://github.com/chenliangloveyou/EasyNavigation/raw/master/logo/horizontal-color.png) 】
+
+- [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) - An UINavigationController's category to enable fullscreen pop gesture in an iOS7+ system style with AOP. 【 [Priview 1](https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif) 】
+
+- [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension) - JZNavigationExtension integrates some convenient features for UINavigationController and easy to use. 【 [Priview 1](https://raw.githubusercontent.com/JazysYu/JZNavigationExtension/master/Snapshots/JZNavigationExtensionDemo.gif) 】
+
+- [BBGestureBack](https://github.com/Bonway/BBGestureBack) - OC and Swift full screen return gesture（纯OC 和 纯Swift编写，类淘宝、京东等全屏滑动返回效果）。【[Priview 1](https://camo.githubusercontent.com/de8758c8283c6aa4745044e2a677410880335726/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f31303939313737302d656465636265633933643164376538622e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
+
+
+### Side Menu
+
+- [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) - A lightweight, easy to use, Side Drawer Navigation Controller. 【 [Priview 1](https://camo.githubusercontent.com/5c4050ef64d7b9836b6a56b89b458ed5c8fdfb7f/687474703a2f2f6d757475616c6d6f62696c652e6769746875622e696f2f4d4d447261776572436f6e74726f6c6c65722f4578616d706c65496d616765732f6578616d706c65322e706e67) 】
+
+- [RESideMenu](https://github.com/romaonthego/RESideMenu) - iOS 7/8 style side menu with parallax effect. 【 [Priview 1](https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2) 】
+
+
+### Runtime
+
+- [ObjC runtime opensource](https://opensource.apple.com/source/objc4/) - Source code comes from Apple opensource.
+
+- [DYFSwiftRuntimeProvider](https://github.com/chenxing640/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+- [DYFRuntimeProvider](https://github.com/chenxing640/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+
+- [Runtime Exploration](https://github.com/chenxing640/Runtime-exploration) - Runtime是iOS系统中重要的组成部分，面试也是必问的问题，所以Runtime是一个iOS工程师必须掌握的知识点。
+
+- [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
+- [探秘Runtime - 剖析 Runtime 结构体](https://www.jianshu.com/p/5b7e7c8075ef)
+- [探秘 Runtime - Runtime 源码分析](https://www.jianshu.com/p/3019605a4fc9)
+- [探秘 Runtime - Runtime 加载过程](https://www.jianshu.com/p/4fb2d7014e9e)
+- [探秘 Runtime - Runtime 消息发送机制](https://www.jianshu.com/p/014af0de67cd)
+- [探秘 Runtime - 深入剖析 Category](https://www.jianshu.com/p/0dc2513e117b)
+- [探秘 Runtime - Runtime Message Forward](https://www.jianshu.com/p/f313e8e32946)
+- [iOS 黑魔法 - Runtime Method Swizzling](https://www.jianshu.com/p/ff19c04b34d0)
+- [探秘 Runtime - Runtime 的应用](https://www.jianshu.com/p/4a22a39b69c5)
+
+- [Objc -- Runtime 简单入门 (代码实例) ](https://blog.csdn.net/demon_jiao/article/details/50961687)
+
+- [iOS源码解析：runtime<一> isa，class底层结构窥探](https://www.jianshu.com/p/bbc33b55d4b7)
+- [iOS源码解析：runtime<二> objc_msgSend()消息机制的完整过程](https://www.jianshu.com/p/0653af5d02ae)
+
+- [笔记-runtime源码解析之让你彻底了解底层源码](https://www.jianshu.com/p/52782535d38e)
+
+- [从 ObjC Runtime 源码分析一个对象创建的过程](https://www.jianshu.com/p/8e4887a43bd7)
+
+- [探秘Runtime - Runtime源码分析](https://www.jianshu.com/p/3019605a4fc9)
+
+- [objc_msgSend arm64 崩溃问题](https://blog.csdn.net/chenyong05314/article/details/42121001)
+
+
+### Data Persistence
+
+*DB, Keychain, NSUserDefaults, Write*
+
+- [DYFSwiftKeychain](https://github.com/chenxing640/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/chenxing640/DYFKeychain) (Objective-C) )
+
+- [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
+
+- [GenericKeychain](https://developer.apple.com/library/archive/samplecode/GenericKeychain/Introduction/Intro.html) - This sample shows how to add, query for, remove, and update a keychain item of generic class type. It also demonstrates the use of shared keychain items.
+
+- [fmdb](https://github.com/ccgus/fmdb) - A Cocoa / Objective-C wrapper around SQLite.
+
+- [JQFMDB](https://github.com/gaojunquan/JQFMDB) - FMDB的封装，操作简单，线程安全，扩展性强，直接操作model或dictionary。
+
+- [wcdb](https://github.com/Tencent/wcdb) - WCDB is a cross-platform database framework developed by WeChat.
+
+
 ### 蓝牙
 
 - [EasyBluetooth]( https://github.com/chenliangloveyou/EasyBluetooth) - 一款iOS BLE蓝牙调试工具，非常简单容易，也可以作为一个蓝牙库，快速集成和开发。 可以两步搞定蓝牙开发操作。第一步连接设备，第二步特征读写数据。【 [Priview 1](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_1.gif) | [Priview 2](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_2.gif) | [Priview 3](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_3.png) | [Priview 4](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_4.png) 】
@@ -647,7 +689,7 @@ class MyViewController: UIViewController {
 
 ### 手势指纹面容ID密码解锁
 
-- [DYFAuthIDAndGestureLock](https://github.com/dgynfi/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview 1](https://github.com/dgynfi/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
+- [DYFAuthIDAndGestureLock](https://github.com/chenxing640/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview 1](https://github.com/chenxing640/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
 
 - [XGTouchDemo](https://github.com/XGPASS/XGTouchDemo) - 手势密码解锁和指纹TouchID解锁的demo。【 [Priview 1](https://github.com/XGPASS/XGTouchDemo/raw/master/images/develop.gif) 】
 
@@ -665,40 +707,6 @@ class MyViewController: UIViewController {
 - [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
 | [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) |
 
-
-### 图像处理和绘制
-
-#### OpenGL和OpenGLES
-
-- [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
-
-- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
-
-- [kesalin·OpenGLES](https://github.com/kesalin/OpenGLES)
-
-- [uwuneng·OpenGLES](https://github.com/uwuneng/OpenGLES)
-
-- [XanderXu·OpenGLESExamples](https://github.com/XanderXu/OpenGLESExamples)
-
-#### Metal
-
-- [Apple Metal](https://developer.apple.com/metal/) 
-
-- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
-
-#### GPUImage
-
-- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)【 [Priview 1](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) 】
-
-- [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
-
-- [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
-
-#### CoreGraphics
-
-- [Graphs](https://github.com/candy7/Graphs) - 通过bezierPath，画出曲线图，并且加入动画。【 [Priview 1](https://camo.githubusercontent.com/955dab2a5598a7dcb509b3c448b12a37a1760570/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323035353836362d333233653639333130323262353461662e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-- [LXBezierPath](https://github.com/LXManMan/LXBezierPath) - 进度条绘制。【 [Priview 1](https://github.com/liuxinixn/LXBezierPath/raw/master/gif.gif) 】
 
 ### 图像模糊化
 
@@ -719,12 +727,14 @@ class MyViewController: UIViewController {
 
 - [KSPhotoBrowser](https://github.com/skx926/KSPhotoBrowser) - A beautiful photo browser with interactive dismissal animation. 一个小而美的图片浏览器。【 [Priview 1](https://camo.githubusercontent.com/cfdefe604fd779c1c3ea62c8a2aed91a3e1ab44b/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f426c75722e676966) | [Priview 2](https://camo.githubusercontent.com/1bb75bf6ede320b6824dc799b0afba8e3c5e4ff4/68747470733a2f2f7261772e6769746875622e636f6d2f736b783932362f4b5350686f746f42726f777365722f6d61737465722f496d616765732f436f726e65722e676966) 】
 
+- [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
+
 
 ### 扫码
 
 *二维码，条形码相关内容*
 
-- [DYFCodeScanner](https://github.com/dgynfi/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 【 [Priview 1](https://github.com/dgynfi/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif) 】
+- [DYFCodeScanner](https://github.com/chenxing640/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 【 [Priview 1](https://github.com/chenxing640/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif) 】
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。【 [Priview 1](https://github.com/MinMao-Hub/MMScan/raw/master/gifs/mmscan.gif) 】
 
@@ -746,6 +756,8 @@ class MyViewController: UIViewController {
 - [MJRefresh](https://github.com/CoderMJLee/MJRefresh) - An easy way to use pull-to-refresh. 【 [Priview 1](https://camo.githubusercontent.com/15577b87be4403d9e2ede4d5cd5b9fccbd1d03ae/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343334333438363135312e676966) | [Priview 2](https://camo.githubusercontent.com/911191d46157ea3961728b16696aea4440ffeb92/687474703a2f2f696d61676573302e636e626c6f67732e636f6d2f626c6f67323031352f3439373237392f3230313530362f3134313230343430323233383338392e676966) 】
 
 - [SDRefreshView](https://github.com/gsdios/SDRefreshView) - 简单易用的上拉和下拉刷新（多版本细节适配）。Pull To Refresh. 【 [Priview 1](https://camo.githubusercontent.com/1febdd6e24be7611d1059d512804437ea35f4a8f/687474703a2f2f63632e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f6431333261633664623135626361632e676966) 】
+
+- [KafkaRefresh](https://github.com/BeatsKitano/KafkaRefresh) - About Animated, customizable, and flexible pull-to-refresh framework for faster and easier iOS development.
 
 
 ### 指示器
@@ -769,7 +781,7 @@ class MyViewController: UIViewController {
 
 ### Toast
 
-- [DYFToast](https://github.com/dgynfi/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
+- [DYFToast](https://github.com/chenxing640/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
 
 - [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast)) 【 [Priview 1](https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg) 】
 
@@ -827,7 +839,24 @@ class MyViewController: UIViewController {
 
 ### WebView和进度条
 
-- [DYFProgressView](https://github.com/dgynfi/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview 1](https://github.com/dgynfi/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
+- [DYFProgressView](https://github.com/chenxing640/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview 1](https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
+
+- [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - About An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
+```
+  #ITMS-90809: Deprecated API Usage - Apple will stop accepting submissions of apps that use UIWebView APIs
+  #删除WebViewJavascriptBridge中的WebViewJavascriptBridge.h和WebViewJavascriptBridge.m文件
+  pre_install do |installer|
+    dir_web = File.join(installer.sandbox.pod_dir('WebViewJavascriptBridge'), 'WebViewJavascriptBridge')
+    Dir.foreach(dir_web) {|x|
+      real_path = File.join(dir_web, x)
+      if (!File.directory?(real_path) && File.exists?(real_path))
+        if(x == 'WebViewJavascriptBridge.h' || x == 'WebViewJavascriptBridge.m')
+          File.delete(real_path)
+        end
+      end
+    }
+  end
+```
 
 - [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) - A progress interface library for UIWebView. Currently, UIWebView doesn't have official progress interface. You can implement progress bar for your in-app browser using this module. 【 [Priview 1](https://camo.githubusercontent.com/082fc708cc461dc53832b7d14d5affdf475dd57b/68747470733a2f2f7261772e6769746875622e636f6d2f6e696e6a696e6b756e2f4e4a4b5765625669657750726f67726573732f6d61737465722f44656d6f4170702f53637265656e73686f742f73637265656e73686f74312e706e67) 】
 
@@ -914,6 +943,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [YanZhengCode](https://github.com/wsl2ls/YanZhengCode) - 图片验证码和滑块验证码。【 [Priview 1](https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
+- [KeenCodeUnit](https://github.com/chongzone/KeenCodeUnit) - 自定义的验证码、支付密码文本框，支持明文、密文输入等，支持内容的验证错误处理。
+
 
 ### 获取设备相关信息
 
@@ -933,7 +964,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [ADScrollView](https://github.com/Thomaszhouwu/ADScrollView) - 下载一张网页图片，无线滑动图片展示各种广告图片，点击某个广告图片做出相应的操作。
 
 
-### 高仿项目及Demo
+### 高仿项目与Demo
 
 - [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App. ([Swift版](https://github.com/NJHu/swiftProject)) 【 [Priview 1](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/home.gif) | [Priview 2](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif) 】
 
@@ -1000,7 +1031,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！【 [Priview 1](https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png) 】
 
-#### 未归类
+#### Uncategorized
 
 - [MSWeakTimer](https://github.com/mindsnacks/MSWeakTimer) - Thread-safe NSTimer alternative that doesn't retain the target and supports being used with GCD queues.
 
@@ -1078,7 +1109,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze. 【 [Priview 1](https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67) 】
 
-- [IPAPkgTool](https://github.com/dgynfi/IPAPkgTool) - 一款自动化打包ipa的MacOS应用。(A MacOS application that packs ipa automatically.) 【 [Priview 1](https://github.com/dgynfi/IPAPkgTool/raw/master/Images/login_page.png) 】
+- [IPAPkgTool](https://github.com/chenxing640/IPAPkgTool) - 一款自动化打包ipa的MacOS应用。(A MacOS application that packs ipa automatically.) 【 [Priview 1](https://github.com/chenxing640/IPAPkgTool/raw/master/Images/login_page.png) 】
 
 - [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) - This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device. ([Instructions](https://dantheman827.github.io/ios-app-signer/))
 
@@ -1117,11 +1148,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ## 其他汇总
 
-- [iOS代码库 - Code4App](http://www.code4app.com/code.php) - Code4App是一个移动平台的代码库，是iOS开发好帮手。
-
-- [iOS代码库 - cocoachina](http://code.cocoachina.com/) - 国内最热门的iOS社区的代码库。
-
-- [iOS代码库 - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
+- [iOS代码库 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
 
 - [ios-mac-study](https://www.kancloud.cn/digest/ios-mac-study/84557) - iOS及Mac开源项目和学习资料【超级全面】 · 看云。
 
@@ -1136,317 +1163,3 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) - 主要对当前 GitHub 排名前 100 的项目做一个简单的简介, 方便初学者快速了解到当前 Objective-C 在 GitHub 的情况。
 
 
-## 区块链
-
-*比特币、以太坊、区块链相关内容*
-
-- [go-ethereum](https://github.com/ethereum/go-ethereum)  - 以太坊协议的官方的Go语言实现。
-  - [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
-
-- [web3swift](https://github.com/BANKEX/web3swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
-   <div align=center>
-   <img src="https://user-images.githubusercontent.com/3356474/34412791-5b58962c-ebf0-11e7-8460-5592b12e6e9d.png" width="50%" />
-   </div>
-
-- [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. 【 [Priview 1](https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png) 】
-
-- [py-geth](https://github.com/ethereum/py-geth) - Python wrapping for running Go-Ethereum as a subprocess.
-
-- [EthersWallet-ios](https://github.com/ethers-io/EthersWallet-ios) - Ethereum Wallet and Dapp Browser for iOS.
-
-- [breadwallet-ios](https://github.com/voisine/breadwallet-ios) - Bread is the best way to get started with bitcoin. 【 [Priview 1](https://github.com/voisine/breadwallet-ios/raw/2.0/images/screenshots.jpg) 】
-
-- [dashwallet](https://github.com/QuantumExplorer/dashwallet) - Dashwallet (breadwallet fork) is a real standalone Dash client. 【 [Priview 1](https://github.com/QuantumExplorer/dashwallet/raw/master/images/screenshot2.jpg) 】
-
-- [imToken](https://github.com/ywzqhl/imToken) - ETHWallet.
-
-- [ethers.io](https://github.com/ethers-io/ethers.io) - The frontend website HTML, JavaScript and CSS for ethers.io. 
-
-- [ethers.objc](https://github.com/ethers-io/ethers.objc) - Fast, simple and complete library for Ethereum in Objective-C.
-
-
-## Flutter
-
-### Flutter和Dart
-
-- [Flutter中文网](https://flutterchina.club) 
-  - [Flutter文档](https://flutterchina.club/docs/)
-  - [Flutter中文网开源项目](https://flutterchina.club/opensource.html)
-  - [Flutter实战](https://book.flutterchina.club)
-
-- [Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases#macos) - The Stable channel contains the most stable Flutter builds. See [Flutter’s channels](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels) for details.
-
-- [Flutter Samples](https://github.com/flutter/samples) - A collection of Flutter examples and demos.
-
-- [Flutter Documentation](https://flutter.dev/docs)
-
-- [FlutterHub](https://www.flutterhub.cn)
-
-- [Dart packages](https://pub.flutter-io.cn) - Find and use packages to build [Dart↗](https://dart.cn/) and [Flutter↗](https://flutter.cn/) apps.
-
-- [Dart API docs](https://api.flutter.dev) - The API reference herein covers all libraries that are exported by the Flutter SDK.
-
-- [Dart 编程语言中文网](https://www.dartcn.com)
-
-- [简单Dart示例 · Dart2 中文文档 · 看云](https://www.kancloud.cn/marswill/dark2_document/709087) - Dart2 语法、特性的讲解以及一些简单 Dart 示例参考。
-  - *[A tour of the Dart language](https://www.dartlang.org/guides/language/language-tour) - 英文原版参考。*
-
-- [DartPad](https://dartpad.dartlang.org/) - 使用 DartPad 来体验 Dart 语言的更多特性。
-
-### Flutter Project
-
-- [dart_crypto](https://github.com/dgynfi/dart_crypto) - 🔥`DYFCryptoProvider`类封装了Base64, 32/16 Bits MD5, AES, RSA等算法，并提供了示例代码。
-
-- [grab_ethtoken_info](https://github.com/dgynfi/grab_ethtoken_info) - 🔥 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
-
-- [flutter_study](https://github.com/dgynfi/flutter_study) - Flutter基础，Dart基础，实践教学。
-    <div align=center>
-    <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="70%" />
-    </div>
-
-
-## Weex
-
-- [Weex](https://github.com/apache/incubator-weex) - A framework for building Mobile cross-platform UI. 
-
-| platform | status |
-| :--------: | :------: |
-| Android | [![Download](https://api.bintray.com/packages/alibabaweex/maven/weex_sdk/images/download.svg)](https://bintray.com/alibabaweex/maven/weex_sdk/_latestVersion) |
-| iOS | [![Pod version](https://badge.fury.io/co/WeexSDK.svg)](https://cocoapods.org/pods/WeexSDK) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) |
-| [Mobile Web](https://github.com/weexteam/weex-vue-render) | [![npm version](https://badge.fury.io/js/weex-html5.svg)](https://www.npmjs.com/package/weex-vue-render) |
-
-**Weex Community**
-* [Mailing List](https://weex-project.io/contributing.html#join-in-discussions) Weex Mailing List, where most discussion happens.
-* [StackOverflow](http://stackoverflow.com/questions/tagged/weex): Ask questions about Weex.
-* [SegmentFault (cn)](https://segmentfault.com/t/weex): 中文交流与讨论
-* [FAQ](https://weex.apache.org/faq.html)
-* [Articles (cn)](https://github.com/weexteam/article/issues): Weex 相关文章集合
-* [Telegram Russian Community Group](https://telegram.me/weex_ru)
-
-
-## H5
-
-- [HTML5中文教程-极客学院Wiki](http://wiki.jikexueyuan.com/project/html5/)
-
-- [W3school - HTML5](http://www.w3school.com.cn/html5/index.asp)
-
-- [HTML5 教程 | 菜鸟教程](http://www.runoob.com/html/html5-intro.html)
-
-- [canvas](https://github.com/airingursb/canvas) - 《Canvas：Draw on the Web》，[本书GitBook]( https://airingursb.gitbooks.io/canvas/)
-
-- [CSS 教程](https://www.runoob.com/css/css-tutorial.html) - 过使用 CSS 我们可以大大提升网页开发的工作效率！在我们的 CSS 教程中，您会学到如何使用 CSS 同时控制多重网页的样式和布局。
-- [CSS3 教程](https://www.runoob.com/css3/css3-tutorial.html) - CSS 用于控制网页的样式和布局。CSS3 是最新的 CSS 标准。本教程向您讲解 CSS3 中的新特性。
-
-- [Bootstrap 教程](https://www.runoob.com/bootstrap/bootstrap-tutorial.html) - Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。本教程将向您讲解 Bootstrap 框架的基础，通过学习这些内容，您将可以轻松地创建 Web 项目。教程被分为 Bootstrap 基本结构、Bootstrap CSS、Bootstrap 布局组件和 Bootstrap 插件几个部分。每个部分都包含了与该主题相关的简单有用的实例。
-- [Bootstrap4 教程](https://www.runoob.com/bootstrap4/bootstrap4-tutorial.html) - Bootstrap 是全球最受欢迎的前端组件库，用于开发响应式布局、移动设备优先的 WEB 项目。Bootstrap4 目前是 Bootstrap 的最新版本，是一套用于 HTML、CSS 和 JS 开发的开源工具集。利用我们提供的 Sass 变量和大量 mixin、响应式栅格系统、可扩展的预制组件、基于 jQuery 的强大的插件系统，能够快速为你的想法开发出原型或者构建整个 app 。
-
-- [Font Awesome 图标](https://www.runoob.com/font-awesome/fontawesome-tutorial.html) - Font Awesome 是一套绝佳的图标字体库和CSS框架。Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。
-
-- [Foundation5 教程](https://www.runoob.com/foundation/foundation-tutorial.html) - Foundation 用于开发响应式的 HTML, CSS and JavaScript 框架。Foundation 是一个易用、强大而且灵活的框架,用于构建基于任何设备上的 Web 应用。Foundation 是一个以移动优先的流行框架。
-
-- [浏览器脚本教程](http://www.w3school.com.cn/b.asp) - [JavaScript 参考手册](http://www.w3school.com.cn/jsref/index.asp)
-
-- [JavaScript 教程 | 菜鸟教程](https://www.runoob.com/js/js-tutorial.html) - JavaScript 是 Web 的编程语言。所有现代的 HTML 页面都使用 JavaScript。
-
-- [jQuery 教程 | 菜鸟教程](https://www.runoob.com/jquery/jquery-tutorial.html) - jQuery 是一个 JavaScript 库。jQuery 极大地简化了 JavaScript 编程。
-
-- [Vue.js 教程 | 菜鸟教程](https://www.runoob.com/vue2/vue-tutorial.html) - Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。Vue 只关注视图层， 采用自底向上增量开发的设计。Vue 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。Vue 学习起来非常简单，本教程基于 Vue 2.1.8 版本测试。
-
-- [React 教程 | 菜鸟教程](https://www.runoob.com/react/react-tutorial.html) - React 是一个用于构建用户界面的 JAVASCRIPT 库。React 主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。
-
-
-## 小程序
-
-- [微信小程序接入指南](https://mp.weixin.qq.com/debug/wxadoc/introduction/index.html?t=2017526)
-
-- [微信公众号和小程序工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/devtools.html) - 推出了全新的[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，集成了公众号网页调试和小程序调试两种开发模式。
-
-- [【微信支付】JSAPI支付](https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_7&index=6) - 在微信浏览器里面打开H5网页中执行JS调起支付。
-
-
-## 游戏
-
-### Cocos2d
-
-- [Cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world. [http://www.cocos2d-x.org](http://www.cocos2d-x.org). 
-| [Priview 1](https://github.com/cocos2d/cocos2d-x/raw/v3/docs/framework_architecture.jpg) |
-
-- [Cocos2d-x: Actions](http://www.cocos2d-x.org/reference/native-cpp/V3.9/dd/d0d/group__actions.html)
-
-- [Cocos2d-x: Network](http://www.cocos2d-x.org/reference/native-cpp/V3.9/db/d3a/group__network.html)
-
-- [Cocos2d-x: Renderer](http://www.cocos2d-x.org/reference/native-cpp/V3.9/dd/d00/group__renderer.html)
-
-- [Cocos2d-x: Audio](http://www.cocos2d-x.org/reference/native-cpp/V3.9/d1/d4d/group__audio.html)
-
-- [Cocos2d-x: Storage](http://www.cocos2d-x.org/reference/native-cpp/V3.9/d9/d88/group__storage.html)
-
-- [mac上cocos2dx-lua环境搭建](http://blog.csdn.net/u010536615/article/details/50945864)
-
-- [cocos2d-x在mac下的安装使用](http://www.jianshu.com/p/2d2cb275c9ce)
-
-- [CCLuaObjcBridge - Lua 与 Objective-C 互操作的简单解决方案](http://blog.csdn.net/liangliang103377/article/details/43269693)
-
-- [C++中调用Lua函数实例](http://www.jb51.net/article/55097.htm)
-
-- [cocos2d-x 3.3连接Xcode9编译时报错：call to unavailable function system not available on ios](https://blog.csdn.net/fzhlee/article/details/73296612)
-- [unavailable function system: not available on iOS](https://blog.csdn.net/holdsky/article/details/78109886)
-
-- [remove "system" usage by minggo · Pull Request #17921 · cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x/pull/17921/files)
-
-- [解决Call to unavailable function system: not available on iOS](https://blog.csdn.net/linyang24/article/details/78053626)
-
-- [cocos2dx 可继承的单例模板类](https://blog.csdn.net/u012801153/article/details/45915149)
-
-### Unity
-
-- [下载Unity](https://unity.cn/releases)
-
-- [Unity圣典](https://connect.unity.com/doc)
-
-- [游戏蛮牛Unity用户手册](http://docs.manew.com/Components/1.html)
-
-- [雨松MOMO | Unity3D游戏开发](https://www.xuanyusong.com/archives/category/unity)
-
-- [Unity2D研究院之自动生成动画、AnimationController、Prefab（一）](https://www.xuanyusong.com/archives/3243)
-
-- [{Unity} 平台预定义](https://blog.csdn.net/n5/article/details/50482569)
-
-- [{Unity} c#和iOS Objective-C交互](https://blog.csdn.net/n5/article/details/50525163)
-
-- [unity手游开发--Unity判断网络是否连接 以及 判断是否连接WiFi](https://blog.csdn.net/liang_704959721/article/details/52248428)
-
-- [脱莫柔 | Unity3D](https://blog.csdn.net/asd237241291?viewmode=contents)
-
-- [学无止境 | Unity3D](https://blog.csdn.net/dingxiaowei2013)
-
-- [风宇冲Unity3d教程](http://blog.sina.com.cn/lsy835375)
-
-- [U3D技术](https://blog.csdn.net/ldghd/category_1145504.html)
-
-- [四爷入京 | Unity3D](https://blog.csdn.net/u012091672?viewmode=contents)
-
-- [年华2008 | Unity3D](https://blog.csdn.net/nianhua2008)
-
-### 棋牌
-
-- [qipai_algorithm](https://github.com/yuanfengyun/qipai_algorithm) - 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua c++ c# golang js  java  python版本。
-
-- [HuPaiMJ](https://github.com/pinorr/HuPaiMJ) - C++麻将胡牌算法。优点：1.速度快，900万次多赖子胡牌用时500ms左右；2.支持多个赖子；3.查错方便，直接查表就可知道。
-
-- [麻将算法（上）](https://blog.csdn.net/xiu2016/article/details/76281062)
-
-- [麻将胡牌算法n*AAA+m*ABC+DD实现时间复杂度O(n*2)](https://blog.csdn.net/q623702748/article/details/52936621)
-
-- [C++数据结构与算法——麻将胡牌算法（二：完全胡牌算法）](https://blog.csdn.net/weixin_36381867/article/details/72579554)
-
-- [麻将游戏算法深入解析](https://blog.csdn.net/honghaier/article/details/8604955)
-
-- [成都麻将胡牌规则](https://blog.csdn.net/stone_flower_rain/article/details/47442577)
-
-### 游戏示例
-
-- [游戏(Gaming) - 开源软件 - OSCHINA](https://www.oschina.net/project/tag/391/ios-gaming)
-
-- [游戏源码(Game Source Code) - 代码库 - CocoaChina](http://code.cocoachina.com/list/28)
-
-- [Hardest](https://github.com/ZhongTaoTian/Hardest) - 史上最困难的游戏-By Objective-C。【 [Priview 1](https://camo.githubusercontent.com/3b9be0d8b67e009fb492411881a173004f41bdfd/687474703a2f2f7777342e73696e61696d672e636e2f6d773639302f30303638755275316a773166347778393263636a396a3330616a3069706771382e6a7067) 】
-
-
-## C-plus-plus
-
-- [C++ 教程 | 菜鸟教程](https://www.runoob.com/cplusplus/cpp-tutorial.html) - C++ 是一种中级语言，它是由 Bjarne Stroustrup 于 1979 年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本。
-
-- [C++基础教程 | C语言中文网](http://c.biancheng.net/cplus/) - C++ 由C语言发展而来，几乎完全兼容C语言；换句话说，你编写的C语言代码几乎可以不加修改地用于 C++。C语言是面向过程的语言，C++ 在此基础上增加了面向对象以及泛型编程机制，因此 C++ 更适合大中型程序的开发。然而，C++ 并没有牺牲效率，如果不使用高级特性，它的效率和C语言几乎没有差异。
-
-- [C 语言教程 | 菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html) - C 语言是一种通用的、面向过程式的计算机程序设计语言。1972 年，为了移植与开发 UNIX 操作系统，丹尼斯·里奇在贝尔电话实验室设计开发了 C 语言。C 语言是一种广泛使用的计算机语言，它与 Java 编程语言一样普及，二者在现代软件程序员之间都得到广泛使用。当前最新的C语言标准为 C11 ，在它之前的C语言标准为 C99。
-
-- [C语言学习教程 | C语言中文网](http://c.biancheng.net/c/) - C语言是一门面向过程的编译型语言，它的运行速度极快，仅次于汇编语言。C语言是计算机产业的核心语言，操作系统、硬件驱动、关键组件、数据库等都离不开C语言；不学习C语言，就不能了解计算机底层。
-
-- [C# 教程 | 菜鸟教程](https://www.runoob.com/csharp/csharp-tutorial.html) - C# 是一个简单的、现代的、通用的、面向对象的编程语言，它是由微软（Microsoft）开发的。本教程将告诉您基础的 C# 编程，同时将向您讲解 C# 编程语言相关的各种先进理念。
-
-- [C#入门经典教程 | C语言中文网](http://c.biancheng.net/csharp/) - C# 是微软推出的一门面向对象的通用型编程语言，它除了可以开发 PC 软件、网站（借助 ASP.NET）和 APP（基于 Windows Phone），还能作为游戏脚本，编写游戏逻辑。C# 为了对抗 Java 而推出，同样也使用了虚拟机技术，也支持跨平台，但目前还是以 Windows 平台为主。
-
-- [jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
-
-- [FreeNOS](https://github.com/lordsergioinspa/FreeNOS) - FreeNOS (Free Niek's Operating System) is an experimental microkernel based operating system for learning purposes written in C++. You may use the code as you wish under the terms of the GPLv3. Visit the project website at [http://www.FreeNOS.org](http://www.FreeNOS.org) for more information.
-
-- [Bitcoin](https://github.com/bitcoin/bitcoin) - [Bitcoin](https://bitcoincore.org) is an experimental digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Bitcoin Core is the name of open source software which enables the use of this currency. For more information, as well as an immediately usable, binary version of the Bitcoin Core software, see [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/), or read the [original whitepaper](https://bitcoincore.org/bitcoin.pdf).
-
-- [Apache Mesos](https://github.com/apache/mesos) - Apache Mesos is a cluster manager that provides efficient resource isolation and sharing across distributed applications, or frameworks. It can run Hadoop, Jenkins, Spark, Aurora, and other frameworks on a dynamically shared pool of nodes. Visit us at [mesos.apache.org](http://mesos.apache.org/).
-
-- [MongoDB](https://github.com/mongodb/mongo) - The [MongoDB](https://www.mongodb.com/) Database 
-
-- [DOOM-3](https://github.com/id-Software/DOOM-3) - Doom 3 GPL source release.
-
-- [opencv](https://github.com/opencv/opencv) - Open Source Computer Vision Library. Visist at [https://opencv.org]( https://opencv.org)
-
-- [HHVM](https://github.com/facebook/hhvm) - HHVM is an open-source virtual machine designed for executing programs written in [Hack](http://hacklang.org/). HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining amazing development flexibility. HHVM should be used together with a webserver like the built in, easy to deploy [Proxygen](https://docs.hhvm.com/hhvm/basic-usage/proxygen), or a [FastCGI](https://docs.hhvm.com/hhvm/advanced-usage/fastCGI)-based webserver on top of nginx or Apache.
-
-- [Mars](https://github.com/Tencent/mars) - Mars is a cross-platform infrastructure component developed by WeChat Mobile Team. It is proved to be effective by billions of WeChat users. 1. Cross platform, easy to deploy if you are developing multi-platform or multi-business application. 2. Suitable for small amount data transmission. 3. Mobile platform friendly, low power and traffic consumption. 4. A network solution fit for mobile application.
-
-- [GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) - Reliable & unreliable messages over UDP. Robust message fragmentation & reassembly. Encryption.
-
-- [Game-Networking-Resources](https://github.com/MFatihMAR/Game-Networking-Resources) - Game networking is a subset of computer networking that commonly covers transport protocols, data replication, entity synchronization, lag compensation, client-side prediction, server reconciliation, interest management, bandwidth optimization, physics rollback/fastforward simulation, anti-cheating and many other areas involved in multiplayer online game development.
-
-
-## Script
-
-### Mix
-
-- [Script](https://github.com/dgynfi/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等一些实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
-
-### Shell
-
-- [dgynfi - Shell](https://github.com/dgynfi/Script/tree/master/Shell) - Some shell tools for iOS or Mac.
-
-- [FFmpeg-iOS-build-script](https://github.com/wuqiong/FFmpeg-iOS-build-script) - Shell script to build FFmpeg for iOS.
-
-- [Shell 教程 | 菜鸟教程](http://www.runoob.com/linux/linux-shell.html) - Shell 是一个用 C 语言编写的程序，它是用户使用 Linux 的桥梁。Shell 既是一种命令语言，又是一种程序设计语言。Shell 是指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。Ken Thompson 的 sh 是第一种 Unix Shell，Windows Explorer 是一个典型的图形界面 Shell。Shell 脚本（shell script），是一种为 shell 编写的脚本程序。业界所说的 shell 通常都是指 shell 脚本，但读者朋友要知道，shell 和 shell script 是两个不同的概念。
-
-- [Linux Shell脚本学习指南 | C语言中文网](http://c.biancheng.net/shell/) - Shell 既是一个连接用户和 [Linux](http://c.biancheng.net/linux_tutorial/) 内核的程序，又是一门管理 Linux 系统的脚本语言。Shell 脚本虽然没有 C++、Python、[Java](http://c.biancheng.net/java/)、[C#](http://c.biancheng.net/csharp/) 等编程语言强大，但也支持了基本的编程元素，这是本教程要重点讲解的。。
-
-### Python
-
-- [Python3 教程 | 菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html) - Python 的 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。为了不带入过多的累赘，Python 3.0 在设计的时候没有考虑向下兼容。
-
-- [Python 基础教程 | 菜鸟教程](https://www.runoob.com/python/python-tutorial.html) - Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。像 Perl 语言一样, Python 源代码同样遵循 GPL(GNU General Public License) 协议。
-
-- [Python基础教程 | C语言中文网](http://c.biancheng.net/python/) - Python 是一门开源免费、通用型的脚本编程语言，它上手简单，功能强大，坚持「极简主义」。Python 类库（模块）极其丰富，这使得 Python 几乎无所不能，不管是传统的 Web 开发、PC 软件开发、Linux 运维，还是当下火热的机器学习、大数据分析、网络爬虫，Python 都能胜任。
-
-- [SpoofMAC](https://github.com/feross/SpoofMAC) - 💼 Change your MAC address for debugging. [http://feross.org/spoofmac/](http://feross.org/spoofmac/)
-
-- [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from Microsoft Excel (tm) spreadsheet files. [python-excel](http://www.python-excel.org)
-
-- [xlwt](https://github.com/python-excel/xlwt) - Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform. [python-excel](http://www.python-excel.org)
-
-- [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - [A Python module for creating Excel XLSX files. ](https://xlsxwriter.readthedocs.io)
-
-- [jdcal](https://github.com/phn/jdcal) - Julian dates, stored as two numbers, from proleptic Gregorian and Julian calendars.
-
-### Ruby
-
-- [Ruby 教程 | 菜鸟教程](https://www.runoob.com/ruby/ruby-tutorial.html) - Ruby 是一种开源的面向对象程序设计的服务器端脚本语言，在 20 世纪 90 年代中期由日本的松本行弘（まつもとゆきひろ/Yukihiro Matsumoto）设计并开发。在 Ruby 社区，松本也被称为马茨（Matz）。Ruby 可运行于多种平台，如 Windows、MAC OS 和 UNIX 的各种版本。
-
-- [RubyDoc.info: Documenting RubyGems, Stdlib, and GitHub Projects](https://www.rubydoc.info/github)
-
-
-## Database
-
-- [SQLite 教程](https://www.runoob.com/sqlite/sqlite-intro.html) - SQLite 是一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。SQLite 是在世界上最广泛部署的 SQL 数据库引擎。SQLite 源代码不受版权限制。
-
-- [SQLite学习笔记一](http://www.cnblogs.com/hicjiajia/archive/2011/01/25/1944578.html)
-- [SQLite学习笔记二](http://www.cnblogs.com/hicjiajia/archive/2011/01/25/1944581.html)
-- [SQLite学习笔记三](http://www.cnblogs.com/hicjiajia/archive/2011/01/25/1944583.html)
-
-- [SQL 教程](https://www.runoob.com/sql/sql-tutorial.html) - SQL 是用于访问和处理数据库的标准的计算机语言。在本教程中，您将学到如何使用 SQL 访问和处理数据系统中的数据，这类数据库包括：MySQL、SQL Server、Access、Oracle、Sybase、DB2 等等。
-
-- [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html) - MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。在本教程中，会让大家快速掌握 MySQL 的基本知识，并轻松使用 MySQL 数据库。 
-
-- [PostgreSQL 教程](https://www.runoob.com/postgresql/postgresql-tutorial.html) - PostgreSQL 是一个免费的对象-关系数据库服务器(ORDBMS)，在灵活的BSD许可证下发行。PostgreSQL 开发者把它念作 post-gress-Q-L。PostgreSQL 的 Slogan 是 "世界上最先进的开源关系型数据库"。
-
-- [MongoDB 教程](https://www.runoob.com/mongodb/mongodb-tutorial.html) - MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。
-
-- [Redis 教程](https://www.runoob.com/redis/redis-tutorial.html) - REmote DIctionary Server(Redis) 是一个由Salvatore Sanfilippo写的key-value存储系统。Redis是一个开源的使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。它通常被称为数据结构服务器，因为值（value）可以是 字符串(String), 哈希(Hash), 列表(list), 集合(sets) 和 有序集合(sorted sets)等类型。
-
-- [Memcached 教程](https://www.runoob.com/Memcached/Memcached-tutorial.html) - Memcached是一个自由开源的，高性能，分布式内存对象缓存系统。Memcached是以LiveJournal旗下Danga Interactive公司的Brad Fitzpatric为首开发的一款软件。现在已成为mixi、hatena、Facebook、Vox、LiveJournal等众多服务中提高Web应用扩展性的重要因素。Memcached是一种基于内存的key-value存储，用来存储小块的任意数据（字符串、对象）。这些数据可以是数据库调用、API调用或者是页面渲染的结果。Memcached简洁而强大。它的简洁设计便于快速开发，减轻开发难度，解决了大数据量缓存的很多问题。它的API兼容大部分流行的开发语言。本质上，它是一个简洁的key-value存储系统。一般的使用目的是，通过缓存数据库查询结果，减少数据库访问次数，以提高动态Web应用的速度、提高可扩展性。
