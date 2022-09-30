@@ -1,17 +1,6 @@
 ## OpenSource
 
-在这里我汇总了许多 Github 优秀开源项目和主流开发使用的网站、解决问题方案收集以及学习网站或资料以分享给大家，此开源项目指南涵盖了 iOS, macOS X, Blockchain, Flutter, Weex, H5, Games, C++, Script 等多个方面的内容，其中，iOS大致包涵以下内容：
-
-- 1、常用第三方库：AFNetworking & Alamofire, SDWebImage, ReactiveCocoa & RxSwift, Masonry & SnapKit, YYKit；
-- 2、支付: 内购（IAP）, ApplePay和第三方支付；
-- 3、播放器: 视频播放器和音乐播放器；
-- 4、IM和直播；
-- 5、图像处理和绘制（OpenGL, OpenGLES, Metal, GPUImage, CoreGraphics）；
-- 6、逆向开发；
-- 7、安全攻防和应用加固, 数据安全和算法；
-- 8、导航栏和状态栏；
-- 9、数据持久（Data Persistence）；
-- 10、侧边菜单（Side Menu）, 蓝牙, 手势指纹面容ID密码解锁, 扫码, 下拉刷新和上拉加载, 指示器, Toast, Menu 和弹出视图, WebView 和进度条, 图片浏览器, 动画, 选择器, 搜索, 分享, 图片验证码, 获取设备相关信息, 广告, Sensor, Privacy, 高仿项目与Demo等。
+iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS, including Objective-C and Swift Projects.)。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -88,22 +77,6 @@
 - [Mac](#Mac)
 - [其他汇总](#其他汇总)
 - [Apple Developer](#Apple-Developer)
-- [Flutter](#Flutter)
-    - [Flutter和Dart](#Flutter和Dart)
-    - [Flutter Project](#Flutter-Project)
-- [Weex](#Weex)
-- [H5](#H5)
-- [Web开发](#Web开发)
-- [游戏](#游戏)
-   - [Cocos2d](#Cocos2d)
-   - [棋牌](#棋牌)
-   - [游戏示例](#游戏示例)
-- [C-plus-plus](#C-plus-plus)
-- [Script](#Script)
-   - [Mix](#Mix)
-   - [Shell](#Shell)
-   - [Python](#Python)
-- [Database](#Database)
 
 ## iOS
 
@@ -1163,3 +1136,19 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) - 主要对当前 GitHub 排名前 100 的项目做一个简单的简介, 方便初学者快速了解到当前 Objective-C 在 GitHub 的情况。
 
 
+- [Flutter](#Flutter)
+    - [Flutter和Dart](#Flutter和Dart)
+    - [Flutter Project](#Flutter-Project)
+- [Weex](#Weex)
+- [H5](#H5)
+- [Web开发](#Web开发)
+- [游戏](#游戏)
+   - [Cocos2d](#Cocos2d)
+   - [棋牌](#棋牌)
+   - [游戏示例](#游戏示例)
+- [C-plus-plus](#C-plus-plus)
+- [Script](#Script)
+   - [Mix](#Mix)
+   - [Shell](#Shell)
+   - [Python](#Python)
+- [Database](#Database)
