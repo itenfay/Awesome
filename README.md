@@ -24,6 +24,35 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [ReactiveCocoa和RxSwift](#ReactiveCocoa和RxSwift)
       - [Masonry和SnapKit](#Masonry和SnapKit)
       - [YYKit](#YYKit)
+   - [TOP100](#TOP100)
+      - [Moya](#Moya)
+      - [Kingfisher](#Kingfisher)
+      - [Charts](#Charts)
+      - [Messages](#Messages)
+      - [EmptyDataSet](#EmptyDataSet)
+      - [JSON](#JSON)
+      - [KeyboardManager](#KeyboardManager)
+      - [SVG](#SVG)
+      - [PhotoPicker](#PhotoPicker)
+      - [Deeplink](#Deeplink)
+      - [SwiftKit](#SwiftKit)
+      - [Hero](#Hero)
+      - [SegmentPageView](#SegmentPageView)
+      - [CycleScrollView](#CycleScrollView)
+      - [Code Quality](#Code-Quality)
+      - [Permission](#Permission)
+      - [Socket](#Socket)
+      - [R.swift](#Rswift)
+      - [AnimatedTabBar](#AnimatedTabBar)
+      - [AcknowList](#AcknowList)
+      - [FloatingPanel](#FloatingPanel)
+      - [HTTPCache](#HTTPCache)
+      - [ListView](#ListView)
+      - [Date](#Date)
+      - [Reachability](#Reachability)
+      - [CocoaLumberjack](#CocoaLumberjack)
+      - [AR和VR](#AR和VR)
+      - [StarView](#StarView)
    - [支付](#支付)
       - [内购IAP](#内购IAP)
       - [ApplePay](#ApplePay)
@@ -68,15 +97,26 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
    - [类目](#类目)
-   - [越狱检测](#越狱检测) 
-   - [Others](#Others)
-      - [Sensor](#Sensor)
-      - [Privacy](#Privacy)
-      - [Uncategorized](#Uncategorized)
+   - [越狱检测](#越狱检测)
+   - [Sensor](#Sensor)
+   - [Uncategorized](#Uncategorized)
    - [高仿项目与Demo](#高仿项目与Demo)
 - [Mac](#Mac)
-- [其他汇总](#其他汇总)
+
+## Development
+
 - [Apple Developer](#Apple-Developer)
+- [Flutter](#Flutter)
+- [Weex](#Weex)
+- [H5](#H5)
+- [MiniProgram](#MiniProgram)
+- [Games](#Games)
+- [C++](#Cplusplus)
+- [Scripts](#Scripts)
+- [Database](#DB)
+- [Blockchain](#Blockchain)
+- [Others](#Others)
+
 
 ## iOS
 
@@ -244,6 +284,213 @@ class MyViewController: UIViewController {
     - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
 
+### TOP100
+
+#### Moya
+
+- [Moya](https://github.com/Moya/Moya) - Network abstraction layer written in Swift. 
+    <div align=center>
+    <img src="https://github.com/Moya/Moya/raw/master/web/logo_github.png" width="50%" />
+    </div>
+
+#### Kingfisher
+
+- [Kingfisher](https://github.com/onevcat/Kingfisher) - A lightweight, pure-Swift library for downloading and caching images from the web.
+    <div align=center>
+    <img src="https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png" width="50%" />
+    </div>
+    
+#### Charts
+
+- [Charts](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
+
+#### Messages
+
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) - A very flexible message bar for iOS written in Swift.
+
+#### EmptyDataSet
+
+- [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.
+
+- [EmptyDataSet-Swift](https://github.com/Xiaoye220/EmptyDataSet-Swift) - DZNEmptyDataSet implement with Swift.A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display. DZNEmptyDataSet with Swift.
+
+#### JSON
+
+- [HandyJSON](https://github.com/alibaba/HandyJSON) - A handy swift json-object serialization/deserialization library.
+
+- [ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper) - Simple JSON Object mapping written in Swift.
+
+- [Moya-ObjectMapper](https://github.com/alibaba/Moya-ObjectMapper) - ObjectMapper bindings for Moya and RxSwift.
+
+#### KeyboardManager
+
+- [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) - Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.
+    <div align=center>
+    <img src="https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Demo/Resources/icon.png" width="50%" />
+    </div>
+    
+- [IQKeyboardManagerSwift](https://github.com/acegg/IQKeyboardManagerSwift) - IQKeyboardManager 's Swift Module.
+
+#### SVG
+
+- [SVGAPlayer-iOS](https://github.com/svga/SVGAPlayer-iOS) - Similar to Lottie. Render After Effects / Animate CC (Flash) animations natively on Android and iOS, Web. 使用 SVGAPlayer 在 Android、iOS、Web中播放 After Effects / Animate CC (Flash) 动画。【[svga.io](https://svga.io/)】
+
+- [SVGKit](https://github.com/SVGKit/SVGKit) - Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation).
+
+#### PhotoPicker
+
+- [HXPHPicker](https://github.com/SilenceLove/HXPHPicker) - Photo/Video Selector-Supports LivePhoto, GIF selection, online download of resources on iCloud, and editing of photos/videos.【[Priview](https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67)】 
+
+- [HXPhotoPicker](https://github.com/SilenceLove/HXPhotoPicker) - 图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能 Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.【[Preview](https://camo.githubusercontent.com/cb83c5169e00c04ee716035909869de54116899d0c4b4325361920cb11d8a4a2/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f73686f775f7469705f322e706e67)】 
+
+- [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
+
+- [PhotoBrowser](https://github.com/JiongXing/PhotoBrowser) - Elegant photo browser in Swift. 图片与视频浏览器。
+
+- [ZYImagePickerAndBrower](https://github.com/RainManGO/ZYImagePickerAndBrower) - 2018iOS微信相册，朋友圈imagePicker UI仿，微信照片选择器 多选序号
+
+#### Deeplink
+
+- [URLNavigator](https://github.com/devxoul/URLNavigator) - ⛵️ Elegant URL Routing for Swift
+
+- [](https://github.com/button/DeepLinkKit) - A splendid route-matching, block-based way to handle your deep links.
+    <div align=center>
+    <img src="https://cloud.githubusercontent.com/assets/10621371/7642874/8c90f72a-fa62-11e4-9092-dfff96c24f01.png" width="50%" />
+    </div>
+    
+- [Appz](https://github.com/SwiftKitz/Appz) - 📱 Launch external apps, and deeplink, with ease using Swift!
+
+- [Deeplink](https://github.com/TizianoCoroneo/Deeplink) - A library to parse deeplinks and their arguments using String interpolation.
+
+#### SwiftKit
+
+- [CXSwiftKit](https://github.com/chenxing640/CXSwiftKit) - CXSwiftKit provides rich extensions of swift language, also supports Objective-C.
+
+- [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - A handy collection of more than 500 native Swift extensions to boost your productivity. 【[Preview](https://camo.githubusercontent.com/284deb34c480c679df9bf0f752ab4872b049411ab99680d06d3e61a077a3a956/68747470733a2f2f63646e2e7261776769742e636f6d2f5377696674657253776966742f5377696674657253776966742f6d61737465722f4173736574732f6c6f676f2e737667)】 
+
+#### Hero
+
+- [Hero](https://github.com/HeroTransitions/Hero) - Elegant transition library for iOS & tvOS.【[Preview](https://camo.githubusercontent.com/f08f23e762f9ebbeba87366fc3c7e0164c6840a3bc37f1affe25261837f37901/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f343237643566322f5265736f75726365732f4865726f2e737667)】
+
+#### SegmentPageView
+
+- [JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView )- A powerful and easy to use segmented view (segmentedcontrol, pagingview, pagerview, pagecontrol, categoryview)'
+    <div align=center>
+    <img src="https://github.com/pujiaxin33/JXSegmentedView/raw/master/Example/JXSegmentedViewExample/Image/JXSegmentedViewSmall.png" width="50%" />
+    </div>
+
+- [GXSegmentPageView](https://github.com/gsyhei/GXSegmentPageView) - Swift版分段分页组件，（网易新闻、腾讯新闻、新浪微博、今日头条等Tab效果）
+
+- [LTScrollView](https://github.com/gltwy/LTScrollView) - ScrollView嵌套ScrolloView（UITableView 、UICollectionView）解决方案， 支持OC / Swift（持续更新中...）
+
+#### CycleScrollView
+
+- [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView) - Autoscroll Banner. 无限循环图片、文字轮播器
+
+- [ZCycleView](https://github.com/MQZHot/ZCycleView)- 使用UICollectionView实现常见图片无限轮播，支持自定义cell，自定义pageControl，以及轮播样式
+
+- [WRCycleScrollView](https://github.com/wangrui460/WRCycleScrollView) - Swift 自动无限轮播用
+    <div align=center>
+    <img src="https://github.com/wangrui460/WRCycleScrollView/raw/master/screenshots/WRCycleScrollView.png" width="50%" />
+    </div>
+    
+#### Code Quality
+
+- [FLEX](https://github.com/FLEXTool/FLEX) - An in-app debugging and exploration tool for iOS.
+
+- [BonMot](https://github.com/Rightpoint/BonMot) - Beautiful, easy attributed strings in Swift.
+
+#### Permission
+
+- [PermissionsKit](https://github.com/sparrowcode/PermissionsKit) - Universal API for request permission and get its statuses.
+
+- [Permission](https://github.com/delba/Permission) - A unified API to ask for permissions on iOS.
+
+- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！【 [Priview 1](https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png) 】
+
+#### Socket
+
+- [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket) - Asynchronous socket networking library for Mac and iOS.
+
+- [SocketRocket](https://github.com/facebookincubator/SocketRocket) - A conforming Objective-C WebSocket client library.
+
+- [SocketIO](https://github.com/socketio/socket.io-client-swift) - Socket.IO-client for iOS/OS X.
+
+- [Starscream](https://github.com/daltoniam/Starscream) - Websockets in swift for iOS and OSX
+
+- [SwiftWebSocket](https://github.com/tidwall/SwiftWebSocket) - Fast Websockets in Swift for iOS and OSX.
+
+#### Rswift
+
+- [R.swift](https://github.com/mac-cain13/R.swift) - Strong typed, autocompleted resources like images, fonts and segues in Swift projects.
+
+#### AnimatedTabBar
+
+- [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar) - RAMAnimatedTabBarController is a Swift UI module library for adding animation to iOS tabbar items and icons. iOS library made by @Ramotion
+
+#### AcknowList
+
+- [AcknowList](https://github.com/vtourraine/AcknowList) - Acknowledgements screen displaying a list of licenses, for example from CocoaPods and Swift Package Manager dependencies.
+
+#### FloatingPanel
+
+- [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.
+
+- [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.【[Preview](https://github.com/snail-z/OverlayController/raw/master/Preview/ovclogo.jpg?raw=true)】
+
+#### HTTPCache
+
+- [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache) - A powerful media cache framework.
+
+#### ListView
+
+- [UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) - Template auto layout cell for automatically UITableViewCell height calculating.【[Preview](https://cloud.githubusercontent.com/assets/219689/7244961/4209de32-e816-11e4-87bc-b161c442d348.png)】
+
+- [ZJTableViewManager](https://github.com/jzhang0480/ZJTableViewManager) - Powerful data driven tableView，make tableView build so easy.
+
+- [TagListView](https://github.com/ElaWorkshop/TagListView) - Simple and highly customizable iOS tag list view, in Swift.
+
+- [ParallaxHeader](https://github.com/romansorochak/ParallaxHeader) - Simple way to add parallax header to UIScrollView/UITableView written in Swift.
+
+#### Localize
+
+- [Localize-Swift](https://github.com/marmelroy/Localize-Swift) - Swift friendly localization and i18n with in-app language switching.
+
+#### Date
+
+- [SwiftDate](https://github.com/malcommac/SwiftDate) - Toolkit to parse, validate, manipulate, compare and display dates, time & timezones in Swift.
+
+#### Reachability
+
+- [Reachability](https://github.com/ashleymills/Reachability.swift) - Replacement for Apple's Reachability re-written in Swift with closures.
+
+#### CocoaLumberjack
+
+- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - A fast & simple, yet powerful & flexible logging framework for Mac and iOS.
+
+#### AR和VR
+
+- [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总).
+
+- [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
+
+- [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
+
+- [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
+
+- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
+
+- [HeavenMemoirs](https://github.com/SherlockQi/HeavenMemoirs) - AR相册 Photo Album For AR.
+
+- [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
+
+- [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
+
+#### StarView
+
+- [ZYStarView]https://github.com/RainManGO/ZYStarView - wift4.0 星星选择封装
+
+
 ### 支付
 
 #### 内购IAP
@@ -353,6 +600,8 @@ class MyViewController: UIViewController {
 
 - [ios-audio-remote-control](https://github.com/MosheBerman/ios-audio-remote-control) - This repo demonstrates how to control the software based audio remote control in iOS.
 
+- [AudioPlayer](https://github.com/delannoyk/AudioPlayer) - AudioPlayer is syntax and feature sugar over AVPlayer. It plays your audio files (local & remote).
+
 
 ### IM和直播
 
@@ -387,6 +636,8 @@ class MyViewController: UIViewController {
 - [PLPlayerKit](https://github.com/pili-engineering/PLPlayerKit) - PLPlayerKit 是七牛推出的一款免费的适用于 iOS 平台的播放器SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。([ios-playback-end-the-sdk](https://developer.qiniu.com/pili/sdk/1211/ios-playback-end-the-sdk))
 
 - [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
+
+- [MessageKit](https://github.com/MessageKit/MessageKit) - A community-driven replacement for JSQMessagesViewController.
 
 
 ### 图像处理和绘制
@@ -756,7 +1007,9 @@ class MyViewController: UIViewController {
 
 - [DYFToast](https://github.com/chenxing640/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
 
-- [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展。([Objective-C版](https://github.com/scalessec/Toast)) 【 [Priview 1](https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg) 】
+- [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展(A Swift extension that adds toast notifications to the UIView object class.)。([Objective-C版](https://github.com/scalessec/Toast)) 【 [Priview 1](https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg) 】
+
+- [Toaster](https://github.com/devxoul/Toaster) - 🍞 Toast for Swift
 
 - [XHToast](https://github.com/CoderZhuXH/XHToast) - 简洁轻便提示工具,一行代码既可完成提示信息显示 - 支持自定义显示位置及停留时间。【 [Priview 1](https://camo.githubusercontent.com/5e94289a5930fe4de9e844f94a308b6d3919e59b/687474703a2f2f682e686970686f746f732e62616964752e636f6d2f696d6167652f7069632f6974656d2f303233623562623563396561313563653239373365343339626530303361663333613837623236342e6a7067) 】
 
@@ -809,6 +1062,10 @@ class MyViewController: UIViewController {
 
 - [BAAlertController](https://github.com/BAHome/BAAlertController) - UIAlertController 的分类，一个block 搞定系统 alert 和 actionSheet 的 iPhone 和 iPad 版本适配！【 [Priview 1](https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController4.png) | [Priview 2](https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController7.png) 】
 
+- [FWPopupView](https://github.com/choiceyou/FWPopupView) - 弹窗控件：支持AlertView、Sheet、自定义视图的PopupView。AlertView中可以嵌套自定义视图，各组件的显示隐藏可配置；Sheet仿微信样式；同时提供自定义弹出。更多配置请参考”可设置参数“，提供OC使用Demo。
+
+- [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.
+
 
 ### WebView和进度条
 
@@ -846,6 +1103,10 @@ class MyViewController: UIViewController {
 - [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
 
 - [SDProgressView](https://github.com/gsdios/SDProgressView) - Progress Indicator View. 简便美观的进度指示器。【 [Priview 1](https://camo.githubusercontent.com/cce98893ac0d661d152c266dd564fb4e0544869e/687474703a2f2f63632e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f3537656366623037633235376564662e676966) 】
+
+- [MultiProgressView](https://github.com/mac-gallagher/MultiProgressView) - 📊 An animatable view that depicts multiple progresses over time. Modeled after UIProgressView.
+
+- [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
 
 
 ### 动画
@@ -907,6 +1168,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [TTOpenInAppActivity](https://github.com/honkmaster/TTOpenInAppActivity) - TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController. TTOpenInAppActivity uses an UIDocumentInteractionController to present all Apps that can handle the document specified with by the activity items. 【 [Priview 1](https://github.com/honkmaster/TTOpenInAppActivity/raw/master/Screenshot.png) 】
 
+- [MonkeyKing](https://github.com/nixzhu/MonkeyKing) - MonkeyKing helps you to post messages to Chinese Social Networks.
+
 
 ### 图片验证码
 
@@ -938,6 +1201,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 
 ### 高仿项目与Demo
+
+- [LBXMLYFM-Swift](https://github.com/lb2281075105/LBXMLYFM-Swift) - Swift5项目仿写喜马拉雅App，采用MVC+MVVM设计模式，Moya+SwiftyJSON+HandyJSON网络框架和数据解析。数据来源抓包及部分本地json文件。
 
 - [iOSProject](https://github.com/NJHu/iOSProject) - iOS project of collected some demos for iOS App. ([Swift版](https://github.com/NJHu/swiftProject)) 【 [Priview 1](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/home.gif) | [Priview 2](https://raw.githubusercontent.com/NJHu/iOSProject/master/images/anidynquar.gif) 】
 
@@ -994,17 +1259,12 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [iOS Jailbreak Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
 
 
-### Others
-
-#### Sensor
+### Sensor
 
 - [SensorDemo](https://github.com/wsl2ls/SensorDemo) - 指纹识别、运动传感器、加速计、环境光感、距离传感器、指南针、陀螺仪等传感器示例集锦。【 [Priview 1](https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
-#### Privacy
 
-- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！【 [Priview 1](https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png) 】
-
-#### Uncategorized
+### Uncategorized
 
 - [MSWeakTimer](https://github.com/mindsnacks/MSWeakTimer) - Thread-safe NSTimer alternative that doesn't retain the target and supports being used with GCD queues.
 
@@ -1118,37 +1378,3 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [FirTools](https://github.com/sdaduanbilei/FirTools) - 一个 swift 写的 OS X 的Menu Bar 程序。【 [Priview 1](https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png) 】
 
-
-## 其他汇总
-
-- [iOS代码库 - OSCHINA](https://www.oschina.net/project/tag/364/ios-code) - OSCHINA 是目前领先的中文开源技术社区。Visit at [https://www.oschina.net](https://www.oschina.net).
-
-- [ios-mac-study](https://www.kancloud.cn/digest/ios-mac-study/84557) - iOS及Mac开源项目和学习资料【超级全面】 · 看云。
-
-- [awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
-
-- [arodung-blog](http://blog.csdn.net/arodung/article/details/50846546) - Github上最全的iOS开源项目分类汇总。
-
-- [awesome-objc-frameworks](https://github.com/follyxing/awesome-objc-frameworks) - 【OC框架排名列表 】A curated list of awesome Objective-C frameworks.
-
-- [trip-to-iOS](https://github.com/Aufree/trip-to-iOS) - A curated list of delightful iOS resources.
-
-- [GitHub Top 100 简介](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md) - 主要对当前 GitHub 排名前 100 的项目做一个简单的简介, 方便初学者快速了解到当前 Objective-C 在 GitHub 的情况。
-
-
-- [Flutter](#Flutter)
-    - [Flutter和Dart](#Flutter和Dart)
-    - [Flutter Project](#Flutter-Project)
-- [Weex](#Weex)
-- [H5](#H5)
-- [Web开发](#Web开发)
-- [游戏](#游戏)
-   - [Cocos2d](#Cocos2d)
-   - [棋牌](#棋牌)
-   - [游戏示例](#游戏示例)
-- [C-plus-plus](#C-plus-plus)
-- [Script](#Script)
-   - [Mix](#Mix)
-   - [Shell](#Shell)
-   - [Python](#Python)
-- [Database](#Database)
