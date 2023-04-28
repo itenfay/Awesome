@@ -52,7 +52,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [CocoaLumberjack](#CocoaLumberjack)
       - [AR和VR](#AR和VR)
    - [支付](#支付)
-      - [内购IAP](#内购IAP)
+      - [IAP(内购)](#IAP(内购))
       - [ApplePay](#ApplePay)
       - [第三方支付](#第三方支付)
    - [播放器](#播放器)
@@ -105,17 +105,17 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 ## Others Development
 
-- [Apple Developer](#Apple-Developer)
-- [Flutter](#Flutter)
-- [Weex](#Weex)
-- [H5](#H5)
-- [MiniProgram](#MiniProgram)
-- [Games](#Games)
-- [C++](#Cplusplus)
-- [Scripts](#Scripts)
-- [Database](#DB)
-- [Blockchain](#Blockchain)
-- [Others](#Others)
+- [Apple Developer](#Apple-Developer.md)
+- [Flutter](#Flutter.md)
+- [Weex](#Weex.md)
+- [H5](#H5.md)
+- [MiniProgram](#MiniProgram.md)
+- [Games](#Games.md)
+- [C++](#Cplusplus.md)
+- [Scripts](#Scripts.md)
+- [Database](#DB.md)
+- [Blockchain](#Blockchain.md)
+- [Others](#Others.md)
 
 
 ## iOS
@@ -504,7 +504,7 @@ class MyViewController: UIViewController {
 
 ### 支付
 
-#### 内购IAP
+#### IAP(内购)
 
 - [DYFStore-Swift](https://github.com/chenxing640/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/chenxing640/DYFStoreKit) (Objective-C) )
 
