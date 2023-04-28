@@ -18,13 +18,12 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 - [OpenSource](#OpenSource)
 - [Group](#Group)
 - [iOS](#iOS)
-   - [常用第三方库](#常用第三方库)
+    - [TOP100](#TOP100)
       - [AFNetworking和Alamofire](#AFNetworking和Alamofire)
       - [SDWebImage](#SDWebImage)
       - [ReactiveCocoa和RxSwift](#ReactiveCocoa和RxSwift)
       - [Masonry和SnapKit](#Masonry和SnapKit)
       - [YYKit](#YYKit)
-   - [TOP100](#TOP100)
       - [Moya](#Moya)
       - [Kingfisher](#Kingfisher)
       - [Charts](#Charts)
@@ -52,7 +51,6 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Reachability](#Reachability)
       - [CocoaLumberjack](#CocoaLumberjack)
       - [AR和VR](#AR和VR)
-      - [StarView](#StarView)
    - [支付](#支付)
       - [内购IAP](#内购IAP)
       - [ApplePay](#ApplePay)
@@ -96,6 +94,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [图片验证码](#图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
+   - [StarView](#StarView)
    - [类目](#类目)
    - [越狱检测](#越狱检测)
    - [Sensor](#Sensor)
@@ -103,7 +102,8 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [高仿项目与Demo](#高仿项目与Demo)
 - [Mac](#Mac)
 
-## Development
+
+## Others Development
 
 - [Apple Developer](#Apple-Developer)
 - [Flutter](#Flutter)
@@ -120,7 +120,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 ## iOS
 
-### 常用第三方库
+### TOP100
 
 #### AFNetworking和Alamofire
 
@@ -283,9 +283,6 @@ class MyViewController: UIViewController {
     - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
     - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 
-
-### TOP100
-
 #### Moya
 
 - [Moya](https://github.com/Moya/Moya) - Network abstraction layer written in Swift. 
@@ -326,9 +323,9 @@ class MyViewController: UIViewController {
 
 - [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) - Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.
     <div align=center>
-    <img src="https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Demo/Resources/icon.png" width="50%" />
+    <img src="https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Demo/Resources/icon.png" width="30%" />
     </div>
-    
+
 - [IQKeyboardManagerSwift](https://github.com/acegg/IQKeyboardManagerSwift) - IQKeyboardManager 's Swift Module.
 
 #### SVG
@@ -339,10 +336,16 @@ class MyViewController: UIViewController {
 
 #### PhotoPicker
 
-- [HXPHPicker](https://github.com/SilenceLove/HXPHPicker) - Photo/Video Selector-Supports LivePhoto, GIF selection, online download of resources on iCloud, and editing of photos/videos.【[Priview](https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67)】 
+- [HXPHPicker](https://github.com/SilenceLove/HXPHPicker) - Photo/Video Selector-Supports LivePhoto, GIF selection, online download of resources on iCloud, and editing of photos/videos.
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67" width="20%" />
+    </div>
 
-- [HXPhotoPicker](https://github.com/SilenceLove/HXPhotoPicker) - 图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能 Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.【[Preview](https://camo.githubusercontent.com/cb83c5169e00c04ee716035909869de54116899d0c4b4325361920cb11d8a4a2/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f73686f775f7469705f322e706e67)】 
-
+- [HXPhotoPicker](https://github.com/SilenceLove/HXPhotoPicker) - 图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能 Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/cb83c5169e00c04ee716035909869de54116899d0c4b4325361920cb11d8a4a2/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f73686f775f7469705f322e706e67" width="30%" />
+    </div>
+    
 - [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
 
 - [PhotoBrowser](https://github.com/JiongXing/PhotoBrowser) - Elegant photo browser in Swift. 图片与视频浏览器。
@@ -353,7 +356,7 @@ class MyViewController: UIViewController {
 
 - [URLNavigator](https://github.com/devxoul/URLNavigator) - ⛵️ Elegant URL Routing for Swift
 
-- [](https://github.com/button/DeepLinkKit) - A splendid route-matching, block-based way to handle your deep links.
+- [DeepLinkKit](https://github.com/button/DeepLinkKit) - A splendid route-matching, block-based way to handle your deep links.
     <div align=center>
     <img src="https://cloud.githubusercontent.com/assets/10621371/7642874/8c90f72a-fa62-11e4-9092-dfff96c24f01.png" width="50%" />
     </div>
@@ -366,12 +369,18 @@ class MyViewController: UIViewController {
 
 - [CXSwiftKit](https://github.com/chenxing640/CXSwiftKit) - CXSwiftKit provides rich extensions of swift language, also supports Objective-C.
 
-- [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - A handy collection of more than 500 native Swift extensions to boost your productivity. 【[Preview](https://camo.githubusercontent.com/284deb34c480c679df9bf0f752ab4872b049411ab99680d06d3e61a077a3a956/68747470733a2f2f63646e2e7261776769742e636f6d2f5377696674657253776966742f5377696674657253776966742f6d61737465722f4173736574732f6c6f676f2e737667)】 
-
+- [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - A handy collection of more than 500 native Swift extensions to boost your productivity.
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/284deb34c480c679df9bf0f752ab4872b049411ab99680d06d3e61a077a3a956/68747470733a2f2f63646e2e7261776769742e636f6d2f5377696674657253776966742f5377696674657253776966742f6d61737465722f4173736574732f6c6f676f2e737667" width="50%" />
+    </div>
+    
 #### Hero
 
-- [Hero](https://github.com/HeroTransitions/Hero) - Elegant transition library for iOS & tvOS.【[Preview](https://camo.githubusercontent.com/f08f23e762f9ebbeba87366fc3c7e0164c6840a3bc37f1affe25261837f37901/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f343237643566322f5265736f75726365732f4865726f2e737667)】
-
+- [Hero](https://github.com/HeroTransitions/Hero) - Elegant transition library for iOS & tvOS.
+    <div align=center>
+    <img src="https://camo.githubusercontent.com/f08f23e762f9ebbeba87366fc3c7e0164c6840a3bc37f1affe25261837f37901/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f343237643566322f5265736f75726365732f4865726f2e737667" width="50%" />
+    </div>
+    
 #### SegmentPageView
 
 - [JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView )- A powerful and easy to use segmented view (segmentedcontrol, pagingview, pagerview, pagecontrol, categoryview)'
@@ -406,7 +415,10 @@ class MyViewController: UIViewController {
 
 - [Permission](https://github.com/delba/Permission) - A unified API to ask for permissions on iOS.
 
-- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！【 [Priview 1](https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png) 】
+- [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！
+    <div align=center>
+    <img src="https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png" width="30%" />
+    </div>
 
 #### Socket
 
@@ -436,7 +448,10 @@ class MyViewController: UIViewController {
 
 - [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.
 
-- [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.【[Preview](https://github.com/snail-z/OverlayController/raw/master/Preview/ovclogo.jpg?raw=true)】
+- [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.
+    <div align=center>
+    <img src="https://github.com/snail-z/OverlayController/raw/master/Preview/ovclogo.jpg?raw=true" width="50%" />
+    </div>
 
 #### HTTPCache
 
@@ -485,10 +500,6 @@ class MyViewController: UIViewController {
 - [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
 
 - [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
-
-#### StarView
-
-- [ZYStarView]https://github.com/RainManGO/ZYStarView - wift4.0 星星选择封装
 
 
 ### 支付
@@ -769,7 +780,7 @@ class MyViewController: UIViewController {
 
 *比特币、以太坊、区块链相关内容*
 
-- [go-ethereum](https://github.com/ethereum/go-ethereum)  - 以太坊协议的官方的Go语言实现。
+- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方的Go语言实现。
   - [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
 
 - [web3swift](https://github.com/zeriontech/Web3Swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
@@ -778,6 +789,8 @@ class MyViewController: UIViewController {
    </div>
 
 - [web3j](https://github.com/web3j/web3j) - web3j is a lightweight, highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network. 【 [Priview 1](https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png) 】
+
+- [web3](https://github.com/MercuryProtocol/web3.swift) - Web3 and Geth wrapper utility in swift [www.mercuryprotocol.com](https://www.mercuryprotocol.com/)
 
 - [py-geth](https://github.com/ethereum/py-geth) - Python wrapping for running Go-Ethereum as a subprocess.
 
@@ -1200,6 +1213,13 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [ADScrollView](https://github.com/Thomaszhouwu/ADScrollView) - 下载一张网页图片，无线滑动图片展示各种广告图片，点击某个广告图片做出相应的操作。
 
 
+### StarView
+
+- [ZYStarView](https://github.com/RainManGO/ZYStarView) - Swift4.0 星星选择封装
+
+- [SwiftyStarRatingView](https://github.com/Jerrrr/SwiftyStarRatingView) - A simple star rating view written in pure swift, lightweight but powerful.
+
+
 ### 高仿项目与Demo
 
 - [LBXMLYFM-Swift](https://github.com/lb2281075105/LBXMLYFM-Swift) - Swift5项目仿写喜马拉雅App，采用MVC+MVVM设计模式，Moya+SwiftyJSON+HandyJSON网络框架和数据解析。数据来源抓包及部分本地json文件。
@@ -1256,7 +1276,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ### 越狱检测
 
-- [iOS Jailbreak Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
+- [iOS-Jailbreak-Detector](https://github.com/diwu/ios-jail-break-detector) - A drop-in class that dynamically detects whether the iOS device your app is running on has been jailbroken or not. 100% App Store Submission Safe. No Private API.
 
 
 ### Sensor
