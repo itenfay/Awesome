@@ -252,7 +252,7 @@ UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
 }];
 ```
 
-- [SnapKit](https://github.com/SnapKit/SnapKit) - A Swift Autolayout DSL for iOS & OS X ([http://snapkit.io](http://snapkit.io).
+- [SnapKit](https://github.com/SnapKit/SnapKit) - A Swift Autolayout DSL for iOS & OS X ([http://snapkit.io](http://snapkit.io)).
 ```Swift
 import SnapKit
 
@@ -287,7 +287,7 @@ class MyViewController: UIViewController {
 
 - [Moya](https://github.com/Moya/Moya) - Network abstraction layer written in Swift. 
     <div align=center>
-    <img src="https://github.com/Moya/Moya/raw/master/web/logo_github.png" width="50%" />
+    <img src="https://github.com/Moya/Moya/raw/master/web/logo_github.png" width="30%" />
     </div>
 
 #### Kingfisher
@@ -338,7 +338,7 @@ class MyViewController: UIViewController {
 
 - [HXPHPicker](https://github.com/SilenceLove/HXPHPicker) - Photo/Video Selector-Supports LivePhoto, GIF selection, online download of resources on iCloud, and editing of photos/videos.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67" width="20%" />
+    <img src="https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67" width="50%" />
     </div>
 
 - [HXPhotoPicker](https://github.com/SilenceLove/HXPhotoPicker) - 图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能 Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.
@@ -417,7 +417,7 @@ class MyViewController: UIViewController {
 
 - [BAPrivacyManager](https://github.com/boai/BAPrivacyManager) - iOS 所有隐私权限封装，定位、蓝牙、通知、运动、日历、相册、相机等 14 种权限封装！
     <div align=center>
-    <img src="https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png" width="30%" />
+    <img src="https://github.com/BAHome/BAPrivacyManager/raw/master/Images/BAPrivacyManager1.png" width="20%" />
     </div>
 
 #### Socket
