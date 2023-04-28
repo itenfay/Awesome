@@ -25,6 +25,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Masonry和SnapKit](#Masonry和SnapKit)
       - [YYKit](#YYKit)
       - [Moya](#Moya)
+      - [RestKit](#RestKit)
       - [Kingfisher](#Kingfisher)
       - [Charts](#Charts)
       - [Messages](#Messages)
@@ -51,8 +52,9 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Reachability](#Reachability)
       - [CocoaLumberjack](#CocoaLumberjack)
       - [AR和VR](#AR和VR)
+      - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
    - [支付](#支付)
-      - [IAP(内购)](#IAP(内购))
+      - [In-App Purchases](#In-App-Purchases)
       - [ApplePay](#ApplePay)
       - [第三方支付](#第三方支付)
    - [播放器](#播放器)
@@ -105,17 +107,16 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 ## Others Development
 
-- [Apple Developer](#Apple-Developer.md)
-- [Flutter](#Flutter.md)
-- [Weex](#Weex.md)
-- [H5](#H5.md)
-- [MiniProgram](#MiniProgram.md)
-- [Games](#Games.md)
-- [C++](#Cplusplus.md)
-- [Scripts](#Scripts.md)
-- [Database](#DB.md)
-- [Blockchain](#Blockchain.md)
-- [Others](#Others.md)
+- [Apple Developer](https://github.com/chenxing640/OpenSource/blob/master/Apple-Developer.md)
+- [Flutter](https://github.com/chenxing640/OpenSource/blob/master/Flutter.md)
+- [Weex](https://github.com/chenxing640/OpenSource/blob/master/Weex.md)
+- [H5](https://github.com/chenxing640/OpenSource/blob/master/H5.md)
+- [MiniProgram](https://github.com/chenxing640/OpenSource/blob/master/MiniProgram.md)
+- [Games](https://github.com/chenxing640/OpenSource/blob/master/Games.md)
+- [C++](https://github.com/chenxing640/OpenSource/blob/master/Cplusplus.md)
+- [Scripts](https://github.com/chenxing640/OpenSource/blob/master/Scripts.md)
+- [Database](https://github.com/chenxing640/OpenSource/blob/master/DB.md)
+- [Others](https://github.com/chenxing640/OpenSource/blob/master/Others.md)
 
 
 ## iOS
@@ -290,13 +291,17 @@ class MyViewController: UIViewController {
     <img src="https://github.com/Moya/Moya/raw/master/web/logo_github.png" width="30%" />
     </div>
 
+#### RestKit
+
+- [RestKit](https://github.com/RestKit/RestKit) - RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.
+
 #### Kingfisher
 
 - [Kingfisher](https://github.com/onevcat/Kingfisher) - A lightweight, pure-Swift library for downloading and caching images from the web.
     <div align=center>
     <img src="https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png" width="50%" />
     </div>
-    
+
 #### Charts
 
 - [Charts](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
@@ -501,10 +506,16 @@ class MyViewController: UIViewController {
 
 - [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
 
+- [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) - Smooth asynchronous user interfaces for iOS apps.
+
+#### JVFloatLabeledTextField
+
+- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - About UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
+
 
 ### 支付
 
-#### IAP(内购)
+#### In-App Purchases
 
 - [DYFStore-Swift](https://github.com/chenxing640/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/chenxing640/DYFStoreKit) (Objective-C) )
 
@@ -905,6 +916,8 @@ class MyViewController: UIViewController {
 - [JQFMDB](https://github.com/gaojunquan/JQFMDB) - FMDB的封装，操作简单，线程安全，扩展性强，直接操作model或dictionary。
 
 - [wcdb](https://github.com/Tencent/wcdb) - WCDB is a cross-platform database framework developed by WeChat.
+
+- [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data!
 
 
 ### 蓝牙
