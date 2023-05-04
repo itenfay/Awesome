@@ -24,6 +24,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [ReactiveCocoa和RxSwift](#ReactiveCocoa和RxSwift)
       - [Masonry和SnapKit](#Masonry和SnapKit)
       - [YYKit](#YYKit)
+      - [DataSources](#DataSources)
       - [Moya](#Moya)
       - [RestKit](#RestKit)
       - [Kingfisher](#Kingfisher)
@@ -53,6 +54,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Reachability](#Reachability)
       - [CocoaLumberjack](#CocoaLumberjack)
       - [AsyncDisplayKit](#AsyncDisplayKit)
+      - [lottie-ios](#lottie-ios)
       - [AR和VR](#AR和VR)
       - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
    - [支付](#支付)
@@ -61,7 +63,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [第三方支付](#第三方支付)
    - [播放器](#播放器)
       - [视频播放器](#视频播放器) 
-      - [音乐播放器](#音乐播放器)
+      - [音频播放器](#音频播放器)
    - [IM和直播](#IM和直播)
    - [图像处理和绘制](#图像处理和绘制)
       - [OpenGL和OpenGLES](#OpenGL和OpenGLES)
@@ -90,6 +92,8 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [指示器](#指示器)
    - [Toast](#Toast)
    - [Menu和弹出视图](#Menu和弹出视图)
+   - [Slider](#Slider)
+   - [PageControl](#PageControl)
    - [WebView和进度条](#WebView和进度条)
    - [动画](#动画)
    - [选择器](#选择器)
@@ -285,6 +289,20 @@ class MyViewController: UIViewController {
     - [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) - iOS 全局并发队列管理工具。
     - [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) - iOS 异步绘制与显示的工具。
     - [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
+
+#### DataSources
+
+- [DifferenceKit](https://github.com/ra1028/DifferenceKit) - 💻 A fast and flexible O(n) difference algorithm framework for Swift collection.
+
+- [DiffableDataSources](https://github.com/ra1028/DiffableDataSources) - 💾 A library for backporting UITableView/UICollectionViewDiffableDataSource.
+
+- [RxDataSources](https://github.com/RxSwiftCommunity/RxDataSources) - UITableView and UICollectionView Data Sources for RxSwift (sections, animated updates, editing …).
+
+- [IGListKit](https://github.com/Instagram/IGListKit) - A data-driven UICollectionView framework for building fast and flexible lists.
+
+- [FlexibleDiff](https://github.com/RACCommunity/FlexibleDiff) - A simple collection diffing μframework for Swift, allowing separated defintions of identity and equality for the purpose of diffing.
+
+- [DeepDiff](https://github.com/onmyway133/DeepDiff) - 🦀Amazingly incredible extraordinary lightning fast diffing in Swift.
 
 #### Moya
 
@@ -498,6 +516,10 @@ class MyViewController: UIViewController {
 
 - [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) - Smooth asynchronous user interfaces for iOS apps.
 
+#### lottie-ios
+
+- [lottie-ios](https://github.com/airbnb/lottie-ios) - An iOS library to natively render After Effects vector animations.
+
 #### AR和VR
 
 - [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总).
@@ -518,7 +540,7 @@ class MyViewController: UIViewController {
 
 #### JVFloatLabeledTextField
 
-- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - About UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
+- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
 
 
 ### 支付
@@ -620,7 +642,9 @@ class MyViewController: UIViewController {
 
 - [ALMoviePlayerController](https://github.com/lobianco/ALMoviePlayerController) -  A drop-in replacement for MPMoviePlayerController that exposes the UI elements and allows for maximum customization. 【 [Priview 1](https://camo.githubusercontent.com/30ca7db1413516773bb464f2a1fe1e1a3ff2d387/687474703a2f2f6c6f6269616e636f2e6769746875622e696f2f414c4d6f766965506c61796572436f6e74726f6c6c65722f73637265656e73686f74732f73637265656e73686f74322e706e67) 】
 
-#### 音乐播放器
+- [GSPlayer](https://github.com/wxxsw/GSPlayer) - ⏯ Video player, support for caching, preload, fullscreen transition and custom control view. 视频播放器，支持边下边播、预加载、全屏转场和自定义控制层。
+
+#### 音频播放器
 
 - [StreamingKit](https://github.com/tumtumtum/StreamingKit) - A fast and extensible gapless AudioPlayer/AudioStreamer for OSX and iOS (iPhone, iPad).
 
@@ -632,6 +656,7 @@ class MyViewController: UIViewController {
 
 - [AudioPlayer](https://github.com/delannoyk/AudioPlayer) - AudioPlayer is syntax and feature sugar over AVPlayer. It plays your audio files (local & remote).
 
+- [FRadioPlayer](https://github.com/fethica/FRadioPlayer) - A simple radio player framework for iOS, macOS, tvOS.
 
 ### IM和直播
 
@@ -649,7 +674,7 @@ class MyViewController: UIViewController {
 
 - [MGDYZB](https://github.com/LYM-mg/MGDYZB) - Xcode8以上版本，已升级为Swift3.x语法。斗鱼-每个人的直播平台提供高清、快捷、流畅的视频直播和游戏赛事直播服务，包含英雄联盟lol直播、穿越火线cf直播、dota2直播、美女直播等各类热门游戏赛事直播等。【 [Priview 1](https://camo.githubusercontent.com/0b93ec631006cb13a26ae52771763f5ffb869534/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d666262356535623431326334343363662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430) | [Priview 2](https://camo.githubusercontent.com/a7e7ead1a95fd7fc9c3f6445f49ecb08ef26ed1f/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d366437326262323634303831353932642e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430) 】
 
-- [LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit) -  LaiFeng IOS Live Kit,H264 and AAC Hard coding，support GPUImage Beauty， rtmp transmission，weak network lost frame，Dynamic switching rate.
+- [LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit) - LaiFeng IOS Live Kit,H264 and AAC Hard coding，support GPUImage Beauty， rtmp transmission，weak network lost frame，Dynamic switching rate.
 
 - [LXPlayerLive](https://github.com/SoftProgramLX/LXPlayerLive) - 一步步搭建视频直播系统，基于LFLiveKit＋ijkplayer＋rtmp（iOS端）。
 
@@ -799,7 +824,7 @@ class MyViewController: UIViewController {
 
 *比特币、以太坊、区块链相关内容*
 
-- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方的Go语言实现。
+- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方的Go语言实现【[Releases](https://github.com/ethereum/go-ethereum/releases)】。
   - [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
 
 - [web3swift](https://github.com/zeriontech/Web3Swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
@@ -969,13 +994,13 @@ class MyViewController: UIViewController {
 - [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
 | [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) 
 
-- [CustomLayout](https://github.com/JiWuChao/CustomLayout) - About UIcollectionViewLayout 自定义layout 瀑布流 支持多区瀑布流 支持设置footer和header.
+- [CustomLayout](https://github.com/JiWuChao/CustomLayout) - UIcollectionViewLayout 自定义layout 瀑布流 支持多区瀑布流 支持设置footer和header.
 
 - [UPCarouselFlowLayout](https://github.com/zepojo/UPCarouselFlowLayout) - A fancy carousel flow layout for UICollectionView on iOS.
 
 - [BouncyLayout](https://github.com/roberthein/BouncyLayout) - Make. It. Bounce.
 
-- [TangramKit](https://github.com/youngsoft/TangramKit) - About TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView.
+- [TangramKit](https://github.com/youngsoft/TangramKit) - TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView.
 
 - [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
 
@@ -1028,7 +1053,7 @@ class MyViewController: UIViewController {
 
 - [SDRefreshView](https://github.com/gsdios/SDRefreshView) - 简单易用的上拉和下拉刷新（多版本细节适配）。Pull To Refresh. 【 [Priview 1](https://camo.githubusercontent.com/1febdd6e24be7611d1059d512804437ea35f4a8f/687474703a2f2f63632e636f63696d672e636f6d2f6262732f6174746163686d656e742f4669645f31392f31395f3434313636305f6431333261633664623135626361632e676966) 】
 
-- [KafkaRefresh](https://github.com/BeatsKitano/KafkaRefresh) - About Animated, customizable, and flexible pull-to-refresh framework for faster and easier iOS development.
+- [KafkaRefresh](https://github.com/BeatsKitano/KafkaRefresh) - Animated, customizable, and flexible pull-to-refresh framework for faster and easier iOS development.
 
 
 ### 指示器
@@ -1114,6 +1139,18 @@ class MyViewController: UIViewController {
 - [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.
 
 
+### Slider
+
+- [RangeSeekSlider](https://github.com/WorldDownTown/RangeSeekSlider) - RangeSeedSlider provides a customizable range slider like a UISlider.
+
+- [HGCircularSlider](https://github.com/HamzaGhazouani/HGCircularSlider) - A custom reusable circular / progress slider control for iOS application.
+
+
+### PageControl
+
+- [JXPageControl](https://github.com/Coder-TanJX/JXPageControl) - 🚀🚀🚀 自定义pageControl指示器, 支持多种动画, 自定义布局.
+
+
 ### WebView和进度条
 
 - [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
@@ -1128,7 +1165,7 @@ class MyViewController: UIViewController {
 
 - [DYFProgressView](https://github.com/chenxing640/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview 1](https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
 
-- [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - About An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
+- [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
 ```
   #ITMS-90809: Deprecated API Usage - Apple will stop accepting submissions of apps that use UIWebView APIs
   #删除WebViewJavascriptBridge中的WebViewJavascriptBridge.h和WebViewJavascriptBridge.m文件
@@ -1435,3 +1472,5 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [XAlign](https://github.com/qfish/XAlign) - An amazing Xcode Source Editor extension to align regular code. It can align Xnything in any way you want. 【 [Priview 1](https://camo.githubusercontent.com/f61bfc31e144ad6a9d7ca26fa19547a3af5da8c6/687474703a2f2f7166692e73682f58416c69676e2f696d616765732f646566696e652e676966) 】
 
 - [FirTools](https://github.com/sdaduanbilei/FirTools) - 一个 swift 写的 OS X 的Menu Bar 程序。【 [Priview 1](https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png) 】
+
+- [wallpapper](https://github.com/mczachurski/wallpapper) - 💻 Console application for creating dynamic wallpapers for macOS Mojave and newer.
