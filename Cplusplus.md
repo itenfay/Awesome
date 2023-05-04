@@ -33,3 +33,7 @@
 - [GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) - Reliable & unreliable messages over UDP. Robust message fragmentation & reassembly. Encryption.
 
 - [Game-Networking-Resources](https://github.com/MFatihMAR/Game-Networking-Resources) - Game networking is a subset of computer networking that commonly covers transport protocols, data replication, entity synchronization, lag compensation, client-side prediction, server reconciliation, interest management, bandwidth optimization, physics rollback/fastforward simulation, anti-cheating and many other areas involved in multiplayer online game development.
+
+- [dragonfly-reverb](https://github.com/michaelwillis/dragonfly-reverb) - A set of free reverb effects.
+
+- [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants.

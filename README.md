@@ -45,7 +45,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Socket](#Socket)
       - [R.swift](#Rswift)
       - [SwiftGen](#SwiftGen)
-      - [AnimatedTabBar](#AnimatedTabBar)
+      - [TabBar](#TabBar)
       - [AcknowList](#AcknowList)
       - [FloatingPanel](#FloatingPanel)
       - [HTTPCache](#HTTPCache)
@@ -417,6 +417,14 @@ class MyViewController: UIViewController {
 
 - [LTScrollView](https://github.com/gltwy/LTScrollView) - ScrollView嵌套ScrolloView（UITableView 、UICollectionView）解决方案， 支持OC / Swift（持续更新中...）
 
+- [HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl) - A highly customizable drop-in replacement for UISegmentedControl.
+
+- [WJPageManager](https://github.com/WJCha/WJPageManager) - WJPageManager提供了可以快速完成项目中常见的标题栏以及对应的分页控制器创建与逻辑处理。【 [Priview 1](https://github.com/WJCha/WJPageManager/raw/master/resource/title.gif) | [Priview 2](https://github.com/WJCha/WJPageManager/raw/master/resource/page.gif) 】
+
+- [YNPageScrollViewController](https://github.com/yongyuandouneng/YNPageScrollViewController) - 一个强大的PageScrollViewController滑动库。菜单多种样式选择，支持悬浮样式、导航条样式、顶部样式。【 [Priview 1](https://github.com/yongyuandouneng/YNPageScrollViewController/raw/master/GifAndImage/myProject.gif) | [Priview 2](https://github.com/yongyuandouneng/YNPageScrollViewController/raw/master/GifAndImage/Demo.gif) 】
+
+- [YNPageViewController](https://github.com/yongyuandouneng/YNPageViewController) - 特斯拉组件、QQ联系人布局、多页面嵌套滚动、悬停效果、美团、淘宝、京东、微博、腾讯新闻、网易新闻、今日头条等标题滚动视图。 (YNPageScrollViewController重构版) 【 [Priview 1](https://camo.githubusercontent.com/4c18ea3624dff75c20df1093bb143e9b36339f34/687474703a2f2f706178646c72646b372e626b742e636c6f7564646e2e636f6d2f594e5061676556696577436f6e74726f6c6c65724769662e676966) 】
+
 #### CycleScrollView
 
 - [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView) - Autoscroll Banner. 无限循环图片、文字轮播器
@@ -465,9 +473,11 @@ class MyViewController: UIViewController {
 
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen) - The Swift code generator for your assets, storyboards, Localizable.strings, … — Get rid of all String-based APIs!
 
-#### AnimatedTabBar
+#### TabBar
 
 - [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar) - RAMAnimatedTabBarController is a Swift UI module library for adding animation to iOS tabbar items and icons. iOS library made by @Ramotion
+
+- [ESTabBarController](https://github.com/eggswift/ESTabBarController) - ESTabBarController is a Swift model for customize UI, badge and adding animation to tabbar items. Support lottie!
 
 #### AcknowList
 
@@ -485,6 +495,10 @@ class MyViewController: UIViewController {
 #### HTTPCache
 
 - [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache) - A powerful media cache framework.
+
+- [SJMediaCacheServer](https://github.com/changsanjiang/SJMediaCacheServer) - A HTTP Media Caching Framework. It can cache FILE or HLS media. 音视频边播边缓存框架, 支持 HLS(m3u8) 和 FILE(mp4, mp3等).
+
+- [EGOCache](https://github.com/enormego/EGOCache) - Fast Caching for Objective-C (iPhone & Mac Compatible).
 
 #### ListView
 
@@ -657,6 +671,8 @@ class MyViewController: UIViewController {
 - [AudioPlayer](https://github.com/delannoyk/AudioPlayer) - AudioPlayer is syntax and feature sugar over AVPlayer. It plays your audio files (local & remote).
 
 - [FRadioPlayer](https://github.com/fethica/FRadioPlayer) - A simple radio player framework for iOS, macOS, tvOS.
+
+- [SwiftAudioPlayer](https://github.com/tanhakabir/SwiftAudioPlayer) - Streaming and realtime audio manipulation with AVAudioEngine.
 
 ### IM和直播
 
@@ -1074,6 +1090,7 @@ class MyViewController: UIViewController {
 
 - [MDFlickrActivityIndicatorView](https://github.com/kirsis/MDFlickrActivityIndicatorView) - Flickr-like activity indicator view for iOS. 【 [Priview 1](https://github.com/kirsis/MDFlickrActivityIndicatorView/raw/master/images/MDFlickrActivityIndicatorView_Preview.png) 】
 
+- [SwiftSpinner](https://github.com/icanzilb/SwiftSpinner) - A beautiful activity indicator and modal alert written in Swift (originally developed for my app DoodleDoodle) Using blur effects, translucency, flat and bold design - all iOS 8 latest and greatest.
 
 ### Toast
 
@@ -1100,19 +1117,11 @@ class MyViewController: UIViewController {
 
 - [JMColumnMenu](https://github.com/JunAILiang/JMColumnMenu) - 仿腾讯新闻、今日头条栏目管理。
 
-- [WJPageManager](https://github.com/WJCha/WJPageManager) - WJPageManager提供了可以快速完成项目中常见的标题栏以及对应的分页控制器创建与逻辑处理。【 [Priview 1](https://github.com/WJCha/WJPageManager/raw/master/resource/title.gif) | [Priview 2](https://github.com/WJCha/WJPageManager/raw/master/resource/page.gif) 】
-
-- [YNPageScrollViewController](https://github.com/yongyuandouneng/YNPageScrollViewController) - 一个强大的PageScrollViewController滑动库。菜单多种样式选择，支持悬浮样式、导航条样式、顶部样式。【 [Priview 1](https://github.com/yongyuandouneng/YNPageScrollViewController/raw/master/GifAndImage/myProject.gif) | [Priview 2](https://github.com/yongyuandouneng/YNPageScrollViewController/raw/master/GifAndImage/Demo.gif) 】
-
-- [YNPageViewController](https://github.com/yongyuandouneng/YNPageViewController) - 特斯拉组件、QQ联系人布局、多页面嵌套滚动、悬停效果、美团、淘宝、京东、微博、腾讯新闻、网易新闻、今日头条等标题滚动视图。 (YNPageScrollViewController重构版) 【 [Priview 1](https://camo.githubusercontent.com/4c18ea3624dff75c20df1093bb143e9b36339f34/687474703a2f2f706178646c72646b372e626b742e636c6f7564646e2e636f6d2f594e5061676556696577436f6e74726f6c6c65724769662e676966) 】
-
-- [LTScrollView](https://github.com/gltwy/LTScrollView) - ScrollView嵌套ScrolloView（UITableView 、UICollectionView）解决方案， 支持OC / Swift. 【 [Priview 1](https://github.com/gltwy/LTScrollView/raw/master/demo.gif) 】
-
 - [MLMenu](https://github.com/MrDML/MLMenu) - 仿微信QQ右上角菜单功能。【 [Priview 1](https://github.com/MrDML/MLMenu/raw/master/MLMenuGif.gif) 】
 
 - [JMDropMenu](https://github.com/JunAILiang/JMDropMenu) - 仿QQ、微信下拉菜单封装，支持自定义样式。【 [Priview 1](https://raw.githubusercontent.com/JunAILiang/JMDropMenu/master/JMDropMenu/JMDropMenu.gif) 】
 
-- [XYMenu](https://github.com/HeathHsia/XYMenu) -  简易集成的弹出菜单。【 [Priview 1](https://github.com/HeathHsia/XYMenu/raw/master/img/demo.gif) 】
+- [XYMenu](https://github.com/HeathHsia/XYMenu) - 简易集成的弹出菜单。【 [Priview 1](https://github.com/HeathHsia/XYMenu/raw/master/img/demo.gif) 】
 
 - [YCMenuView](https://github.com/WellsYC/YCMenuView) - a popup menu which can be highly customized. (一个可以根据关联点和关联视图弹出的菜单，类似QQ导航栏右侧菜单。可满足高度自定义需求。) 【 [Priview 1](https://github.com/WellsYC/YCMenuView/raw/master/logo/original-horizontal.png) | [Priview 2](https://github.com/WellsYC/YCMenuView/raw/master/menuView.gif) 】】
 
@@ -1137,6 +1146,8 @@ class MyViewController: UIViewController {
 - [FWPopupView](https://github.com/choiceyou/FWPopupView) - 弹窗控件：支持AlertView、Sheet、自定义视图的PopupView。AlertView中可以嵌套自定义视图，各组件的显示隐藏可配置；Sheet仿微信样式；同时提供自定义弹出。更多配置请参考”可设置参数“，提供OC使用Demo。
 
 - [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.
+
+- [PMAlertController](https://github.com/pmusolino/PMAlertController) - PMAlertController is a great and customizable alert that can substitute UIAlertController.
 
 
 ### Slider
@@ -1425,8 +1436,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [iOSTips](https://github.com/DarielChen/iOSTips) - 记录iOS开发中的一些知识点、小技巧。
 
 - [EGOImageLoading](https://github.com/enormego/EGOImageLoading) - What if images on the iPhone were as easy as HTML? 
-
-- [EGOCache](https://github.com/enormego/EGOCache) - Fast Caching for Objective-C (iPhone & Mac Compatible).
 
 - [UncaughtExceptionHandler](https://github.com/minibear0523/UncaughtExceptionHandler) - 一个iOS崩溃异常的捕捉处理源代码，帮助更好的调试程序。
 
