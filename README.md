@@ -970,7 +970,9 @@ class MyViewController: UIViewController {
 
 - [BouncyLayout](https://github.com/roberthein/BouncyLayout) - Make. It. Bounce.
 
-- [TangramKit](https://github.com/youngsoft/TangramKit) - About TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView
+- [TangramKit](https://github.com/youngsoft/TangramKit) - About TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView.
+
+- [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
 
 ### 图像模糊化
 
@@ -1109,6 +1111,16 @@ class MyViewController: UIViewController {
 
 ### WebView和进度条
 
+- [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
+
+- [BAWKWebView](https://github.com/BAHome/BAWKWebView) - 用分类封装 WKWebView，一行代码搞定 request、URL、URLString、本地 HTML文件、HTMLString等请求，一个 block 搞定 title、progress、currentURL、当前网页的高度等等。
+
+- [CHWebView](https://github.com/chausson/CHWebView) - 简化UIWebView和WKWebView的API使用，在此基础上实现进度条和简单JS交互事件。【 [Priview 1](https://github.com/chausson/CHWebView/raw/master/Resource/WebView.gif) | [Priview 2](https://github.com/chausson/CHWebView/raw/master/Resource/CHWebView.png) 】
+
+- [WYWebViewDemo](https://github.com/wangyansnow/WYWebViewDemo) - 进度条加载网页。【 [Priview 1](https://github.com/wangyansnow/WYWebViewDemo/raw/master/WYWebViewDemo/screenShot/webViewLoading.gif) 】
+
+- [WKWebViewDemo](https://github.com/SSiming/WKWebViewDemo) - WKWebView实际使用中遇到的注意点，以及WKWebView和JavaScript交互。具体介绍请戳[WKWebView使用及注意点(keng)](http://www.jianshu.com/p/9513d101e582)。
+
 - [DYFProgressView](https://github.com/chenxing640/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview 1](https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
 
 - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - About An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
@@ -1130,15 +1142,7 @@ class MyViewController: UIViewController {
 
 - [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) - A progress interface library for UIWebView. Currently, UIWebView doesn't have official progress interface. You can implement progress bar for your in-app browser using this module. 【 [Priview 1](https://camo.githubusercontent.com/082fc708cc461dc53832b7d14d5affdf475dd57b/68747470733a2f2f7261772e6769746875622e636f6d2f6e696e6a696e6b756e2f4e4a4b5765625669657750726f67726573732f6d61737465722f44656d6f4170702f53637265656e73686f742f73637265656e73686f74312e706e67) 】
 
-- [BAWKWebView](https://github.com/BAHome/BAWKWebView) - 用分类封装 WKWebView，一行代码搞定 request、URL、URLString、本地 HTML文件、HTMLString等请求，一个 block 搞定 title、progress、currentURL、当前网页的高度等等。
-
 - [YQLWebViewProgress](https://github.com/Dogndxt/YQLWebViewProgress) - 网页进度条显示，WebViewProgress. 【 [Priview 1](https://github.com/BAHome/BAWKWebView/raw/master/Images/BAWKWebView.gif) 】
-
-- [WYWebViewDemo](https://github.com/wangyansnow/WYWebViewDemo) - 进度条加载网页。【 [Priview 1](https://github.com/wangyansnow/WYWebViewDemo/raw/master/WYWebViewDemo/screenShot/webViewLoading.gif) 】
-
-- [CHWebView](https://github.com/chausson/CHWebView) - 简化UIWebView和WKWebView的API使用，在此基础上实现进度条和简单JS交互事件。【 [Priview 1](https://github.com/chausson/CHWebView/raw/master/Resource/WebView.gif) | [Priview 2](https://github.com/chausson/CHWebView/raw/master/Resource/CHWebView.png) 】
-
-- [WKWebViewDemo](https://github.com/SSiming/WKWebViewDemo) - WKWebView实际使用中遇到的注意点，以及WKWebView和JavaScript交互。具体介绍请戳[WKWebView使用及注意点(keng)](http://www.jianshu.com/p/9513d101e582)。
 
 - [XDProgressView](https://github.com/Tbwas/XDProgressView) - XDProgressView可以由你心情任意设置高度，也可在上面显示文字。
 
@@ -1146,8 +1150,9 @@ class MyViewController: UIViewController {
 
 - [MultiProgressView](https://github.com/mac-gallagher/MultiProgressView) - 📊 An animatable view that depicts multiple progresses over time. Modeled after UIProgressView.
 
-- [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
+- [KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) - A circular progress view with gradients written in Swift.
 
+- [GradientProgressBar](https://github.com/fxm90/GradientProgressBar) - 📊 A customizable gradient progress bar (UIProgressView).
 
 ### 动画
 
