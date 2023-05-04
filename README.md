@@ -51,6 +51,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Date](#Date)
       - [Reachability](#Reachability)
       - [CocoaLumberjack](#CocoaLumberjack)
+      - [AsyncDisplayKit](#AsyncDisplayKit)
       - [AR和VR](#AR和VR)
       - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
    - [支付](#支付)
@@ -72,15 +73,15 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [逆向案例](#逆向案例)
    - [安全攻防和应用加固](#安全攻防和应用加固)
    - [数据安全和算法](#数据安全和算法)
-   - [区块链](#区块链)
+   - [区块链(Blockchain)](#Blockchain)
    - [网络相关](#网络相关)
    - [导航栏和状态栏](#导航栏和状态栏)
    - [Runtime](#Runtime)
    - [Data Persistence](#Data-Persistence)
    - [Side Menu](#Side-Menu)
    - [蓝牙](#蓝牙)
-   - [手势指纹面容ID密码解锁](#手势指纹面容ID密码解锁)
-   - [布局](#布局)
+   - [手势密码/指纹面容ID解锁](#手势密码指纹面容ID解锁)
+   - [流布局](#流布局)
    - [图像模糊化](#图像模糊化)
    - [图片浏览器](#图片浏览器)
    - [扫码](#扫码)
@@ -96,11 +97,11 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [图片验证码](#图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
    - [广告](#广告)
-   - [StarView](#StarView)
+   - [星评视图(StarView)](#StarView)
    - [类目](#类目)
    - [越狱检测](#越狱检测)
-   - [Sensor](#Sensor)
-   - [Uncategorized](#Uncategorized)
+   - [传感器(Sensor)](#Sensor)
+   - [未分类(Uncategorized)](#Uncategorized)
    - [高仿项目与Demo](#高仿项目与Demo)
 - [Mac](#Mac)
 
@@ -488,6 +489,10 @@ class MyViewController: UIViewController {
 
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - A fast & simple, yet powerful & flexible logging framework for Mac and iOS.
 
+#### AsyncDisplayKit
+
+- [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) - Smooth asynchronous user interfaces for iOS apps.
+
 #### AR和VR
 
 - [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总).
@@ -505,8 +510,6 @@ class MyViewController: UIViewController {
 - [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
 
 - [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
-
-- [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) - Smooth asynchronous user interfaces for iOS apps.
 
 #### JVFloatLabeledTextField
 
@@ -787,7 +790,7 @@ class MyViewController: UIViewController {
 - [CryptoCompatibility](https://developer.apple.com/library/mac/samplecode/CryptoCompatibility/Introduction/Intro.html) - CryptoCompatibility shows how to do common cryptographic operations using Apple APIs such that the results match other common cryptographic APIs, most notably OpenSSL.
 
 
-### 区块链
+### Blockchain
 
 *比特币、以太坊、区块链相关内容*
 
@@ -937,7 +940,7 @@ class MyViewController: UIViewController {
 - [MPBluetoothKit](https://github.com/MacPu/MPBluetoothKit) - This is a block-based framework for building Bluetooth iOS apps using the CoreBluetooth Framework.Its a very powerful and useful,and very easy to use it.
 
 
-### 手势指纹面容ID密码解锁
+### 手势密码指纹面容ID解锁
 
 - [DYFAuthIDAndGestureLock](https://github.com/chenxing640/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview 1](https://github.com/chenxing640/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
 
@@ -952,11 +955,22 @@ class MyViewController: UIViewController {
 - [BiometricAuthentication](https://github.com/rushisangani/BiometricAuthentication) - Use Apple FaceID or TouchID authentication in your app using BiometricAuthentication. 
 
 
-### 布局
+### 流布局
+
+- [PinterestLayout](https://github.com/MagicLab-team/PinterestLayout) - Custom collection view layout inspired by Pinterest layout. Written in Swift.
+
+- [VegaScroll](https://github.com/ApplikeySolutions/VegaScroll) - ↕️ VegaScroll is a lightweight animation flowlayout for UICollectionView completely written in Swift 4, compatible with iOS 11 and Xcode 9.
 
 - [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
-| [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) |
+| [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) 
 
+- [CustomLayout](https://github.com/JiWuChao/CustomLayout) - About UIcollectionViewLayout 自定义layout 瀑布流 支持多区瀑布流 支持设置footer和header.
+
+- [UPCarouselFlowLayout](https://github.com/zepojo/UPCarouselFlowLayout) - A fancy carousel flow layout for UICollectionView on iOS.
+
+- [BouncyLayout](https://github.com/roberthein/BouncyLayout) - Make. It. Bounce.
+
+- [TangramKit](https://github.com/youngsoft/TangramKit) - About TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView
 
 ### 图像模糊化
 
@@ -1410,4 +1424,3 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [XAlign](https://github.com/qfish/XAlign) - An amazing Xcode Source Editor extension to align regular code. It can align Xnything in any way you want. 【 [Priview 1](https://camo.githubusercontent.com/f61bfc31e144ad6a9d7ca26fa19547a3af5da8c6/687474703a2f2f7166692e73682f58416c69676e2f696d616765732f646566696e652e676966) 】
 
 - [FirTools](https://github.com/sdaduanbilei/FirTools) - 一个 swift 写的 OS X 的Menu Bar 程序。【 [Priview 1](https://github.com/sdaduanbilei/FirTools/raw/master/images/pic_7.png) 】
-
