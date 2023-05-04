@@ -43,6 +43,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Permission](#Permission)
       - [Socket](#Socket)
       - [R.swift](#Rswift)
+      - [SwiftGen](#SwiftGen)
       - [AnimatedTabBar](#AnimatedTabBar)
       - [AcknowList](#AcknowList)
       - [FloatingPanel](#FloatingPanel)
@@ -441,6 +442,10 @@ class MyViewController: UIViewController {
 #### Rswift
 
 - [R.swift](https://github.com/mac-cain13/R.swift) - Strong typed, autocompleted resources like images, fonts and segues in Swift projects.
+
+#### SwiftGen
+
+- [SwiftGen](https://github.com/SwiftGen/SwiftGen) - The Swift code generator for your assets, storyboards, Localizable.strings, … — Get rid of all String-based APIs!
 
 #### AnimatedTabBar
 
