@@ -105,6 +105,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Slider](#Slider)
    - [PageControl](#PageControl)
    - [WebView & 进度条](#WebView-进度条)
+   - [WebP](#WebP)
    - [动画(Animation)](#动画)
    - [日期时间地址选择器器(Picker)](#日期时间地址选择器)
    - [搜索(Search)](#搜索Search)
@@ -1415,7 +1416,7 @@ GZip: Network data unzip plugin
 - [YLProgressBar](https://github.com/yannickl/YLProgressBar) - UIProgressView replacement with an highly and fully customizable animated progress bar in pure Core Graphics.
 
 
-### Swift-WebP
+### WebP
 
 - [Swift-WebP](https://github.com/ainame/Swift-WebP) - A thin Swift wrapper of libwebp to make your own encoder/decoder app.
 
