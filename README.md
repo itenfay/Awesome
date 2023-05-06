@@ -9,7 +9,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 |  ID             |  QRCode                                  | Description                             |
 | :-------------: | :--------------------------------------: | :-------------------------------------: |
-| 614799921 | ![614799921](https://github.com/chenxing640/OpenSource/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS X |
+| 614799921 | ![614799921](https://github.com/chenxing640/OpenSource/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS |
 | 155353383 | ![155353383](https://github.com/chenxing640/OpenSource/raw/master/images/qq155353383.jpg) | Technology communication group for other development language |
 
 
@@ -19,14 +19,14 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 - [Group](#Group)
 - [iOS](#iOS)
     - [TOP100](#TOP100)
-      - [AFNetworking & Alamofire](#AFNetworking-&-Alamofire)
+      - [AFNetworking & Alamofire](#AFNetworking-Alamofire)
       - [SDWebImage](#SDWebImage)
       - [Kingfisher](#Kingfisher)
       - [Nuke](#Nuke)
-      - [Masonry & SnapKit](#Masonry-&-SnapKit)
+      - [Masonry & SnapKit](#Masonry-SnapKit)
       - [YYKit](#YYKit)
       - [DataSources](#DataSources)
-      - [ReactiveCocoa & RxSwift](#ReactiveCocoa-&-RxSwift)
+      - [ReactiveCocoa & RxSwift](#ReactiveCocoa-RxSwift)
       - [Moya](#Moya)
       - [RestKit](#RestKit)
       - [Charts](#Charts)
@@ -63,7 +63,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [PaperOnboarding](#PaperOnboarding)
       - [APNGKit](#APNGKit)
    - [Rx Series](#Rx-Series)
-   - [AR & VR](#AR-&-VR)
+   - [AR & VR](#AR-VR)
    - [Payment](#Payment)
       - [In-App Purchases](#In-App-Purchases)
       - [ApplePay](#ApplePay)
@@ -72,9 +72,9 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [播放器](#播放器)
       - [视频播放器](#视频播放器) 
       - [音频播放器](#音频播放器)
-   - [IM & 直播](#IM-&-直播)
+   - [IM & 直播](#IM-直播)
    - [图像处理和绘制](#图像处理和绘制)
-      - [OpenGL & OpenGLES](#OpenGL-&-OpenGLES)
+      - [OpenGL & OpenGLES](#OpenGL-OpenGLES)
       - [Metal](#Metal)
       - [GPUImage](#GPUImage)
       - [CoreGraphics](#CoreGraphics)
@@ -99,12 +99,12 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Find The Most Relevant Colors](#Find-The-Most-Relevant-Colors)
    - [扫码(Scan)](#Scan)
    - [Refresh](#Refresh)
-   - [HUD & 指示器(Indicator)](#HUD-&-指示器)
+   - [HUD & 指示器(Indicator)](#HUD-指示器)
    - [Toast](#Toast)
-   - [Menu & 弹出视图](#Menu-&-弹出视图)
+   - [Menu & 弹出视图](#Menu-弹出视图)
    - [Slider](#Slider)
    - [PageControl](#PageControl)
-   - [WebView & 进度条](#WebView-&-进度条)
+   - [WebView & 进度条](#WebView-进度条)
    - [动画(Animation)](#动画)
    - [日期时间地址选择器器(Picker)](#日期时间地址选择器)
    - [搜索(Search)](#搜索Search)
@@ -120,7 +120,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Label](#Label) 
    - [Crop video cover](#Crop-video-cover)
    - [未分类(Uncategorized)](#Uncategorized)
-   - [高仿项目 & Demo](#高仿项目-&-Demo)
+   - [高仿项目 & Demo](#高仿项目-Demo)
 - [MacOS](#MacOS)
 
 
@@ -142,7 +142,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 ### TOP100
 
-#### AFNetworking & Alamofire
+#### AFNetworking-Alamofire
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
@@ -242,7 +242,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
 
 - [Nuke](https://github.com/kean/Nuke) - Image loading system.
 
-#### Masonry & SnapKit
+#### Masonry-SnapKit
 
 *链式编程，AutoLayout*
 
@@ -303,7 +303,7 @@ class MyViewController: UIViewController {
 
 - [DeepDiff](https://github.com/onmyway133/DeepDiff) - 🦀Amazingly incredible extraordinary lightning fast diffing in Swift.
 
-#### ReactiveCocoa & RxSwift
+#### ReactiveCocoa-RxSwift
 
 *响应式编程*
 
@@ -618,7 +618,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [SwiftHub](https://github.com/khoren93/SwiftHub) - GitHub iOS client in RxSwift and MVVM-C clean architecture.
 
 
-#### AR & VR
+#### AR-VR
 
 - [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总).
 
@@ -765,7 +765,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [PFXPlayer](https://github.com/PFXStudio/PFXPlayer) - 뮤직 플레이어 앱 - RxSwift, RxCocoa, RxDataSource, RxGesture.
 
-### IM & 直播
+### IM-直播
 
 - [AtChat](https://github.com/boyssimple/AtChat) - IOS聊天项目、基于XMPP框架开发，实现了登陆注册(注册以手机号码注册、短信验证) 、发送消息、接收消息、接收好友请求、发起好友请求 、图片消息、语音消息、视频语音、聊天历史记录、最近联系人、二维码添加好友、用户头像上传、朋友圈、发朋友圈、异地登录退出等功能。【 [Priview 1](https://github.com/boyssimple/AtChat/raw/master/images/020.png) | [Priview 2](https://github.com/boyssimple/AtChat/raw/master/images/014.png) 】
 
@@ -817,7 +817,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ### 图像处理和绘制
 
-#### OpenGL & OpenGLES
+#### OpenGL-OpenGLES
 
 - [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
 
@@ -1053,6 +1053,8 @@ GZip: Network data unzip plugin
 
 - [RESideMenu](https://github.com/romaonthego/RESideMenu) - iOS 7/8 style side menu with parallax effect. 【 [Priview 1](https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2) 】
 
+- [LeftRightSlider](https://github.com/heroims/LeftRightSlider) - 网易 ios7 左右拉动框架。
+
 
 ### Runtime
 
@@ -1226,7 +1228,7 @@ GZip: Network data unzip plugin
 - [KafkaRefresh](https://github.com/BeatsKitano/KafkaRefresh) - Animated, customizable, and flexible pull-to-refresh framework for faster and easier iOS development.
 
 
-### HUD & 指示器
+### HUD-指示器
 
 - [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐司指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。【 [Priview 1](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_text.gif) | [Priview 2](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_loding.gif) 】
 
@@ -1268,7 +1270,7 @@ GZip: Network data unzip plugin
 - [JFMinimalNotifications](https://github.com/atljeremy/JFMinimalNotifications) - An iOS UIView for presenting a minimalistic notification that doesn't block the UI and is highly configurable.
 
 
-### Menu & 弹出视图
+### Menu-弹出视图
 
 - [kxmenu](https://github.com/kolyvan/kxmenu) - KxMenu is a vertical popup menu for using in iOS applications. 【 [Priview 1](https://camo.githubusercontent.com/d28144796042a6c6bddf7d0c097be831cea8810a/68747470733a2f2f7261772e6769746875622e636f6d2f6b6f6c7976616e2f6b786d656e752f6d61737465722f73637265656e73686f742f6578616d706c652e676966) 】
 
@@ -1333,6 +1335,8 @@ GZip: Network data unzip plugin
 
 - [RangeSlider](https://github.com/warchimede/RangeSlider) - A simple range slider made in Swift.
 
+- [HBLockSliderView](https://github.com/SimonYHB/HBLockSliderView) - 快速创建滑动解锁视图，高度自定义 Beautiful Slider View. Written in Objective-C. Similar in style to UISlider, but which allows you can make more customization.
+
 
 ### PageControl
 
@@ -1343,7 +1347,7 @@ GZip: Network data unzip plugin
 - [EllipsePageControl](https://github.com/hackxhj/EllipsePageControl) - 椭圆形 长方形 PageControl 轮播图点。
 
 
-### WebView & 进度条
+### WebView-进度条
 
 - [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
 
@@ -1408,6 +1412,17 @@ GZip: Network data unzip plugin
 
 - [Progress.swift](https://github.com/jkandzi/Progress.swift) - ⌛ Add beautiful progress bars to your loops.
 
+- [YLProgressBar](https://github.com/yannickl/YLProgressBar) - UIProgressView replacement with an highly and fully customizable animated progress bar in pure Core Graphics.
+
+
+### Swift-WebP
+
+- [Swift-WebP](https://github.com/ainame/Swift-WebP) - A thin Swift wrapper of libwebp to make your own encoder/decoder app.
+
+- [webp.swift](https://github.com/awxkee/webp.swift) - Bindings for libwebp in swift for iOS and macOS + catalyst.
+
+- [libwebp](https://github.com/webmproject/libwebp) - Mirror only. Please do not send pull requests. mirrored from [libwebp](https://chromium.googlesource.com/webm/libwebp).
+
 
 ### 动画
 
@@ -1420,7 +1435,6 @@ GZip: Network data unzip plugin
 - [CustomPopAnimation](https://github.com/zys456465111/CustomPopAnimation) - Runtime实现自定义Pop手势动画。
 
 - [CATransitionDemo](https://github.com/lizelu/CATransitionDemo) - CATransition动画实现。
-
 ```
 // 一些私有API, 有些效果在APPStore中是不能使用的，私有API如下：
 NSString *const kCATransitionCube = @"cube";  
@@ -1431,7 +1445,6 @@ NSString *const kCATransitionPageCurl = @"pageCurl";
 NSString *const kCATransitionPageUnCurl = @"pageUnCurl";   
 NSString *const kCATransitionCameraIrisHollowOpen = @"cameraIrisHollowOpen";
 NSString *const kCATransitionCameraIrisHollowClose = @"cameraIrisHollowClose";
-
 // 而下方这些可以放心使用：
 // CAAnimation.h
 // Common transition types. 
@@ -1642,7 +1655,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [SPUncaughtExceptionHandler](https://github.com/kshipeng/SPUncaughtExceptionHandler) - APP闪退时，由用户决定是否继续。
 
 
-### 高仿项目 & Demo
+### 高仿项目-Demo
 
 - [LBXMLYFM-Swift](https://github.com/lb2281075105/LBXMLYFM-Swift) - Swift5项目仿写喜马拉雅App，采用MVC+MVVM设计模式，Moya+SwiftyJSON+HandyJSON网络框架和数据解析。数据来源抓包及部分本地json文件。
 
