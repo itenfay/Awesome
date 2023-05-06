@@ -90,7 +90,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [导航栏和状态栏](#导航栏和状态栏)
    - [Runtime](#Runtime)
    - [Data Persistence](#Data-Persistence)
-   - [SideMenu](#SideMenu)
+   - [Side Drawer](#Side-Drawer)
    - [蓝牙](#蓝牙)
    - [手势密码/指纹面容ID解锁](#手势密码指纹面容ID解锁)
    - [FlowLayout](#FlowLayout)
@@ -518,6 +518,16 @@ RxSwift comprises five separate components depending on eachother in the followi
     <div align=center>
     <img src="https://github.com/snail-z/OverlayController/raw/master/Preview/ovclogo.jpg?raw=true" width="50%" />
     </div>
+    
+- [DrawerKit](https://github.com/babylonhealth/DrawerKit) - DrawerKit lets an UIViewController modally present another UIViewController in a manner similar to the way Apple's Maps app works.
+
+- [DrawerView](https://github.com/mkko/DrawerView) - A drop-in view, to be used as a drawer anywhere in your app.
+
+- [UltraDrawerView](https://github.com/super-ultra/UltraDrawerView) - 🐝 Super ultra drawer view.
+
+- [Pulley](https://github.com/52inc/Pulley) - A library to imitate the iOS 10 Maps UI.
+
+- [Rideau](https://github.com/FluidGroup/Rideau) - 🎪 Rideau is a drawer UI similar to what Apple's apps use. (e.g Maps, Shortcuts) Supports multiple snap points.
 
 #### HTTPCache
 
@@ -1048,13 +1058,25 @@ GZip: Network data unzip plugin
 - [BBGestureBack](https://github.com/Bonway/BBGestureBack) - OC and Swift full screen return gesture（纯OC 和 纯Swift编写，类淘宝、京东等全屏滑动返回效果）。【[Priview 1](https://camo.githubusercontent.com/de8758c8283c6aa4745044e2a677410880335726/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f31303939313737302d656465636265633933643164376538622e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
 
-### SideMenu
+### Side Drawer
 
 - [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) - A lightweight, easy to use, Side Drawer Navigation Controller. 【 [Priview 1](https://camo.githubusercontent.com/5c4050ef64d7b9836b6a56b89b458ed5c8fdfb7f/687474703a2f2f6d757475616c6d6f62696c652e6769746875622e696f2f4d4d447261776572436f6e74726f6c6c65722f4578616d706c65496d616765732f6578616d706c65322e706e67) 】
 
+- [CWLateralSlide](https://github.com/ChavezChen/CWLateralSlide) - One line of code to integrate 0 coupling side drawer！一行代码集成0耦合侧滑抽屉！
+
 - [RESideMenu](https://github.com/romaonthego/RESideMenu) - iOS 7/8 style side menu with parallax effect. 【 [Priview 1](https://raw.githubusercontent.com/romaonthego/RESideMenu/master/Demo.gif?2) 】
 
+- [KYDrawerController](https://github.com/ykyouhei/KYDrawerController) - Side Drawer Navigation Controller similar to Android.
+
 - [LeftRightSlider](https://github.com/heroims/LeftRightSlider) - 网易 ios7 左右拉动框架。
+
+- [JVFloatingDrawer](https://github.com/JVillella/JVFloatingDrawer) - An easy to use floating drawer view controller.
+
+- [KGFloatingDrawer](https://github.com/KyleGoddard/KGFloatingDrawer) - A floating navigation drawer with an interesting animated presentation written in Swift.
+
+- [FlowingMenu](https://github.com/yannickl/FlowingMenu) - Interactive view transition to display menus with flowing and bouncing effects in Swift
+
+- [TVOSSlideViewController](https://github.com/sahin/TVOSSlideViewController) - Container view controller with left and right drawer controlling by pan gesture for tvOS.
 
 
 ### Runtime
