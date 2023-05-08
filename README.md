@@ -118,8 +118,11 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Jailbreak Detector](#Jailbreak-Detector)
    - [传感器(Sensor)](#Sensor)
    - [TextView](#TextView)
-   - [Label](#Label) 
+   - [Label](#Label)
+   - [ImageView](#ImageView)   
    - [Crop video cover](#Crop-video-cover)
+   - [Waver](#Waver)
+   - [Doodling](#Doodling)
    - [未分类(Uncategorized)](#Uncategorized)
    - [高仿项目 & Demo](#高仿项目-Demo)
 - [MacOS](#MacOS)
@@ -343,6 +346,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 #### Charts
 
 - [Charts](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
+
+- [PNChart](https://github.com/kevinzhow/PNChart) - A simple and beautiful chart lib used in Piner and CoinsMan for iOS.【[Preview](https://camo.githubusercontent.com/9e72142e4ec6766cac15fdfeb66ebb25915f2727696ec863d408a5c23b6b77d4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f666172736869642e67686f64732e6769746875622f706e63686172742d6769662e676966)】
+
+- [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift) - A simple and beautiful chart lib used in Piner and CoinsMan for iOS Swift Implementation.
 
 #### Messages
 
@@ -656,6 +663,16 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [RecognizingImagesToPlayVideo](https://github.com/songminzh/RecognizingImagesToPlayVideo) - Use ARKit recognizing images and play videos corresponding.
 
 - [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
+
+- [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
+
+- [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
+
+- [BXGyroscope_AR](https://github.com/bianxiang/BXGyroscope_AR) - 结合照相机，Gyroscope陀螺仪，百度定位等技术制作的一个AR增强现实示例demo.
+
+- [Furniture_Stefan](https://github.com/guoshenglong/Furniture_Stefan) - 百搭家居是一款基于增强现实(AR)技术的移动应用，并辅以用于宣传和搭配管理的Web客户端。用户通过移动设备将虚拟的3D家居摆放到真实的场景中，感受逼真的视觉效果；轻点移动设备屏幕便可轻松将喜爱的家居用品挪动到指定位置，对三维模型采用手势拖放变换其大小、角度及方位，摆脱传统家居搭配的烦恼。基于地理位置信息的3D物品摆放可使家居用品固定于现实空间，让移动设备可环绕整个房间布置所有的家居用品；云存储技术的引入使得用户可以在线获取家居模型数据；通过数据挖掘技术，对用户群体及个人的行为数据进行采集与分析，并提供商品的智能推荐，还可与他人分享自己的家居设计方案；同时使用自带的比价系统让用户能便捷地购买到价廉物美的家居用品。 总之，将增强现实、三维模型、触控操作、数据挖掘、社交网络等技术创新性地结合…
+
+- [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享
 
 
 ### Payment
@@ -1495,6 +1512,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [iOS-Swift-Animation](https://github.com/BranPeng/iOS-Swift-Animation) - iOS Swift动画框架。
 
+- [pop-handapp](https://github.com/kevinzhow/pop-handapp) - POP Handapp.
+
 
 ### 日期时间地址选择器
 
@@ -1617,6 +1636,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [GrowingTextView](https://github.com/HansPinckaers/GrowingTextView) - [UNMAINTAINED] An UITextView which grows/shrinks with the text and starts scrolling when the content reaches a certain number of lines. Similar to the one Apple uses in the SMS-app. See blog-post for a small screencast.
 
+- [RealtimeGradientText](https://github.com/kevinzhow/RealtimeGradientText) - Gradient Text in Real.【[Preview](https://github.com/kevinzhow/RealtimeGradientText/raw/master/gradient.gif)】
+
 
 ### Label
 
@@ -1629,11 +1650,26 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [RZColorfulSwift](https://github.com/rztime/RZColorfulSwift) - NSAttributedString 富文本方法 (图文混排、多样式文本) (RZColorful Swift版) UILabel 折叠 展开 文本可点击。
 
 
+### ImageView
+
+- [NaughtyImageView](https://github.com/kevinzhow/NaughtyImageView) - UIImageView Can Animate Sprite Image. 【[Preview](https://github.com/kevinzhow/NaughtyImageView/raw/master/Naughty.gif)】
+
+
 ### Crop video cover
 
 - [CZHChooseCoverController](https://github.com/jolincheng/CZHChooseCoverController) - 选择视频封面。
 
 - [VideoSliderCrop](https://github.com/1401788197/VideoSliderCrop) - 仿抖音相册视频选择后，滑动裁剪界面。
+
+
+### Waver
+
+- [Waver](https://github.com/kevinzhow/Waver) - A Siri like wave effect.
+
+
+### Doodling
+
+- [doodlAR](https://github.com/adithyaravikumar/doodlAR) - An AR Based Doodling App for iOS.
 
 
 ### Uncategorized
