@@ -649,6 +649,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants. [www.artoolkitx.org](https://www.artoolkitx.org/)
 
+- [HCARKit](https://github.com/heqican/HCARKit) - ARKit实现图片识别、平面捕捉、人脸识别。
+
+- [ARKitCarModel](https://github.com/heqican/ARKitCarModel) - ARKit实现模型交互，包括汽车模型换肤、汽车轮胎转动、车窗开关等 ARKit需要ios11 以及 A11处理器或更高版本设备支持。
+
+- [RecognizingImagesToPlayVideo](https://github.com/songminzh/RecognizingImagesToPlayVideo) - Use ARKit recognizing images and play videos corresponding.
+
+- [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
+
 
 ### Payment
 
@@ -845,6 +853,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [Apple Metal](https://developer.apple.com/metal/) 
 
 - [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
+
+- [metal](https://github.com/MetalKit/metal) - Repository to accompany the following blog posts.
 
 #### GPUImage
 
