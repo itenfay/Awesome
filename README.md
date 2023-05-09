@@ -638,15 +638,21 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### AR-VR
 
-- [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总).
+- [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享。
+
+- [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总)。
+
+- [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
+
+- [ARTetris](https://github.com/exyte/ARTetris) - Augmented Reality Tetris made with ARKit and SceneKit.
+
+- [RealityUI](https://github.com/maxxfrazer/RealityUI) - A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene.
+
+- [HDAugmentedReality](https://github.com/DanijelHuis/HDAugmentedReality) - Augmented Reality component for iOS, written in Swift.
+
+- [ARCharts](https://github.com/Boris-Em/ARCharts) - Lovely Augmented Reality Charts for iOS - Built with ARKit.
 
 - [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
-
-- [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
-
-- [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
-
-- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
 
 - [HeavenMemoirs](https://github.com/SherlockQi/HeavenMemoirs) - AR相册 Photo Album For AR.
 
@@ -664,15 +670,43 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
 
-- [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
-
 - [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
 
 - [BXGyroscope_AR](https://github.com/bianxiang/BXGyroscope_AR) - 结合照相机，Gyroscope陀螺仪，百度定位等技术制作的一个AR增强现实示例demo.
 
 - [Furniture_Stefan](https://github.com/guoshenglong/Furniture_Stefan) - 百搭家居是一款基于增强现实(AR)技术的移动应用，并辅以用于宣传和搭配管理的Web客户端。用户通过移动设备将虚拟的3D家居摆放到真实的场景中，感受逼真的视觉效果；轻点移动设备屏幕便可轻松将喜爱的家居用品挪动到指定位置，对三维模型采用手势拖放变换其大小、角度及方位，摆脱传统家居搭配的烦恼。基于地理位置信息的3D物品摆放可使家居用品固定于现实空间，让移动设备可环绕整个房间布置所有的家居用品；云存储技术的引入使得用户可以在线获取家居模型数据；通过数据挖掘技术，对用户群体及个人的行为数据进行采集与分析，并提供商品的智能推荐，还可与他人分享自己的家居设计方案；同时使用自带的比价系统让用户能便捷地购买到价廉物美的家居用品。 总之，将增强现实、三维模型、触控操作、数据挖掘、社交网络等技术创新性地结合…
 
-- [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享
+- [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) - Create paths for your Augmented Reality environments using just points to represent the centre of the path.【[Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif)】
+
+- [OutsideAR](https://github.com/DJNikka/OutsideAR) - A map using Augmented Reality to enhance festival experience.【[Preview1](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif)|[Preview2](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif)】
+
+- [AstRal](https://github.com/casparwylie/AstRal) - Augmented reality social network, an underworld of discussion and information to every street.
+
+- [Shape-Detection-in-AR](https://github.com/ashislaha/Shape-Detection-in-AR) - Detect the shape of drawing objects (classes - line, triangle, rectangle, pentagon, Hexagon, circle) and draw in Augmented Reality.
+
+- [AR-Planes](https://github.com/HTN-2017/AR-Planes) - ✈️ An augmented reality app to visualize and discover the planes flying around you. Finalist at Hack the North 2017 in Waterloo, ON, Canada.【[Preview1](https://github.com/HTN-2017/AR-Planes/raw/master/images/demo.jpg)|[Preview2](https://github.com/HTN-2017/AR-Planes/raw/master/images/app%20store.png)】
+
+- [TravelAR](https://github.com/upandey3/TravelAR) - An Augmented Reality-based iOS app that gets flights information and visualizes it in a graph in augmented reality, with nodes representing destinations and edge thickness representing price.
+
+- [ARKit-2-Image-Tracking-Demo](https://github.com/robomex/ARKit-2-Image-Tracking-Demo) - iOS 12 + ARKit 2 + Image tracking means: Harry Potter style moving pictures, living movie posters, video postcards, paper-thin “displays,” and lots more augmented reality fun.【[Preview](https://github.com/robomex/ARKit-2-Image-Tracking-Demo/blob/master/ARKit-2-Tracked-Images-Demo.gif)】
+
+- [ARMeasuringTape](https://github.com/nguyenpham/ARMeasuringTape) - Augmented Reality Measuring Tape.
+
+- [AugmentedSolarSystem](https://github.com/ThumbWorks/AugmentedSolarSystem) - An Augmented reality experience to explore planets in our Solar System.
+
+- [arkit-smb-homage](https://github.com/bjarnel/arkit-smb-homage) - An implementation of a Super Mario Bros-like game in augmented reality with ARKit and SceneKit.
+
+- [ARbusters](https://github.com/pedrommcarrasco/ARbusters) - 👻 Augmented reality game in a pixel/billboard style.
+
+- [ARTargetShooter](https://github.com/brentinator0/ARTargetShooter) - Augmented Reality shooting game using Apple's ARKit + SceneKit Frameworks in Swift.
+
+- [SwiftShot](https://github.com/pjcspro/SwiftShot) - Creating a Game for Augmented Reality.【[Preview1](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)|[Preview2](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)】
+
+- [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
+
+- [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
+
+- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
 
 
 ### Payment
