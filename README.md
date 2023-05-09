@@ -392,8 +392,6 @@ RxSwift comprises five separate components depending on eachother in the followi
     
 - [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
 
-- [PhotoBrowser](https://github.com/JiongXing/PhotoBrowser) - Elegant photo browser in Swift. 图片与视频浏览器。
-
 - [ZYImagePickerAndBrower](https://github.com/RainManGO/ZYImagePickerAndBrower) - 2018iOS微信相册，朋友圈imagePicker UI仿，微信照片选择器 多选序号
 
 #### Deeplink
@@ -469,6 +467,10 @@ RxSwift comprises five separate components depending on eachother in the followi
     <div align=center>
     <img src="https://cloud.githubusercontent.com/assets/5186464/24086370/45e7e8dc-0d49-11e7-86aa-139354fe00c5.jpg" width="50%" />
     </div>
+    
+- [SJFluidSegmentedControl](https://github.com/sasojadrovski/SJFluidSegmentedControl) - A segmented control with custom appearance and interactive animations. Written in Swift 3.0.
+
+- [LUNSegmentedControl](https://github.com/Stormotion-Mobile/LUNSegmentedControl) - Customizable segmented control with interactive animation(ObjC).
 
 #### Code Quality
 
@@ -498,6 +500,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [Starscream](https://github.com/daltoniam/Starscream) - Websockets in swift for iOS and OSX
 
 - [SwiftWebSocket](https://github.com/tidwall/SwiftWebSocket) - Fast Websockets in Swift for iOS and OSX.
+
+- [BlueSocket](https://github.com/Kitura/BlueSocket) - Socket framework for Swift using the Swift Package Manager. Works on iOS, macOS, and Linux.
 
 #### Rswift
 
@@ -1276,6 +1280,12 @@ GZip: Network data unzip plugin
 
 - [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
 
+- [AnyImageKit](https://github.com/AnyImageKit/AnyImageKit) - A toolbox for pick/edit/capture photo or video. Written in Swift.【[Priview ](https://github.com/AnyImageProject/AnyImageProject.github.io/raw/master/Resources/TitleMap@2x.png)】
+
+- [PhotoBrowser](https://github.com/JiongXing/PhotoBrowser) - Elegant photo browser in Swift. 图片与视频浏览器。
+
+- [Lantern](https://github.com/fcbox/Lantern) - Lantern（花灯）是一个基于Swift的高可用视图框架。它基于iOS原生的图片/视频浏览功能进行封装，并提供了更加酷炫的交互方式。此外，它还提供丰富的接口，扩展灵活，能让App快速集成浏览功能。
+
 
 ### Find The Most Relevant Colors
 
@@ -1390,7 +1400,9 @@ GZip: Network data unzip plugin
 
 - [FWPopupView](https://github.com/choiceyou/FWPopupView) - 弹窗控件：支持AlertView、Sheet、自定义视图的PopupView。AlertView中可以嵌套自定义视图，各组件的显示隐藏可配置；Sheet仿微信样式；同时提供自定义弹出。更多配置请参考”可设置参数“，提供OC使用Demo。
 
-- [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.
+- [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.【[Preview](https://github.com/AssistoLab/DropDown/raw/master/Screenshots/3.png)】
+
+- [iOSDropDown](https://github.com/jriosdev/iOSDropDown) - Drop Down Menu for iOS With Search And Other Awesome Customisation.
 
 - [PMAlertController](https://github.com/pmusolino/PMAlertController) - PMAlertController is a great and customizable alert that can substitute UIAlertController.
 
@@ -1498,6 +1510,8 @@ GZip: Network data unzip plugin
 
 - [YLProgressBar](https://github.com/yannickl/YLProgressBar) - UIProgressView replacement with an highly and fully customizable animated progress bar in pure Core Graphics.
 
+- [MKRingProgressView](https://github.com/maxkonovalov/MKRingProgressView) - ⭕️ Ring progress view similar to Activity app on Apple Watch.
+
 
 ### WebP
 
@@ -1574,6 +1588,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [RPicker](https://github.com/rheyansh/RPicker) - Simple and Easy-to-Use iOS Swift Date and Options Picker.
 
 - [FSCalendar](https://github.com/WenchaoD/FSCalendar) - A fully customizable iOS calendar library, compatible with Objective-C and Swift.
+
+- [Fastis](https://github.com/simla-tech/Fastis) - 🗓 Simple date range & date picker powered by JTAppleCalendar.【[Preview](https://repository-images.githubusercontent.com/255536390/aa4ce662-cfdc-4dc0-8f23-b6fe7f269304)】
 
 
 ### 搜索Search
@@ -1671,6 +1687,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [GrowingTextView](https://github.com/HansPinckaers/GrowingTextView) - [UNMAINTAINED] An UITextView which grows/shrinks with the text and starts scrolling when the content reaches a certain number of lines. Similar to the one Apple uses in the SMS-app. See blog-post for a small screencast.
 
 - [RealtimeGradientText](https://github.com/kevinzhow/RealtimeGradientText) - Gradient Text in Real.【[Preview](https://github.com/kevinzhow/RealtimeGradientText/raw/master/gradient.gif)】
+
+- [NextGrowingTextView](https://github.com/FluidGroup/NextGrowingTextView) - 📝 The next in the generations of 'growing textviews' optimized for iOS 8 and above.
 
 
 ### Label
