@@ -1728,6 +1728,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [Waver](https://github.com/kevinzhow/Waver) - A Siri like wave effect.
 
+- [DSWaveformImage](https://github.com/dmrschmidt/DSWaveformImage) - Generate waveform images from audio files on iOS & macOS in Swift. Native SwiftUI & UIKit views.
+
 
 ### Doodling
 
