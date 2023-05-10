@@ -41,7 +41,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [pop](#pop)
       - [NVActivityIndicatorView](#NVActivityIndicatorView)
       - [PageView](#PageView)
-      - [CycleScrollView](#CycleScrollView)
+      - [CyclePagerView](#CyclePagerView)
       - [Code Quality](#Code-Quality)
       - [Permission](#Permission)
       - [Socket](#Socket)
@@ -112,7 +112,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [分享(Sharing)](#分享Sharing)
    - [图片验证码](#图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
-   - [广告(Ad)](#广告)
+   - [广告(Ad)](#广告Ad)
    - [星评视图(StarView)](#StarView)
    - [类目(Categories)](#类目Categories)
    - [Jailbreak Detector](#Jailbreak-Detector)
@@ -433,6 +433,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### PageView
 
+- [LTScrollView](https://github.com/gltwy/LTScrollView) - ScrollView嵌套ScrolloView（UITableView 、UICollectionView）解决方案， 支持OC / Swift（持续更新中...）
+
+- [DNSPageView](https://github.com/Danie1s/DNSPageView) - 一个纯 Swift 的轻量级、灵活且易于使用的 PageView 框架，titleView 和 contentView 可以布局在任意地方，可以纯代码初始化，也可以使用 xib 或者 storyboard 初始化，并且提供了常见样式属性进行设置。
+
 - [JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView )- A powerful and easy to use segmented view (segmentedcontrol, pagingview, pagerview, pagecontrol, categoryview)'
     <div align=center>
     <img src="https://github.com/pujiaxin33/JXSegmentedView/raw/master/Example/JXSegmentedViewExample/Image/JXSegmentedViewSmall.png" width="50%" />
@@ -440,9 +444,11 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [GXSegmentPageView](https://github.com/gsyhei/GXSegmentPageView) - Swift版分段分页组件，（网易新闻、腾讯新闻、新浪微博、今日头条等Tab效果）
 
-- [LTScrollView](https://github.com/gltwy/LTScrollView) - ScrollView嵌套ScrolloView（UITableView 、UICollectionView）解决方案， 支持OC / Swift（持续更新中...）
-
 - [HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl) - A highly customizable drop-in replacement for UISegmentedControl.
+
+- [SJFluidSegmentedControl](https://github.com/sasojadrovski/SJFluidSegmentedControl) - A segmented control with custom appearance and interactive animations. Written in Swift 3.0.【[Preview](https://raw.githubusercontent.com/sasojadrovski/SJFluidSegmentedControl/master/Screenshots/sample.gif)】
+
+- [LUNSegmentedControl](https://github.com/Stormotion-Mobile/LUNSegmentedControl) - Customizable segmented control with interactive animation(ObjC).
 
 - [WJPageManager](https://github.com/WJCha/WJPageManager) - WJPageManager提供了可以快速完成项目中常见的标题栏以及对应的分页控制器创建与逻辑处理。【 [Priview 1](https://github.com/WJCha/WJPageManager/raw/master/resource/title.gif) | [Priview 2](https://github.com/WJCha/WJPageManager/raw/master/resource/page.gif) 】
 
@@ -450,9 +456,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [YNPageViewController](https://github.com/yongyuandouneng/YNPageViewController) - 特斯拉组件、QQ联系人布局、多页面嵌套滚动、悬停效果、美团、淘宝、京东、微博、腾讯新闻、网易新闻、今日头条等标题滚动视图。 (YNPageScrollViewController重构版) 【 [Priview 1](https://camo.githubusercontent.com/4c18ea3624dff75c20df1093bb143e9b36339f34/687474703a2f2f706178646c72646b372e626b742e636c6f7564646e2e636f6d2f594e5061676556696577436f6e74726f6c6c65724769662e676966) 】
 
-- [DNSPageView](https://github.com/Danie1s/DNSPageView) - 一个纯 Swift 的轻量级、灵活且易于使用的 PageView 框架，titleView 和 contentView 可以布局在任意地方，可以纯代码初始化，也可以使用 xib 或者 storyboard 初始化，并且提供了常见样式属性进行设置。
-
-#### CycleScrollView
+#### CyclePagerView
 
 - [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView) - Autoscroll Banner. 无限循环图片、文字轮播器
 
@@ -467,10 +471,8 @@ RxSwift comprises five separate components depending on eachother in the followi
     <div align=center>
     <img src="https://cloud.githubusercontent.com/assets/5186464/24086370/45e7e8dc-0d49-11e7-86aa-139354fe00c5.jpg" width="50%" />
     </div>
-    
-- [SJFluidSegmentedControl](https://github.com/sasojadrovski/SJFluidSegmentedControl) - A segmented control with custom appearance and interactive animations. Written in Swift 3.0.
 
-- [LUNSegmentedControl](https://github.com/Stormotion-Mobile/LUNSegmentedControl) - Customizable segmented control with interactive animation(ObjC).
+- [TYCyclePagerView](https://github.com/12207480/TYCyclePagerView) - a simple and usefull cycle pager view ,and auto scroll banner view(轮播图) , include pageControl for iOS, support Objective-C and swift.
 
 #### Code Quality
 
@@ -1258,6 +1260,10 @@ GZip: Network data unzip plugin
 
 - [OnlyPictures](https://github.com/KiranJasvanee/OnlyPictures) - A simple and flexible way to add source of overlapping circular pictures, currently supports horizontal overlapping or distant pictures with great layout flexibility.
 
+- [uicollectionview-layouts-kit](https://github.com/jVirus/uicollectionview-layouts-kit) - 📐Custom layouts for UICollectionView with examples [iOS 12+].
+
+- [ZLCollectionView](https://github.com/czl0325/ZLCollectionView) - 为应对类似淘宝首页，京东首页，国美首页等复杂布局而写的Collectionview。基于UICollectionView实现，目前支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局等。支持纵向布局和横向布局，可以根据不同的section设置不同的布局，支持拖动cell，头部悬浮，设置section背景色和自定义section背景view，向自定义背景view传递自定义方法。功能强大，超过Android的recyclerview，实现了电影选座等高难度的布局。【[Preview](https://github.com/czl0325/ZLCollectionView/raw/master/demo2.gif?raw=true)】
+
 
 ### BlurView
 
@@ -1285,6 +1291,8 @@ GZip: Network data unzip plugin
 - [PhotoBrowser](https://github.com/JiongXing/PhotoBrowser) - Elegant photo browser in Swift. 图片与视频浏览器。
 
 - [Lantern](https://github.com/fcbox/Lantern) - Lantern（花灯）是一个基于Swift的高可用视图框架。它基于iOS原生的图片/视频浏览功能进行封装，并提供了更加酷炫的交互方式。此外，它还提供丰富的接口，扩展灵活，能让App快速集成浏览功能。
+
+- [GKPhotoBrowser](https://github.com/QuintGao/GKPhotoBrowser) - iOS仿微信、今日头条等图片浏览器。
 
 
 ### Find The Most Relevant Colors
@@ -1402,7 +1410,9 @@ GZip: Network data unzip plugin
 
 - [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.【[Preview](https://github.com/AssistoLab/DropDown/raw/master/Screenshots/3.png)】
 
-- [iOSDropDown](https://github.com/jriosdev/iOSDropDown) - Drop Down Menu for iOS With Search And Other Awesome Customisation.
+- [iOSDropDown](https://github.com/jriosdev/iOSDropDown) - Drop Down Menu for iOS With Search And Other Awesome Customisation.【[Preview1](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif)|[Preview2](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif)】
+
+- [MenuItemKit](https://github.com/cxa/MenuItemKit) - UIMenuItem with image and closure(block) action.
 
 - [PMAlertController](https://github.com/pmusolino/PMAlertController) - PMAlertController is a great and customizable alert that can substitute UIAlertController.
 
@@ -1411,8 +1421,6 @@ GZip: Network data unzip plugin
 - [ZZHotKeysMenu](https://github.com/zhouXiaoR/ZZHotKeysMenu) - ZZHotKeysMenu自定义布局，继承自UICollectionViewLayout。【 [Priview 1](https://github.com/zhouXiaoR/ZZHotKeysMenu/raw/master/运行效果.gif) 】
 
 - [Alertift](https://github.com/sgr-ksmt/Alertift) - Swifty, modern UIAlertController wrapper.
-
-- [MenuItemKit](https://github.com/cxa/MenuItemKit) - UIMenuItem with image and closure(block) action.
 
 
 ### Slider
@@ -1591,6 +1599,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [Fastis](https://github.com/simla-tech/Fastis) - 🗓 Simple date range & date picker powered by JTAppleCalendar.【[Preview](https://repository-images.githubusercontent.com/255536390/aa4ce662-cfdc-4dc0-8f23-b6fe7f269304)】
 
+- [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - The Unofficial Apple iOS Swift Calendar View. Swift calendar Library. iOS calendar Control. 100% Customizable.
+
 
 ### 搜索Search
 
@@ -1626,7 +1636,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [ZGInfoCollection](https://github.com/ScottZg/ZGInfoCollection) - 获取iPhone相关信息以及网络状态等等。
 
 
-### 广告
+### 广告Ad
 
 - [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。【 [Priview 1](https://github.com/ZLFighting/ZLAdvertDemo/raw/master/ZLAdvertDemo/启动页跳过广告.gif) 】
 
