@@ -123,6 +123,10 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Crop video cover](#Crop-video-cover)
    - [Waver](#Waver)
    - [Doodling](#Doodling)
+   - [CheckBox](#CheckBox)
+   - [Theme Change](#Theme-Change)
+   - [Architecture Design Mode](#Architecture-Design-Mode)
+   - [Ping](#Ping)
    - [未分类(Uncategorized)](#Uncategorized)
    - [高仿项目 & Demo](#高仿项目-Demo)
 - [MacOS](#MacOS)
@@ -1740,6 +1744,40 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [doodlAR](https://github.com/adithyaravikumar/doodlAR) - An AR Based Doodling App for iOS.
 
 
+### CheckBox
+
+- [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。
+
+
+### Theme Change
+
+- [RxTheme](https://github.com/RxSwiftCommunity/RxTheme) - Theme management based on Rx.
+
+- [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
+
+
+### Architecture Design Mode
+
+- [SwiftHub](https://github.com/khoren93/SwiftHub) - GitHub iOS client in RxSwift and MVVM-C clean architecture.
+
+- [ReactorKit](https://github.com/ReactorKit/ReactorKit) - A library for reactive and unidirectional Swift applications
+
+- [ios-mvp-clean-architecture](https://github.com/FortechRomania/ios-mvp-clean-architecture) - Demo iOS application built to highlight MVP (Model View Presenter) and Clean Architecture concepts.
+
+- [Swift-MVP-Sample](https://github.com/powerwolf543/Swift-MVP-Sample) - It's an iOS simple project that how I implement MVP (Model-View-Presenter) and Clean Architecture in Swift.
+
+- [MVPExample](https://github.com/amacou/MVPExample) - MVPExample.
+
+- [MVPExample](https://github.com/yuexygoodman/MVPExample) - 一个MVP的Demo，展示了在iOS平台上如何实现MVP模式。
+
+
+### Ping
+
+- [SimplePing](https://github.com/Xopoko/Apple-SimplePing-Swift-4) - SimplePing example written in swift 4.
+
+- [PPSPing](https://github.com/yangqian111/PPSPing) - iOS端的一个ping网络工具，修复之前不能并发ping的问题，加入了可以通过cocoapod集成。
+
+
 ### Uncategorized
 
 - [MSWeakTimer](https://github.com/mindsnacks/MSWeakTimer) - Thread-safe NSTimer alternative that doesn't retain the target and supports being used with GCD queues.
@@ -1767,15 +1805,11 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [DraggingSort](https://github.com/HelloYeah/DraggingSort) - 长按拖拽排序。【 [Priview 1](https://camo.githubusercontent.com/bab591bc633afc9a316d5aedad2c45d42da2b91d/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313333383034322d646431356539306464396537353266632e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
-- [TOSMBClient](https://github.com/TimOliver/TOSMBClient) -  A small library that serves as a simple SMB (Server Message Block ) client for iOS apps. The library allows connecting to SMB devices, downloading file metadata, and subsequently allows asynchronous downloading of files from an SMB device straight to an iOS device. It is an Objective-C wrapper around Defective SMb, or libDSM, a low level SMB client library built in C built by some of VideoLabs' developers. A copy of libDSM has been specially cross-compiled for iOS device architectures and embedded in this library, so this project has no external dependencies.
+- [TOSMBClient](https://github.com/TimOliver/TOSMBClient) -  A small library that serves as a simple SMB (Server Message Block) client for iOS apps. The library allows connecting to SMB devices, downloading file metadata, and subsequently allows asynchronous downloading of files from an SMB device straight to an iOS device. It is an Objective-C wrapper around Defective SMb, or libDSM, a low level SMB client library built in C built by some of VideoLabs' developers. A copy of libDSM has been specially cross-compiled for iOS device architectures and embedded in this library, so this project has no external dependencies.
 
 - [SimulateIDFA](https://github.com/youmi/SimulateIDFA) - iOS10 IDFA AD tracking limit solution.
 
 - [model-identifiers](https://github.com/kluivers/model-identifiers) - Apple model identifiers. Gives you an approximation of the device based on the model identifier.
-
-- [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - 一个可以很容易地为iOS创建漂亮的、高度可定制的动画复选框。
-
-- [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
 
 - [TKPhoneformat](https://github.com/kangtian/TKPhoneformat) - 一款输入手机号码格式的控件。【 [Priview 1](https://github.com/kangtian/TKPhoneformat/raw/master/TKPhoneformat/TKPhoneformat/4.gif) 】
 
@@ -1841,10 +1875,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [AsunGiftModule](https://github.com/BecomerichAsun/AsunGiftModule) - 自定义Operation队列展示礼物动画~
 
 - [DHPRO](https://github.com/Andrew5/DHPRO) - 二维码,画圆角, tableView列表联动,收缩列表,图片放大,FMDB数据库,水波动画,仪表盘,自适应列表,绘画板,转盘,长按移动,PhotoClip,循环滑动ScrollView,UICollectionView卡片动画,图片找不同,导航栏程序框架。
-
-- [MVPExample](https://github.com/amacou/MVPExample) - MVPExample.
-
-- [MVPExample](https://github.com/yuexygoodman/MVPExample) - 一个MVP的Demo，展示了在iOS平台上如何实现MVP模式。
 
 - [App-Store](https://github.com/Hurdery/App-Store) - 仿App-Store 基本框架。
 
