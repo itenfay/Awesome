@@ -110,7 +110,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [日期时间地址选择器器(Picker)](#日期时间地址选择器)
    - [搜索(Search)](#搜索Search)
    - [分享(Sharing)](#分享Sharing)
-   - [图片验证码](#图片验证码)
+   - [码文本框-图片验证码](#码文本框-图片验证码)
    - [获取设备相关信息](#获取设备相关信息)
    - [广告(Ad)](#广告Ad)
    - [星评视图(StarView)](#StarView)
@@ -1620,15 +1620,17 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [TTOpenInAppActivity](https://github.com/honkmaster/TTOpenInAppActivity) - TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController. TTOpenInAppActivity uses an UIDocumentInteractionController to present all Apps that can handle the document specified with by the activity items. 【 [Priview 1](https://github.com/honkmaster/TTOpenInAppActivity/raw/master/Screenshot.png) 】
 
 
-### 图片验证码
+### 码文本框-图片验证码
+
+- [KeenCodeUnit](https://github.com/chongzone/KeenCodeUnit) - 自定义的验证码、支付密码文本框，支持明文、密文输入等，支持内容的验证错误处理。
 
 - [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。【[Priview 1](https://github.com/ZLFighting/ZLSecurityCode/raw/master/ZLSecurityCode/验证码图.gif) 】
+
+- [AuthenticationCode](https://github.com/KenenCS/AuthenticationCode) - 关于iOS开发的一个本地生成的图片验证码demo。
 
 - [MQVerCodeView](https://github.com/meiqi1992/MQVerCodeView) - 类似图片验证码，点击可刷新。【 [Priview 1](https://github.com/meiqi1992/MQVerCodeView/raw/master/verCodeView.gif) 】
 
 - [YanZhengCode](https://github.com/wsl2ls/YanZhengCode) - 图片验证码和滑块验证码。【 [Priview 1](https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-- [KeenCodeUnit](https://github.com/chongzone/KeenCodeUnit) - 自定义的验证码、支付密码文本框，支持明文、密文输入等，支持内容的验证错误处理。
 
 
 ### 获取设备相关信息
@@ -1892,3 +1894,9 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [wallpapper](https://github.com/mczachurski/wallpapper) - 💻 Console application for creating dynamic wallpapers for macOS Mojave and newer.
 
 - [iina](https://github.com/iina/iina) - The modern video player for macOS.
+
+- [Security](https://github.com/Apple-FOSS-Mirror/Security) - The iOS and OS X versions of Security, including securityd and SecurityTool for OS X.
+
+- [mDNSResponder](https://github.com/Apple-FOSS-Mirror/mDNSResponder) - The mDNSResponder project is a component of Bonjour, Apple's ease-of-use IP networking initiative: <http://developer.apple.com/bonjour/>
+
+- [objc4](https://github.com/Apple-FOSS-Mirror/objc4) - objc4.
