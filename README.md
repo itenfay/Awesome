@@ -64,6 +64,12 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [APNGKit](#APNGKit)
    - [Rx Series](#Rx-Series)
    - [AR & VR](#AR-VR)
+   - [图像处理和绘制](#图像处理和绘制)
+      - [OpenGL & OpenGLES](#OpenGL-OpenGLES)
+      - [Metal](#Metal)
+      - [OpenCV](#OpenCV)
+      - [GPUImage](#GPUImage)
+      - [CoreGraphics](#CoreGraphics)
    - [Payment](#Payment)
       - [In-App Purchases](#In-App-Purchases)
       - [ApplePay](#ApplePay)
@@ -73,11 +79,6 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [视频播放器](#视频播放器) 
       - [音频播放器](#音频播放器)
    - [IM & 直播](#IM-直播)
-   - [图像处理和绘制](#图像处理和绘制)
-      - [OpenGL & OpenGLES](#OpenGL-OpenGLES)
-      - [Metal](#Metal)
-      - [GPUImage](#GPUImage)
-      - [CoreGraphics](#CoreGraphics)
    - [逆向开发](#逆向开发)
       - [fishhook](#fishhook)
       - [逆向辅助工具](#逆向辅助工具)
@@ -718,6 +719,55 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
 
+- [ncnn-models](https://github.com/Baiyuetribe/ncnn-models) - awesome AI models with NCNN, and how they were converted.
+
+- [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
+
+
+### 图像处理和绘制
+
+#### OpenGL-OpenGLES
+
+- [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
+
+- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
+
+- [kesalin·OpenGLES](https://github.com/kesalin/OpenGLES)
+
+- [uwuneng·OpenGLES](https://github.com/uwuneng/OpenGLES)
+
+- [XanderXu·OpenGLESExamples](https://github.com/XanderXu/OpenGLESExamples)
+
+#### Metal
+
+- [Apple Metal](https://developer.apple.com/metal/) 
+
+- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
+
+- [metal](https://github.com/MetalKit/metal) - Repository to accompany the following blog posts.
+
+- [Anime4KMetal](https://github.com/imxieyi/Anime4KMetal) - Anime4K for Apple platforms based on Metal.
+
+#### OpenCV
+
+- [opencv](https://github.com/opencv/opencv) - Open Source Computer Vision Library.
+
+- [opencvIOS](https://github.com/NPOpenSource/opencvIOS) - Opencv 中文网学习。
+
+#### GPUImage
+
+- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)【 [Priview 1](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) 】
+
+- [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
+
+- [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
+
+#### CoreGraphics
+
+- [Graphs](https://github.com/candy7/Graphs) - 通过bezierPath，画出曲线图，并且加入动画。【 [Priview 1](https://camo.githubusercontent.com/955dab2a5598a7dcb509b3c448b12a37a1760570/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323035353836362d333233653639333130323262353461662e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
+
+- [LXBezierPath](https://github.com/LXManMan/LXBezierPath) - 进度条绘制。【 [Priview 1](https://github.com/liuxinixn/LXBezierPath/raw/master/gif.gif) 】
+
 
 ### Payment
 
@@ -895,43 +945,6 @@ RxSwift comprises five separate components depending on eachother in the followi
   pod 'AgoraRtm_iOS', '~> 1.5.1'
   pod 'AgoraRtcEngine_iOS', '~> 4.0.1'
 ```
-
-
-### 图像处理和绘制
-
-#### OpenGL-OpenGLES
-
-- [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
-
-- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
-
-- [kesalin·OpenGLES](https://github.com/kesalin/OpenGLES)
-
-- [uwuneng·OpenGLES](https://github.com/uwuneng/OpenGLES)
-
-- [XanderXu·OpenGLESExamples](https://github.com/XanderXu/OpenGLESExamples)
-
-#### Metal
-
-- [Apple Metal](https://developer.apple.com/metal/) 
-
-- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
-
-- [metal](https://github.com/MetalKit/metal) - Repository to accompany the following blog posts.
-
-#### GPUImage
-
-- [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)【 [Priview 1](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) 】
-
-- [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
-
-- [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
-
-#### CoreGraphics
-
-- [Graphs](https://github.com/candy7/Graphs) - 通过bezierPath，画出曲线图，并且加入动画。【 [Priview 1](https://camo.githubusercontent.com/955dab2a5598a7dcb509b3c448b12a37a1760570/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323035353836362d333233653639333130323262353461662e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-- [LXBezierPath](https://github.com/LXManMan/LXBezierPath) - 进度条绘制。【 [Priview 1](https://github.com/liuxinixn/LXBezierPath/raw/master/gif.gif) 】
 
 
 ### 逆向开发
@@ -1832,6 +1845,14 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [UncaughtExceptionHandler](https://github.com/minibear0523/UncaughtExceptionHandler) - 一个iOS崩溃异常的捕捉处理源代码，帮助更好的调试程序。
 
 - [SPUncaughtExceptionHandler](https://github.com/kshipeng/SPUncaughtExceptionHandler) - APP闪退时，由用户决定是否继续。
+
+
+### Tools
+
+- [SwiftLint](https://github.com/realm/SwiftLint) - A tool to enforce Swift style and conventions.
+    <div align=center>
+    <img src="https://github.com/realm/SwiftLint/raw/main/assets/screenshot.png" width="50%" />
+    </div>
 
 
 ### 高仿项目-Demo
