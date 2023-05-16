@@ -723,6 +723,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
 
+- [Animation-Collection](https://github.com/chenfengxiaoxixi/Animation-Collection) - The project contains some animation what i make in working career(AirPlane Game).
+
 
 ### 图像处理和绘制
 
