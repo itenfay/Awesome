@@ -1335,10 +1335,16 @@ GZip: Network data unzip plugin
 
 - [KafkaRefresh](https://github.com/BeatsKitano/KafkaRefresh) - Animated, customizable, and flexible pull-to-refresh framework for faster and easier iOS development.
 
+- [PullToRefresh](https://github.com/Yalantis/PullToRefresh) - This component implements pure pull-to-refresh logic and you can use it for developing your own pull-to-refresh animations.
+
+- [PullToRefresh](https://github.com/leah/PullToRefresh) - A simple iPhone TableViewController for adding pull-to-refresh functionality (Objective-C).
+
 
 ### HUD-指示器
 
-- [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐司指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。【 [Priview 1](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_text.gif) | [Priview 2](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_loding.gif) 】
+- [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - A collection of awesome loading animations.【 [Priview](https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif) 】
+
+- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) - A clean and lightweight progress HUD for your iOS and tvOS app. 
 
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - MBProgressHUD + Customizations. [http://www.bukovinski.com/](http://www.bukovinski.com/)
 
@@ -1346,7 +1352,7 @@ GZip: Network data unzip plugin
 
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD) - An elegant and simple progress HUD for iOS and tvOS, compatible with Swift and ObjC. 【 [Priview 1](https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/Presentation.png) 】
 
-- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) - A clean and lightweight progress HUD for your iOS and tvOS app. 
+- [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐司指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。【 [Priview 1](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_text.gif) | [Priview 2](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_loding.gif) 】
 
 - [MMMaterialDesignSpinner](https://github.com/misterwell/MMMaterialDesignSpinner) - An iOS activity spinner modeled after Google's Material Design Spinner. 【 [Priview 1](https://raw.githubusercontent.com/misterwell/MMMaterialDesignSpinner/master/Demo.gif) 】
 
@@ -1359,6 +1365,8 @@ GZip: Network data unzip plugin
 - [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - A collection of awesome loading animations.【 [Priview](https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif) 】
 
 - [cordova-progressIndicator](https://github.com/pbernasconi/cordova-progressIndicator) - Native Progress-Indicator for Cordova.
+
+- [SpringIndicator](https://github.com/KyoheiG3/SpringIndicator) - SpringIndicator is indicator and PullToRefresh. Inspired by Material design components.【[Preview](https://user-images.githubusercontent.com/5707132/55774407-f49a6500-5acf-11e9-9e36-9248e89d7ff1.gif)】
 
 
 ### Toast
