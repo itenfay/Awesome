@@ -1323,19 +1323,21 @@ GZip: Network data unzip plugin
 
 - [MD360Player4iOS](https://github.com/ashqal/MD360Player4iOS) - It is a lite library to render 360 degree panorama video for iOS. VR Player.
 
+- [CTPanoramaView](https://github.com/scihant/CTPanoramaView) - A library that displays spherical or cylindrical panoramas with touch or motion based controls.
+
+- [Panorama](https://github.com/zhudongyong/Panorama) - 用于房地产展示类软件3维展示与序列帧展示。
+
+- [PanoramaGL](https://github.com/shaojiankui/PanoramaGL) - PanoramaGL全景展示(Xcode7~), fixed some issues,share to someone need it,support arm64.
+
+- [MetalScope](https://github.com/ejeinc/MetalScope) - Metal-backed 360° panorama view for iOS.【[Preview](https://raw.githubusercontent.com/ejeinc/MetalScope/master/Resources/panorama-preview.gif)】
+
 - [Panorific](https://github.com/ndmeiri/Panorific) - An immersive, intuitive, motion-based way to explore high quality panoramas and photos on an iOS device. Panorific is implemented in Swift.
 
 - [Image360](https://github.com/Ssimboss/Image360) - Special view & controller to display 360° panoramic images.
 
 - [HSGLPanoViewer](https://github.com/zyphs21/HSGLPanoViewer) - A Panorama Browser using Swift and OpenGLES.
 
-- [CTPanoramaView](https://github.com/scihant/CTPanoramaView) - A library that displays spherical or cylindrical panoramas with touch or motion based controls.
-
-- [Panorama](https://github.com/zhudongyong/Panorama) - 用于房地产展示类软件3维展示与序列帧展示。
-
 - [Panorama](https://github.com/iSame7/Panorama) - implementation of the photo tilt gesture/UX found in Facebook's Paper app.
-
-- [PanoramaGL](https://github.com/shaojiankui/PanoramaGL) - PanoramaGL全景展示(Xcode7~), fixed some issues,share to someone need it,support arm64.
 
 - [SKPanoramaView](https://github.com/sachinkesiraju/SKPanoramaView) - Create beautiful animated panorama views. Inspired by the intro view on the LinkedIn iOS app.
 
