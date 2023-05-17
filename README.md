@@ -656,6 +656,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
 
+- [AR-Source](https://github.com/GeekLiB/AR-Source) - Augmented reality (AR) development resources(增强现实开发资源汇总)---AIRX整理。
+
 - [ARTetris](https://github.com/exyte/ARTetris) - Augmented Reality Tetris made with ARKit and SceneKit.
 
 - [RealityUI](https://github.com/maxxfrazer/RealityUI) - A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene.
