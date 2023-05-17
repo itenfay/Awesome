@@ -97,6 +97,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [FlowLayout](#FlowLayout)
    - [BlurView](#BlurView)
    - [PhotoViewer](#PhotoViewer)
+   - [Panorama](#Panorama)
    - [Find The Most Relevant Colors](#Find-The-Most-Relevant-Colors)
    - [扫码(Scan)](#Scan)
    - [Refresh](#Refresh)
@@ -1314,6 +1315,33 @@ GZip: Network data unzip plugin
 - [Lantern](https://github.com/fcbox/Lantern) - Lantern（花灯）是一个基于Swift的高可用视图框架。它基于iOS原生的图片/视频浏览功能进行封装，并提供了更加酷炫的交互方式。此外，它还提供丰富的接口，扩展灵活，能让App快速集成浏览功能。
 
 - [GKPhotoBrowser](https://github.com/QuintGao/GKPhotoBrowser) - iOS仿微信、今日头条等图片浏览器。
+
+
+### Panorama
+
+- [Fisheye](https://github.com/hanton/Fisheye) - Open Source iOS 360 Degree Panorama Video Player. (HTY360Player is renamed to Fisheye).
+
+- [MD360Player4iOS](https://github.com/ashqal/MD360Player4iOS) - It is a lite library to render 360 degree panorama video for iOS. VR Player.
+
+- [Panorific](https://github.com/ndmeiri/Panorific) - An immersive, intuitive, motion-based way to explore high quality panoramas and photos on an iOS device. Panorific is implemented in Swift.
+
+- [Image360](https://github.com/Ssimboss/Image360) - Special view & controller to display 360° panoramic images.
+
+- [HSGLPanoViewer](https://github.com/zyphs21/HSGLPanoViewer) - A Panorama Browser using Swift and OpenGLES.
+
+- [CTPanoramaView](https://github.com/scihant/CTPanoramaView) - A library that displays spherical or cylindrical panoramas with touch or motion based controls.
+
+- [Panorama](https://github.com/zhudongyong/Panorama) - 用于房地产展示类软件3维展示与序列帧展示。
+
+- [Panorama](https://github.com/iSame7/Panorama) - implementation of the photo tilt gesture/UX found in Facebook's Paper app.
+
+- [PanoramaGL](https://github.com/shaojiankui/PanoramaGL) - PanoramaGL全景展示(Xcode7~), fixed some issues,share to someone need it,support arm64.
+
+- [SKPanoramaView](https://github.com/sachinkesiraju/SKPanoramaView) - Create beautiful animated panorama views. Inspired by the intro view on the LinkedIn iOS app.
+
+- [OpenPano](https://github.com/ppwwyyxx/OpenPano) - Automatic Panorama Stitching From Scratch.
+
+- [Panorama](https://github.com/robbykraft/Panorama) - Spherical panorama view, iOS.
 
 
 ### Find The Most Relevant Colors
