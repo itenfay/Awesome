@@ -25,3 +25,8 @@
 - [ethers.io](https://github.com/ethers-io/ethers.io) - The frontend website HTML, JavaScript and CSS for ethers.io. 
 
 - [ethers.objc](https://github.com/ethers-io/ethers.objc) - Fast, simple and complete library for Ethereum in Objective-C.
+
+- [XRPKit](https://github.com/MitchLang009/XRPKit) - XRPKit is a Swift SDK built for interacting with the XRP Ledger. XRPKit supports offline wallet creation, offline transaction creation/signing, and submitting transactions to the XRP ledger. XRPKit supports both the secp256k1 and ed25519 algorithms. XRPKit is available on iOS, macOS and Linux. WIP - use at your own risk.
+   <div align=center>
+   <img src="https://github.com/MitchLang009/XRPKit/raw/develop/logo.png" width="50%" />
+   </div>
