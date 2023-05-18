@@ -30,3 +30,5 @@
    <div align=center>
    <img src="https://github.com/MitchLang009/XRPKit/raw/develop/logo.png" width="50%" />
    </div>
+
+- [phoenix](https://github.com/ACINQ/phoenix) - Phoenix is a self-custodial Bitcoin wallet using Lightning to send/receive payments.
