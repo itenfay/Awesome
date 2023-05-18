@@ -27,6 +27,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [YYKit](#YYKit)
       - [DataSources](#DataSources)
       - [ReactiveCocoa & RxSwift](#ReactiveCocoa-RxSwift)
+      - [ReactiveSwift](#ReactiveSwift)
       - [Moya](#Moya)
       - [RestKit](#RestKit)
       - [Charts](#Charts)
@@ -62,9 +63,11 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [DKNightVersion](#DKNightVersion)
       - [PaperOnboarding](#PaperOnboarding)
       - [APNGKit](#APNGKit)
+      - [GraphQL](#GraphQL)
+   - [HTML Parser](#HTML-Parser)
    - [Rx Series](#Rx-Series)
    - [AR & VR](#AR-VR)
-   - [图像处理和绘制](#图像处理和绘制)
+   - [Graphs Processing And Rendering](#Graphs-Processing-And-Rendering)
       - [OpenGL & OpenGLES](#OpenGL-OpenGLES)
       - [Metal](#Metal)
       - [OpenCV](#OpenCV)
@@ -75,10 +78,10 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [ApplePay](#ApplePay)
       - [ThirdPay](#ThirdPay)
    - [SVG](#SVG)
-   - [播放器](#播放器)
-      - [视频播放器](#视频播放器) 
-      - [音频播放器](#音频播放器)
-   - [IM & 直播](#IM-直播)
+   - [Player](#Player)
+      - [Video Player](#Video-Player) 
+      - [Audio Player](#Audio-Player)
+   - [IM & Live-streaming](#IM-Live-streaming)
    - [逆向开发](#逆向开发)
       - [fishhook](#fishhook)
       - [逆向辅助工具](#逆向辅助工具)
@@ -92,7 +95,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Runtime](#Runtime)
    - [Data Persistence](#Data-Persistence)
    - [Side Drawer](#Side-Drawer)
-   - [蓝牙](#蓝牙)
+   - [Bluetooth](#Bluetooth)
    - [手势密码/指纹面容ID解锁](#手势密码指纹面容ID解锁)
    - [FlowLayout](#FlowLayout)
    - [BlurView](#BlurView)
@@ -116,7 +119,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [获取设备相关信息](#获取设备相关信息)
    - [广告(Ad)](#广告Ad)
    - [星评视图(StarView)](#StarView)
-   - [类目(Categories)](#类目Categories)
+   - [Categories & Extensions](#Categories-Extensions)
    - [Jailbreak Detector](#Jailbreak-Detector)
    - [传感器(Sensor)](#Sensor)
    - [TextView](#TextView)
@@ -127,7 +130,7 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Doodling](#Doodling)
    - [CheckBox](#CheckBox)
    - [Theme Change](#Theme-Change)
-   - [Architecture Design Mode](#Architecture-Design-Mode)
+   - [Architecture Design Pattern](#Architecture-Design-Pattern)
    - [Ping](#Ping)
    - [未分类(Uncategorized)](#Uncategorized)
    - [高仿项目 & Demo](#高仿项目-Demo)
@@ -317,7 +320,7 @@ class MyViewController: UIViewController {
 
 *响应式编程*
 
-- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Reactive extensions to Cocoa frameworks, built on top of [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
+- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Cocoa framework and Obj-C dynamism bindings for [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
     <div align=center>
     <img src="https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/PNG/logo.png" width="50%" />
     </div>
@@ -337,6 +340,14 @@ RxSwift comprises five separate components depending on eachother in the followi
 │    RxTest    │    │  RxBlocking  │
 └──────────────┘    └──────────────┘
 ````
+
+#### ReactiveSwift
+
+- [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) - ReactiveSwift offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time.
+
+- [Kickstarter-ReactiveExtensions](https://github.com/kickstarter/Kickstarter-ReactiveExtensions) - A collection of extensions to the ReactiveSwift framework.
+
+- [SwiftRex](https://github.com/SwiftRex/SwiftRex) - Swift + Redux + (Combine|RxSwift|ReactiveSwift) -> SwiftRex
 
 #### Moya
 
@@ -622,6 +633,17 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [APNGKit](https://github.com/onevcat/APNGKit) - High performance and delightful way to play with APNG format in iOS.
 
+#### GraphQL
+
+- [apollo-ios](https://github.com/apollographql/apollo-ios) - 📱 A strongly-typed, caching GraphQL client for iOS, written in Swift.
+
+
+### HTML Parser
+
+- [SwiftSoup](https://github.com/scinfu/SwiftSoup) - SwiftSoup: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)
+
+- [Ono](https://github.com/mattt/Ono) - A sensible way to deal with XML & HTML for iOS & macOS.
+
 
 ### Rx Series
 
@@ -659,6 +681,16 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
 
 - [AR-Source](https://github.com/GeekLiB/AR-Source) - Augmented reality (AR) development resources(增强现实开发资源汇总)---AIRX整理。
+
+- [AR_100Days](https://github.com/satoshi0212/AR_100Days) - 100 days AR implementation challenge.
+
+- [FocusEntity](https://github.com/maxxfrazer/FocusEntity) - Bringing the scanning box from SceneKit to RealityKit.
+
+- [Euclid](https://github.com/nicklockwood/Euclid) - A Swift library for creating and manipulating 3D geometry.
+
+- [iCarousel](https://github.com/nicklockwood/iCarousel) - A simple, highly customisable, data-driven 3D carousel for iOS and Mac OS.
+
+- [RetroRampage](https://github.com/nicklockwood/RetroRampage) - Tutorial series demonstrating how to build a retro first-person shooter from scratch in Swift.
 
 - [ARTetris](https://github.com/exyte/ARTetris) - Augmented Reality Tetris made with ARKit and SceneKit.
 
@@ -733,7 +765,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [LookAtThat](https://github.com/tikimcfee/LookAtThat) - Render Swift source code in AR/VR for macOS and iOS.
 
 
-### 图像处理和绘制
+### Graphs Processing And Rendering
 
 #### OpenGL-OpenGLES
 
@@ -756,6 +788,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [metal](https://github.com/MetalKit/metal) - Repository to accompany the following blog posts.
 
 - [Anime4KMetal](https://github.com/imxieyi/Anime4KMetal) - Anime4K for Apple platforms based on Metal.
+
+- [Satin](https://github.com/Hi-Rez/Satin) -  Satin is a 3D graphics framework (inspired by threejs) that helps designers and developers work with Apple's Metal API. Satin provides helpful classes for creating meshes, materials, buffers, uniforms, geometries, pipelines (shaders), compute kernels, and more. Satin's API is rapidly evolving so its best to stick to a tagged version or git commit when using it in production.
 
 #### OpenCV
 
@@ -822,6 +856,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [微信支付商户平台](https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F) - [APP支付](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1)是指商户通过在移动端应用APP中集成开放SDK调起微信支付模块来完成支付。适用于在移动端APP中集成微信支付功能的场景。
 
+- [stripe-ios](https://github.com/stripe/stripe-ios) - The Stripe iOS SDK makes it quick and easy to build an excellent payment experience in your iOS app. We provide powerful and customizable UI screens and elements that can be used out-of-the-box to collect your users' payment details. We also expose the low-level APIs that power those UIs so that you can build fully custom experiences.
+
 
 #### SVG
 
@@ -830,9 +866,9 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [SVGKit](https://github.com/SVGKit/SVGKit) - Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation).
 
 
-### 播放器
+### Player
 
-#### 视频播放器
+#### Video Player
 
 - [ijkplayer](https://github.com/bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support ([FFmpeg](http://ffmpeg.org)).
 
@@ -888,7 +924,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [VersaPlayer](https://github.com/josejuanqm/VersaPlayer) - Versatile Video Player implementation for iOS, macOS, and tvOS.
 
-#### 音频播放器
+#### Audio Player
 
 - [StreamingKit](https://github.com/tumtumtum/StreamingKit) - A fast and extensible gapless AudioPlayer/AudioStreamer for OSX and iOS (iPhone, iPad).
 
@@ -906,7 +942,12 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [PFXPlayer](https://github.com/PFXStudio/PFXPlayer) - 뮤직 플레이어 앱 - RxSwift, RxCocoa, RxDataSource, RxGesture.
 
-### IM-直播
+- [WSLAPP](https://github.com/wsl2ls/WSLAPP) - 音乐播放器，新闻，壁纸，画板，二维码，计分器，一个我自己做的完整的项目源码。
+
+- [DBFMDemo](https://github.com/LYM-mg/DBFMDemo) - 豆瓣电台，一个豆瓣电台demo，可以选择播放顺序，可以通过选择频道获取歌曲数据，进行歌曲播放。
+
+
+### IM-Live-streaming
 
 - [AtChat](https://github.com/boyssimple/AtChat) - IOS聊天项目、基于XMPP框架开发，实现了登陆注册(注册以手机号码注册、短信验证) 、发送消息、接收消息、接收好友请求、发起好友请求 、图片消息、语音消息、视频语音、聊天历史记录、最近联系人、二维码添加好友、用户头像上传、朋友圈、发朋友圈、异地登录退出等功能。【 [Priview 1](https://github.com/boyssimple/AtChat/raw/master/images/020.png) | [Priview 2](https://github.com/boyssimple/AtChat/raw/master/images/014.png) 】
 
@@ -954,6 +995,8 @@ RxSwift comprises five separate components depending on eachother in the followi
   pod 'AgoraRtm_iOS', '~> 1.5.1'
   pod 'AgoraRtcEngine_iOS', '~> 4.0.1'
 ```
+
+- [Signal-iOS ](https://github.com/signalapp/Signal-iOS)  - Signal is a free, open source, messaging app for simple private communication with friends.
 
 
 ### 逆向开发
@@ -1089,6 +1132,13 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ethers.io](https://github.com/ethers-io/ethers.io) - The frontend website HTML, JavaScript and CSS for ethers.io. 
 
 - [ethers.objc](https://github.com/ethers-io/ethers.objc) - Fast, simple and complete library for Ethereum in Objective-C.
+
+- [XRPKit](https://github.com/MitchLang009/XRPKit) - XRPKit is a Swift SDK built for interacting with the XRP Ledger. XRPKit supports offline wallet creation, offline transaction creation/signing, and submitting transactions to the XRP ledger. XRPKit supports both the secp256k1 and ed25519 algorithms. XRPKit is available on iOS, macOS and Linux. WIP - use at your own risk.
+   <div align=center>
+   <img src="https://github.com/MitchLang009/XRPKit/raw/develop/logo.png" width="50%" />
+   </div>
+
+- [phoenix](https://github.com/ACINQ/phoenix) - Phoenix is a self-custodial Bitcoin wallet using Lightning to send/receive payments.
 
 
 ### 网络相关
@@ -1227,7 +1277,7 @@ GZip: Network data unzip plugin
 - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data!
 
 
-### 蓝牙
+### Bluetooth
 
 - [EasyBluetooth]( https://github.com/chenliangloveyou/EasyBluetooth) - 一款iOS BLE蓝牙调试工具，非常简单容易，也可以作为一个蓝牙库，快速集成和开发。 可以两步搞定蓝牙开发操作。第一步连接设备，第二步特征读写数据。【 [Priview 1](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_1.gif) | [Priview 2](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_2.gif) | [Priview 3](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_3.png) | [Priview 4](https://github.com/chenliangloveyou/EasyBluetooth/raw/master/EasyBlueTooth/EasyBlueTooth/preview/preview_4.png) 】
 
@@ -1242,6 +1292,8 @@ GZip: Network data unzip plugin
 - [WEBlueToothManager](https://github.com/yuhanle/WEBlueToothManager) - 🐱一个蓝牙4.0的智能硬件架构。([blog](https://latehorse.github.io))【 [Priview 1](https://camo.githubusercontent.com/d35e114d02c6b82ccea90e1547d268607362ee41/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3534353735352d343837633230623536646461623832322e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430) | [Priview 2](https://camo.githubusercontent.com/d1f9847a9232542113ffdd226ea5b3773f26b5f1/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3534353735352d303161616262356533396130613735302e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430) 】
 
 - [MPBluetoothKit](https://github.com/MacPu/MPBluetoothKit) - This is a block-based framework for building Bluetooth iOS apps using the CoreBluetooth Framework.Its a very powerful and useful,and very easy to use it.
+
+- [IOS-CoreBluetooth-Mock](https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock) - The Core Bluetooth Mock library was designed to emulate Core Bluetooth objects, providing easy way to test Bluetooth-enabled apps. As the native Bluetooth API is not supported on a simulator, using this library you can run, test and take screenshots of such apps without the need of a physical phone or tablet. You may also start working on the iOS app when your peripheral is still under development.
 
 
 ### 手势密码指纹面容ID解锁
@@ -1721,7 +1773,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [SwiftyStarRatingView](https://github.com/Jerrrr/SwiftyStarRatingView) - A simple star rating view written in pure swift, lightweight but powerful.
 
 
-### 类目Categories
+### Categories-Extensions
 
 - [JKCategories](https://github.com/shaojiankui/JKCategories) - JKCategories(iOS-Categories,Category), a collection of useful Objective-C Categories extending iOS Frameworks such as Foundation,UIKit,CoreData,QuartzCore,CoreLocation,MapKit Etc.
 
@@ -1815,7 +1867,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [LYThemeChange](https://github.com/lanyasheng/LYThemeChange) - 主题更换。
 
 
-### Architecture Design Mode
+### Architecture Design Pattern
 
 - [SwiftHub](https://github.com/khoren93/SwiftHub) - GitHub iOS client in RxSwift and MVVM-C clean architecture.
 
@@ -1828,6 +1880,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [MVPExample](https://github.com/amacou/MVPExample) - MVPExample.
 
 - [MVPExample](https://github.com/yuexygoodman/MVPExample) - 一个MVP的Demo，展示了在iOS平台上如何实现MVP模式。
+
+- [ReactiveSwiftFlickrSearch](https://github.com/ColinEberhardt/ReactiveSwiftFlickrSearch) - A Swift implementation of a Flickr-search application that uses MVVM and ReactiveCocoa.
 
 
 ### Ping
@@ -1842,8 +1896,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [MSWeakTimer](https://github.com/mindsnacks/MSWeakTimer) - Thread-safe NSTimer alternative that doesn't retain the target and supports being used with GCD queues.
 
 - [NNMacros](https://github.com/amisare/NNMacros) - NNMacros通过宏的方式来简化iOS开发中OC的语法和Api的操作。
-
-- [Ono](https://github.com/mattt/Ono) - A sensible way to deal with XML & HTML for iOS & macOS.
 
 - [EasyIOS](https://github.com/zhuchaowe/EasyIOS) - A new generation of development framework based on Model-View-ViewModel.
     - [EasyRSS](https://github.com/zhuchaowe/EasyRSS) - A rss reader for ios based on easyios.
@@ -1892,6 +1944,20 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
     <img src="https://github.com/realm/SwiftLint/raw/main/assets/screenshot.png" width="50%" />
     </div>
 
+- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A command-line tool and Xcode Extension for formatting Swift code
+
+- [Prelude](https://github.com/robrix/Prelude) - Swift µframework of simple functional programming tools
+
+- [Kickstarter-Prelude](https://github.com/kickstarter/Kickstarter-Prelude) - A collection of useful Swift tools that are used in the Kickstarter apps.
+
+- [Expression](https://github.com/nicklockwood/Expression) - A cross-platform Swift library for evaluating mathematical expressions at runtime.
+
+- [ZJKitTool](https://github.com/Dzhijian/ZJKitTool) - 快速添加UIKit控件可以结合Masonry，以及其他工具类的简单使用，评论列表、瀑布流、压缩图片、倒计时、筛选、自定义PickerView 时间日期选择器、性别选择器、WKWebView 的应用。
+
+- [UniversalProject](https://github.com/XuYang8026/UniversalProject) - 基于MVC架构的iOS轻量级框架，封装了基类、基于猿题库YTKNetwork的网络服务、工具库，NavigationController转场动画/瀑布流/粒子动画/小demo，已适配iOS11 & iPhone X。
+
+- [AsunGiftModule](https://github.com/BecomerichAsun/AsunGiftModule) - 自定义Operation队列展示礼物动画~
+
 
 ### 高仿项目-Demo
 
@@ -1915,13 +1981,9 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [MobileProject](https://github.com/wujunyang/MobileProject) - 是一个以MVC模式搭建的开源功能集合，基于Objective-C上面进行编写，意在解决新项目对于常见功能模块的重复开发，MobileProject对于项目的搭建也进行很明确的划分，各个模块职责也比较明确，MobileProject也引入的一些常用第三方插件、宏定义、工具帮助类等；整个项目也是在不断更新跟维护中，功能点也会不断更新；代码支持iOS7以后版本。
 
-- [WSLAPP](https://github.com/wsl2ls/WSLAPP) - 音乐播放器，新闻，壁纸，画板，二维码，计分器，一个我自己做的完整的项目源码。
-
 - [iOS_Demo](https://github.com/darren90/iOS_Demo) - iOS开发中一些实用的Demo。
 
 - [iOS-Project](https://github.com/BranPeng/iOS-Project) - 收集的一些比较好的iOS打样工程。
-
-- [ZJKitTool](https://github.com/Dzhijian/ZJKitTool) - 快速添加UIKit控件可以结合Masonry，以及其他工具类的简单使用，评论列表、瀑布流、压缩图片、倒计时、筛选、自定义PickerView 时间日期选择器、性别选择器、WKWebView 的应用。
 
 - [coolnameismy - blog](https://github.com/coolnameismy/demo) - coolnameismy的技术博客文章对应的demo。
 
@@ -1934,12 +1996,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [MGDemo](https://github.com/LYM-mg/MGDemo) - 涉及导航栏随着tableView滑动是否隐藏，随着tableView的滑动让TabBar隐藏，停止滑动显示TabBar。还有NavigationController的titleView动态缩放效果，还加了UITableView分区展开与收起。后来又加了录制视频的功能和在相册中选择视频的功能。tableView的一些常用知识点，还有搜索框的使用。后来又整合了UICollectionView的使用,ShareSDK分享等。
 
 - [MGLoveFreshBeen](https://github.com/LYM-mg/MGLoveFreshBeen) - 一款电商App，实现首页功能以及个人中心和分类，购物车模块。1.MVC设计模式 2.使用纯代码和Xib混合开发，使用Masonry和AutoLayout做UI布局；3.集成友盟分享 4.使用SDWebImage进行图片加载 5.SVProessHUD和MBProessHUD进行遮盖提示 6.UITableView的联动效果 7.首页UICollectionView进行数据显示 8.UIWebView加载网页等技术。
-
-- [DBFMDemo](https://github.com/LYM-mg/DBFMDemo) - 豆瓣电台，一个豆瓣电台demo，可以选择播放顺序，可以通过选择频道获取歌曲数据，进行歌曲播放。
-
-- [UniversalProject](https://github.com/XuYang8026/UniversalProject) - 基于MVC架构的iOS轻量级框架，封装了基类、基于猿题库YTKNetwork的网络服务、工具库，NavigationController转场动画/瀑布流/粒子动画/小demo，已适配iOS11 & iPhone X。
-
-- [AsunGiftModule](https://github.com/BecomerichAsun/AsunGiftModule) - 自定义Operation队列展示礼物动画~
 
 - [DHPRO](https://github.com/Andrew5/DHPRO) - 二维码,画圆角, tableView列表联动,收缩列表,图片放大,FMDB数据库,水波动画,仪表盘,自适应列表,绘画板,转盘,长按移动,PhotoClip,循环滑动ScrollView,UICollectionView卡片动画,图片找不同,导航栏程序框架。
 
