@@ -87,41 +87,41 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [逆向辅助工具](#逆向辅助工具)
       - [逆向案例](#逆向案例)
    - [安全攻防和应用加固](#安全攻防和应用加固)
-   - [Zip](#Zip)
    - [数据安全和算法](#数据安全和算法)
-   - [区块链(Blockchain)](#Blockchain)
-   - [网络相关](#网络相关)
-   - [导航栏和状态栏](#导航栏和状态栏)
+   - [Zip](#Zip)
+   - [Blockchain](#Blockchain)
+   - [Networks](#Networks)
+   - [Navigation](#Navigation)
    - [Runtime](#Runtime)
    - [Data Persistence](#Data-Persistence)
    - [Side Drawer](#Side-Drawer)
    - [Bluetooth](#Bluetooth)
-   - [手势密码/指纹面容ID解锁](#手势密码指纹面容ID解锁)
+   - [Gesture-Biometric Unlock](#Gesture-Biometric-Unlock)
    - [FlowLayout](#FlowLayout)
    - [BlurView](#BlurView)
    - [PhotoViewer](#PhotoViewer)
    - [Panorama](#Panorama)
    - [Find The Most Relevant Colors](#Find-The-Most-Relevant-Colors)
-   - [扫码(Scan)](#Scan)
+   - [Scan](#Scan)
    - [Refresh](#Refresh)
-   - [HUD & 指示器(Indicator)](#HUD-指示器)
+   - [HUD & Indicator](#HUD-Indicator)
    - [Toast](#Toast)
-   - [Menu & 弹出视图](#Menu-弹出视图)
+   - [Menu & PopupView](#Menu-PopupView)
    - [Slider](#Slider)
    - [PageControl](#PageControl)
-   - [WebView & 进度条](#WebView-进度条)
+   - [WebView & ProgressBar](#WebView-ProgressBar)
    - [WebP](#WebP)
-   - [动画(Animation)](#动画)
-   - [日期时间地址选择器器(Picker)](#日期时间地址选择器)
-   - [搜索(Search)](#搜索Search)
-   - [分享(Sharing)](#分享Sharing)
-   - [码文本框-图片验证码](#码文本框-图片验证码)
-   - [获取设备相关信息](#获取设备相关信息)
-   - [广告(Ad)](#广告Ad)
-   - [星评视图(StarView)](#StarView)
+   - [Animation](#Animation)
+   - [Picker](#Picker)
+   - [Searching)](#Searching)
+   - [Sharing](#Sharing)
+   - [CodeUnit & AuthenticationCode](#CodeUnit-AuthenticationCode)
+   - [Device Info](#Device-Info)
+   - [Ad](#Ad)
+   - [Star View](#Star-View)
    - [Categories & Extensions](#Categories-Extensions)
    - [Jailbreak Detector](#Jailbreak-Detector)
-   - [传感器(Sensor)](#Sensor)
+   - [Sensor](#Sensor)
    - [TextView](#TextView)
    - [Label](#Label)
    - [ImageView](#ImageView)   
@@ -132,8 +132,9 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Theme Change](#Theme-Change)
    - [Architecture Design Pattern](#Architecture-Design-Pattern)
    - [Ping](#Ping)
-   - [未分类(Uncategorized)](#Uncategorized)
-   - [高仿项目 & Demo](#高仿项目-Demo)
+   - [Uncategorized](#Uncategorized)
+   - [SwiftUI Learning](#SwiftUI-Learning)
+   - [Projects & Demo](#Projects-Demo)
 - [MacOS](#MacOS)
 
 
@@ -1060,20 +1061,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [iOS安全攻防（二十四）：敏感逻辑的保护方案（1）](https://blog.csdn.net/yiyaaixuexi/article/details/29210413)
 
 
-### Zip
-
-- [Zip](https://github.com/marmelroy/Zip) - Swift framework for zipping and unzipping files.
-    <div align=center>
-    <img src="https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png" width="50%" />
-    </div>
-
-- [ZipArchive](https://github.com/ZipArchive/ZipArchive) - ZipArchive is a simple utility class for zipping and unzipping files on iOS, macOS and tvOS.
-
-- [zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C.
-
-- [ZipKit](https://github.com/kolpanic/ZipKit) - An Objective-C Zip framework for macOS and iOS.
-
-
 ### 数据安全和算法
 
 - [DYFCryptoUtils](https://github.com/chenxing640/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)【 [Priview 1](https://github.com/chenxing640/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif) 】
@@ -1101,6 +1088,20 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [Base64](https://github.com/ekscrypto/Base64) - Objective-C Base64 Additions for NSData and NSString.
 
 - [CryptoCompatibility](https://developer.apple.com/library/mac/samplecode/CryptoCompatibility/Introduction/Intro.html) - CryptoCompatibility shows how to do common cryptographic operations using Apple APIs such that the results match other common cryptographic APIs, most notably OpenSSL.
+
+
+### Zip
+
+- [Zip](https://github.com/marmelroy/Zip) - Swift framework for zipping and unzipping files.
+    <div align=center>
+    <img src="https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png" width="50%" />
+    </div>
+
+- [ZipArchive](https://github.com/ZipArchive/ZipArchive) - ZipArchive is a simple utility class for zipping and unzipping files on iOS, macOS and tvOS.
+
+- [zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C.
+
+- [ZipKit](https://github.com/kolpanic/ZipKit) - An Objective-C Zip framework for macOS and iOS.
 
 
 ### Blockchain
@@ -1141,7 +1142,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [phoenix](https://github.com/ACINQ/phoenix) - Phoenix is a self-custodial Bitcoin wallet using Lightning to send/receive payments.
 
 
-### 网络相关
+### Networks
 
 *网络相关内容：AFNetworking的封装，NSURLSession的封装, Reachability, CocoaHTTPServer, GCDWebServer.*
 
@@ -1184,7 +1185,7 @@ GZip: Network data unzip plugin
 - [AsunNetwork](https://github.com/BecomerichAsun/AsunNetwork) - Moya+HandyJSON网络请求库。
 
 
-### 导航栏和状态栏
+### Navigation
 
 - [WRNavigationBar](https://github.com/wangrui460/WRNavigationBar) - 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等。【 [Swift版](https://github.com/wangrui460/WRNavigationBar_swift) | [Priview 1](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/拉钩App首页.gif) | [Priview 2](https://raw.githubusercontent.com/wangrui460/WRNavigationBar_swift/master/screenshots/新浪微博个人中心.gif) | [Priview 3](https://github.com/wangrui460/WRNavigationBar_swift/raw/master/screenshots/蚂蚁森林.gif) 】
 
@@ -1199,6 +1200,8 @@ GZip: Network data unzip plugin
 - [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) - An UINavigationController's category to enable fullscreen pop gesture in an iOS7+ system style with AOP. 【 [Priview 1](https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif) 】
 
 - [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension) - JZNavigationExtension integrates some convenient features for UINavigationController and easy to use. 【 [Priview 1](https://raw.githubusercontent.com/JazysYu/JZNavigationExtension/master/Snapshots/JZNavigationExtensionDemo.gif) 】
+
+- [YPNavigationBarTransition](https://github.com/yiplee/YPNavigationBarTransition) - A Full functional UINavigationBar framework for making bar transition more natural! You don't need to call any UINavigationBar api, implementing YPNavigationBarConfigureStyle protocol for your view controller instead. （类似微信 iOS Navigation Bar 的切换方案）
 
 - [BBGestureBack](https://github.com/Bonway/BBGestureBack) - OC and Swift full screen return gesture（纯OC 和 纯Swift编写，类淘宝、京东等全屏滑动返回效果）。【[Priview 1](https://camo.githubusercontent.com/de8758c8283c6aa4745044e2a677410880335726/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f31303939313737302d656465636265633933643164376538622e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
@@ -1296,7 +1299,7 @@ GZip: Network data unzip plugin
 - [IOS-CoreBluetooth-Mock](https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock) - The Core Bluetooth Mock library was designed to emulate Core Bluetooth objects, providing easy way to test Bluetooth-enabled apps. As the native Bluetooth API is not supported on a simulator, using this library you can run, test and take screenshots of such apps without the need of a physical phone or tablet. You may also start working on the iOS app when your peripheral is still under development.
 
 
-### 手势密码指纹面容ID解锁
+### Gesture-Biometric Unlock
 
 - [DYFAuthIDAndGestureLock](https://github.com/chenxing640/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview 1](https://github.com/chenxing640/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
 
@@ -1443,7 +1446,7 @@ GZip: Network data unzip plugin
 - [PullToRefresh](https://github.com/leah/PullToRefresh) - A simple iPhone TableViewController for adding pull-to-refresh functionality (Objective-C).
 
 
-### HUD-指示器
+### HUD-Indicator
 
 - [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - A collection of awesome loading animations.【 [Priview](https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif) 】
 
@@ -1489,7 +1492,7 @@ GZip: Network data unzip plugin
 - [JFMinimalNotifications](https://github.com/atljeremy/JFMinimalNotifications) - An iOS UIView for presenting a minimalistic notification that doesn't block the UI and is highly configurable.
 
 
-### Menu-弹出视图
+### Menu-PopupView
 
 - [kxmenu](https://github.com/kolyvan/kxmenu) - KxMenu is a vertical popup menu for using in iOS applications. 【 [Priview 1](https://camo.githubusercontent.com/d28144796042a6c6bddf7d0c097be831cea8810a/68747470733a2f2f7261772e6769746875622e636f6d2f6b6f6c7976616e2f6b786d656e752f6d61737465722f73637265656e73686f742f6578616d706c652e676966) 】
 
@@ -1568,7 +1571,7 @@ GZip: Network data unzip plugin
 - [EllipsePageControl](https://github.com/hackxhj/EllipsePageControl) - 椭圆形 长方形 PageControl 轮播图点。
 
 
-### WebView-进度条
+### WebView-ProgressBar
 
 - [WebController](https://github.com/pikachu987/WebController) - Quick WKWebView 😄.
 
@@ -1647,7 +1650,7 @@ GZip: Network data unzip plugin
 - [libwebp](https://github.com/webmproject/libwebp) - Mirror only. Please do not send pull requests. mirrored from [libwebp](https://chromium.googlesource.com/webm/libwebp).
 
 
-### 动画
+### Animation
 
 - [MGTrasitionPractice](https://github.com/LYM-mg/MGTrasitionPractice) - 自定义转场练习。【 [Priview 1](http://upload-images.jianshu.io/upload_images/1429890-db65965fb55e23ed.gif?imageMogr2/auto-orient/strip) 】
 
@@ -1688,7 +1691,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [pop-handapp](https://github.com/kevinzhow/pop-handapp) - POP Handapp.
 
 
-### 日期时间地址选择器
+### Picker
 
 - [BRPickerView](https://github.com/91renb/BRPickerView) - 封装的是iOS中常用的选择器组件，主要包括：日期选择器（支持年月日、年月等15种日期样式选择，支持设置星期、至今等）、地址选择器（支持省市区、省市、省三种地区选择）、自定义字符串选择器（支持单列、多列、二级联动、三级联动选择）。支持自定义主题样式，适配深色模式，支持将选择器组件添加到指定容器视图。。【 [Priview 1](https://github.com/91renb/BRPickerView/raw/master/BRPickerViewDemo/效果图/效果图1.gif?raw=true) | [Priview 2](https://github.com/91renb/BRPickerView/raw/master/BRPickerViewDemo/效果图/效果图2.gif?raw=true) 】
 
@@ -1719,12 +1722,12 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - The Unofficial Apple iOS Swift Calendar View. Swift calendar Library. iOS calendar Control. 100% Customizable.
 
 
-### 搜索Search
+### Searching
 
 - [PYSearch](https://github.com/ko1o/PYSearch) - 🔍 An elegant search controller which replaces the UISearchController for iOS (iPhone & iPad) . 【 [Priview 1](https://github.com/iphone5solo/learngit/raw/master/imagesForPYSearch/logo.png) | [Priview 2](https://raw.githubusercontent.com/ko1o/learngit/master/imagesForPYSearch/hotSearchStyle01.png) | [Priview 3](https://github.com/ko1o/learngit/raw/master/imagesForPYSearch/hotSearchStyle02.png) 】
 
 
-### 分享Sharing
+### Sharing
 
 - [ShareSDK-for-iOS](https://github.com/MobClub/ShareSDK-for-iOS) - ShareSDK是一个完全免费的社会化分享组件，为移动端的iOS App提供社会化功能。([MobTech](http://www.mob.com))
 
@@ -1735,7 +1738,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [TTOpenInAppActivity](https://github.com/honkmaster/TTOpenInAppActivity) - TTOpenInAppActivity is a UIActivity subclass that provides an "Open In ..." action to a UIActivityViewController. TTOpenInAppActivity uses an UIDocumentInteractionController to present all Apps that can handle the document specified with by the activity items. 【 [Priview 1](https://github.com/honkmaster/TTOpenInAppActivity/raw/master/Screenshot.png) 】
 
 
-### 码文本框-图片验证码
+### CodeUnit-AuthenticationCode
 
 - [KeenCodeUnit](https://github.com/chongzone/KeenCodeUnit) - 自定义的验证码、支付密码文本框，支持明文、密文输入等，支持内容的验证错误处理。
 
@@ -1748,14 +1751,14 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [YanZhengCode](https://github.com/wsl2ls/YanZhengCode) - 图片验证码和滑块验证码。【 [Priview 1](https://camo.githubusercontent.com/2a26c12270d298a74738691b13578d53e962835c/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d303566316430626239646431313537372e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
 
 
-### 获取设备相关信息
+### Device Info
 
 - [iOS-getClientInfo](https://github.com/PengfeiWang666/iOS-getClientInfo) - 📲iOS中获取各种设备信息。
 
 - [ZGInfoCollection](https://github.com/ScottZg/ZGInfoCollection) - 获取iPhone相关信息以及网络状态等等。
 
 
-### 广告Ad
+### Ad
 
 - [ZLAdvertDemo](https://github.com/ZLFighting/ZLAdvertDemo) - 启动页加载广告。【 [Priview 1](https://github.com/ZLFighting/ZLAdvertDemo/raw/master/ZLAdvertDemo/启动页跳过广告.gif) 】
 
@@ -1766,7 +1769,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [ADScrollView](https://github.com/Thomaszhouwu/ADScrollView) - 下载一张网页图片，无线滑动图片展示各种广告图片，点击某个广告图片做出相应的操作。
 
 
-### StarView
+### Star View
 
 - [ZYStarView](https://github.com/RainManGO/ZYStarView) - Swift4.0 星星选择封装
 
@@ -1959,7 +1962,12 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [AsunGiftModule](https://github.com/BecomerichAsun/AsunGiftModule) - 自定义Operation队列展示礼物动画~
 
 
-### 高仿项目-Demo
+### SwiftUI Learning
+
+- [SwiftUI](https://github.com/Jinxiansen/SwiftUI) - `SwiftUI` Framework Learning and Usage Guide. 🚀
+
+
+### Projects-Demo
 
 - [LBXMLYFM-Swift](https://github.com/lb2281075105/LBXMLYFM-Swift) - Swift5项目仿写喜马拉雅App，采用MVC+MVVM设计模式，Moya+SwiftyJSON+HandyJSON网络框架和数据解析。数据来源抓包及部分本地json文件。
 
