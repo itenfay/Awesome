@@ -1964,6 +1964,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ### SwiftUI Learning
 
+- [swiftui](https://developer.apple.com/documentation/swiftui) - Declare the user interface and behavior for your app on every platform.
+
 - [SwiftUI](https://github.com/Jinxiansen/SwiftUI) - `SwiftUI` Framework Learning and Usage Guide. 🚀
 
 
