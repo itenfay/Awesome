@@ -82,6 +82,8 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
       - [Video Player](#Video-Player) 
       - [Audio Player](#Audio-Player)
    - [IM & Live-streaming](#IM-Live-streaming)
+   - [AutoLayout](#AutoLayout)
+   - [FlowLayout](#FlowLayout)
    - [逆向开发](#逆向开发)
       - [fishhook](#fishhook)
       - [逆向辅助工具](#逆向辅助工具)
@@ -97,7 +99,6 @@ iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS,
    - [Side Drawer](#Side-Drawer)
    - [Bluetooth](#Bluetooth)
    - [Gesture-Biometric Unlock](#Gesture-Biometric-Unlock)
-   - [FlowLayout](#FlowLayout)
    - [BlurView](#BlurView)
    - [PhotoViewer](#PhotoViewer)
    - [Panorama](#Panorama)
@@ -538,6 +539,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar) - RAMAnimatedTabBarController is a Swift UI module library for adding animation to iOS tabbar items and icons. iOS library made by @Ramotion
 
 - [ESTabBarController](https://github.com/eggswift/ESTabBarController) - ESTabBarController is a Swift model for customize UI, badge and adding animation to tabbar items. Support lottie!
+
+- [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController) - [EN]It is an iOS UI module library for adding animation to iOS tabbar items and icons with Lottie, and adding a bigger center UITabBar Item. [CN]【中国特色 TabBar】一行代码实现 Lottie 动画TabBar，支持中间带+号的TabBar样式，自带红点角标，支持动态刷新。【iOS13 & Dark Mode & iPhone XS MAX supported】
 
 #### AcknowList
 
@@ -1000,6 +1003,79 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [Signal-iOS ](https://github.com/signalapp/Signal-iOS)  - Signal is a free, open source, messaging app for simple private communication with friends.
 
 
+### AutoLayout
+
+- [Masonry](https://github.com/SnapKit/Masonry) - Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout.
+```ObjC
+UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
+
+[view1 mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.top.equalTo(superview.mas_top).with.offset(padding.top); //with is an optional semantic filler
+    make.left.equalTo(superview.mas_left).with.offset(padding.left);
+    make.bottom.equalTo(superview.mas_bottom).with.offset(-padding.bottom);
+    make.right.equalTo(superview.mas_right).with.offset(-padding.right);
+}];
+```
+
+- [SnapKit](https://github.com/SnapKit/SnapKit) - A Swift Autolayout DSL for iOS & OS X ([http://snapkit.io](http://snapkit.io)).
+```Swift
+import SnapKit
+
+class MyViewController: UIViewController {
+    lazy var box = UIView()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.addSubview(box)
+        box.snp.makeConstraints { (make) -> Void in
+            make.width.height.equalTo(50)
+            make.center.equalTo(self.view)
+        }
+    }
+}
+```
+
+- [Stevia](https://github.com/freshOS/Stevia) - 🍃 Concise Autolayout code.
+
+- [PureLayout](https://github.com/PureLayout/PureLayout) - The ultimate API for iOS & OS X Auto Layout — impressively simple, immensely powerful. Objective-C and Swift compatible.
+
+- [EasySwiftLayout](https://github.com/Pimine/EasySwiftLayout) - Lightweight Swift framework for Apple's Auto-Layout
+
+
+### FlowLayout
+
+- [PinterestLayout](https://github.com/MagicLab-team/PinterestLayout) - Custom collection view layout inspired by Pinterest layout. Written in Swift.
+
+- [VegaScroll](https://github.com/ApplikeySolutions/VegaScroll) - ↕️ VegaScroll is a lightweight animation flowlayout for UICollectionView completely written in Swift 4, compatible with iOS 11 and Xcode 9.
+
+- [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
+| [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) 
+
+- [CustomLayout](https://github.com/JiWuChao/CustomLayout) - UIcollectionViewLayout 自定义layout 瀑布流 支持多区瀑布流 支持设置footer和header.
+
+- [UPCarouselFlowLayout](https://github.com/zepojo/UPCarouselFlowLayout) - A fancy carousel flow layout for UICollectionView on iOS.
+
+- [BouncyLayout](https://github.com/roberthein/BouncyLayout) - Make. It. Bounce.
+
+- [TangramKit](https://github.com/youngsoft/TangramKit) - TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView.
+
+- [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
+
+- [RDHCollectionViewGridLayout](https://github.com/rhodgkins/RDHCollectionViewGridLayout) - Grid layout for UICollectionView.
+
+- [MGCollectionView](https://github.com/LYM-mg/MGCollectionView) - 环形图片排布以及花瓣形排布。【 [Priview 1](https://camo.githubusercontent.com/95feca7ac46c128b4574875ea15db0faa079d422/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d646337363365663161666134666437352e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
+
+- [CardSlider](https://github.com/saoudrizwan/CardSlider) - Innovative twist to Tinder cards for iOS.
+
+- [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
+
+- [OnlyPictures](https://github.com/KiranJasvanee/OnlyPictures) - A simple and flexible way to add source of overlapping circular pictures, currently supports horizontal overlapping or distant pictures with great layout flexibility.
+
+- [uicollectionview-layouts-kit](https://github.com/jVirus/uicollectionview-layouts-kit) - 📐Custom layouts for UICollectionView with examples [iOS 12+].
+
+- [ZLCollectionView](https://github.com/czl0325/ZLCollectionView) - 为应对类似淘宝首页，京东首页，国美首页等复杂布局而写的Collectionview。基于UICollectionView实现，目前支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局等。支持纵向布局和横向布局，可以根据不同的section设置不同的布局，支持拖动cell，头部悬浮，设置section背景色和自定义section背景view，向自定义背景view传递自定义方法。功能强大，超过Android的recyclerview，实现了电影选座等高难度的布局。【[Preview](https://github.com/czl0325/ZLCollectionView/raw/master/demo2.gif?raw=true)】
+
+
 ### 逆向开发
 
 #### fishhook
@@ -1102,6 +1178,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [zip](https://github.com/kuba--/zip) - A portable, simple zip library written in C.
 
 - [ZipKit](https://github.com/kolpanic/ZipKit) - An Objective-C Zip framework for macOS and iOS.
+
+- [GZIP](https://github.com/nicklockwood/GZIP) - A simple NSData category for gzipping/unzipping data in iOS and MacOS.
+
+- [GzipSwift](https://github.com/1024jp/GzipSwift) - Swift package that enables gzip/gunzip Data using zlib.
 
 
 ### Blockchain
@@ -1312,40 +1392,6 @@ GZip: Network data unzip plugin
 - [YZAuthID](https://github.com/micyo202/YZAuthID)  - TouchID（指纹）/ FaceID（面容）验证类库，代码简洁，高效。【 [Priview 1](https://github.com/micyo202/YZAuthID/raw/master/auth_finger_2.png) | [Priview 2](https://github.com/micyo202/YZAuthID/raw/master/auth_finger_3.png) 】
 
 - [BiometricAuthentication](https://github.com/rushisangani/BiometricAuthentication) - Use Apple FaceID or TouchID authentication in your app using BiometricAuthentication. 
-
-
-### FlowLayout
-
-- [PinterestLayout](https://github.com/MagicLab-team/PinterestLayout) - Custom collection view layout inspired by Pinterest layout. Written in Swift.
-
-- [VegaScroll](https://github.com/ApplikeySolutions/VegaScroll) - ↕️ VegaScroll is a lightweight animation flowlayout for UICollectionView completely written in Swift 4, compatible with iOS 11 and Xcode 9.
-
-- [WSCollectionViewFlowLayout](https://github.com/ONECATYU/WSCollectionViewFlowLayout) - 可替代UICollectionViewFlowLayout的标签流布局，支持固定有规则的布局形式。实现了UICollectionViewDelegateFlowLayout协议方法。使用形式和系统Flowlayout相同。
-| [Priview 1](https://github.com/ONECATYU/WSCollectionViewFlowLayout/raw/master/Demo.gif) 
-
-- [CustomLayout](https://github.com/JiWuChao/CustomLayout) - UIcollectionViewLayout 自定义layout 瀑布流 支持多区瀑布流 支持设置footer和header.
-
-- [UPCarouselFlowLayout](https://github.com/zepojo/UPCarouselFlowLayout) - A fancy carousel flow layout for UICollectionView on iOS.
-
-- [BouncyLayout](https://github.com/roberthein/BouncyLayout) - Make. It. Bounce.
-
-- [TangramKit](https://github.com/youngsoft/TangramKit) - TangramKit is a powerful iOS UI framework implemented by Swift. It integrates the functions with Android layout,iOS AutoLayout,SizeClass, HTML CSS float and flexbox and bootstrap. So you can use LinearLayout,RelativeLayout,FrameLayout,TableLayout,FlowLayout,FloatLayout,LayoutSizeClass to build your App 自动布局 UIView UITableView UICollectionView.
-
-- [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
-
-- [RDHCollectionViewGridLayout](https://github.com/rhodgkins/RDHCollectionViewGridLayout) - Grid layout for UICollectionView.
-
-- [MGCollectionView](https://github.com/LYM-mg/MGCollectionView) - 环形图片排布以及花瓣形排布。【 [Priview 1](https://camo.githubusercontent.com/95feca7ac46c128b4574875ea15db0faa079d422/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313432393839302d646337363365663161666134666437352e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-- [CardSlider](https://github.com/saoudrizwan/CardSlider) - Innovative twist to Tinder cards for iOS.
-
-- [GravitySlider](https://github.com/ApplikeySolutions/GravitySlider) - 🔄 GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.
-
-- [OnlyPictures](https://github.com/KiranJasvanee/OnlyPictures) - A simple and flexible way to add source of overlapping circular pictures, currently supports horizontal overlapping or distant pictures with great layout flexibility.
-
-- [uicollectionview-layouts-kit](https://github.com/jVirus/uicollectionview-layouts-kit) - 📐Custom layouts for UICollectionView with examples [iOS 12+].
-
-- [ZLCollectionView](https://github.com/czl0325/ZLCollectionView) - 为应对类似淘宝首页，京东首页，国美首页等复杂布局而写的Collectionview。基于UICollectionView实现，目前支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局等。支持纵向布局和横向布局，可以根据不同的section设置不同的布局，支持拖动cell，头部悬浮，设置section背景色和自定义section背景view，向自定义背景view传递自定义方法。功能强大，超过Android的recyclerview，实现了电影选座等高难度的布局。【[Preview](https://github.com/czl0325/ZLCollectionView/raw/master/demo2.gif?raw=true)】
 
 
 ### BlurView
