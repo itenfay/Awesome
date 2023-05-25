@@ -678,6 +678,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### AR-VR
 
+- **Learning Source**
+
 - [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享。
 
 - [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总)。
@@ -686,7 +688,39 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [AR-Source](https://github.com/GeekLiB/AR-Source) - Augmented reality (AR) development resources(增强现实开发资源汇总)---AIRX整理。
 
+- **Library Or Sample**
+
+- [ARKit-CoreLocation](https://github.com/AndrewHartAR/ARKit-CoreLocation) - Combines the high accuracy of AR with the scale of GPS data. `pod 'ARCL'`
+
+- [OutsideAR](https://github.com/DJNikka/OutsideAR) - A map using Augmented Reality to enhance festival experience.【[Preview1](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif)|[Preview2](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif)】
+
+- [360iDevARNavigation](https://github.com/intere/360iDevARNavigation) - An example project for my 360iDev talk. It's an app that shows pins for the various locations, as well as navigation to those spots.
+
+- [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) -  Create paths for your Augmented Reality environments using just points to represent the centre of the path. `pod 'SCNPath'`【[Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif)】
+
+- [ARKit-FocusNode](https://github.com/maxxfrazer/ARKit-FocusNode) - FocusSquare class taken straight from Apple's ARKit examples and packed up for anyone to use with ease. `pod 'ARKit-FocusNode'`
+
 - [AR_100Days](https://github.com/satoshi0212/AR_100Days) - 100 days AR implementation challenge.
+
+- [HeavenMemoirs](https://github.com/SherlockQi/HeavenMemoirs) - AR相册 Photo Album For AR.
+
+- [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
+
+- [Animation-Collection](https://github.com/chenfengxiaoxixi/Animation-Collection) - The project contains some animation what i make in working career(AirPlane Game).
+
+- [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
+
+- [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
+
+- [ARCharts](https://github.com/Boris-Em/ARCharts) - Lovely Augmented Reality Charts for iOS - Built with ARKit.
+
+- [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
+
+- [HCARKit](https://github.com/heqican/HCARKit) - ARKit实现图片识别、平面捕捉、人脸识别。
+
+- [ARKitCarModel](https://github.com/heqican/ARKitCarModel) - ARKit实现模型交互，包括汽车模型换肤、汽车轮胎转动、车窗开关等 ARKit需要ios11 以及 A11处理器或更高版本设备支持。
+
+- [AstRal](https://github.com/casparwylie/AstRal) - Augmented reality social network, an underworld of discussion and information to every street.
 
 - [FocusEntity](https://github.com/maxxfrazer/FocusEntity) - Bringing the scanning box from SceneKit to RealityKit.
 
@@ -702,37 +736,11 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [HDAugmentedReality](https://github.com/DanijelHuis/HDAugmentedReality) - Augmented Reality component for iOS, written in Swift.
 
-- [ARCharts](https://github.com/Boris-Em/ARCharts) - Lovely Augmented Reality Charts for iOS - Built with ARKit.
-
-- [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
-
-- [HeavenMemoirs](https://github.com/SherlockQi/HeavenMemoirs) - AR相册 Photo Album For AR.
-
-- [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
-
-- [ARKit-Cardboard-VR](https://github.com/andrewnakas/ARKit-Cardboard-VR) - ARkit + GVR to make VR and Mixed Reality 6dof AR for iphone.
-
-- [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants. [www.artoolkitx.org](https://www.artoolkitx.org/)
-
-- [HCARKit](https://github.com/heqican/HCARKit) - ARKit实现图片识别、平面捕捉、人脸识别。
-
-- [ARKitCarModel](https://github.com/heqican/ARKitCarModel) - ARKit实现模型交互，包括汽车模型换肤、汽车轮胎转动、车窗开关等 ARKit需要ios11 以及 A11处理器或更高版本设备支持。
-
 - [RecognizingImagesToPlayVideo](https://github.com/songminzh/RecognizingImagesToPlayVideo) - Use ARKit recognizing images and play videos corresponding.
-
-- [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
 
 - [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
 
 - [BXGyroscope_AR](https://github.com/bianxiang/BXGyroscope_AR) - 结合照相机，Gyroscope陀螺仪，百度定位等技术制作的一个AR增强现实示例demo.
-
-- [Furniture_Stefan](https://github.com/guoshenglong/Furniture_Stefan) - 百搭家居是一款基于增强现实(AR)技术的移动应用，并辅以用于宣传和搭配管理的Web客户端。用户通过移动设备将虚拟的3D家居摆放到真实的场景中，感受逼真的视觉效果；轻点移动设备屏幕便可轻松将喜爱的家居用品挪动到指定位置，对三维模型采用手势拖放变换其大小、角度及方位，摆脱传统家居搭配的烦恼。基于地理位置信息的3D物品摆放可使家居用品固定于现实空间，让移动设备可环绕整个房间布置所有的家居用品；云存储技术的引入使得用户可以在线获取家居模型数据；通过数据挖掘技术，对用户群体及个人的行为数据进行采集与分析，并提供商品的智能推荐，还可与他人分享自己的家居设计方案；同时使用自带的比价系统让用户能便捷地购买到价廉物美的家居用品。 总之，将增强现实、三维模型、触控操作、数据挖掘、社交网络等技术创新性地结合…
-
-- [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) - Create paths for your Augmented Reality environments using just points to represent the centre of the path.【[Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif)】
-
-- [OutsideAR](https://github.com/DJNikka/OutsideAR) - A map using Augmented Reality to enhance festival experience.【[Preview1](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif)|[Preview2](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif)】
-
-- [AstRal](https://github.com/casparwylie/AstRal) - Augmented reality social network, an underworld of discussion and information to every street.
 
 - [Shape-Detection-in-AR](https://github.com/ashislaha/Shape-Detection-in-AR) - Detect the shape of drawing objects (classes - line, triangle, rectangle, pentagon, Hexagon, circle) and draw in Augmented Reality.
 
@@ -754,19 +762,21 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [SwiftShot](https://github.com/pjcspro/SwiftShot) - Creating a Game for Augmented Reality.【[Preview1](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)|[Preview2](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)】
 
-- [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
-
-- [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
-
-- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
-
 - [ncnn-models](https://github.com/Baiyuetribe/ncnn-models) - awesome AI models with NCNN, and how they were converted.
 
 - [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
 
-- [Animation-Collection](https://github.com/chenfengxiaoxixi/Animation-Collection) - The project contains some animation what i make in working career(AirPlane Game).
-
 - [LookAtThat](https://github.com/tikimcfee/LookAtThat) - Render Swift source code in AR/VR for macOS and iOS.
+
+- ** Others **
+
+- [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants. [www.artoolkitx.org](https://www.artoolkitx.org/)
+
+- [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
+
+- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
+
+- [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
 
 
 ### Graphs Processing And Rendering
@@ -797,9 +807,22 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### OpenCV
 
-- [opencv](https://github.com/opencv/opencv) - Open Source Computer Vision Library.
+- [opencv](https://github.com/opencv/opencv) - Open Source Computer Vision Library. `pod 'OpenCV'` [Download](https://github.com/opencv/opencv/releases)
 
 - [opencvIOS](https://github.com/NPOpenSource/opencvIOS) - Opencv 中文网学习。
+
+- [OpenCVSample](https://github.com/ura14h/OpenCVSample) - Sample programs for OpenCV and Swift and iOS and macOS.
+
+- [OpenCVSample](https://github.com/gibachan/OpenCVSample) - Realtime Face Recognition Sample with Swift & OpenCV.
+
+- [OpenCVRecognizer](https://github.com/gavrilaf/OpenCVRecognizer) - This is simple demo how to use OpenCV object detection functionality from Swift on the iOS platform. OpenCV is written on C++, so you can't use it from Swift directly. You have to implement set of wrapper classes using Objective-C++.
+
+- [opencv-spm](https://github.com/yeatse/opencv-spm) - A Swift package wrapping around OpenCV.
+
+- [SwiftCamScanner](https://github.com/Srinija/SwiftCamScanner) - A pod written in swift that lets you scan and crop documents. It uses edge detection and perspective transformation with OpenCV.
+
+- [ColorDetection](https://github.com/Cleveroad/ColorDetection) - ColorDetection is an app built with OpenCV and using computer vision at its core. It’s able to detect and change colors of objects using a camera of iOS devices.
+
 
 #### GPUImage
 
