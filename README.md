@@ -1,6 +1,6 @@
 ## OpenSource
 
-iOS精选列表，包括Objective-C和Swift项目(A curated list of awesome iOS, including Objective-C and Swift Projects.)。
+iOS精选列表，包括Objective-C和Swift项目等(A curated list of awesome iOS, including Objective-C and Swift Projects, etc.)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -548,7 +548,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### FloatingPanel
 
-- [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.
+- [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.【[Preview1](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps.gif)|[Preview2](https://github.com/SCENEE/FloatingPanel/blob/master/assets/stocks.gif)|[Preview3](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps-landscape.gif)】
 
 - [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.
     <div align=center>
@@ -563,7 +563,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Pulley](https://github.com/52inc/Pulley) - A library to imitate the iOS 10 Maps UI.
 
-- [Rideau](https://github.com/FluidGroup/Rideau) - 🎪 Rideau is a drawer UI similar to what Apple's apps use. (e.g Maps, Shortcuts) Supports multiple snap points.
+- [Rideau](https://github.com/FluidGroup/Rideau) - 🎪 Rideau is a drawer UI similar to what Apple's apps use. (e.g Maps, Shortcuts) Supports multiple snap points.
 
 #### HTTPCache
 
@@ -1239,7 +1239,7 @@ class MyViewController: UIViewController {
 
 - [XRPKit](https://github.com/MitchLang009/XRPKit) - XRPKit is a Swift SDK built for interacting with the XRP Ledger. XRPKit supports offline wallet creation, offline transaction creation/signing, and submitting transactions to the XRP ledger. XRPKit supports both the secp256k1 and ed25519 algorithms. XRPKit is available on iOS, macOS and Linux. WIP - use at your own risk.
    <div align=center>
-   <img src="https://github.com/MitchLang009/XRPKit/raw/develop/logo.png" width="50%" />
+   <img src="https://github.com/MitchLang009/XRPKit/raw/develop/logo.png" width="20%" />
    </div>
 
 - [phoenix](https://github.com/ACINQ/phoenix) - Phoenix is a self-custodial Bitcoin wallet using Lightning to send/receive payments.
