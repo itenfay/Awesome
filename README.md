@@ -1524,7 +1524,9 @@ GZip: Network data unzip plugin
 
 - [MBProgressHUD-JDragon](https://github.com/lyc59621/MBProgressHUD-JDragon) - MBProgressHUD 封装。【 [Priview](https://github.com/lyc59621/MBProgressHUD-JDragon/raw/master/MBProgressHUD-JDragon.gif) 】
 
-- [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD) - An elegant and simple progress HUD for iOS and tvOS, compatible with Swift and ObjC. 【 [Priview](https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/Presentation.png) 】
+- [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD) - An elegant and simple progress HUD for iOS and tvOS, compatible with Swift and ObjC.【 [Priview](https://github.com/JonasGessner/JGProgressHUD/raw/master/Examples/Screenshots/Presentation.png) 】
+
+- [JHUD](https://github.com/Jinxiansen/JHUD) - A full screen of the HUD when loading the data (Objective-C).【 [Priview 1](https://github.com/Jinxiansen/JHUD/raw/master/gif/2.gif)|[Priview 2](https://github.com/Jinxiansen/JHUD/blob/master/gif/5.gif) 】
 
 - [EasyShowView](https://github.com/chenliangloveyou/EasyShowView) - 一款超级简单的展示工具，包括吐司指示器，loding加载框，空白页提示，alertview，actionsheet的定制。可任意定制自己想要的各种样式，自定义动画，显示样式等各种操作，使各种展示更加easy。【 [Priview 1](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_text.gif)|[Priview 2](https://github.com/chenliangloveyou/EasyShowView/raw/master/show_preview/preview_loding.gif) 】
 
