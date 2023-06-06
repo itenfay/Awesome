@@ -82,7 +82,7 @@ iOS精选列表，包括Objective-C和Swift项目等(A curated list of awesome i
       - [Video Player](#Video-Player) 
       - [Audio Player](#Audio-Player)
    - [RTC](#RTC)
-   - [IM & LiveStreaming](#IM-LiveStreaming)
+   - [IM & Live](#IM-Live)
    - [AutoLayout](#AutoLayout)
    - [FlowLayout](#FlowLayout)
    - [逆向开发](#逆向开发)
@@ -683,6 +683,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享。
 
+- [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+
+- [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM.
+
 - [Lee-VR-Source](https://github.com/GeekLiB/Lee-VR-Source) - VR developers necessary resources(VR 开发者必备资源汇总)。
 
 - [awesome-AR](https://github.com/dharmeshkakadia/awesome-AR) - A curated list of awesome AR (Augmented Reality) resources.
@@ -739,8 +743,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [RecognizingImagesToPlayVideo](https://github.com/songminzh/RecognizingImagesToPlayVideo) - Use ARKit recognizing images and play videos corresponding.
 
-- [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
-
 - [BXGyroscope_AR](https://github.com/bianxiang/BXGyroscope_AR) - 结合照相机，Gyroscope陀螺仪，百度定位等技术制作的一个AR增强现实示例demo.
 
 - [Shape-Detection-in-AR](https://github.com/ashislaha/Shape-Detection-in-AR) - Detect the shape of drawing objects (classes - line, triangle, rectangle, pentagon, Hexagon, circle) and draw in Augmented Reality.
@@ -769,15 +771,19 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [LookAtThat](https://github.com/tikimcfee/LookAtThat) - Render Swift source code in AR/VR for macOS and iOS.
 
-- ** Others **
+- [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
 
-- [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants. [www.artoolkitx.org](https://www.artoolkitx.org/)
+- ** Others **
 
 - [viro](https://github.com/viromedia/viro) - ViroReact: AR and VR using React Native.
 
-- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
+- [react-native-ar](https://github.com/riderodd/react-native-ar) - React native AR model viewer.
 
 - [ARCoreInsideOutTrackingGearVr](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr) - Inside Out Positional Tracking (6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0.
+
+- [arcore-unity-sdk](https://github.com/google-ar/arcore-unity-sdk) - ARCore SDK for Unity.
+
+- [artoolkitx](https://github.com/artoolkitx/artoolkitx) - artoolkitX, providing high-performance video acquisition, marker and texture tracking in native code for iOS, Android, macOS, Windows, and Linux variants. [www.artoolkitx.org](https://www.artoolkitx.org/)
 
 
 ### Graphs Processing And Rendering
@@ -994,7 +1000,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [WebRTC_IM](https://github.com/DOUBLE-Baller/WebRTC_IM) - 纯 go 实现的分布式IM即时通讯系统。一对一呼叫、邀请呼叫、音视频通话、多人通话、在线教学、在线医疗、腾讯会议，Zoom会议，钉钉课堂等多人音视频交互类场景.
 
 
-### IM-LiveStreaming
+### IM-Live
 
 - [AtChat](https://github.com/boyssimple/AtChat) - IOS聊天项目、基于XMPP框架开发，实现了登陆注册(注册以手机号码注册、短信验证) 、发送消息、接收消息、接收好友请求、发起好友请求 、图片消息、语音消息、视频语音、聊天历史记录、最近联系人、二维码添加好友、用户头像上传、朋友圈、发朋友圈、异地登录退出等功能。【 [Priview 1](https://github.com/boyssimple/AtChat/raw/master/images/020.png)|[Priview 2](https://github.com/boyssimple/AtChat/raw/master/images/014.png) 】
 
@@ -1028,11 +1034,13 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [LiveVideoCoreSDK](https://github.com/runner365/LiveVideoCoreSDK) - LiveVideoCoreSDK是基于IOS的视频直播SDK(支持IOS8.1以上,基于开源videocore进行了改进)，多滤镜IOS推流SDK: 基于GPUImage的多滤镜拍摄, 滤镜资源丰富. GPUImageRtmpPush。
 
+- **七牛(QiNiu)**
+
 - [PLPlayerKit](https://github.com/pili-engineering/PLPlayerKit) - PLPlayerKit 是七牛推出的一款免费的适用于 iOS 平台的播放器SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。([ios-playback-end-the-sdk](https://developer.qiniu.com/pili/sdk/1211/ios-playback-end-the-sdk))
-
 - [PLMediaStreamingKit](https://github.com/pili-engineering/PLMediaStreamingKit) - PLMediaStreamingKit 是七牛推出的一款适用于 iOS 平台的推流 SDK，支持 RTMP 推流，h.264 和 AAC 编码，硬编、软编支持。具有丰富的数据和状态回调，方便用户根据自己的业务定制化开发。具有直播场景下的重要功能，如：美颜、背景音乐、水印等功能。
-
 - [QNRTC-iOS](https://github.com/pili-engineering/QNRTC-iOS) - QNRTCKit 是七牛云推出的一款适用于 iOS 平台的实时音视频 SDK，提供了包括音视频通话、美颜、滤镜、水印等多种功能，提供灵活的接口，支持高度定制以及二次开发。
+
+- **Agora**
 
 - [Basic-Video-Call](https://github.com/AgoraIO/Basic-Video-Call) - Sample app to join/leave a channel, mute/unmute, enable/disable the video, and switch between front/rear cameras.
 - [AgoraRtcEngine_iOS](https://github.com/AgoraIO/AgoraRtcEngine_iOS) - iOS Package for Agora Video RTE SDK. Perfect for video calls and live streaming.
