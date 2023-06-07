@@ -367,7 +367,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Charts](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
 
-- [PNChart](https://github.com/kevinzhow/PNChart) - A simple and beautiful chart lib used in Piner and CoinsMan for iOS.【[Preview](https://camo.githubusercontent.com/9e72142e4ec6766cac15fdfeb66ebb25915f2727696ec863d408a5c23b6b77d4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f666172736869642e67686f64732e6769746875622f706e63686172742d6769662e676966)】
+- [PNChart](https://github.com/kevinzhow/PNChart) - A simple and beautiful chart lib used in Piner and CoinsMan for iOS.【 [Preview](https://camo.githubusercontent.com/9e72142e4ec6766cac15fdfeb66ebb25915f2727696ec863d408a5c23b6b77d4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f666172736869642e67686f64732e6769746875622f706e63686172742d6769662e676966) 】
 
 - [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift) - A simple and beautiful chart lib used in Piner and CoinsMan for iOS Swift Implementation.
 
@@ -549,7 +549,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### FloatingPanel
 
-- [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.【[Preview1](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps.gif)|[Preview2](https://github.com/SCENEE/FloatingPanel/blob/master/assets/stocks.gif)|[Preview3](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps-landscape.gif)】
+- [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.【 [Preview1](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps.gif)|[Preview2](https://github.com/SCENEE/FloatingPanel/blob/master/assets/stocks.gif)|[Preview3](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps-landscape.gif) 】
 
 - [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.
     <div align=center>
@@ -582,7 +582,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### ListView
 
-- [UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) - Template auto layout cell for automatically UITableViewCell height calculating.【[Preview](https://cloud.githubusercontent.com/assets/219689/7244961/4209de32-e816-11e4-87bc-b161c442d348.png)】
+- [UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) - Template auto layout cell for automatically UITableViewCell height calculating.【 [Preview](https://cloud.githubusercontent.com/assets/219689/7244961/4209de32-e816-11e4-87bc-b161c442d348.png) 】
 
 - [SDAutoLayout](https://github.com/gsdios/SDAutoLayout) - One line of code to implement automatic layout. 一行代码搞定自动布局！支持Cell和Tableview高度自适应，Label和ScrollView内容自适应，致力于做最简单易用的AutoLayout库。The most easy way for autoLayout. Based on runtime.
 
@@ -693,17 +693,23 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [AR-Source](https://github.com/GeekLiB/AR-Source) - Augmented reality (AR) development resources(增强现实开发资源汇总)---AIRX整理。
 
-- **Library Or Sample**
+- **Library**
+
+- [SceneKit-SCNLine](https://github.com/maxxfrazer/SceneKit-SCNLine) - Draw a tube or thick line in SceneKit.【 [Preview](https://github.com/maxxfrazer/SceneKit-SCNLine/blob/master/media/lines-hello-lighton.gif) 】
+
+- [ARKit-FocusNode](https://github.com/maxxfrazer/ARKit-FocusNode) - FocusSquare class taken straight from Apple's ARKit examples and packed up for anyone to use with ease. `pod 'FocusNode'`
+
+- [FocusEntity](https://github.com/maxxfrazer/FocusEntity) - Bringing the scanning box from SceneKit to RealityKit. Go to File > Swift Packages > Add Package Dependency, and paste in this link: `https://github.com/maxxfrazer/FocusEntity`.【 [Preview](https://github.com/maxxfrazer/FocusEntity/blob/main/media/FocusEntity-Example1.gif) 】
+
+- [RealityUI](https://github.com/maxxfrazer/RealityUI) - A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene. Add the URL of this repository to your Xcode 11+ Project under Project > Swift Packages. `https://github.com/maxxfrazer/RealityUI.git` 【 [Preview](https://github.com/maxxfrazer/RealityUI/blob/main/media/realityui_banner.gif?raw=true) 】
+
+- [MultipeerHelper](https://github.com/maxxfrazer/MultipeerHelper) - A light swift wrapper around the iOS MultipeerConnectivity framework. Including an example project using RealityKit's MultipeerConnectivityService. This is a Swift Package, and can be installed via Xcode with the URL of this repository: `git@github.com:maxxfrazer/MultipeerHelper.git`【 [Preview](https://github.com/maxxfrazer/MultipeerHelper/blob/main/media/MultipeerHelper-Header.png?raw=true) 】
 
 - [ARKit-CoreLocation](https://github.com/AndrewHartAR/ARKit-CoreLocation) - Combines the high accuracy of AR with the scale of GPS data. `pod 'ARCL'`
 
-- [OutsideAR](https://github.com/DJNikka/OutsideAR) - A map using Augmented Reality to enhance festival experience.【[Preview1](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif)|[Preview2](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif)】
+- [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) -  Create paths for your Augmented Reality environments using just points to represent the centre of the path. `pod 'SCNPath'`【 [Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif) 】
 
-- [360iDevARNavigation](https://github.com/intere/360iDevARNavigation) - An example project for my 360iDev talk. It's an app that shows pins for the various locations, as well as navigation to those spots.
-
-- [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) -  Create paths for your Augmented Reality environments using just points to represent the centre of the path. `pod 'SCNPath'`【[Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif)】
-
-- [ARKit-FocusNode](https://github.com/maxxfrazer/ARKit-FocusNode) - FocusSquare class taken straight from Apple's ARKit examples and packed up for anyone to use with ease. `pod 'ARKit-FocusNode'`
+- **Sample**
 
 - [AR_100Days](https://github.com/satoshi0212/AR_100Days) - 100 days AR implementation challenge.
 
@@ -711,9 +717,15 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [ARKit-Emperor](https://github.com/kboy-silvergym/ARKit-Emperor) - Power! Unlimited power for ARKit 2.0!
 
+- [OutsideAR](https://github.com/DJNikka/OutsideAR) - A map using Augmented Reality to enhance festival experience.【 [Preview1](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif)|[Preview2](https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif) 】
+
+- [360iDevARNavigation](https://github.com/intere/360iDevARNavigation) - An example project for my 360iDev talk. It's an app that shows pins for the various locations, as well as navigation to those spots.
+
 - [Animation-Collection](https://github.com/chenfengxiaoxixi/Animation-Collection) - The project contains some animation what i make in working career(AirPlane Game).
 
 - [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
+
+- [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
 
 - [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
 
@@ -727,8 +739,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [AstRal](https://github.com/casparwylie/AstRal) - Augmented reality social network, an underworld of discussion and information to every street.
 
-- [FocusEntity](https://github.com/maxxfrazer/FocusEntity) - Bringing the scanning box from SceneKit to RealityKit.
-
 - [Euclid](https://github.com/nicklockwood/Euclid) - A Swift library for creating and manipulating 3D geometry.
 
 - [iCarousel](https://github.com/nicklockwood/iCarousel) - A simple, highly customisable, data-driven 3D carousel for iOS and Mac OS.
@@ -736,8 +746,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [RetroRampage](https://github.com/nicklockwood/RetroRampage) - Tutorial series demonstrating how to build a retro first-person shooter from scratch in Swift.
 
 - [ARTetris](https://github.com/exyte/ARTetris) - Augmented Reality Tetris made with ARKit and SceneKit.
-
-- [RealityUI](https://github.com/maxxfrazer/RealityUI) - A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene.
 
 - [HDAugmentedReality](https://github.com/DanijelHuis/HDAugmentedReality) - Augmented Reality component for iOS, written in Swift.
 
@@ -747,11 +755,11 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Shape-Detection-in-AR](https://github.com/ashislaha/Shape-Detection-in-AR) - Detect the shape of drawing objects (classes - line, triangle, rectangle, pentagon, Hexagon, circle) and draw in Augmented Reality.
 
-- [AR-Planes](https://github.com/HTN-2017/AR-Planes) - ✈️ An augmented reality app to visualize and discover the planes flying around you. Finalist at Hack the North 2017 in Waterloo, ON, Canada.【[Preview1](https://github.com/HTN-2017/AR-Planes/raw/master/images/demo.jpg)|[Preview2](https://github.com/HTN-2017/AR-Planes/raw/master/images/app%20store.png)】
+- [AR-Planes](https://github.com/HTN-2017/AR-Planes) - ✈️ An augmented reality app to visualize and discover the planes flying around you. Finalist at Hack the North 2017 in Waterloo, ON, Canada.【 [Preview1](https://github.com/HTN-2017/AR-Planes/raw/master/images/demo.jpg)|[Preview2](https://github.com/HTN-2017/AR-Planes/raw/master/images/app%20store.png) 】
 
 - [TravelAR](https://github.com/upandey3/TravelAR) - An Augmented Reality-based iOS app that gets flights information and visualizes it in a graph in augmented reality, with nodes representing destinations and edge thickness representing price.
 
-- [ARKit-2-Image-Tracking-Demo](https://github.com/robomex/ARKit-2-Image-Tracking-Demo) - iOS 12 + ARKit 2 + Image tracking means: Harry Potter style moving pictures, living movie posters, video postcards, paper-thin “displays,” and lots more augmented reality fun.【[Preview](https://github.com/robomex/ARKit-2-Image-Tracking-Demo/blob/master/ARKit-2-Tracked-Images-Demo.gif)】
+- [ARKit-2-Image-Tracking-Demo](https://github.com/robomex/ARKit-2-Image-Tracking-Demo) - iOS 12 + ARKit 2 + Image tracking means: Harry Potter style moving pictures, living movie posters, video postcards, paper-thin “displays,” and lots more augmented reality fun.【 [Preview](https://github.com/robomex/ARKit-2-Image-Tracking-Demo/blob/master/ARKit-2-Tracked-Images-Demo.gif) 】
 
 - [ARMeasuringTape](https://github.com/nguyenpham/ARMeasuringTape) - Augmented Reality Measuring Tape.
 
@@ -763,15 +771,17 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [ARTargetShooter](https://github.com/brentinator0/ARTargetShooter) - Augmented Reality shooting game using Apple's ARKit + SceneKit Frameworks in Swift.
 
-- [SwiftShot](https://github.com/pjcspro/SwiftShot) - Creating a Game for Augmented Reality.【[Preview1](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)|[Preview2](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)】
+- [SwiftShot](https://github.com/pjcspro/SwiftShot) - Creating a Game for Augmented Reality.【 [Preview1](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png)|[Preview2](https://github.com/pjcspro/SwiftShot/raw/develop/Documentation/SwiftShot.png) 】
 
 - [ncnn-models](https://github.com/Baiyuetribe/ncnn-models) - awesome AI models with NCNN, and how they were converted.
-
-- [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
 
 - [LookAtThat](https://github.com/tikimcfee/LookAtThat) - Render Swift source code in AR/VR for macOS and iOS.
 
 - [ARDemo](https://github.com/floatpoint/ARDemo) - IOS增强现实学习demo.
+
+- [ARty](https://github.com/quanvo87/ARty.git) - Proxy with 3D animated models.
+
+- [beacon-final](https://github.com/zkschmitz/beacon-final) - This app cannot be run in the XCode simulator and needs an actual device to run due to ARKit. Recommended to use with an iPhone 12 or 13 with LIDAR as these devices will have improved AR Experiences. Additionally, phones provide a better usability than iPads due to their cellular connectivity, therefore greater GPS accuracy.
 
 - ** Others **
 
@@ -895,7 +905,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### SVG
 
-- [SVGAPlayer-iOS](https://github.com/svga/SVGAPlayer-iOS) - Similar to Lottie. Render After Effects / Animate CC (Flash) animations natively on Android and iOS, Web. 使用 SVGAPlayer 在 Android、iOS、Web中播放 After Effects / Animate CC (Flash) 动画。【[svga.io](https://svga.io/)】
+- [SVGAPlayer-iOS](https://github.com/svga/SVGAPlayer-iOS) - Similar to Lottie. Render After Effects / Animate CC (Flash) animations natively on Android and iOS, Web. 使用 SVGAPlayer 在 Android、iOS、Web中播放 After Effects / Animate CC (Flash) 动画。【 [svga.io](https://svga.io/) 】
 
 - [SVGKit](https://github.com/SVGKit/SVGKit) - Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation).
 
@@ -1123,7 +1133,7 @@ class MyViewController: UIViewController {
 
 - [uicollectionview-layouts-kit](https://github.com/jVirus/uicollectionview-layouts-kit) - 📐Custom layouts for UICollectionView with examples [iOS 12+].
 
-- [ZLCollectionView](https://github.com/czl0325/ZLCollectionView) - 为应对类似淘宝首页，京东首页，国美首页等复杂布局而写的Collectionview。基于UICollectionView实现，目前支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局等。支持纵向布局和横向布局，可以根据不同的section设置不同的布局，支持拖动cell，头部悬浮，设置section背景色和自定义section背景view，向自定义背景view传递自定义方法。功能强大，超过Android的recyclerview，实现了电影选座等高难度的布局。【[Preview](https://github.com/czl0325/ZLCollectionView/raw/master/demo2.gif?raw=true)】
+- [ZLCollectionView](https://github.com/czl0325/ZLCollectionView) - 为应对类似淘宝首页，京东首页，国美首页等复杂布局而写的Collectionview。基于UICollectionView实现，目前支持标签布局，列布局，百分比布局，定位布局，填充式布局，瀑布流布局等。支持纵向布局和横向布局，可以根据不同的section设置不同的布局，支持拖动cell，头部悬浮，设置section背景色和自定义section背景view，向自定义背景view传递自定义方法。功能强大，超过Android的recyclerview，实现了电影选座等高难度的布局。【 [Preview](https://github.com/czl0325/ZLCollectionView/raw/master/demo2.gif?raw=true) 】
 
 
 ### 逆向开发
@@ -1238,7 +1248,7 @@ class MyViewController: UIViewController {
 
 *比特币、以太坊、区块链相关内容*
 
-- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方的Go语言实现【[Releases](https://github.com/ethereum/go-ethereum/releases)】。
+- [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方的Go语言实现【 [Releases](https://github.com/ethereum/go-ethereum/releases) 】。
   - [Download Geth](https://geth.ethereum.org/downloads/) - Binary archives are published.
 
 - [web3swift](https://github.com/zeriontech/Web3Swift) - Elegant Web3js functionality in Swift. Native ABI parsing and smart contract interactions on Ethereum network ([web3.swift-Example](https://github.com/MercuryProtocol/web3.swift-Example) - Example on how to use web3.swift). 
@@ -1395,17 +1405,19 @@ GZip: Network data unzip plugin
 
 *DB, Keychain, NSUserDefaults, Write*
 
+- [realm-swift](https://github.com/realm/realm-swift) - Realm is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.
+
+- [fmdb](https://github.com/ccgus/fmdb) - A Cocoa / Objective-C wrapper around SQLite.
+
+- [wcdb](https://github.com/Tencent/wcdb) - WCDB is a cross-platform database framework developed by WeChat.
+
 - [DYFSwiftKeychain](https://github.com/chenxing640/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/chenxing640/DYFKeychain) (Objective-C) )
 
 - [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
 
 - [GenericKeychain](https://developer.apple.com/library/archive/samplecode/GenericKeychain/Introduction/Intro.html) - This sample shows how to add, query for, remove, and update a keychain item of generic class type. It also demonstrates the use of shared keychain items.
 
-- [fmdb](https://github.com/ccgus/fmdb) - A Cocoa / Objective-C wrapper around SQLite.
-
 - [JQFMDB](https://github.com/gaojunquan/JQFMDB) - FMDB的封装，操作简单，线程安全，扩展性强，直接操作model或dictionary。
-
-- [wcdb](https://github.com/Tencent/wcdb) - WCDB is a cross-platform database framework developed by WeChat.
 
 - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data!
 
@@ -1486,7 +1498,7 @@ GZip: Network data unzip plugin
 
 - [PanoramaGL](https://github.com/shaojiankui/PanoramaGL) - PanoramaGL全景展示(Xcode7~), fixed some issues,share to someone need it,support arm64.
 
-- [MetalScope](https://github.com/ejeinc/MetalScope) - Metal-backed 360° panorama view for iOS.【[Preview](https://raw.githubusercontent.com/ejeinc/MetalScope/master/Resources/panorama-preview.gif)】
+- [MetalScope](https://github.com/ejeinc/MetalScope) - Metal-backed 360° panorama view for iOS.【 [Preview](https://raw.githubusercontent.com/ejeinc/MetalScope/master/Resources/panorama-preview.gif) 】
 
 - [Panorific](https://github.com/ndmeiri/Panorific) - An immersive, intuitive, motion-based way to explore high quality panoramas and photos on an iOS device. Panorific is implemented in Swift.
 
@@ -1570,7 +1582,7 @@ GZip: Network data unzip plugin
 
 - [cordova-progressIndicator](https://github.com/pbernasconi/cordova-progressIndicator) - Native Progress-Indicator for Cordova.
 
-- [SpringIndicator](https://github.com/KyoheiG3/SpringIndicator) - SpringIndicator is indicator and PullToRefresh. Inspired by Material design components.【[Preview](https://user-images.githubusercontent.com/5707132/55774407-f49a6500-5acf-11e9-9e36-9248e89d7ff1.gif)】
+- [SpringIndicator](https://github.com/KyoheiG3/SpringIndicator) - SpringIndicator is indicator and PullToRefresh. Inspired by Material design components.【 [Preview](https://user-images.githubusercontent.com/5707132/55774407-f49a6500-5acf-11e9-9e36-9248e89d7ff1.gif) 】
 
 
 ### Toast
@@ -1626,9 +1638,9 @@ GZip: Network data unzip plugin
 
 - [FWPopupView](https://github.com/choiceyou/FWPopupView) - 弹窗控件：支持AlertView、Sheet、自定义视图的PopupView。AlertView中可以嵌套自定义视图，各组件的显示隐藏可配置；Sheet仿微信样式；同时提供自定义弹出。更多配置请参考”可设置参数“，提供OC使用Demo。
 
-- [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.【[Preview](https://github.com/AssistoLab/DropDown/raw/master/Screenshots/3.png)】
+- [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.【 [Preview](https://github.com/AssistoLab/DropDown/raw/master/Screenshots/3.png) 】
 
-- [iOSDropDown](https://github.com/jriosdev/iOSDropDown) - Drop Down Menu for iOS With Search And Other Awesome Customisation.【[Preview1](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif)|[Preview2](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif)】
+- [iOSDropDown](https://github.com/jriosdev/iOSDropDown) - Drop Down Menu for iOS With Search And Other Awesome Customisation.【 [Preview1](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif)|[Preview2](https://raw.githubusercontent.com/jriosdev/iOSDropDown/master/images/2.gif) 】
 
 - [MenuItemKit](https://github.com/cxa/MenuItemKit) - UIMenuItem with image and closure(block) action.
 
@@ -1815,7 +1827,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [FSCalendar](https://github.com/WenchaoD/FSCalendar) - A fully customizable iOS calendar library, compatible with Objective-C and Swift.
 
-- [Fastis](https://github.com/simla-tech/Fastis) - 🗓 Simple date range & date picker powered by JTAppleCalendar.【[Preview](https://repository-images.githubusercontent.com/255536390/aa4ce662-cfdc-4dc0-8f23-b6fe7f269304)】
+- [Fastis](https://github.com/simla-tech/Fastis) - 🗓 Simple date range & date picker powered by JTAppleCalendar.【 [Preview](https://repository-images.githubusercontent.com/255536390/aa4ce662-cfdc-4dc0-8f23-b6fe7f269304) 】
 
 - [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - The Unofficial Apple iOS Swift Calendar View. Swift calendar Library. iOS calendar Control. 100% Customizable.
 
@@ -1934,7 +1946,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 ### ImageView
 
-- [NaughtyImageView](https://github.com/kevinzhow/NaughtyImageView) - UIImageView Can Animate Sprite Image. 【[Preview](https://github.com/kevinzhow/NaughtyImageView/raw/master/Naughty.gif)】
+- [NaughtyImageView](https://github.com/kevinzhow/NaughtyImageView) - UIImageView Can Animate Sprite Image. 【 [Preview](https://github.com/kevinzhow/NaughtyImageView/raw/master/Naughty.gif) 】
 
 
 ### Crop video cover
