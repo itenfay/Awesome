@@ -725,6 +725,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [YYSceneKitTest](https://github.com/yejunyou/YYSceneKitTest) - 用于小白熟悉SceneKit框架及其属性的Demo集合。
 
+- [ARBrush](https://github.com/laanlabs/ARBrush) - Quick demo of 3d drawing in ARKit using metal + SceneKit. NOTE: This is experimental code!
+
+- [ARKit-line-drawing](https://github.com/lapfelix/ARKit-line-drawing) - Changed the default ARKit project to draw a line where the camera is positioned.【 [Preview](https://user-images.githubusercontent.com/4634735/27146321-f797f0bc-5106-11e7-90aa-00acd3603782.PNG) 】
+
 - [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) - Largest list of models for Core ML (for iOS 11+)
 
 - [ARVideoKit](https://github.com/AFathi/ARVideoKit) - Capture & record ARKit videos 📹, photos 🌄, Live Photos 🎇, and GIFs 🎆.
@@ -820,7 +824,9 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Anime4KMetal](https://github.com/imxieyi/Anime4KMetal) - Anime4K for Apple platforms based on Metal.
 
-- [Satin](https://github.com/Hi-Rez/Satin) -  Satin is a 3D graphics framework (inspired by threejs) that helps designers and developers work with Apple's Metal API. Satin provides helpful classes for creating meshes, materials, buffers, uniforms, geometries, pipelines (shaders), compute kernels, and more. Satin's API is rapidly evolving so its best to stick to a tagged version or git commit when using it in production.
+- [Satin](https://github.com/Hi-Rez/Satin) - Satin is a 3D graphics framework (inspired by threejs) that helps designers and developers work with Apple's Metal API. Satin provides helpful classes for creating meshes, materials, buffers, uniforms, geometries, pipelines (shaders), compute kernels, and more. Satin's API is rapidly evolving so its best to stick to a tagged version or git commit when using it in production.
+
+- [metal-tutorial](https://www.kodeco.com/7475-metal-tutorial-getting-started) - Metal Tutorial: Getting Started.
 
 #### OpenCV
 
