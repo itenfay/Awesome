@@ -695,7 +695,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - **Library**
 
-- [SceneKit-SCNLine](https://github.com/maxxfrazer/SceneKit-SCNLine) - Draw a tube or thick line in SceneKit.【 [Preview](https://github.com/maxxfrazer/SceneKit-SCNLine/blob/master/media/lines-hello-lighton.gif) 】
+- [SceneKit-SCNLine](https://github.com/maxxfrazer/SceneKit-SCNLine) - Draw a tube or thick line in SceneKit.`pod 'SCNLine' or pod 'SCNLine', '~> 1.3.0'`【 [Preview](https://github.com/maxxfrazer/SceneKit-SCNLine/blob/master/media/lines-hello-lighton.gif) 】
 
 - [ARKit-FocusNode](https://github.com/maxxfrazer/ARKit-FocusNode) - FocusSquare class taken straight from Apple's ARKit examples and packed up for anyone to use with ease. `pod 'FocusNode'`
 
