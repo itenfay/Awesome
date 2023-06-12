@@ -1,4 +1,4 @@
-## OpenSource
+## Awesome
 
 iOS精选列表，包括Objective-C和Swift项目等(A curated list of awesome iOS, including Objective-C and Swift Projects, etc.)
 
@@ -708,6 +708,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [ARKit-CoreLocation](https://github.com/AndrewHartAR/ARKit-CoreLocation) - Combines the high accuracy of AR with the scale of GPS data. `pod 'ARCL'`
 
 - [ARKit-SCNPath](https://github.com/maxxfrazer/ARKit-SCNPath) -  Create paths for your Augmented Reality environments using just points to represent the centre of the path. `pod 'SCNPath'`【 [Preview1](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-1.gif)|[Preview2](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-2.gif)|[Preview3](https://github.com/maxxfrazer/ARKit-SCNPath/raw/master/media/path-example-3.gif) 】
+
+- [location-based-ar](https://github.com/Mist3r-R/location-based-ar) - A Swift Package for creating Augmented Reality applications for iOS with the use of Location-Based Services. Add the URL of this repository to your Xcode 12+ Project under File > Swift Packages. `https://github.com/Mist3r-R/location-based-ar.git`
 
 - **Sample**
 
