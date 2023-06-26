@@ -1024,7 +1024,9 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [BAWeChat](https://github.com/BAHome/BAWeChat) - 博爱微信，使用原生 frame + MVVM + MVC + QMUIKit + BAKit 开源的微信。【 [Priview 1](https://github.com/boai/BAWeChat/raw/master/Images/通讯录.png)|[Priview 2](https://github.com/boai/BAWeChat/raw/master/Images/评论.png) 】
 
-- [MessageKit](https://github.com/MessageKit/MessageKit) - A community-driven replacement for JSQMessagesViewController.
+- [MessageKit](https://github.com/MessageKit/MessageKit) - A community-driven replacement for [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController).
+
+- [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) - An elegant messages UI library for iOS. This library is deprecated. 
 
 - [Chatto](https://github.com/badoo/Chatto) - A lightweight framework to build chat applications, made in Swift.
 
