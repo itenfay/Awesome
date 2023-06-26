@@ -551,6 +551,10 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [FloatingPanel](https://github.com/scenee/FloatingPanel) - A clean and easy-to-use floating panel UI component for iOS.【 [Preview1](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps.gif)|[Preview2](https://github.com/SCENEE/FloatingPanel/blob/master/assets/stocks.gif)|[Preview3](https://github.com/SCENEE/FloatingPanel/blob/master/assets/maps-landscape.gif) 】
 
+- [PanModal](https://github.com/slackhq/PanModal) - An elegant and highly customizable presentation API for constructing bottom sheet modals on iOS.【 [Preview](https://github.com/slackhq/PanModal/raw/master/Screenshots/panModal.gif) 】
+
+- [HWPanModal](https://github.com/HeathWang/HWPanModal) - HWPanModal presents controller from bottom and drag to dismiss, high customize. iOS13 default modalPresentationStyle. 任意形式的底部弹框动画；头条、知乎、抖音弹出评论效果；地图浮层，iOS13 present默认模态效果。【 [Preview1](https://github.com/HeathWang/HWPanModal/raw/master/images/HWPanModal_example.gif)|[Preview2](https://github.com/HeathWang/HWPanModal/raw/master/images/HWPanModal_example_4.gif)|[Preview3](https://github.com/HeathWang/HWPanModal/raw/master/images/HWPanModal_example_2.gif) 】
+
 - [OverlayController](https://github.com/snail-z/OverlayController) - OverlayController easily pop your custom view and provide optional transition animation. written in swift 5.0.
     <div align=center>
     <img src="https://github.com/snail-z/OverlayController/raw/master/Preview/ovclogo.jpg?raw=true" width="50%" />
@@ -593,6 +597,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [TagListView](https://github.com/ElaWorkshop/TagListView) - Simple and highly customizable iOS tag list view, in Swift.
 
 - [ParallaxHeader](https://github.com/romansorochak/ParallaxHeader) - Simple way to add parallax header to UIScrollView/UITableView written in Swift.
+
+- [DAExpandAnimation](https://github.com/ifitdoesntwork/DAExpandAnimation) - A custom modal transition that presents a controller with an expanding effect while sliding out the presenter remnants.【 [Priview](https://raw.githubusercontent.com/ifitdoesntwork/DAExpandAnimation/master/Xpandr/screencapture.gif) 】
 
 #### Localize
 
@@ -1032,6 +1038,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [MomentKit](https://github.com/ChellyLau/MomentKit) - MVC模式实现WeChat朋友圈功能，代码整洁易读。支持富文本(链接/表情/电话/邮箱等)、点赞、评论/回复评论、图片预览、文字拷贝等功能。【 [Priview 1](https://github.com/ChellyLau/MomentKit/raw/master/Screenshot/screenshot_2.png)|[Priview 2](https://github.com/ChellyLau/MomentKit/raw/master/Screenshot/screenshot_4.png) 】
 
+- [JetChat](https://github.com/developerjet/JetChat) - Swift5.0编写的简仿微信聊天应用，完美支持表情键盘、单聊、群聊、本地消息会话缓存。【 [Priview](https://github.com/tanagile/JetChat/raw/master/ScreenShot/JetChat.gif) 】
+
 - [ABigFishTV](https://github.com/clyhs/ABigFishTV) - 大鱼电视直播 基于ijkplayer的播放器 700多个电视台 包括央视，各地方台，卫视，熊猫直播，社会化分享，登陆，仿微博等 (支持iphonex)。【 [Priview](https://github.com/clyhs/ABigFishTV/raw/master/images/ABigFishTV.gif) 】
 
 - [TGTV](https://github.com/targetcloud/TGTV) - TGTV直播APP用Swift3.1编写，采用MVVM架构，本demo运用protobuf实现即时聊天（弹幕）、礼物动画等。【 [Priview 1](https://github.com/targetcloud/TGTV/raw/master/1.gif)|[Priview 2](https://github.com/targetcloud/TGTV/raw/master/屏幕快照%202017-04-13%20下午5.22.09.png) 】
@@ -1376,6 +1384,8 @@ GZip: Network data unzip plugin
 
 - [TVOSSlideViewController](https://github.com/sahin/TVOSSlideViewController) - Container view controller with left and right drawer controlling by pan gesture for tvOS.
 
+- [RNBlurredSideViewController](https://github.com/cwenboshi/RNBlurredSideViewController) - RNBlurredSideViewController is a side view controller with a dynamic blurred background effect when swiping similar to the iOS 7 control center.
+
 
 ### Runtime
 
@@ -1494,6 +1504,8 @@ GZip: Network data unzip plugin
 - [Lantern](https://github.com/fcbox/Lantern) - Lantern（花灯）是一个基于Swift的高可用视图框架。它基于iOS原生的图片/视频浏览功能进行封装，并提供了更加酷炫的交互方式。此外，它还提供丰富的接口，扩展灵活，能让App快速集成浏览功能。
 
 - [GKPhotoBrowser](https://github.com/QuintGao/GKPhotoBrowser) - iOS仿微信、今日头条等图片浏览器。
+
+- [YPImagePicker](https://github.com/Yummypets/YPImagePicker) - 📸 Instagram-like image picker & filters for iOS.【 [Priview1](https://raw.githubusercontent.com/Yummypets/YPImagePicker/master/Images/library.PNG)|[Priview2](https://raw.githubusercontent.com/Yummypets/YPImagePicker/master/Images/video.PNG) 】
 
 
 ### Panorama
@@ -1647,6 +1659,8 @@ GZip: Network data unzip plugin
 - [BAAlertController](https://github.com/BAHome/BAAlertController) - UIAlertController 的分类，一个block 搞定系统 alert 和 actionSheet 的 iPhone 和 iPad 版本适配！【 [Priview 1](https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController4.png)|[Priview 2](https://github.com/BAHome/BAAlertController/raw/master/Images/BAAlertController7.png) 】
 
 - [FWPopupView](https://github.com/choiceyou/FWPopupView) - 弹窗控件：支持AlertView、Sheet、自定义视图的PopupView。AlertView中可以嵌套自定义视图，各组件的显示隐藏可配置；Sheet仿微信样式；同时提供自定义弹出。更多配置请参考”可设置参数“，提供OC使用Demo。
+
+- [LSTPopView](https://github.com/LoSenTrad/LSTPopView) - iOS万能弹窗。
 
 - [DropDown](https://github.com/AssistoLab/DropDown) - A Material Design drop down for iOS.【 [Preview](https://github.com/AssistoLab/DropDown/raw/master/Screenshots/3.png) 】
 
@@ -1862,6 +1876,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [KeenCodeUnit](https://github.com/chongzone/KeenCodeUnit) - 自定义的验证码、支付密码文本框，支持明文、密文输入等，支持内容的验证错误处理。
 
+- [CRBoxInputView](https://github.com/CRAnimation/CRBoxInputView) - Verify code input view. Support security type for password.短信验证码输入框，支持密文模式。
+
 - [ZLSecurityCode](https://github.com/ZLFighting/ZLSecurityCode) - iOS-字符图片验证码。【 [Priview](https://github.com/ZLFighting/ZLSecurityCode/raw/master/ZLSecurityCode/验证码图.gif) 】
 
 - [AuthenticationCode](https://github.com/KenenCS/AuthenticationCode) - 关于iOS开发的一个本地生成的图片验证码demo。
@@ -1908,6 +1924,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [NSString-URLEncode](https://github.com/kevinrenskers/NSString-URLEncode) - Category that adds URLEncode and URLDecode to NSString.
 
+- [KJCategories](https://github.com/yangKJ/KJCategories) - Collection of native ios extensions and classes to boost development process. Such as UIKit, Foundation, QuartzCore, Accelerate, OpenCV, CoreGraphics, os and more. 超实用开发加速工具收集。
+
 
 ### Jailbreak Detector
 
@@ -1953,10 +1971,16 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [RZColorfulSwift](https://github.com/rztime/RZColorfulSwift) - NSAttributedString 富文本方法 (图文混排、多样式文本) (RZColorful Swift版) UILabel 折叠 展开 文本可点击。
 
+- [ZSSRichTextEditor](https://github.com/nnhubbard/ZSSRichTextEditor) - ZSSRichTextEditor is a beautiful Rich Text WYSIWYG Editor for iOS. It includes all of the standard editor tools one would expect from a WYSIWYG editor as well as an amazing source view with syntax highlighting.【 [Preview](https://user-images.githubusercontent.com/30858/132384094-9a1d2182-0c21-468d-b3d9-2049397e2af5.gif) 】
+
+- [WordPress-Editor-iOS](https://github.com/wordpress-mobile/WordPress-Editor-iOS) - ⛔️ [DEPRECATED] A reusable iOS rich text editor component.
+
+- [WordPress-Editor-iOS-Extension](https://github.com/pzhtpf/WordPress-Editor-iOS-Extension) - WordPress-Editor-iOS-Extension 是从WordPress-Editor-iOS 的扩展，他支持“从相册中选择”，“拍照”，“插入网络图片”三种方式。并允许用户可以定制编辑器的工具栏。
+
 
 ### ImageView
 
-- [NaughtyImageView](https://github.com/kevinzhow/NaughtyImageView) - UIImageView Can Animate Sprite Image. 【 [Preview](https://github.com/kevinzhow/NaughtyImageView/raw/master/Naughty.gif) 】
+- [NaughtyImageView](https://github.com/kevinzhow/NaughtyImageView) - UIImageView Can Animate Sprite Image.【 [Preview](https://github.com/kevinzhow/NaughtyImageView/raw/master/Naughty.gif) 】
 
 
 ### Crop video cover
@@ -2109,6 +2133,8 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [U17](https://github.com/spicyShrimp/U17) - 精仿有妖气漫画(Swift5)。【 [Priview 1](https://github.com/spicyShrimp/U17/raw/master/Images/1@2x.png)|[Priview 2](https://github.com/spicyShrimp/U17/raw/master/Images/6@2x.png)|[Priview 3](https://github.com/spicyShrimp/U17/raw/master/Images/7@2x.png)|[Priview 4](https://github.com/spicyShrimp/U17/raw/master/Images/8@2x.png) 】
 
+- [LBU25-Swift](https://github.com/lb2281075105/LBU25-Swift) - Swift5 精仿漫画类App(有妖气漫画),Moya+SwiftyJSON+HandyJSON网络框架和数据解析。数据来源真实接口获得。
+
 - [MobileProject](https://github.com/wujunyang/MobileProject) - 是一个以MVC模式搭建的开源功能集合，基于Objective-C上面进行编写，意在解决新项目对于常见功能模块的重复开发，MobileProject对于项目的搭建也进行很明确的划分，各个模块职责也比较明确，MobileProject也引入的一些常用第三方插件、宏定义、工具帮助类等；整个项目也是在不断更新跟维护中，功能点也会不断更新；代码支持iOS7以后版本。
 
 - [iOS_Demo](https://github.com/darren90/iOS_Demo) - iOS开发中一些实用的Demo。
@@ -2132,6 +2158,10 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 - [App-Store](https://github.com/Hurdery/App-Store) - 仿App-Store 基本框架。
 
 - [douyin-ios-objectc](https://github.com/sshiqiao/douyin-ios-objectc) - 抖音 iOS Object-C版。([douyin-ios-swift](https://github.com/sshiqiao/douyin-ios-swift) - 抖音 iOS Swift版。)
+
+- [SimulatorRemoteNotifications](https://github.com/acoomans/SimulatorRemoteNotifications) - Library to send mock remote notifications to the iOS simulator. This project includes the iOS Simulator Notifications MacOSX app to help you send the mock notifications.
+
+- [MPPlayerDemo](https://github.com/maple1994/MPPlayerDemo) - ZFPlayer进行播放，KTVHTTPCache负责预加载的一个播放器Demo。
 
 
 ## MacOS
