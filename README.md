@@ -1395,17 +1395,16 @@ GZip: Network data unzip plugin
 
 - [DYFRuntimeProvider](https://github.com/chenxing640/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
-- [Runtime Exploration](https://github.com/chenxing640/Runtime-exploration) - Runtime是iOS系统中重要的组成部分，面试也是必问的问题，所以Runtime是一个iOS工程师必须掌握的知识点。
-
-- [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
-- [探秘Runtime - 剖析 Runtime 结构体](https://www.jianshu.com/p/5b7e7c8075ef)
-- [探秘 Runtime - Runtime 源码分析](https://www.jianshu.com/p/3019605a4fc9)
-- [探秘 Runtime - Runtime 加载过程](https://www.jianshu.com/p/4fb2d7014e9e)
-- [探秘 Runtime - Runtime 消息发送机制](https://www.jianshu.com/p/014af0de67cd)
-- [探秘 Runtime - 深入剖析 Category](https://www.jianshu.com/p/0dc2513e117b)
-- [探秘 Runtime - Runtime Message Forward](https://www.jianshu.com/p/f313e8e32946)
-- [iOS 黑魔法 - Runtime Method Swizzling](https://www.jianshu.com/p/ff19c04b34d0)
-- [探秘 Runtime - Runtime 的应用](https://www.jianshu.com/p/4a22a39b69c5)
+- [RuntimePDF](https://github.com/DeveloperErenLiu/RuntimePDF) - 本系列Runtime文章总共九篇，将所有文章汇总为一份PDF。
+    - [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
+    - [探秘Runtime - 剖析 Runtime 结构体](https://www.jianshu.com/p/5b7e7c8075ef)
+    - [探秘 Runtime - Runtime 源码分析](https://www.jianshu.com/p/3019605a4fc9)
+    - [探秘 Runtime - Runtime 加载过程](https://www.jianshu.com/p/4fb2d7014e9e)
+    - [探秘 Runtime - Runtime 消息发送机制](https://www.jianshu.com/p/014af0de67cd)
+    - [探秘 Runtime - 深入剖析 Category](https://www.jianshu.com/p/0dc2513e117b)
+    - [探秘 Runtime - Runtime Message Forward](https://www.jianshu.com/p/f313e8e32946)
+    - [iOS 黑魔法 - Runtime Method Swizzling](https://www.jianshu.com/p/ff19c04b34d0)
+    - [探秘 Runtime - Runtime 的应用](https://www.jianshu.com/p/4a22a39b69c5)
 
 - [Objc -- Runtime 简单入门 (代码实例) ](https://blog.csdn.net/demon_jiao/article/details/50961687)
 
@@ -1419,6 +1418,8 @@ GZip: Network data unzip plugin
 - [探秘Runtime - Runtime源码分析](https://www.jianshu.com/p/3019605a4fc9)
 
 - [objc_msgSend arm64 崩溃问题](https://blog.csdn.net/chenyong05314/article/details/42121001)
+
+- [isa混写（isa-swizzling）来实现KVO](https://www.jianshu.com/p/e8821cf6b802)
 
 
 ### Data Persistence
