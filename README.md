@@ -691,6 +691,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [该如何从0(绝对的零)开始学习SLAM？](https://www.zhihu.com/question/55901895)
 
+- [vslam-evaluation](https://github.com/DroidAITech/vslam-evaluation) - 中科院软件研究所机器人联合实验室的vSLAM验证工作。[课程视频地址](https://www.bilibili.com/video/av67438805)
+
 - [Lee-SLAM-source](https://github.com/AlbertSlam/Lee-SLAM-source) - SLAM 开发学习资源与经验分享。
 
 - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
