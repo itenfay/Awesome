@@ -818,9 +818,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### OpenGL-OpenGLES
 
-- [goosers·OpenGL](https://github.com/goosers/cube/wiki/OpenGL)
-
-- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1)
+- [Apple OpenGLES Programming Guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008793-CH1-SW1) - OpenGL ES was deprecated in iOS 12. To create high-performance code on GPUs, use the Metal framework instead. See [Metal](https://developer.apple.com/metal/).
 
 - [kesalin·OpenGLES](https://github.com/kesalin/OpenGLES)
 
@@ -830,9 +828,11 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### Metal
 
-- [Apple Metal](https://developer.apple.com/metal/) 
+- [Apple Metal](https://developer.apple.com/metal/) - Metal powers hardware-accelerated graphics on Apple platforms by providing a low-overhead API, rich shading language, tight integration between graphics and compute, and an unparalleled suite of GPU profiling and debugging tools.
 
-- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) 
+- [Apple Metal Sample-code](https://developer.apple.com/metal/sample-code/) - View sample code to see how Metal APIs are implemented.
+
+- [Apple metal_sample_code_library](https://developer.apple.com/documentation/metal/metal_sample_code_library) - Explore the complete set of Metal samples.
 
 - [metal](https://github.com/MetalKit/metal) - Repository to accompany the following blog posts.
 
