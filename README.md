@@ -72,6 +72,7 @@ iOS精选列表，包括Objective-C和Swift项目等(A curated list of awesome i
       - [Metal](#Metal)
       - [OpenCV](#OpenCV)
       - [GPUImage](#GPUImage)
+      - [Beauty Filters and Effects](#Beauty-Filters-and-Effects)
       - [CoreGraphics](#CoreGraphics)
    - [Payment](#Payment)
       - [In-App Purchases](#In-App-Purchases)
@@ -860,7 +861,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [ColorDetection](https://github.com/Cleveroad/ColorDetection) - ColorDetection is an app built with OpenCV and using computer vision at its core. It’s able to detect and change colors of objects using a camera of iOS devices.
 
-
 #### GPUImage
 
 - [GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing. [http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework](http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework)【 [Priview](https://camo.githubusercontent.com/68ce8767f20b6a40f2a695c56396d30234363431/687474703a2f2f73756e7365746c616b65736f6674776172652e636f6d2f73697465732f64656661756c742f66696c65732f475055496d6167654c6f676f2e706e67) 】
@@ -868,6 +868,20 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [GPUImage2](https://github.com/BradLarson/GPUImage2) - A BSD-licensed Swift framework for GPU-accelerated video and image processing.
 
 - [GPUImage3](https://github.com/BradLarson/GPUImage3) - A BSD-licensed Swift framework for GPU-accelerated video and image processing using Metal.
+
+#### Beauty Filters and Effects
+
+- [CCFilters](https://github.com/cdcyd/CCFilters) - CoreImage 所有滤镜效果(iOS11)
+
+- [MagicCamera](https://github.com/william0wang/MagicCamera) - iOS多功能AI相机：人像卡通化、变老变年轻、美颜、滤镜、艺术效果等
+
+- [HHYGPUImage](https://github.com/HuiYouHua/HHYGPUImage) - GPUImage滤镜、图片拍照美颜、视频采集美颜
+
+- [LZBGPUImageTool](https://github.com/lzbgithubcode/LZBGPUImageTool) - 美颜滤镜工具类
+
+- [AwemeLike](https://github.com/ZZZZou/AwemeLike) - 仿照抖音的特效相机，实现美颜、2D贴图、分屏、转场等
+
+- [Meihu-Beautyface-sdk](https://github.com/zhanghao5683934/Meihu-Beautyface-sdk) - 美狐美颜sdk，支持美颜滤镜(Beauty Filter)、面具特效(Mask the special effects)、贴纸(Software/Hardware Encoder) 、滤镜(LUTs)
 
 #### CoreGraphics
 
