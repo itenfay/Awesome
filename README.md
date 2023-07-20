@@ -871,6 +871,12 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### Beauty Filters and Effects
 
+- [BBMetalImage](https://github.com/Silence-GitHub/BBMetalImage) - A high performance Swift library for GPU-accelerated image/video processing based on Metal.
+
+- [MetalPetal](https://github.com/MetalPetal/MetalPetal) - A GPU accelerated image and video processing framework built on Metal.
+
+- [waifu2x-ios](https://github.com/imxieyi/waifu2x-ios) - iOS Core ML implementation of waifu2x
+
 - [CCFilters](https://github.com/cdcyd/CCFilters) - CoreImage 所有滤镜效果(iOS11)
 
 - [MagicCamera](https://github.com/william0wang/MagicCamera) - iOS多功能AI相机：人像卡通化、变老变年轻、美颜、滤镜、艺术效果等
