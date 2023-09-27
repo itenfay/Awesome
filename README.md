@@ -322,7 +322,7 @@ class MyViewController: UIViewController {
 
 #### ReactiveCocoa-RxSwift
 
-*响应式编程*
+*函数响应式编程*
 
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - Cocoa framework and Obj-C dynamism bindings for [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift), It Offers composable, declarative and flexible primitives that are built around the grand concept of streams of values over time. These primitives can be used to uniformly represent common Cocoa and generic programming patterns that are fundamentally an act of observation. 
     <div align=center>
@@ -344,6 +344,8 @@ RxSwift comprises five separate components depending on eachother in the followi
 │    RxTest    │    │  RxBlocking  │
 └──────────────┘    └──────────────┘
 ````
+
+- [ReactiveObjC](https://github.com/ReactiveCocoa/ReactiveObjC) - This is legacy introduction to the Objective-C ReactiveCocoa, which is now known as ReactiveObjC. For the updated version that uses Swift, please see [ReactiveCocoa(https://github.com/ReactiveCocoa/ReactiveCocoa) or [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift). ReactiveObjC (formally ReactiveCocoa or RAC) is an Objective-C framework inspired by [Functional Reactive Programming](http://en.wikipedia.org/wiki/Functional_reactive_programming). It provides APIs for composing and transforming streams of values.
 
 #### ReactiveSwift
 
