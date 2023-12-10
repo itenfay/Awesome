@@ -1756,7 +1756,7 @@ GZip: Network data unzip plugin
     dir_web = File.join(installer.sandbox.pod_dir('WebViewJavascriptBridge'), 'WebViewJavascriptBridge')
     Dir.foreach(dir_web) {|x|
       real_path = File.join(dir_web, x)
-      if (!File.directory?(real_path) && File.exists?(real_path))
+      if (!File.directory?(real_path) && File.exist?(real_path))
         if(x == 'WebViewJavascriptBridge.h' || x == 'WebViewJavascriptBridge.m')
           File.delete(real_path)
         end
