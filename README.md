@@ -25,7 +25,7 @@
 - [Weex](#Weex)
 - [H5](#H5)
 - [MiniProgram](#MiniProgram)
-- [C/C++](#C-and-C++)
+- [C/C++](#C-and-Cplusplus)
 - [Blockchain](#Blockchain)
 - [Database](#Database)
 - [Games](#Games)
@@ -185,7 +185,7 @@
 
 - [MiniProgram](https://github.com/chenxing640/Awesome/blob/master/MiniProgram.md)
 
-## C and C++
+## C and Cplusplus
 
 - [C/C++](https://github.com/chenxing640/Awesome/blob/master/Cplusplus.md)
 
@@ -216,7 +216,7 @@
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. 
     <div align=center>
-    <img src="https://camo.githubusercontent.com/1560be050811ab73457e90aee62cd1cd257c7fb9/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" width="50%" />
+    <img src="https://camo.githubusercontent.com/0241eb0b662cc5591949671971a0cbed6f1b5d3118af64cdf47df1f1b3b17a9e/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" width="50%" />
     </div>
 
 **NSURLSession:**
