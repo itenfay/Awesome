@@ -20,8 +20,6 @@
 
 - [Apache Mesos](https://github.com/apache/mesos) - Apache Mesos is a cluster manager that provides efficient resource isolation and sharing across distributed applications, or frameworks. It can run Hadoop, Jenkins, Spark, Aurora, and other frameworks on a dynamically shared pool of nodes. Visit us at [mesos.apache.org](http://mesos.apache.org/).
 
-- [MongoDB](https://github.com/mongodb/mongo) - The [MongoDB](https://www.mongodb.com/) Database 
-
 - [DOOM-3](https://github.com/id-Software/DOOM-3) - Doom 3 GPL source release.
 
 - [opencv](https://github.com/opencv/opencv) - Open Source Computer Vision Library. Visist at [https://opencv.org]( https://opencv.org)
