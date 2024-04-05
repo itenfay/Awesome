@@ -21,5 +21,5 @@
 
 ## 应用
 
-- [c-shopping-rn](https://github.com/huanghanzhilian/c-shopping-rn) - This is a complete App developed by React Native (Expo). It is a beautiful e-commerce shopping application. 这个是一个React Native(Expo) 开发的完整App应用，是一个精美的电商购物应用。
+- [c-shopping-rn](https://github.com/huanghanzhilian/c-shopping-rn) - This is a complete App developed by React Native (Expo). It is a beautiful e-commerce shopping application. 这个是一个React Native(Expo) 开发的完整App应用，是一个精美的电商购物应用。<br/>
 <a style="display:inline-block; margin-right: 20px;" href="https://github.com/huanghanzhilian/c-shopping-rn" target="_blank"> <img alt="c-shopping-rn" src="https://github.com/huanghanzhilian/huanghanzhilian/raw/main/projects/c-shopping-rn.svg" height="48" align="left"> </a>
