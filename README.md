@@ -72,13 +72,15 @@
    - [Reachability](#Reachability)
    - [CocoaLumberjack](#CocoaLumberjack)
    - [AsyncDisplayKit](#AsyncDisplayKit)
+   - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
+   - [FLAnimatedImage](#FLAnimatedImage)
    - [lottie-ios](#lottie-ios)
-   - [VAP](#VAP)
-   - [APNGKit](#APNGKit)   
+   - [APNGKit](#APNGKit)
    - [webp](#webp)
    - [Nuke](#Nuke)
-   - [FLAnimatedImage](#FLAnimatedImage)
-   - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
+   - [VAP](#VAP) 
+   - [SVGAPlayer](#SVGAPlayer)
+   - [SVG](#SVG)
    - [DKNightVersion](#DKNightVersion)
    - [PaperOnboarding](#PaperOnboarding)
    - [GraphQL](#GraphQL)
@@ -97,7 +99,6 @@
       - [In-App Purchases](#In-App-Purchases)
       - [ApplePay](#ApplePay)
       - [ThirdPay](#ThirdPay)
-   - [SVG](#SVG)
    - [Player](#Player)
       - [Video Player](#Video-Player) 
       - [Audio Player](#Audio-Player)
@@ -675,13 +676,17 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [AsyncDisplayKit](https://github.com/facebookarchive/AsyncDisplayKit) - Smooth asynchronous user interfaces for iOS apps.
 
+### JVFloatLabeledTextField
+
+- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
+
+### FLAnimatedImage
+
+- [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) - Performant animated GIF engine for iOS.
+
 ### lottie-ios
 
 - [lottie-ios](https://github.com/airbnb/lottie-ios) - An iOS library to natively render After Effects vector animations.
-
-### VAP
-
-- [vap](https://github.com/Tencent/vap) - VAP（Video Animation Player）是企鹅电竞开发，用于播放酷炫动画的实现方案，相比Webp, Apng动图方案，具有高压缩率(素材更小)、硬件解码(解码更快)的优点；相比Lottie，能实现更复杂的动画效果(比如粒子特效)。| VAP(Video Animation Player) is a fantastic animation player. It can play video with alpha channel. Compared with Webp or Apng animation, it has the advantages of high compression rate (smaller material) and hardware decoding. Compared with Lottie, it can achieve more complex animation effects (such as particle effects).
 
 ### APNGKit
 
@@ -697,13 +702,17 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Nuke](https://github.com/kean/Nuke) - Image loading system.
 
-### FLAnimatedImage
+### VAP
 
-- [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) - Performant animated GIF engine for iOS.
+- [vap](https://github.com/Tencent/vap) - VAP（Video Animation Player）是企鹅电竞开发，用于播放酷炫动画的实现方案，相比Webp, Apng动图方案，具有高压缩率(素材更小)、硬件解码(解码更快)的优点；相比Lottie，能实现更复杂的动画效果(比如粒子特效)。| VAP(Video Animation Player) is a fantastic animation player. It can play video with alpha channel. Compared with Webp or Apng animation, it has the advantages of high compression rate (smaller material) and hardware decoding. Compared with Lottie, it can achieve more complex animation effects (such as particle effects).
 
-### JVFloatLabeledTextField
+### SVGAPlayer
 
-- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
+- [SVGAPlayer](https://github.com/svga/SVGAPlayer-iOS) - Similar to Lottie. Render After Effects / Animate CC (Flash) animations natively on Android and iOS, Web. 使用 SVGAPlayer 在 Android、iOS、Web中播放 After Effects / Animate CC (Flash) 动画。【 [svga.io](https://svga.io/) 】
+
+### SVG
+
+- [SVGKit](https://github.com/SVGKit/SVGKit) - Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation).
 
 ### DKNightVersion
 
@@ -1026,13 +1035,6 @@ RxSwift comprises five separate components depending on eachother in the followi
 - [微信支付商户平台](https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2F) - [APP支付](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1)是指商户通过在移动端应用APP中集成开放SDK调起微信支付模块来完成支付。适用于在移动端APP中集成微信支付功能的场景。
 
 - [stripe-ios](https://github.com/stripe/stripe-ios) - The Stripe iOS SDK makes it quick and easy to build an excellent payment experience in your iOS app. We provide powerful and customizable UI screens and elements that can be used out-of-the-box to collect your users' payment details. We also expose the low-level APIs that power those UIs so that you can build fully custom experiences.
-
-
-#### SVG
-
-- [SVGAPlayer-iOS](https://github.com/svga/SVGAPlayer-iOS) - Similar to Lottie. Render After Effects / Animate CC (Flash) animations natively on Android and iOS, Web. 使用 SVGAPlayer 在 Android、iOS、Web中播放 After Effects / Animate CC (Flash) 动画。【 [svga.io](https://svga.io/) 】
-
-- [SVGKit](https://github.com/SVGKit/SVGKit) - Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation).
 
 
 ### Player
