@@ -104,6 +104,7 @@
       - [Audio Player](#Audio-Player)
    - [RTC](#RTC)
    - [IM & Live](#IM-Live)
+   - [WiFi File Transfer](#WiFi-File-Transfer)
    - [AutoLayout](#AutoLayout)
    - [FlowLayout](#FlowLayout)
    - [逆向开发](#逆向开发)
@@ -1195,6 +1196,15 @@ RxSwift comprises five separate components depending on eachother in the followi
 ```
 
 - [Signal-iOS ](https://github.com/signalapp/Signal-iOS)  - Signal is a free, open source, messaging app for simple private communication with friends.
+
+
+### WiFi File Transfer
+
+- [GCDWebServer](https://github.com/swisspol/GCDWebServer) - GCDWebServer is a modern and lightweight GCD based HTTP 1.1 server designed to be embedded in iOS, macOS & tvOS apps.
+- [GCDWebServerDemo](https://github.com/sjxjjx/GCDWebServerDemo) - 使用GCDWebServer框架实现wifi局域网传输文件到iPhone的功能。
+
+- [CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) - CocoaHTTPServer is a small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.
+- [HTTPServerDemo](https://github.com/sjxjjx/HTTPServerDemo) - 使用CocoaHTTPServer框架实现wifi局域网传输文件到iPhone的功能。
 
 
 ### AutoLayout
