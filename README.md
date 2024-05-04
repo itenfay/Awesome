@@ -38,7 +38,6 @@
    - [AFNetworking & Alamofire](#AFNetworking-Alamofire)
    - [SDWebImage](#SDWebImage)
    - [Kingfisher](#Kingfisher)
-   - [Nuke](#Nuke)
    - [Masonry & SnapKit](#Masonry-SnapKit)
    - [YYKit](#YYKit)
    - [DataSources](#DataSources)
@@ -74,12 +73,16 @@
    - [CocoaLumberjack](#CocoaLumberjack)
    - [AsyncDisplayKit](#AsyncDisplayKit)
    - [lottie-ios](#lottie-ios)
-   - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
+   - [VAP](#VAP)
+   - [APNGKit](#APNGKit)   
+   - [webp](#webp)
+   - [Nuke](#Nuke)
    - [FLAnimatedImage](#FLAnimatedImage)
+   - [JVFloatLabeledTextField](#JVFloatLabeledTextField)
    - [DKNightVersion](#DKNightVersion)
    - [PaperOnboarding](#PaperOnboarding)
-   - [APNGKit](#APNGKit)
    - [GraphQL](#GraphQL)
+   - [OOM & Leaks & Crash](#OOM-Leaks-Crash)
    - [HTML Parser](#HTML-Parser)
    - [Rx Series](#Rx-Series)
    - [AR & VR](#AR-VR)
@@ -307,10 +310,6 @@
     <div align=center>
     <img src="https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png" width="50%" />
     </div>
-
-### Nuke
-
-- [Nuke](https://github.com/kean/Nuke) - Image loading system.
 
 ### Masonry-SnapKit
 
@@ -680,13 +679,31 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [lottie-ios](https://github.com/airbnb/lottie-ios) - An iOS library to natively render After Effects vector animations.
 
-### JVFloatLabeledTextField
+### VAP
 
-- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
+- [vap](https://github.com/Tencent/vap) - VAP（Video Animation Player）是企鹅电竞开发，用于播放酷炫动画的实现方案，相比Webp, Apng动图方案，具有高压缩率(素材更小)、硬件解码(解码更快)的优点；相比Lottie，能实现更复杂的动画效果(比如粒子特效)。| VAP(Video Animation Player) is a fantastic animation player. It can play video with alpha channel. Compared with Webp or Apng animation, it has the advantages of high compression rate (smaller material) and hardware decoding. Compared with Lottie, it can achieve more complex animation effects (such as particle effects).
+
+### APNGKit
+
+- [APNGKit](https://github.com/onevcat/APNGKit) - High performance and delightful way to play with APNG format in iOS.
+
+### webp
+
+- [libwebp](https://github.com/webmproject/libwebp) - WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools 'cwebp' and 'dwebp' to compress and decompress images respectively. See https://developers.google.com/speed/webp for details on the image format.
+
+- [SDWebImageWebPCoder](https://github.com/SDWebImage/SDWebImageWebPCoder) - SDWebImageWebPCoder supports both WebP decoding and encoding, for Static WebP or Animated WebP as well.
+
+### Nuke
+
+- [Nuke](https://github.com/kean/Nuke) - Image loading system.
 
 ### FLAnimatedImage
 
 - [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) - Performant animated GIF engine for iOS.
+
+### JVFloatLabeledTextField
+
+- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: https://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
 
 ### DKNightVersion
 
@@ -696,13 +713,26 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [paper-onboarding](https://github.com/Ramotion/paper-onboarding) - PaperOnboarding is a material design UI slider. Swift UI library by @Ramotion.
 
-### APNGKit
-
-- [APNGKit](https://github.com/onevcat/APNGKit) - High performance and delightful way to play with APNG format in iOS.
-
 ### GraphQL
 
 - [apollo-ios](https://github.com/apollographql/apollo-ios) - 📱 A strongly-typed, caching GraphQL client for iOS, written in Swift.
+
+
+## OOM-Leaks-Crash
+
+- [MLeaksFinder](https://github.com/Tencent/MLeaksFinder) - Find memory leaks in your iOS app at develop time.
+
+- [AMLeaksFinder](https://github.com/liangdahong/AMLeaksFinder) - A small tool for automatically detecting the [controller, view memory leak] in the project. 一款用于自动检测项目中【控制器内存泄漏，View 内存泄漏】的小工具，支持 ObjC，Swift。
+
+- [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector) - iOS library to help detecting retain cycles in runtime.
+
+- [WKVCDeallocMonitor](https://github.com/WangKunKun/WKVCDeallocMonitor) - ViewController 未释放时 进行UI层级提示。
+
+- [OOMDetector](https://github.com/Tencent/OOMDetector) - OOMDetector是一个iOS内存监控组件，应用此组件可以帮助你轻松实现OOM监控、大内存分配监控、内存泄漏检测等功能。| OOMDetector is a memory monitoring component for iOS which provides you with OOM monitoring, memory allocation monitoring, memory leak detection and other functions.
+
+- [FBAllocationTracker](https://github.com/facebookarchive/FBAllocationTracker) - FBAllocationTracker is a tool that can be used as an interface to Objective-C objects allocated in memory. It can be used to query all instances of given class, or you can (as in Instruments) mark generations and query for objects created only in scope of one generation.
+
+- [AvoidCrash](https://github.com/chenfanfang/AvoidCrash) - This framework can effective avoid crash by potential error code. For example : If you insert a nil into a mutable array, this framework can avoid crash and note you that where cause crash.
 
 
 ### HTML Parser
@@ -2019,17 +2049,6 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 ### Sensor
 
 - [SensorDemo](https://github.com/wsl2ls/SensorDemo) - 指纹识别、运动传感器、加速计、环境光感、距离传感器、指南针、陀螺仪等传感器示例集锦。【 [Priview 1](https://camo.githubusercontent.com/339dfa9c656084dc5d29496ec168c43426a8e201/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313730383434372d373764333332623832386363336261332e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970) 】
-
-
-- [WKVCDeallocMonitor](https://github.com/WangKunKun/WKVCDeallocMonitor) - ViewController 未释放时 进行UI层级提示。
-
-- [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector) - iOS library to help detecting retain cycles in runtime.
-
-- [MLeaksFinder](https://github.com/Tencent/MLeaksFinder) - Find memory leaks in your iOS app at develop time.
-
-- [AMLeaksFinder](https://github.com/liangdahong/AMLeaksFinder) - A small tool for automatically detecting the [controller, view memory leak] in the project. 一款用于自动检测项目中【控制器内存泄漏，View 内存泄漏】的小工具，支持 ObjC，Swift。
-
-- [AvoidCrash](https://github.com/chenfanfang/AvoidCrash) - This framework can effective avoid crash by potential error code. For example : If you insert a nil into a mutable array, this framework can avoid crash and note you that where cause crash.
 
 
 ### TextView
