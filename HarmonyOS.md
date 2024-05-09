@@ -16,7 +16,7 @@
 
 ## 开发指南
 
-- [快速入门](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/1_1_u5feb_u901f_u5165_u95e8-0000001478340845-V2) - 
+- [快速入门](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/1_1_u5feb_u901f_u5165_u95e8-0000001478340845-V2)
 - [开发基础知识](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/1_1_u5f00_u53d1_u57fa_u7840_u77e5_u8bc6-0000001427584576-V2)
 - [学习ArkTS语言](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/arkts-basics-0000001454809260-V2)
 - [ArkTS语言基础类库](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/1_3arkts_u8bed_u8a00_u57fa_u7840_u7c7b_u5e93-0000001632530086-V2)
