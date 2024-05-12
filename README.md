@@ -1,9 +1,12 @@
 ## Awesome
 
-提供iOS精选列表，包含Objective-C和Swift项目，涉及鸿蒙开发、Flutter、React Native、Weex、H5、小程序、区块链、数据库、游戏开发等教程(Provides a curated list of awesome iOS, including Objective-C and Swift Projects, covering tutorials on HarmonyOS development, Flutter, React Native, Weex, H5, mini programs, blockchain, databases, game development, and more.)。
+在互联网飞速发展的今天，相信很多程序开发者对 GitHub 很熟悉，我们在这里学习知识、分享自己的开源库或者开源代码、寻找良好的框架或解决方案和帮助其他开发者答疑解惑。
+
+既然我们在 GitHub 上做了这么多事情，我们就来思索一下，在 GitHub 上有哪些值得关注学习的开源项目呢？
+
+不知道的没有关系，在这里我汇总了许多精选 Github 优秀的开源项目。提供iOS精选列表，包含Objective-C和Swift项目，涉及鸿蒙开发、Flutter、React Native、Weex、H5、小程序、区块链、数据库、游戏开发等教程(Provides a curated list of awesome iOS, including Objective-C and Swift Projects, covering tutorials on HarmonyOS development, Flutter, React Native, Weex, H5, mini programs, blockchain, databases, game development, and more.)。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
-
 
 ## Group
 
@@ -460,12 +463,12 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [HXPHPicker](https://github.com/SilenceLove/HXPHPicker) - Photo/Video Selector-Supports LivePhoto, GIF selection, online download of resources on iCloud, and editing of photos/videos.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/475f8b33413bf52e66e133447845477e5915c7566aa3a26423dea92682c7a4a9/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f687870687069636b6572707265766965772e706e67" width="50%" />
+    <img src="https://github.com/SilenceLove/HXPHPicker/raw/main/Documentation/Support/sample_graph_en.png" width="50%" />
     </div>
 
 - [HXPhotoPicker](https://github.com/SilenceLove/HXPhotoPicker) - 图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能 Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.
     <div align=center>
-    <img src="https://camo.githubusercontent.com/cb83c5169e00c04ee716035909869de54116899d0c4b4325361920cb11d8a4a2/687474703a2f2f74736e72686170702e6f73732d636e2d68616e677a686f752e616c6979756e63732e636f6d2f63686172746c652f73686f775f7469705f322e706e67" width="30%" />
+    <img src="https://github.com/SilenceLove/PictureMaterial/raw/main/HXPhotoPicker/README/sample_graph.png?raw=true" width="30%" />
     </div>
     
 - [TZImagePickerController](https://github.com/banchichen/TZImagePickerController) - 一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能，支持iOS6+。 A clone of UIImagePickerController, support picking multiple photos、original photo、video, also allow preview photo and video, support iOS6+.
@@ -489,7 +492,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ### SwiftKit
 
-- [CXSwiftKit](https://github.com/chenxing640/CXSwiftKit) - CXSwiftKit provides rich extensions of swift language, also supports Objective-C.
+- [CXSwiftKit](https://github.com/chenxing640/CXSwiftKit) - 提供Swift丰富的扩展和实用工具类(This provides the utilities and rich extensions of Swift.)。
 
 - [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - A handy collection of more than 500 native Swift extensions to boost your productivity.
     <div align=center>
@@ -1290,7 +1293,7 @@ class MyViewController: UIViewController {
 
 - [fishhook](https://github.com/facebook/fishhook) - A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS. 
     <div align=center>
-    <img src="https://camo.githubusercontent.com/18243516844d12b1bd158ce3687635d6e48d2e2e/687474703a2f2f692e696d6775722e636f6d2f4856587148437a2e706e67" width="50%" />
+    <img src="https://camo.githubusercontent.com/a2126f2d085fd979a91b9eb576a18c735d2c69aaf6d8e4738fb19671fbac7722/687474703a2f2f692e696d6775722e636f6d2f4856587148437a2e706e67" width="50%" />
     </div>
 
 #### 逆向辅助工具
