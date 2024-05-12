@@ -9,7 +9,7 @@
 |  ID             |  QRCode            | Description       |
 | :-------------: | :--------------------------------------: | :-------------------------------------: |
 | 614799921 | ![614799921](https://github.com/chenxing640/Awesome/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS |
-| 155353383 | ![155353383](https://github.com/chenxing640/Awesome/raw/master/images/qq155353383.jpg) | Technology communication group for other development language |
+| 155353383 | ![155353383](https://github.com/chenxing640/Awesome/raw/master/images/qq155353383.jpg) | Technology communication group for other Dev-Lang |
 
 
 ## Catalog
