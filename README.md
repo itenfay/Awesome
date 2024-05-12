@@ -1,10 +1,6 @@
 ## Awesome
 
-在互联网飞速发展的今天，相信很多程序开发者对 GitHub 很熟悉，我们在这里学习知识、分享自己的开源库或者开源代码、寻找良好的框架或解决方案和帮助其他开发者答疑解惑。
-
-既然我们在 GitHub 上做了这么多事情，我们就来思索一下，在 GitHub 上有哪些值得关注学习的开源项目呢？
-
-不知道的没有关系，在这里我汇总了许多精选 Github 优秀的开源项目。提供iOS精选列表，包含Objective-C和Swift项目，涉及鸿蒙开发、Flutter、React Native、Weex、H5、小程序、区块链、数据库、游戏开发等教程(Provides a curated list of awesome iOS, including Objective-C and Swift Projects, covering tutorials on HarmonyOS development, Flutter, React Native, Weex, H5, mini programs, blockchain, databases, game development, and more.)。
+提供iOS精选列表，包含Objective-C和Swift项目，涉及鸿蒙开发、Flutter、React Native、Weex、H5、小程序、区块链、数据库、游戏开发等教程(Provides a curated list of awesome iOS, including Objective-C and Swift Projects, covering tutorials on HarmonyOS development, Flutter, React Native, Weex, H5, mini programs, blockchain, databases, game development, and more.)。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
