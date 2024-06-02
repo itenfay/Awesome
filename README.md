@@ -8,8 +8,8 @@
 
 |  ID             |  QRCode            | Description       |
 | :-------------: | :--------------------------------------: | :-------------------------------------: |
-| 614799921 | ![614799921](https://github.com/chenxing640/Awesome/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS |
-| 155353383 | ![155353383](https://github.com/chenxing640/Awesome/raw/master/images/qq155353383.jpg) | Technology communication group for other Dev-Lang |
+| 614799921 | ![614799921](https://github.com/itenfay/Awesome/raw/master/images/g614799921.jpg)  | Technology communication group for iOS & macOS |
+| 155353383 | ![155353383](https://github.com/itenfay/Awesome/raw/master/images/qq155353383.jpg) | Technology communication group for other Dev-Lang |
 
 
 ## Catalog
@@ -164,55 +164,55 @@
 
 ## Apple Developer
 
-- [Apple Developer](https://github.com/chenxing640/Awesome/blob/master/Apple-Developer.md)
+- [Apple Developer](https://github.com/itenfay/Awesome/blob/master/Apple-Developer.md)
 
 ## HarmonyOS Development
 
-- [HarmonyOS Development](https://github.com/chenxing640/Awesome/blob/master/HarmonyOS.md)
+- [HarmonyOS Development](https://github.com/itenfay/Awesome/blob/master/HarmonyOS.md)
 
 ## Flutter
 
-- [Flutter](https://github.com/chenxing640/Awesome/blob/master/Flutter.md)
+- [Flutter](https://github.com/itenfay/Awesome/blob/master/Flutter.md)
 
 ## React Native
 
-- [React Native](https://github.com/chenxing640/Awesome/blob/master/React-Native.md)
+- [React Native](https://github.com/itenfay/Awesome/blob/master/React-Native.md)
 
 ## Weex
 
-- [Weex](https://github.com/chenxing640/Awesome/blob/master/Weex.md)
+- [Weex](https://github.com/itenfay/Awesome/blob/master/Weex.md)
 
 ## H5
 
-- [H5](https://github.com/chenxing640/Awesome/blob/master/H5.md)
+- [H5](https://github.com/itenfay/Awesome/blob/master/H5.md)
 
 ## MiniProgram
 
-- [MiniProgram](https://github.com/chenxing640/Awesome/blob/master/MiniProgram.md)
+- [MiniProgram](https://github.com/itenfay/Awesome/blob/master/MiniProgram.md)
 
 ## C and Cplusplus
 
-- [C/C++](https://github.com/chenxing640/Awesome/blob/master/Cplusplus.md)
+- [C/C++](https://github.com/itenfay/Awesome/blob/master/Cplusplus.md)
 
 ## Blockchain
 
-- [Blockchain](https://github.com/chenxing640/Awesome/blob/master/Blockchain.md)
+- [Blockchain](https://github.com/itenfay/Awesome/blob/master/Blockchain.md)
 
 ## Database
 
-- [Database](https://github.com/chenxing640/Awesome/blob/master/DB.md)
+- [Database](https://github.com/itenfay/Awesome/blob/master/DB.md)
 
 ## Games
 
-- [Games](https://github.com/chenxing640/Awesome/blob/master/Games.md)
+- [Games](https://github.com/itenfay/Awesome/blob/master/Games.md)
 
 ## Scripts
 
-- [Scripts](https://github.com/chenxing640/Awesome/blob/master/Scripts.md)
+- [Scripts](https://github.com/itenfay/Awesome/blob/master/Scripts.md)
 
 ## Others
 
-- [Others](https://github.com/chenxing640/Awesome/blob/master/Others.md)
+- [Others](https://github.com/itenfay/Awesome/blob/master/Others.md)
 
 
 ## iOS
@@ -488,7 +488,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 ### SwiftKit
 
-- [CXSwiftKit](https://github.com/chenxing640/CXSwiftKit) - 提供Swift丰富的扩展和实用工具类(This provides the utilities and rich extensions of Swift.)。
+- [CXSwiftKit](https://github.com/itenfay/CXSwiftKit) - 提供Swift丰富的扩展和实用工具类(This provides the utilities and rich extensions of Swift.)。
 
 - [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - A handy collection of more than 500 native Swift extensions to boost your productivity.
     <div align=center>
@@ -999,7 +999,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 #### In-App Purchases
 
-- [DYFStore-Swift](https://github.com/chenxing640/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/chenxing640/DYFStoreKit) (Objective-C) )
+- [DYFStore-Swift](https://github.com/itenfay/DYFStore) - A lightweight and easy-to-use iOS library for In-App Purchases. `DYFStore` uses blocks and notifications to wrap `StoreKit`, provides receipt verification and transaction persistence and doesn't require any external dependencies. ( [DYFStoreKit](https://github.com/itenfay/DYFStoreKit) (Objective-C) )
 
 - [RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases.
 
@@ -1013,9 +1013,9 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [Receipt Validation Programming Guide](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Introduction.html#//apple_ref/doc/uid/TP40010573-CH105-SW1)
 
-- [DYFStoreReceiptVerifier_Swift](https://github.com/chenxing640/DYFStoreReceiptVerifier_Swift) - This class is developed in Swift language, which is used to verify App Store receipts.
+- [DYFStoreReceiptVerifier_Swift](https://github.com/itenfay/DYFStoreReceiptVerifier_Swift) - This class is developed in Swift language, which is used to verify App Store receipts.
 
-- [DYFStoreReceiptVerifier](https://github.com/chenxing640/DYFStoreReceiptVerifier_Swift) - This class is developed in Objective-C language, which is used to verify App Store receipts.
+- [DYFStoreReceiptVerifier](https://github.com/itenfay/DYFStoreReceiptVerifier_Swift) - This class is developed in Objective-C language, which is used to verify App Store receipts.
 
 - [VerifyStoreReceiptiOS](https://github.com/rmaddy/VerifyStoreReceiptiOS) - A helper class for verifying App Store receipts under iOS.
 
@@ -1052,7 +1052,7 @@ RxSwift comprises five separate components depending on eachother in the followi
 
 - [CLPlayer](https://github.com/JmoVxia/CLPlayer) - 自定义支持全屏的播放器。【 [Priview](https://github.com/JmoVxia/CLPlayer/raw/master/效果图.gif) 】
 
-- [QPlayer](https://github.com/chenxing640/QPlayer) - A powerful video player that you can't miss, supports m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, rm, rmvb, mp3 format. Enter any HTTP, RTSP, RTMP, HLS address play network streaming or live. QPlayer use ffmpeg，you can transfer files via wifi. It aggregates several live, video and short video platforms, and you can watch live, video and short video online. 【 [Priview 1](https://github.com/chenxing640/QPlayer/raw/master/images/web_video.png) | [Priview 2](https://github.com/chenxing640/QPlayer/raw/master/images/mainstream_live.png) | [Priview 3](https://github.com/chenxing640/QPlayer/raw/master/images/tv_radio.png) | [Priview 4](https://github.com/chenxing640/QPlayer/raw/master/images/local_video.png) 】
+- [QPlayer](https://github.com/itenfay/QPlayer) - A powerful video player that you can't miss, supports m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, rm, rmvb, mp3 format. Enter any HTTP, RTSP, RTMP, HLS address play network streaming or live. QPlayer use ffmpeg，you can transfer files via wifi. It aggregates several live, video and short video platforms, and you can watch live, video and short video online. 【 [Priview 1](https://github.com/itenfay/QPlayer/raw/master/images/web_video.png) | [Priview 2](https://github.com/itenfay/QPlayer/raw/master/images/mainstream_live.png) | [Priview 3](https://github.com/itenfay/QPlayer/raw/master/images/tv_radio.png) | [Priview 4](https://github.com/itenfay/QPlayer/raw/master/images/local_video.png) 】
 
 - [BMPlayer](https://github.com/BrikerMan/BMPlayer) - A video player for iOS, based on AVPlayer, support the horizontal, vertical screen. support adjust volume, brightness and seek by slide, support subtitles. 【 [Priview](https://github.com/BrikerMan/resources/raw/master/BMPlayer/demo.gif) 】
 
@@ -1299,13 +1299,13 @@ class MyViewController: UIViewController {
 - [class-dump](https://github.com/nygard/class-dump) - Generate Objective-C headers from Mach-O files. 
 - [Clutch](https://github.com/KJCracks/Clutch) - a high-speed iOS decryption tool. It supports the iPhone, iPod Touch, and iPad.
 - [optool](https://github.com/alexzielenski/optool) - Command Line Tool for interacting with MachO binaries on OSX/iOS.
-- [Hook-Tools](https://github.com/chenxing640/WeChat_tweak/tree/master/Hook-Tools)
+- [Hook-Tools](https://github.com/itenfay/WeChat_tweak/tree/master/Hook-Tools)
 - [HackAppTool](https://github.com/jackrex/FakeWeChatLoc/tree/master/HackAppTool) 
 - [Tools](https://github.com/east520/AutoGetRedEnv/tree/master/Tools)
 
 #### 逆向案例
 
-- [WeChat_tweak](https://github.com/chenxing640/WeChat_tweak) -iOS版功能最全的微信插件，支持最新版微信，具备自动抢红包，屏蔽消息和群消息，过滤特定的群聊，防止撤回消息，伪定位 (朋友圈和附近的人)，修改微信运动步数和实时取景做聊天页的背景等功能。【 [Priview 1](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_settings.png) | [Priview 2](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_xwtx1.png) | [Priview 3](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_xwtx2.png) | [Priview 4](https://github.com/chenxing640/WeChat_tweak/raw/master/images/wcplugin_pbqxx.png) | [Priview 5](https://github.com/chenxing640/WeChat_tweak/raw/master/images/fake_location.png) | [Priview 6](https://github.com/chenxing640/WeChat_tweak/raw/master/images/prevent_msg_revoc.png) 】
+- [WeChat_tweak](https://github.com/itenfay/WeChat_tweak) -iOS版功能最全的微信插件，支持最新版微信，具备自动抢红包，屏蔽消息和群消息，过滤特定的群聊，防止撤回消息，伪定位 (朋友圈和附近的人)，修改微信运动步数和实时取景做聊天页的背景等功能。【 [Priview 1](https://github.com/itenfay/WeChat_tweak/raw/master/images/wcplugin_settings.png) | [Priview 2](https://github.com/itenfay/WeChat_tweak/raw/master/images/wcplugin_xwtx1.png) | [Priview 3](https://github.com/itenfay/WeChat_tweak/raw/master/images/wcplugin_xwtx2.png) | [Priview 4](https://github.com/itenfay/WeChat_tweak/raw/master/images/wcplugin_pbqxx.png) | [Priview 5](https://github.com/itenfay/WeChat_tweak/raw/master/images/fake_location.png) | [Priview 6](https://github.com/itenfay/WeChat_tweak/raw/master/images/prevent_msg_revoc.png) 】
 
 - [WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop) - iOS版微信抢红包Tweak。【 [Priview 1](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/Setting.jpeg) | [Priview 2](https://github.com/buginux/WeChatRedEnvelop/raw/master/ScreenShots/AssistantSetting.jpeg) 】
     - [iOS微信抢红包Tweak安装教程](http://www.swiftyper.com/2016/01/25/ios-tweak-install-guide)
@@ -1346,7 +1346,7 @@ class MyViewController: UIViewController {
 
 ### 数据安全和算法
 
-- [DYFCryptoUtils](https://github.com/chenxing640/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)【 [Priview](https://github.com/chenxing640/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif) 】
+- [DYFCryptoUtils](https://github.com/itenfay/DYFCryptoUtils) - 🔥一行代码实现 iOS Base64, 32/16位MD5, DES, AES, RSA算法，操作简单好用。(Achieves Base64, 32/16 bit MD5, DES, AES and RSA algorithms for iOS with one line of code. The operation is simple and easy to use.)【 [Priview](https://github.com/itenfay/DYFCryptoUtils/raw/master/images/CryptoUtilsPreview.gif) 】
 
 - [AESCipher-iOS](https://github.com/WelkinXie/AESCipher-iOS) - AES encryption working between Objective-C and Java. ([AESCipher-Java](https://github.com/WelkinXie/AESCipher-Java))
 
@@ -1520,9 +1520,9 @@ GZip: Network data unzip plugin
 
 - [ObjC runtime opensource](https://opensource.apple.com/source/objc4/) - Source code comes from Apple opensource.
 
-- [DYFSwiftRuntimeProvider](https://github.com/chenxing640/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFSwiftRuntimeProvider](https://github.com/itenfay/DYFSwiftRuntimeProvider) - Swift Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
-- [DYFRuntimeProvider](https://github.com/chenxing640/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
+- [DYFRuntimeProvider](https://github.com/itenfay/DYFRuntimeProvider) -  Objective-C Runtime 包装，可快速使用字典转模型、归档解档、添加一个方法、交换两个方法、获取所有属性名和方法名。
 
 - [RuntimePDF](https://github.com/DeveloperErenLiu/RuntimePDF) - 本系列Runtime文章总共九篇，将所有文章汇总为一份PDF。
     - [探秘 Runtime - Runtime 介绍](https://www.jianshu.com/p/ce97c66027cd)
@@ -1561,7 +1561,7 @@ GZip: Network data unzip plugin
 
 - [wcdb](https://github.com/Tencent/wcdb) - WCDB is a cross-platform database framework developed by WeChat.
 
-- [DYFSwiftKeychain](https://github.com/chenxing640/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/chenxing640/DYFKeychain) (Objective-C) )
+- [DYFSwiftKeychain](https://github.com/itenfay/DYFSwiftKeychain) - `DYFSwiftKeychain` is used to save text and data in Keychain securely for iOS, OS X, tvOS and watchOS. ( [DYFKeychain](https://github.com/itenfay/DYFKeychain) (Objective-C) )
 
 - [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - UICKeyChainStore is a simple wrapper for Keychain on iOS, watchOS, tvOS and macOS. Makes using Keychain APIs as easy as NSUserDefaults.
 
@@ -1593,7 +1593,7 @@ GZip: Network data unzip plugin
 
 ### Gesture-Biometric Unlock
 
-- [DYFAuthIDAndGestureLock](https://github.com/chenxing640/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview](https://github.com/chenxing640/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
+- [DYFAuthIDAndGestureLock](https://github.com/itenfay/DYFAuthIDAndGestureLock) - 手势密码解锁 和 TouchID（指纹）/ FaceID（面容）解锁，代码简洁高效。(Gesture passcode unlocking and TouchID (fingerprint) / FaceID (facial features) unlocking, concise code and efficient.)【 [Priview](https://github.com/itenfay/DYFAuthIDAndGestureLock/raw/master/images/AuthIDAndGestureLockPreview.gif) 】
 
 - [XGTouchDemo](https://github.com/XGPASS/XGTouchDemo) - 手势密码解锁和指纹TouchID解锁的demo。【 [Priview](https://github.com/XGPASS/XGTouchDemo/raw/master/images/develop.gif) 】
 
@@ -1676,7 +1676,7 @@ GZip: Network data unzip plugin
 
 *二维码，条形码相关内容*
 
-- [DYFCodeScanner](https://github.com/chenxing640/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 【 [Priview](https://github.com/chenxing640/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif) 】
+- [DYFCodeScanner](https://github.com/itenfay/DYFCodeScanner) - 一个二维码/条形码的扫码器，代码简洁高效。(A QR code and Barcode scanner for iOS. Its code is concise and efficient.) 【 [Priview](https://github.com/itenfay/DYFCodeScanner/raw/master/images/CodeScannerPreview.gif) 】
 
 - [MMScan](https://github.com/MinMao-Hub/MMScan) - 一个简单的二维码以及条码扫描工具，使用Objective-C语言开发，有一套自定义的扫描动画以及界面，还包括生成二维码以及条码。【 [Priview](https://github.com/MinMao-Hub/MMScan/raw/master/gifs/mmscan.gif) 】
 
@@ -1739,7 +1739,7 @@ GZip: Network data unzip plugin
 
 ### Toast
 
-- [DYFToast](https://github.com/chenxing640/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
+- [DYFToast](https://github.com/itenfay/DYFToast) - Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
 
 - [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 向UIView对象类添加Toast通知的Swift扩展(A Swift extension that adds toast notifications to the UIView object class.)。([Objective-C版](https://github.com/scalessec/Toast)) 【 [Priview](https://github.com/scalessec/Toast-Swift/raw/master/toast_swift_screenshot.jpg) 】
 
@@ -1847,7 +1847,7 @@ GZip: Network data unzip plugin
 
 - [WKWebViewDemo](https://github.com/SSiming/WKWebViewDemo) - WKWebView实际使用中遇到的注意点，以及WKWebView和JavaScript交互。具体介绍请戳[WKWebView使用及注意点(keng)](http://www.jianshu.com/p/9513d101e582)。
 
-- [DYFProgressView](https://github.com/chenxing640/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview](https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
+- [DYFProgressView](https://github.com/itenfay/DYFProgressView) - Super useful progress bar and web page progress bar, the operation is simple and easy to use. 【 [Priview](https://github.com/itenfay/DYFProgressView/raw/master/images/ProgressViewPreview.gif) 】
 
 - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews.
 ```
@@ -2287,7 +2287,7 @@ __OSX_AVAILABLE_STARTING (__MAC_10_5, __IPHONE_2_0);
 
 - [dSYMTools](https://github.com/answer-huang/dSYMTools) - dSYM analyze. 【 [Priview](https://camo.githubusercontent.com/e4d2bc52e9f048c7c14af6cfc4339f055fab5e38/687474703a2f2f616e737765726875616e672e626a2e626365626f732e636f6d2f626c6f672f6473796d546f6f6c2e706e67) 】
 
-- [IPAPkgTool](https://github.com/chenxing640/IPAPkgTool) - 一款自动化打包ipa的MacOS应用。(A MacOS application that packs ipa automatically.) 【 [Priview](https://github.com/chenxing640/IPAPkgTool/raw/master/Images/login_page.png) 】
+- [IPAPkgTool](https://github.com/itenfay/IPAPkgTool) - 一款自动化打包ipa的MacOS应用。(A MacOS application that packs ipa automatically.) 【 [Priview](https://github.com/itenfay/IPAPkgTool/raw/master/Images/login_page.png) 】
 
 - [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) - This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device. ([Instructions](https://dantheman827.github.io/ios-app-signer/))
 

@@ -2,11 +2,11 @@
 
 ### Mix
 
-- [Script](https://github.com/chenxing640/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等一些实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
+- [Script](https://github.com/itenfay/Script) - 编写了 iOS 自动化打包脚本，编写和收集 Shell, Python, Ruby 等一些实用脚本。(Writes automated packaging scripts for iOS, writes and collects some useful scripts about Shell, Python, Ruby, etc.)
 
 ### Shell
 
-- [MyShell](https://github.com/chenxing640/Script/tree/master/Shell) - Some shell tools for iOS or Mac.
+- [MyShell](https://github.com/itenfay/Script/tree/master/Shell) - Some shell tools for iOS or Mac.
 
 - [create-dmg](https://github.com/create-dmg/create-dmg) - A shell script to build fancy DMGs.
 

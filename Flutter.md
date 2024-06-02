@@ -31,6 +31,6 @@
     <img src="https://raw.githubusercontent.com/luhenchang/IMAGE/master/img_bizhan/WeChat3d4501c5ea03165d48b5270ac7944463.png" width="70%" />
     </div>
     
-- [dart_crypto](https://github.com/chenxing640/dart_crypto) - `DYFCryptoProvider`类封装了Base64, 32/16 Bits MD5, AES, RSA等算法，并提供了示例代码。
+- [dart_crypto](https://github.com/itenfay/dart_crypto) - `DYFCryptoProvider`类封装了Base64, 32/16 Bits MD5, AES, RSA等算法，并提供了示例代码。
 
-- [grab_ethtoken_info](https://github.com/chenxing640/grab_ethtoken_info) - 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。
+- [grab_ethtoken_info](https://github.com/itenfay/grab_ethtoken_info) - 从以太坊区块链 (Ethereum Blockchain) etherscan 上抓取任意一个钱包地址的所有token信息 (Address, Name, Balance, Symbol, Value)，并编写界面进行展示。

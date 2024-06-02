@@ -4,9 +4,8 @@
 *.xccheckout
 *.xcscmblueprint
 
+## MacOS
 .DS_Store
-*/.DS_Store
-*/*/.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
