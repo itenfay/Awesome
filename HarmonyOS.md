@@ -48,6 +48,10 @@
 - [ArkTS API参考](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/syscap-0000001408089368-V2?catalogVersion=V2)
 - [Native API参考](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/2_1_u6a21_u5757-0000001446810528-V2)
 
+## 发布 / 上架工具
+
+- [apkgo / apkgo cloud](https://apkgo.baici.tech) - 一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙（AppGallery）与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo ；上手：https://apkgo.baici.tech/onboarding
+
 ## FAQ
 
 - [harmonyos faqs](https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs-V2/faq-ability-0000001125002304-V2)
